@@ -1,0 +1,21 @@
+# Foundry / module
+node_modules/
+.DS_Store
+*.log
+*.old
+LOCK
+CURRENT
+LOG
+LOG.old
+
+# Foundry pack database files (ldb)
+*.ldb
+packs/
+nom-items/CURRENT
+nom-journals/CURRENT
+
+# Build / temp
+dist/
+build/
+.vscode/
+.env

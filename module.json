@@ -1,0 +1,69 @@
+{
+  "id": "wfrp4e-nom",
+  "title": "WFRP4e - Nations of Mankind (Rev.2)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Ricardo Sobral",
+      "email": "ac.ricardosobral@gmail.com",
+      "discord": "RicardoSobral",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "esmodules": [
+    "scripts/knightly-virtue.js"
+  ],  
+  "packs": [
+    {
+      "name": "nom-journals",
+      "label": "Nations of Mankind - Journals",
+      "path": "packs/nom-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
+    },
+    {
+      "name": "nom-items",
+      "label": "Nations of Mankind - Items",
+      "path": "packs/nom-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "wfrp4e-core",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "wfrp4e-up-in-arms",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "wfrp4e-more-subspecies",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
