@@ -18,6 +18,28 @@ This module brings the rich content from the Nations of Mankind homebrew supplem
   - Weapon and armor trappings
   - Siege weapon icons
 
+## Career Implementation Status
+
+The following checklist tracks the progress of implementing careers from the Nations of Mankind supplement:
+
+### Completed Careers
+- [x] Bretonnian Knight
+- [x] Kislev Kossar
+- [x] Kislev Winged Lancer
+- [x] Norscan Mercenary
+
+### Pending Careers
+- [ ] Arabyan Janissary
+- [ ] Ind Ahadi
+- [ ] Cathayan Dragon Monk
+- [ ] Nippon Samurai
+- [ ] Vimto Monks
+- [ ] Ninja
+- [ ] Estalian Almogavar
+- [ ] Estalian Inquisidor
+- [ ] Tilean Condottieri
+- [ ] Albionese Highlander
+
 ## Requirements
 
 This module requires the following dependencies:

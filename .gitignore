@@ -10,9 +10,6 @@ LOG.old
 
 # Foundry pack database files (ldb)
 *.ldb
-packs/
-nom-items/CURRENT
-nom-journals/CURRENT
 
 # Build / temp
 dist/

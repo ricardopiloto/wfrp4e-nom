@@ -7,30 +7,30 @@
 const processingItems = new Set();
 
 Hooks.once("ready", () => {
-  console.log("WFRP4e-Bretonnia | Knightly Virtue handler initialized");
-  console.log("WFRP4e-Bretonnia | Module loaded successfully");
+  console.log("WFRP4e-NoM | Knightly Virtue handler initialized");
+  console.log("WFRP4e-NoM | Module loaded successfully");
   
   // Expõe função de teste global para debug
   window.testKnightlyVirtue = async function() {
     const actor = canvas.tokens?.controlled[0]?.actor || game.actors?.ownedTokens?.[0]?.actor || game.actors?.find(a => a.isOwner);
     if (!actor) {
-      console.error("WFRP4e-Bretonnia | Nenhum actor encontrado para teste");
+      console.error("WFRP4e-NoM | Nenhum actor encontrado para teste");
       ui.notifications.error("Nenhum actor encontrado. Selecione um token ou abra uma ficha.");
       return;
     }
     
     const knightlyVirtue = actor.items.find(i => i.name === "Knightly Virtue" && (i.type === "talent" || i.type === "skill" || i.type === "trait"));
     if (!knightlyVirtue) {
-      console.error("WFRP4e-Bretonnia | Talento Knightly Virtue não encontrado no actor:", actor.name);
+      console.error("WFRP4e-NoM | Talento Knightly Virtue não encontrado no actor:", actor.name);
       ui.notifications.error(`Talento "Knightly Virtue" não encontrado na ficha de ${actor.name}`);
       return;
     }
     
-    console.log("WFRP4e-Bretonnia | Testando com actor:", actor.name, "Item:", knightlyVirtue.name);
+    console.log("WFRP4e-NoM | Testando com actor:", actor.name, "Item:", knightlyVirtue.name);
     await showKnightlyVirtueDialog(actor, knightlyVirtue);
   };
   
-  console.log("WFRP4e-Bretonnia | Função de teste disponível: testKnightlyVirtue()");
+  console.log("WFRP4e-NoM | Função de teste disponível: testKnightlyVirtue()");
 });
 
 /**
@@ -49,7 +49,7 @@ function hasStoicismVirtue(actor) {
     // Verifica pelos efeitos
     if (item.effects && item.effects.size > 0) {
       return Array.from(item.effects).some(effect => 
-        effect.flags?.["wfrp4e-bretonnia"]?.stoicism === true
+        effect.flags?.["wfrp4e-nom"]?.stoicism === true
       );
     }
     return false;
@@ -72,7 +72,7 @@ function hasPenitentVirtue(actor) {
     // Verifica pelos efeitos
     if (item.effects && item.effects.size > 0) {
       return Array.from(item.effects).some(effect => 
-        effect.flags?.["wfrp4e-bretonnia"]?.penitent === true
+        effect.flags?.["wfrp4e-nom"]?.penitent === true
       );
     }
     return false;
@@ -110,7 +110,7 @@ Hooks.on("createChatMessage", async (message, options, userId) => {
   
   if (!isFailure) return;
   
-  console.log("WFRP4e-Bretonnia | Fear test failed for actor with Stoicism");
+  console.log("WFRP4e-NoM | Fear test failed for actor with Stoicism");
   
   // Aguarda um pouco para a mensagem ser processada
   await new Promise(resolve => setTimeout(resolve, 1000));
@@ -166,7 +166,7 @@ Hooks.on("createChatMessage", async (message, options, userId) => {
       </div>`,
       speaker: message.speaker,
       flags: {
-        "wfrp4e-bretonnia": {
+        "wfrp4e-nom": {
           stoicismReversed: true,
           originalMessageId: message.id
         }
@@ -201,7 +201,7 @@ Hooks.on("createChatMessage", async (message, options, userId) => {
   // Verifica se o alvo tem Virtue of the Penitent
   if (!hasPenitentVirtue(targetActor)) return;
   
-  console.log("WFRP4e-Bretonnia | Critical hit detected against actor with Penitent virtue");
+  console.log("WFRP4e-NoM | Critical hit detected against actor with Penitent virtue");
   
   // Tenta extrair o resultado crítico da mensagem
   let criticalResult = null;
@@ -234,7 +234,7 @@ Hooks.on("createChatMessage", async (message, options, userId) => {
         </div>`,
         speaker: message.speaker,
         flags: {
-          "wfrp4e-bretonnia": {
+          "wfrp4e-nom": {
             penitentNegated: true,
             originalCritical: criticalResult,
             originalMessageId: message.id
@@ -255,7 +255,7 @@ Hooks.on("createChatMessage", async (message, options, userId) => {
         </div>`,
         speaker: message.speaker,
         flags: {
-          "wfrp4e-bretonnia": {
+          "wfrp4e-nom": {
             penitentReduced: true,
             originalCritical: criticalResult,
             reducedCritical: reducedResult,
@@ -285,7 +285,7 @@ Hooks.on("wfrp4e.preRollWeapon", async (roll, weapon, actor, options) => {
     weapon.system.properties.magical = true;
   }
   
-  console.log("WFRP4e-Bretonnia | Weapon marked as magical for Penitent virtue");
+  console.log("WFRP4e-NoM | Weapon marked as magical for Penitent virtue");
 });
 
 /**
@@ -301,13 +301,13 @@ Hooks.on("wfrp4e.getWeaponProperties", (weapon, actor, properties) => {
   // Adiciona propriedade mágica
   if (properties && !properties.includes("magical")) {
     properties.push("magical");
-    console.log("WFRP4e-Bretonnia | Added magical property to weapon for Penitent virtue");
+    console.log("WFRP4e-NoM | Added magical property to weapon for Penitent virtue");
   }
 });
 
 // Hook alternativo usando preCreateEmbeddedDocuments para capturar antes da criação
 Hooks.on("preCreateEmbeddedDocuments", async (documents, result, options, userId) => {
-  console.log("WFRP4e-Bretonnia | preCreateEmbeddedDocuments hook triggered", documents);
+  console.log("WFRP4e-NoM | preCreateEmbeddedDocuments hook triggered", documents);
   
   if (!documents || documents.length === 0) return;
   
@@ -319,14 +319,14 @@ Hooks.on("preCreateEmbeddedDocuments", async (documents, result, options, userId
     // IMPORTANTE: Verifica apenas o nome exato "Knightly Virtue" para evitar loop
     if ((data.type === "talent" || data.type === "skill" || data.type === "trait") && 
         data.name === "Knightly Virtue") {
-      console.log("WFRP4e-Bretonnia | preCreateEmbeddedDocuments: Knightly Virtue detected", data);
+      console.log("WFRP4e-NoM | preCreateEmbeddedDocuments: Knightly Virtue detected", data);
     }
   }
 });
 
 // Hook que monitora quando itens são criados - versão alternativa
 Hooks.on("createItem", async (item, options, userId) => {
-  console.log("WFRP4e-Bretonnia | createItem hook triggered", item);
+  console.log("WFRP4e-NoM | createItem hook triggered", item);
   
   if (!item || !item.parent) return;
   
@@ -338,11 +338,11 @@ Hooks.on("createItem", async (item, options, userId) => {
   // Verifica se já está processando este item
   const itemKey = `${actor.id}-${item.id}`;
   if (processingItems.has(itemKey)) {
-    console.log("WFRP4e-Bretonnia | Item already being processed, skipping");
+    console.log("WFRP4e-NoM | Item already being processed, skipping");
     return;
   }
   
-  console.log("WFRP4e-Bretonnia | createItem check:", {
+  console.log("WFRP4e-NoM | createItem check:", {
     name: item.name,
     type: item.type,
     isTalent,
@@ -353,7 +353,7 @@ Hooks.on("createItem", async (item, options, userId) => {
   
   if (isTalent && isKnightlyVirtue && actor?.isOwner) {
     processingItems.add(itemKey);
-    console.log("WFRP4e-Bretonnia | createItem: Knightly Virtue detected, showing dialog");
+    console.log("WFRP4e-NoM | createItem: Knightly Virtue detected, showing dialog");
     await new Promise(resolve => setTimeout(resolve, 300));
     try {
       await showKnightlyVirtueDialog(actor, item);
@@ -369,7 +369,7 @@ Hooks.on("createItem", async (item, options, userId) => {
  * Usa o hook createEmbeddedDocuments que é disparado quando itens são adicionados a um actor
  */
 Hooks.on("createEmbeddedDocuments", async (documents, result, options, userId) => {
-  console.log("WFRP4e-Bretonnia | createEmbeddedDocuments hook triggered", documents, result);
+  console.log("WFRP4e-NoM | createEmbeddedDocuments hook triggered", documents, result);
   
   // Verifica se são itens
   if (!documents || documents.length === 0) {
@@ -377,7 +377,7 @@ Hooks.on("createEmbeddedDocuments", async (documents, result, options, userId) =
   }
   
   const firstDoc = documents[0];
-  console.log("WFRP4e-Bretonnia | First document:", {
+  console.log("WFRP4e-NoM | First document:", {
     documentName: firstDoc?.documentName,
     type: firstDoc?.type,
     name: firstDoc?.name,
@@ -391,7 +391,7 @@ Hooks.on("createEmbeddedDocuments", async (documents, result, options, userId) =
                  (firstDoc?.type && firstDoc?.parent);
   
   if (!isItem) {
-    console.log("WFRP4e-Bretonnia | Not an Item, skipping");
+    console.log("WFRP4e-NoM | Not an Item, skipping");
     return;
   }
 
@@ -416,7 +416,7 @@ Hooks.on("createEmbeddedDocuments", async (documents, result, options, userId) =
       }
     }
     
-    console.log("WFRP4e-Bretonnia | Checking document:", {
+    console.log("WFRP4e-NoM | Checking document:", {
       type: doc.type,
       name: doc.name,
       documentName: doc.documentName,
@@ -432,28 +432,28 @@ Hooks.on("createEmbeddedDocuments", async (documents, result, options, userId) =
     // Verifica se já está processando este item
     const itemKey = `${actor?.id}-${itemId}`;
     if (processingItems.has(itemKey)) {
-      console.log("WFRP4e-Bretonnia | Item already being processed, skipping");
+      console.log("WFRP4e-NoM | Item already being processed, skipping");
       continue;
     }
     
-    console.log("WFRP4e-Bretonnia | Is talent type?", isTalent, "Is Knightly Virtue?", isKnightlyVirtue);
+    console.log("WFRP4e-NoM | Is talent type?", isTalent, "Is Knightly Virtue?", isKnightlyVirtue);
     
     if (isTalent && isKnightlyVirtue && actor) {
-      console.log("WFRP4e-Bretonnia | Actor found:", actor?.name, "Is owner?", actor?.isOwner);
+      console.log("WFRP4e-NoM | Actor found:", actor?.name, "Is owner?", actor?.isOwner);
       
       // Verifica se o actor existe e se o usuário atual é o dono
       if (!actor.isOwner) {
-        console.log("WFRP4e-Bretonnia | User is not owner, skipping");
+        console.log("WFRP4e-NoM | User is not owner, skipping");
         continue;
       }
 
       // Busca o item criado no actor
       const item = actor.items.find(i => i.id === itemId);
-      console.log("WFRP4e-Bretonnia | Item found in actor:", item?.name, item?.id);
+      console.log("WFRP4e-NoM | Item found in actor:", item?.name, item?.id);
       
       if (item) {
         processingItems.add(itemKey);
-        console.log("WFRP4e-Bretonnia | Showing dialog for:", item.name);
+        console.log("WFRP4e-NoM | Showing dialog for:", item.name);
         try {
           // Exibe o diálogo de seleção
           await showKnightlyVirtueDialog(actor, item);
@@ -462,12 +462,12 @@ Hooks.on("createEmbeddedDocuments", async (documents, result, options, userId) =
           setTimeout(() => processingItems.delete(itemKey), 1000);
         }
       } else {
-        console.warn("WFRP4e-Bretonnia | Item not found in actor after creation, trying again...");
+        console.warn("WFRP4e-NoM | Item not found in actor after creation, trying again...");
         // Tenta novamente após mais um delay
         await new Promise(resolve => setTimeout(resolve, 200));
         const retryItem = actor.items.find(i => i.id === itemId || i.name === "Knightly Virtue");
         if (retryItem) {
-          console.log("WFRP4e-Bretonnia | Item found on retry, showing dialog");
+          console.log("WFRP4e-NoM | Item found on retry, showing dialog");
           await showKnightlyVirtueDialog(actor, retryItem);
         }
       }
@@ -539,7 +539,7 @@ function getVirtueSpecificEffects(virtueName) {
         wfrp4e: {
           description: "When failing a Fear test, you may reroll or reverse the result"
         },
-        "wfrp4e-bretonnia": {
+        "wfrp4e-nom": {
           stoicism: true
         }
       }
@@ -568,7 +568,7 @@ function getVirtueSpecificEffects(virtueName) {
         wfrp4e: {
           description: "All weapons count as magical. Critical hits against this character are reduced by -20. Critical hits with result 0 have no effect."
         },
-        "wfrp4e-bretonnia": {
+        "wfrp4e-nom": {
           penitent: true,
           weaponsMagical: true
         }
@@ -585,7 +585,7 @@ function getVirtueSpecificEffects(virtueName) {
  * @param {Item} knightlyVirtueItem - O item "Knightly Virtue" que será substituído
  */
 async function showKnightlyVirtueDialog(actor, knightlyVirtueItem) {
-  console.log("WFRP4e-Bretonnia | showKnightlyVirtueDialog called", actor?.name, knightlyVirtueItem?.name);
+  console.log("WFRP4e-NoM | showKnightlyVirtueDialog called", actor?.name, knightlyVirtueItem?.name);
   
   // Define as 14 virtudes disponíveis
   const options = [
@@ -879,7 +879,7 @@ async function showKnightlyVirtueDialog(actor, knightlyVirtueItem) {
 
             // Se não encontrou o talento, cria um novo com o nome fornecido
             if (!replacementTalent) {
-              console.log("WFRP4e-Bretonnia | Talent not found, creating new one with name:", selectedVirtueName);
+              console.log("WFRP4e-NoM | Talent not found, creating new one with name:", selectedVirtueName);
               
               // Cria um novo talento baseado no Knightly Virtue
               const baseData = knightlyVirtueItem.toObject();
@@ -911,9 +911,9 @@ async function showKnightlyVirtueDialog(actor, knightlyVirtueItem) {
                 if (effectsToCreate.length > 0) {
                   try {
                     await createdItem.createEmbeddedDocuments("ActiveEffect", effectsToCreate);
-                    console.log(`WFRP4e-Bretonnia | Copied ${effectsToCreate.length} effects from Knightly Virtue`);
+                    console.log(`WFRP4e-NoM | Copied ${effectsToCreate.length} effects from Knightly Virtue`);
                   } catch (effectError) {
-                    console.warn("WFRP4e-Bretonnia | Error copying effects:", effectError);
+                    console.warn("WFRP4e-NoM | Error copying effects:", effectError);
                   }
                 }
               }
@@ -970,9 +970,9 @@ async function showKnightlyVirtueDialog(actor, knightlyVirtueItem) {
               if (effectsToCreate.length > 0) {
                 try {
                   await createdItem.createEmbeddedDocuments("ActiveEffect", effectsToCreate);
-                  console.log(`WFRP4e-Bretonnia | Added ${effectsToCreate.length} effects to ${selectedVirtueName}`);
+                  console.log(`WFRP4e-NoM | Added ${effectsToCreate.length} effects to ${selectedVirtueName}`);
                 } catch (effectError) {
-                  console.warn("WFRP4e-Bretonnia | Error adding effects:", effectError);
+                  console.warn("WFRP4e-NoM | Error adding effects:", effectError);
                   // Continua mesmo se houver erro ao adicionar efeitos
                 }
               }
@@ -981,7 +981,7 @@ async function showKnightlyVirtueDialog(actor, knightlyVirtueItem) {
             ui.notifications.info(`Virtue "${selectedVirtueName}" added successfully!`);
             
           } catch (error) {
-            console.error("WFRP4e-Bretonnia | Erro ao substituir Knightly Virtue:", error);
+            console.error("WFRP4e-NoM | Erro ao substituir Knightly Virtue:", error);
             ui.notifications.error("Error replacing the talent. Check the console for details.");
           }
         }
