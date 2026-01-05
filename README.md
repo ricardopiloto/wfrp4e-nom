@@ -27,10 +27,10 @@ The following checklist tracks the progress of implementing careers from the Nat
 - [x] Kislev Kossar
 - [x] Kislev Winged Lancer
 - [x] Norscan Mercenary
+- [x] Arabyan Janissary
+- [x] Ind Ahadi
 
 ### Pending Careers
-- [ ] Arabyan Janissary
-- [ ] Ind Ahadi
 - [ ] Cathayan Dragon Monk
 - [ ] Nippon Samurai
 - [ ] Vimto Monks
