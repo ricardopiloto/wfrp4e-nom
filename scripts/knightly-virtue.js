@@ -6,13 +6,40 @@
 // Flag para rastrear itens que já estão sendo processados
 const processingItems = new Set();
 
+/**
+ * Actor que fala em uma ChatMessage (Foundry v14: ChatMessage#speakerActor).
+ * @param {ChatMessage} message
+ * @returns {Actor|null}
+ */
+function getMessageSpeakerActor(message) {
+  const direct = message.speakerActor;
+  if (direct) return direct;
+  const id = message.speaker?.actor;
+  if (!id) return null;
+  return game.actors.get(id) ?? null;
+}
+
+/**
+ * Primeira rolagem anexada à mensagem (v13+ pode usar apenas ChatMessage#rolls).
+ * @param {ChatMessage} message
+ * @returns {Roll|null}
+ */
+function getMessagePrimaryRoll(message) {
+  if (message.roll) return message.roll;
+  const rolls = message.rolls;
+  if (rolls?.length) return rolls[0];
+  return null;
+}
+
 Hooks.once("ready", () => {
   console.log("WFRP4e-NoM | Knightly Virtue handler initialized");
   console.log("WFRP4e-NoM | Module loaded successfully");
   
   // Expõe função de teste global para debug
   window.testKnightlyVirtue = async function() {
-    const actor = canvas.tokens?.controlled[0]?.actor || game.actors?.ownedTokens?.[0]?.actor || game.actors?.find(a => a.isOwner);
+    const actor = canvas.tokens?.controlled?.[0]?.actor
+      || game.user?.character
+      || game.actors?.find(a => a.isOwner && a.hasPlayerOwner);
     if (!actor) {
       console.error("WFRP4e-NoM | Nenhum actor encontrado para teste");
       ui.notifications.error("Nenhum actor encontrado. Selecione um token ou abra uma ficha.");
@@ -84,7 +111,9 @@ function hasPenitentVirtue(actor) {
  */
 Hooks.on("createChatMessage", async (message, options, userId) => {
   // Verifica se é uma mensagem de rolagem
-  if (!message.isRoll || !message.roll) return;
+  if (!message.isRoll) return;
+  const roll = getMessagePrimaryRoll(message);
+  if (!roll) return;
   
   // Verifica se é um teste de Fear
   const content = message.content?.toLowerCase() || "";
@@ -93,18 +122,13 @@ Hooks.on("createChatMessage", async (message, options, userId) => {
   
   if (!isFearTest) return;
   
-  // Busca o actor da mensagem
-  const actorId = message.speaker?.actor;
-  if (!actorId) return;
-  
-  const actor = game.actors.get(actorId);
+  const actor = getMessageSpeakerActor(message);
   if (!actor) return;
   
   // Verifica se o actor tem Stoicism
   if (!hasStoicismVirtue(actor)) return;
   
   // Verifica se a rolagem falhou
-  const roll = message.roll;
   const isFailure = roll.isFailure || (roll.total && roll.terms && 
     roll.terms.some(term => term.total && term.total > (roll.target || 0)));
   
@@ -191,11 +215,10 @@ Hooks.on("createChatMessage", async (message, options, userId) => {
   
   if (!isCriticalHit) return;
   
-  // Busca o actor alvo da mensagem
-  const targetId = message.flags?.wfrp4e?.target || message.speaker?.actor;
-  if (!targetId) return;
-  
-  const targetActor = game.actors.get(targetId);
+  let targetActor = null;
+  const flagTarget = message.flags?.wfrp4e?.target;
+  if (flagTarget) targetActor = game.actors.get(flagTarget);
+  if (!targetActor) targetActor = getMessageSpeakerActor(message);
   if (!targetActor) return;
   
   // Verifica se o alvo tem Virtue of the Penitent

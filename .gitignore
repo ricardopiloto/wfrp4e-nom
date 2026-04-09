@@ -16,3 +16,10 @@ dist/
 build/
 .vscode/
 .env
+
+# OpenSpec AGENTS
+agents/*
+AGENTS.md
+project.md
+openspec/changes/*
+.crush/*
