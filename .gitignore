@@ -1,16 +1,6 @@
 # Foundry / module
 node_modules/
 .DS_Store
-*.log
-*.old
-LOCK
-CURRENT
-LOG
-LOG.old
-
-# Foundry pack database files (ldb)
-*.ldb
-
 # Build / temp
 dist/
 build/
@@ -23,3 +13,4 @@ AGENTS.md
 project.md
 .crush/
 openspec/
+.cursor/
