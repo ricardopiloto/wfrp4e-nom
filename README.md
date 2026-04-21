@@ -29,9 +29,9 @@ The following checklist tracks the progress of implementing careers from the Nat
 - [x] Norscan Mercenary
 - [x] Arabyan Janissary
 - [x] Ind Ahadi
+- [x] Cathayan Dragon Monk
 
 ### Pending Careers
-- [ ] Cathayan Dragon Monk
 - [ ] Nippon Samurai
 - [ ] Vimto Monks
 - [ ] Ninja
