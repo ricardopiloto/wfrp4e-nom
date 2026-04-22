@@ -1,0 +1,74 @@
+<div class="flexcol" style="gap: 12px;">
+  <p class="notes" style="margin: 0; color: var(--color-text-dark-secondary); font-size: 0.95em; line-height: 1.4;">
+    {{intro}}
+  </p>
+  <div
+    class="nom-talent-scroll"
+    style="max-height: 450px; overflow-y: auto; border: 1px solid var(--color-border-light-tertiary); padding: 8px; border-radius: 4px; background: rgba(0,0,0,0.02);"
+  >
+    {{#each talentRows}}
+      <div
+        class="nom-talent-option"
+        data-row-id="{{id}}"
+        style="display: flex; align-items: flex-start; padding: 10px; margin-bottom: 4px; border-radius: 3px; cursor: pointer; border: 2px solid transparent;"
+      >
+        <input
+          type="radio"
+          id="nom-talent-{{../radioName}}-{{id}}"
+          name="{{../radioName}}"
+          value="{{id}}"
+          style="margin-right: 12px; cursor: pointer; display: none;"
+        />
+        <img
+          src="{{icon}}"
+          alt=""
+          style="width: 36px; height: 36px; margin-right: 12px; border: none; flex-shrink: 0; margin-top: 2px;"
+          onerror="this.src='icons/svg/item-bag.svg'"
+        />
+        <div style="flex: 1; display: flex; flex-direction: column;">
+          <label for="nom-talent-{{../radioName}}-{{id}}" style="font-weight: 500; cursor: pointer; user-select: none; margin: 0 0 4px 0; font-size: 0.95em;">
+            {{name}}
+          </label>
+          {{#if description}}
+            <p style="margin: 0; color: #666; font-size: 0.85em; line-height: 1.3; font-style: italic;">{{description}}</p>
+          {{/if}}
+        </div>
+      </div>
+    {{/each}}
+  </div>
+
+  {{#if showManualInput}}
+    <div style="margin-top: 0; border-top: 1px solid var(--color-border-light-tertiary); padding-top: 12px;">
+      <label style="display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9em;">
+        {{manualLabel}}
+      </label>
+      <input
+        type="text"
+        id="nom-manual-input"
+        name="nomManualVirtue"
+        placeholder="{{manualPlaceholder}}"
+        style="width: 100%; padding: 8px; border: 1px solid var(--color-border-light-tertiary); border-radius: 3px; font-size: 0.9em; box-sizing: border-box;"
+      />
+    </div>
+  {{/if}}
+
+  <footer class="sheet-footer flexrow" style="gap: 8px; margin-top: 4px; justify-content: flex-end;">
+    <button type="button" class="cancel" data-action="nom-picker-cancel">
+      <i class="fas fa-times"></i>
+      Cancel
+    </button>
+    <button type="submit" class="default">
+      <i class="fas fa-check"></i>
+      Submit
+    </button>
+  </footer>
+</div>
+<style>
+  .nom-talent-radio-picker .nom-talent-option.selected {
+    background: rgba(66, 153, 225, 0.15) !important;
+    border-color: rgba(66, 153, 225, 0.8) !important;
+  }
+  .nom-talent-radio-picker .nom-talent-option label {
+    pointer-events: none;
+  }
+</style>

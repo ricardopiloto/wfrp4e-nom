@@ -3,6 +3,8 @@
  * Detecta quando o talento "Knightly Virtue" é adicionado e permite ao jogador escolher entre 14 virtudes
  */
 
+import { NomTalentRadioPicker } from "./talent-option-picker-app.js";
+
 // Flag para rastrear itens que já estão sendo processados
 const processingItems = new Set();
 
@@ -510,6 +512,7 @@ function getVirtueSpecificEffects(virtueName) {
   // Virtue of the Joust: +20 bonus to Melee (Calvary) when using Lance or Half-Lance
   if (virtueName === "Virtue of the Joust") {
     effects.push({
+      name: "Jousting Bonus",
       label: "Jousting Bonus",
       icon: "icons/svg/upgrade.svg",
       origin: null, // Será definido quando o efeito for criado
@@ -543,6 +546,7 @@ function getVirtueSpecificEffects(virtueName) {
   // Virtue of Stoicism: Reroll or reverse Fear test results on failure
   if (virtueName === "Virtue of Stoicism") {
     effects.push({
+      name: "Stoic Resolve",
       label: "Stoic Resolve",
       icon: "icons/svg/shield.svg",
       origin: null, // Será definido quando o efeito for criado
@@ -572,6 +576,7 @@ function getVirtueSpecificEffects(virtueName) {
   // Virtue of the Penitent: All weapons count as magical, critical hits against the character are reduced by -20
   if (virtueName === "Virtue of the Penitent") {
     effects.push({
+      name: "Penitent's Blessing",
       label: "Penitent's Blessing",
       icon: "icons/svg/holy-symbol.svg",
       origin: null, // Será definido quando o efeito for criado
@@ -607,422 +612,157 @@ function getVirtueSpecificEffects(virtueName) {
  * @param {Actor} actor - O actor que possui o talento
  * @param {Item} knightlyVirtueItem - O item "Knightly Virtue" que será substituído
  */
-async function showKnightlyVirtueDialog(actor, knightlyVirtueItem) {
-  console.log("WFRP4e-NoM | showKnightlyVirtueDialog called", actor?.name, knightlyVirtueItem?.name);
-  
-  // Define as 14 virtudes disponíveis
-  const options = [
-    {
-      id: "audacity",
-      name: "Virtue of Audacity"
-    },
-    {
-      id: "confidence",
-      name: "Virtue of Confidence"
-    },
-    {
-      id: "discipline",
-      name: "Virtue of Discipline"
-    },
-    {
-      id: "duty",
-      name: "Virtue of Duty"
-    },
-    {
-      id: "empathy",
-      name: "Virtue of Empathy"
-    },
-    {
-      id: "heroism",
-      name: "Virtue of Heroism"
-    },
-    {
-      id: "ideal",
-      name: "Virtue of Ideal"
-    },
-    {
-      id: "impetuous-knight",
-      name: "Virtue of Impetuous Knight"
-    },
-    {
-      id: "joust",
-      name: "Virtue of the Joust"
-    },
-    {
-      id: "knight-temper",
-      name: "Virtue of Knight Temper"
-    },
-    {
-      id: "noble-disdain",
-      name: "Virtue of Noble Disdain"
-    },
-    {
-      id: "penitent",
-      name: "Virtue of the Penitent"
-    },
-    {
-      id: "purity",
-      name: "Virtue of Purity"
-    },
-    {
-      id: "stoicism",
-      name: "Virtue of Stoicism"
-    }
-  ];
+async function applyKnightlyVirtueChoice(actor, knightlyVirtueItem, selectedVirtueName) {
+  try {
+    let replacementTalent = null;
 
-  // Busca os ícones e descrições dos talentos
-  const optionsWithIcons = await Promise.all(options.map(async (opt) => {
-    let icon = "icons/svg/item-bag.svg"; // Ícone padrão
-    let description = ""; // Descrição padrão
-    
-    // Busca o talento no mundo
-    let talent = game.items.find(i => i.name === opt.name && i.type === "talent");
-    
-    // Se não encontrou, busca nos compendiums
-    if (!talent) {
+    replacementTalent = game.items.find((i) => i.name === selectedVirtueName && i.type === "talent");
+
+    if (!replacementTalent) {
       for (const pack of game.packs) {
         if (pack.documentName === "Item" && pack.indexed) {
           const index = pack.index;
-          const entry = index.find(e => e.name === opt.name);
+          const entry = index.find((e) => e.name === selectedVirtueName);
           if (entry) {
             const item = await pack.getDocument(entry._id);
             if (item && item.type === "talent") {
-              talent = item;
+              replacementTalent = item;
               break;
             }
           }
         }
       }
     }
-    
-    if (talent) {
-      if (talent.img) {
-        icon = talent.img;
+
+    if (!replacementTalent) {
+      console.log("WFRP4e-NoM | Talent not found, creating new one with name:", selectedVirtueName);
+
+      const baseData = knightlyVirtueItem.toObject();
+      baseData.name = `Knightly Virtue (${selectedVirtueName})`;
+
+      if (baseData.effects) {
+        delete baseData.effects;
       }
-      
-      // Busca a descrição (pode estar em diferentes locais dependendo do sistema)
-      if (talent.system?.description?.value) {
-        description = talent.system.description.value;
-      } else if (talent.system?.description) {
-        description = typeof talent.system.description === 'string' 
-          ? talent.system.description 
-          : talent.system.description.value || "";
-      } else if (talent.description) {
-        description = typeof talent.description === 'string' 
-          ? talent.description 
-          : talent.description.value || "";
+
+      await actor.deleteEmbeddedDocuments("Item", [knightlyVirtueItem.id]);
+
+      const createdItems = await actor.createEmbeddedDocuments("Item", [baseData]);
+
+      if (createdItems.length > 0 && knightlyVirtueItem.effects && knightlyVirtueItem.effects.size > 0) {
+        const createdItem = createdItems[0];
+        const effectsToCreate = knightlyVirtueItem.effects.map((effect) => {
+          const effectData = effect.toObject();
+          delete effectData._id;
+          if (effectData.flags) {
+            effectData.flags = foundry.utils.deepClone(effectData.flags);
+          }
+          return effectData;
+        });
+
+        if (effectsToCreate.length > 0) {
+          try {
+            await createdItem.createEmbeddedDocuments("ActiveEffect", effectsToCreate);
+            console.log(`WFRP4e-NoM | Copied ${effectsToCreate.length} effects from Knightly Virtue`);
+          } catch (effectError) {
+            console.warn("WFRP4e-NoM | Error copying effects:", effectError);
+          }
+        }
       }
-      
-      // Limpa HTML tags se houver e limita o tamanho
-      if (description) {
-        const tempDiv = document.createElement('div');
-        tempDiv.innerHTML = description;
-        description = tempDiv.textContent || tempDiv.innerText || '';
-        // Limita a descrição a 200 caracteres
-        if (description.length > 200) {
-          description = description.substring(0, 197) + '...';
+
+      ui.notifications.info(`Virtue "${selectedVirtueName}" added successfully!`);
+      return;
+    }
+
+    await actor.deleteEmbeddedDocuments("Item", [knightlyVirtueItem.id]);
+
+    const talentData = replacementTalent.toObject();
+    talentData.name = `Knightly Virtue (${selectedVirtueName})`;
+
+    if (talentData.effects) {
+      delete talentData.effects;
+    }
+
+    const createdItems = await actor.createEmbeddedDocuments("Item", [talentData]);
+
+    if (createdItems.length > 0) {
+      const createdItem = createdItems[0];
+      const effectsToCreate = [];
+
+      if (replacementTalent.effects && replacementTalent.effects.size > 0) {
+        replacementTalent.effects.forEach((effect) => {
+          const effectData = effect.toObject();
+          delete effectData._id;
+          if (effectData.flags) {
+            effectData.flags = foundry.utils.deepClone(effectData.flags);
+          }
+          effectsToCreate.push(effectData);
+        });
+      }
+
+      const virtueSpecificEffects = getVirtueSpecificEffects(selectedVirtueName);
+      virtueSpecificEffects.forEach((effect) => {
+        const effectData = {
+          ...effect,
+          origin: createdItem.uuid
+        };
+        effectsToCreate.push(effectData);
+      });
+
+      if (effectsToCreate.length > 0) {
+        try {
+          await createdItem.createEmbeddedDocuments("ActiveEffect", effectsToCreate);
+          console.log(`WFRP4e-NoM | Added ${effectsToCreate.length} effects to ${selectedVirtueName}`);
+        } catch (effectError) {
+          console.warn("WFRP4e-NoM | Error adding effects:", effectError);
         }
       }
     }
-    
-    return {
-      ...opt,
-      icon: icon,
-      description: description
-    };
-  }));
 
-  // Cria o conteúdo HTML do diálogo com a nova interface
-  const content = `
-    <form style="display: flex; flex-direction: column; gap: 20px;">
-      <!-- Texto de instrução no topo -->
-      <div style="margin-bottom: 0;">
-        <p style="margin: 0; color: #666; font-size: 0.95em; line-height: 1.4;">
-          Select Virtue, if no selection is made, enter one manually.
-        </p>
-      </div>
-      
-      <!-- Caixa de opções no meio -->
-      <div style="flex: 1; display: flex; flex-direction: column;">
-        <div style="max-height: 450px; overflow-y: auto; border: 1px solid #ccc; padding: 8px; border-radius: 4px; background: rgba(0,0,0,0.02);">
-          ${optionsWithIcons.map((opt, index) => `
-            <div class="virtue-option" 
-                 data-virtue-id="${opt.id}"
-                 data-virtue-name="${opt.name}"
-                 style="display: flex; align-items: flex-start; padding: 10px; margin-bottom: 4px; border-radius: 3px; cursor: pointer; transition: all 0.2s; border: 2px solid transparent;"
-                 onmouseover="this.style.background='rgba(0,0,0,0.08)'; this.style.borderColor='rgba(66,153,225,0.5)'" 
-                 onmouseout="if(!this.classList.contains('selected')) { this.style.background='transparent'; this.style.borderColor='transparent'; }">
-              <input type="radio" id="virtue-${opt.id}" name="virtue" value="${opt.id}" 
-                     style="margin-right: 12px; cursor: pointer; display: none;">
-              <img src="${opt.icon}" 
-                   style="width: 36px; height: 36px; margin-right: 12px; border: none; flex-shrink: 0; margin-top: 2px;"
-                   onerror="this.src='icons/svg/item-bag.svg'">
-              <div style="flex: 1; display: flex; flex-direction: column;">
-                <label for="virtue-${opt.id}" 
-                       style="font-weight: 500; cursor: pointer; user-select: none; margin: 0 0 4px 0; font-size: 0.95em;">
-                  ${opt.name}
-                </label>
-                ${opt.description ? `
-                  <p style="margin: 0; color: #666; font-size: 0.85em; line-height: 1.3; font-style: italic;">
-                    ${opt.description}
-                  </p>
-                ` : ''}
-              </div>
-            </div>
-          `).join('')}
-        </div>
-      </div>
-      
-      <!-- Campo manual no final -->
-      <div style="margin-top: 0; border-top: 1px solid #ddd; padding-top: 15px;">
-        <label style="display: block; margin-bottom: 8px; font-weight: 500; font-size: 0.9em;">
-          Or enter manually:
-        </label>
-        <input type="text" id="manual-virtue-input" 
-               placeholder="Enter virtue name manually..."
-               style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 3px; font-size: 0.9em; box-sizing: border-box;">
-      </div>
-    </form>
-    <style>
-      .virtue-option.selected {
-        background: rgba(66,153,225,0.15) !important;
-        border-color: rgba(66,153,225,0.8) !important;
-      }
-      .virtue-option label {
-        pointer-events: none;
-      }
-    </style>
-    <script>
-      (function() {
-        const options = document.querySelectorAll('.virtue-option');
-        const manualInput = document.getElementById('manual-virtue-input');
-        
-        options.forEach(option => {
-          option.addEventListener('click', function() {
-            // Remove seleção anterior
-            options.forEach(opt => {
-              opt.classList.remove('selected');
-              opt.style.background = 'transparent';
-              opt.style.borderColor = 'transparent';
-            });
-            
-            // Seleciona esta opção
-            this.classList.add('selected');
-            this.style.background = 'rgba(66,153,225,0.15)';
-            this.style.borderColor = 'rgba(66,153,225,0.8)';
-            
-            // Marca o radio button
-            const radio = this.querySelector('input[type="radio"]');
-            if (radio) radio.checked = true;
-            
-            // Limpa o input manual
-            if (manualInput) manualInput.value = '';
-          });
-        });
-        
-        // Quando digitar no input manual, desmarca as opções
-        if (manualInput) {
-          manualInput.addEventListener('input', function() {
-            if (this.value.trim()) {
-              options.forEach(opt => {
-                opt.classList.remove('selected');
-                opt.style.background = 'transparent';
-                opt.style.borderColor = 'transparent';
-                const radio = opt.querySelector('input[type="radio"]');
-                if (radio) radio.checked = false;
-              });
-            }
-          });
-        }
-      })();
-    </script>
-  `;
+    ui.notifications.info(`Virtue "${selectedVirtueName}" added successfully!`);
+  } catch (error) {
+    console.error("WFRP4e-NoM | Erro ao substituir Knightly Virtue:", error);
+    ui.notifications.error("Error replacing the talent. Check the console for details.");
+  }
+}
 
-  // Cria e exibe o diálogo com a nova interface
-  new Dialog({
+async function showKnightlyVirtueDialog(actor, knightlyVirtueItem) {
+  console.log("WFRP4e-NoM | showKnightlyVirtueDialog called", actor?.name, knightlyVirtueItem?.name);
+
+  const descriptors = [
+    { id: "audacity", name: "Virtue of Audacity" },
+    { id: "confidence", name: "Virtue of Confidence" },
+    { id: "discipline", name: "Virtue of Discipline" },
+    { id: "duty", name: "Virtue of Duty" },
+    { id: "empathy", name: "Virtue of Empathy" },
+    { id: "heroism", name: "Virtue of Heroism" },
+    { id: "ideal", name: "Virtue of Ideal" },
+    { id: "impetuous-knight", name: "Virtue of Impetuous Knight" },
+    { id: "joust", name: "Virtue of the Joust" },
+    { id: "knight-temper", name: "Virtue of Knight Temper" },
+    { id: "noble-disdain", name: "Virtue of Noble Disdain" },
+    { id: "penitent", name: "Virtue of the Penitent" },
+    { id: "purity", name: "Virtue of Purity" },
+    { id: "stoicism", name: "Virtue of Stoicism" }
+  ];
+
+  await new NomTalentRadioPicker({
     title: "Choice of Virtue",
-    content: content,
+    intro: "Select Virtue, if no selection is made, enter one manually.",
     width: 550,
-    buttons: {
-      submit: {
-        icon: '<i class="fas fa-check"></i>',
-        label: "Submit",
-        callback: async (html) => {
-          const selectedId = html.find('input[name="virtue"]:checked').val();
-          const manualInput = html.find('#manual-virtue-input').val()?.trim();
-          
-          let selectedVirtueName = null;
-          
-          // Verifica se uma opção foi selecionada
-          if (selectedId) {
-            const selectedOption = options.find(opt => opt.id === selectedId);
-            if (selectedOption) {
-              selectedVirtueName = selectedOption.name;
-            }
-          }
-          
-          // Se não selecionou, usa o input manual
-          if (!selectedVirtueName && manualInput) {
-            selectedVirtueName = manualInput;
-          }
-          
-          // Se ainda não tem seleção, retorna erro
-          if (!selectedVirtueName) {
-            ui.notifications.warn("Please select a virtue or enter one manually.");
-            return false;
-          }
-
-          try {
-            // Busca o talento correspondente à opção selecionada
-            // Primeiro tenta encontrar no mundo, depois nos compendiums
-            let replacementTalent = null;
-            
-            // Busca no mundo primeiro
-            replacementTalent = game.items.find(i => 
-              i.name === selectedVirtueName && 
-              i.type === "talent"
-            );
-            
-            // Se não encontrou no mundo, busca nos compendiums
-            if (!replacementTalent) {
-              for (const pack of game.packs) {
-                if (pack.documentName === "Item" && pack.indexed) {
-                  const index = pack.index;
-                  const entry = index.find(e => e.name === selectedVirtueName);
-                  if (entry) {
-                    const item = await pack.getDocument(entry._id);
-                    if (item && item.type === "talent") {
-                      replacementTalent = item;
-                      break;
-                    }
-                  }
-                }
-              }
-            }
-
-            // Se não encontrou o talento, cria um novo com o nome fornecido
-            if (!replacementTalent) {
-              console.log("WFRP4e-NoM | Talent not found, creating new one with name:", selectedVirtueName);
-              
-              // Cria um novo talento baseado no Knightly Virtue
-              const baseData = knightlyVirtueItem.toObject();
-              baseData.name = `Knightly Virtue (${selectedVirtueName})`;
-              
-              // Remove efeitos do objeto (serão copiados depois se existirem)
-              if (baseData.effects) {
-                delete baseData.effects;
-              }
-              
-              // Remove o Knightly Virtue original
-              await actor.deleteEmbeddedDocuments("Item", [knightlyVirtueItem.id]);
-              
-              // Adiciona o novo talento
-              const createdItems = await actor.createEmbeddedDocuments("Item", [baseData]);
-              
-              // Copia os efeitos do Knightly Virtue original se existirem
-              if (createdItems.length > 0 && knightlyVirtueItem.effects && knightlyVirtueItem.effects.size > 0) {
-                const createdItem = createdItems[0];
-                const effectsToCreate = knightlyVirtueItem.effects.map(effect => {
-                  const effectData = effect.toObject();
-                  delete effectData._id;
-                  if (effectData.flags) {
-                    effectData.flags = foundry.utils.deepClone(effectData.flags);
-                  }
-                  return effectData;
-                });
-                
-                if (effectsToCreate.length > 0) {
-                  try {
-                    await createdItem.createEmbeddedDocuments("ActiveEffect", effectsToCreate);
-                    console.log(`WFRP4e-NoM | Copied ${effectsToCreate.length} effects from Knightly Virtue`);
-                  } catch (effectError) {
-                    console.warn("WFRP4e-NoM | Error copying effects:", effectError);
-                  }
-                }
-              }
-              
-              ui.notifications.info(`Virtue "${selectedVirtueName}" added successfully!`);
-              return true;
-            }
-
-            // Remove o talento "Knightly Virtue"
-            await actor.deleteEmbeddedDocuments("Item", [knightlyVirtueItem.id]);
-
-            // Adiciona o talento escolhido com o nome modificado
-            const talentData = replacementTalent.toObject();
-            // Renomeia o talento para "Knightly Virtue (NomeDaVirtude)"
-            talentData.name = `Knightly Virtue (${selectedVirtueName})`;
-            
-            // Remove efeitos do objeto (serão adicionados depois como embedded documents)
-            if (talentData.effects) {
-              delete talentData.effects;
-            }
-            
-            // Cria o item no actor
-            const createdItems = await actor.createEmbeddedDocuments("Item", [talentData]);
-            
-            // Copia os efeitos do talento original após criar o item
-            if (createdItems.length > 0) {
-              const createdItem = createdItems[0];
-              const effectsToCreate = [];
-              
-              // Verifica se o talento original tem efeitos embedded
-              if (replacementTalent.effects && replacementTalent.effects.size > 0) {
-                replacementTalent.effects.forEach(effect => {
-                  const effectData = effect.toObject();
-                  // Remove o ID do efeito para criar um novo
-                  delete effectData._id;
-                  // Remove flags que podem causar problemas
-                  if (effectData.flags) {
-                    effectData.flags = foundry.utils.deepClone(effectData.flags);
-                  }
-                  effectsToCreate.push(effectData);
-                });
-              }
-              
-              // Adiciona efeitos específicos da virtude
-              const virtueSpecificEffects = getVirtueSpecificEffects(selectedVirtueName);
-              virtueSpecificEffects.forEach(effect => {
-                const effectData = {
-                  ...effect,
-                  origin: createdItem.uuid // Define a origem como o item criado
-                };
-                effectsToCreate.push(effectData);
-              });
-              
-              if (effectsToCreate.length > 0) {
-                try {
-                  await createdItem.createEmbeddedDocuments("ActiveEffect", effectsToCreate);
-                  console.log(`WFRP4e-NoM | Added ${effectsToCreate.length} effects to ${selectedVirtueName}`);
-                } catch (effectError) {
-                  console.warn("WFRP4e-NoM | Error adding effects:", effectError);
-                  // Continua mesmo se houver erro ao adicionar efeitos
-                }
-              }
-            }
-
-            ui.notifications.info(`Virtue "${selectedVirtueName}" added successfully!`);
-            
-          } catch (error) {
-            console.error("WFRP4e-NoM | Erro ao substituir Knightly Virtue:", error);
-            ui.notifications.error("Error replacing the talent. Check the console for details.");
-          }
-        }
-      },
-      cancel: {
-        icon: '<i class="fas fa-times"></i>',
-        label: "Cancel",
-        callback: async () => {
-          // Não remove o Knightly Virtue se o usuário cancelar - deixa ele na ficha
-          ui.notifications.info("Selection cancelled. The Knightly Virtue talent remains on the sheet.");
-        }
-      }
-    },
-    default: "submit",
-    close: async (html) => {
-      // Não remove o Knightly Virtue se o diálogo for fechado - deixa ele na ficha
-      // O jogador pode tentar novamente depois
+    windowIcon: "fas fa-horse-head",
+    radioName: "virtue",
+    showManualInput: true,
+    manualLabel: "Or enter manually:",
+    manualPlaceholder: "Enter virtue name manually...",
+    descriptors,
+    actor,
+    item: knightlyVirtueItem,
+    cancelNotification: "Selection cancelled. The Knightly Virtue talent remains on the sheet.",
+    emptySelectionWarning: "Please select a virtue or enter one manually.",
+    onSubmit: async (selectedVirtueName) => {
+      await applyKnightlyVirtueChoice(actor, knightlyVirtueItem, selectedVirtueName);
     }
   }).render(true);
 }
+
 

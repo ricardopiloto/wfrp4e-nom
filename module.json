@@ -1,7 +1,7 @@
 {
   "id": "wfrp4e-nom",
   "title": "WFRP4e - Nations of Mankind (Rev.2)",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -18,8 +18,10 @@
     "canUpload": true
   },
   "esmodules": [
+    "scripts/talent-option-picker-app.js",
     "scripts/knightly-virtue.js",
-    "scripts/martial-artist.js"
+    "scripts/martial-artist.js",
+    "scripts/mark-of-the-gods.js"
   ],
   "packs": [
     {
@@ -45,6 +47,18 @@
       },
       "system": "wfrp4e",
       "flags": {}
+    },
+    {
+      "name": "nom-tables",
+      "label": "Nations of Mankind - Tables",
+      "path": "packs/nom-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
     }
   ],
   "relationships": {
@@ -63,6 +77,6 @@
   },
   "description": "",
   "manifest": "https://github.com/ricardopiloto/wfrp4e-nom/releases/download/latest/module.json",
-  "download": "https://github.com/ricardopiloto/wfrp4e-nom/releases/download/v1.0.5/wfrp4e-nom.zip",
+  "download": "https://github.com/ricardopiloto/wfrp4e-nom/releases/download/v1.0.6/wfrp4e-nom.zip",
   "url": "https://github.com/ricardopiloto/wfrp4e-nom"
 }

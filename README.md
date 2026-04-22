@@ -10,8 +10,9 @@ This module brings the rich content from the Nations of Mankind homebrew supplem
 
 - **Items Pack**: A collection of new items, weapons, armor, and trappings from various nations
 - **Journals Pack**: Reference materials and documentation for the Nations of Mankind content
-- **Knightly Virtue System**: An automated system that allows players to choose from 14 different knightly virtues when the "Knightly Virtue" talent is added to their character sheet
-- **Martial Artist paths**: Dialog for the sheet owner to choose one of eight paths when the **Martial Artist** talent is added (same flow as Knightly Virtue)
+- **Knightly Virtue System**: **ApplicationV2** picker (shared with Martial Artist and Mark of the Gods) so the sheet owner chooses one of **14** knightly virtues when **Knightly Virtue** is added
+- **Martial Artist paths**: Same shared **ApplicationV2** picker for **eight** paths when **Martial Artist** is added (cancel leaves the generic talent)
+- **Mark of the Gods**: Same shared picker for **five** Chaos marks when **Mark of the Gods** is added (mark-only item name after confirm; same lookup/effects pattern as the other handlers)
 - **Assets**: Comprehensive icon library including:
   - Career icons
   - Talent icons
@@ -59,7 +60,7 @@ This module requires the following dependencies:
 
 ## Knightly Virtue System
 
-When a character gains the "Knightly Virtue" talent, a dialog will automatically appear allowing the player to choose from 14 different virtues:
+When a character gains the "Knightly Virtue" talent, an **ApplicationV2** window opens (shared **Handlebars** template with Martial Artist and Mark of the Gods) so the sheet owner can choose from 14 different virtues:
 
 1. Virtue of Audacity
 2. Virtue of Confidence
@@ -80,7 +81,7 @@ The selected virtue will replace the generic "Knightly Virtue" talent on the cha
 
 ## Martial Artist System
 
-When a character gains the **Martial Artist** talent (exact name, with no path suffix yet), a dialog appears for the **sheet owner** so they can choose **one** of eight paths. Cancelling leaves the generic **Martial Artist** talent unchanged. Confirming replaces it with **Martial Artist (*Path name*)**, using the same replacement pattern as Knightly Virtue (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item).
+When a character gains the **Martial Artist** talent (exact name, with no path suffix yet), the same **ApplicationV2** picker as Knightly Virtue opens for the **sheet owner** so they can choose **one** of eight paths. Cancelling leaves the generic **Martial Artist** talent unchanged. Confirming replaces it with **Martial Artist (*Path name*)**, using the same replacement pattern as Knightly Virtue (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item).
 
 The eight paths are:
 
@@ -92,6 +93,18 @@ The eight paths are:
 6. Path of Light  
 7. Path of Life  
 8. Path of Death  
+
+## Mark of the Gods
+
+When a character gains the **Mark of the Gods** talent (exact name `Mark of the Gods`, with no mark suffix yet), the shared **ApplicationV2** + **Handlebars** picker opens for the **sheet owner** so they can choose **one** of five marks. Cancelling leaves the generic talent unchanged. Confirming replaces it with the **mark name only** on the sheet (for example **The Crow (Nurgle)**), using the same replacement pattern as Knightly Virtue and Martial Artist for lookup and effects (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item).
+
+The five marks are:
+
+1. The Hound (Khorne)  
+2. The Crow (Nurgle)  
+3. The Serpent (Slaanesh)  
+4. The Eagle (Tzeentch)  
+5. The Eight-Pointed Star (Undivided)  
 
 ## Credits and Acknowledgments
 
