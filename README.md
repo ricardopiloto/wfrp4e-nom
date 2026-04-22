@@ -11,6 +11,7 @@ This module brings the rich content from the Nations of Mankind homebrew supplem
 - **Items Pack**: A collection of new items, weapons, armor, and trappings from various nations
 - **Journals Pack**: Reference materials and documentation for the Nations of Mankind content
 - **Knightly Virtue System**: An automated system that allows players to choose from 14 different knightly virtues when the "Knightly Virtue" talent is added to their character sheet
+- **Martial Artist paths**: Dialog for the sheet owner to choose one of eight paths when the **Martial Artist** talent is added (same flow as Knightly Virtue)
 - **Assets**: Comprehensive icon library including:
   - Career icons
   - Talent icons
@@ -76,6 +77,21 @@ When a character gains the "Knightly Virtue" talent, a dialog will automatically
 14. Virtue of Stoicism
 
 The selected virtue will replace the generic "Knightly Virtue" talent on the character sheet.
+
+## Martial Artist System
+
+When a character gains the **Martial Artist** talent (exact name, with no path suffix yet), a dialog appears for the **sheet owner** so they can choose **one** of eight paths. Cancelling leaves the generic **Martial Artist** talent unchanged. Confirming replaces it with **Martial Artist (*Path name*)**, using the same replacement pattern as Knightly Virtue (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item).
+
+The eight paths are:
+
+1. Path of the Flame  
+2. Path of Iron  
+3. Path of Shadows  
+4. Path of the Beast  
+5. Path of the Heavens  
+6. Path of Light  
+7. Path of Life  
+8. Path of Death  
 
 ## Credits and Acknowledgments
 
