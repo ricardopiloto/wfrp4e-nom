@@ -4,6 +4,10 @@
  */
 
 import { NomTalentRadioPicker } from "./talent-option-picker-app.js";
+import {
+  appendTalentNameToCurrentCareer,
+  applyForceAdvancementToTalentItemData
+} from "./career-talent-registration.js";
 
 const martialArtistProcessing = new Set();
 
@@ -25,6 +29,22 @@ const MARTIAL_PATHS = [
   { id: "life", name: "Path of Life" },
   { id: "death", name: "Path of Death" }
 ];
+
+const MARTIAL_PATH_NAME_SET = new Set(MARTIAL_PATHS.map((p) => p.name));
+
+/**
+ * Plain path name on the sheet, or legacy `Martial Artist (<path>)` from older sheets.
+ * @param {string} [name]
+ * @returns {boolean}
+ */
+function isChosenMartialPathSheetName(name) {
+  if (typeof name !== "string") return false;
+  if (MARTIAL_PATH_NAME_SET.has(name)) return true;
+  const prefix = "Martial Artist (";
+  if (!name.startsWith(prefix) || !name.endsWith(")")) return false;
+  const inner = name.slice(prefix.length, -1);
+  return MARTIAL_PATH_NAME_SET.has(inner);
+}
 
 Hooks.once("ready", () => {
   console.log("WFRP4e-NoM | Martial Artist handler initialized");
@@ -54,8 +74,9 @@ async function applyMartialArtistPath(actor, martialArtistItem, pathName) {
 
     if (!replacementTalent) {
       const baseData = martialArtistItem.toObject();
-      baseData.name = `Martial Artist (${pathName})`;
+      baseData.name = pathName;
       if (baseData.effects) delete baseData.effects;
+      applyForceAdvancementToTalentItemData(baseData);
       await actor.deleteEmbeddedDocuments("Item", [martialArtistItem.id]);
       const createdItems = await actor.createEmbeddedDocuments("Item", [baseData]);
       if (createdItems.length > 0 && martialArtistItem.effects?.size > 0) {
@@ -72,14 +93,16 @@ async function applyMartialArtistPath(actor, martialArtistItem, pathName) {
           console.warn("WFRP4e-NoM | Martial Artist: error copying effects", e);
         }
       }
+      if (createdItems.length > 0) await appendTalentNameToCurrentCareer(actor, createdItems[0].name);
       ui.notifications.info(`Martial path "${pathName}" added.`);
       return;
     }
 
     await actor.deleteEmbeddedDocuments("Item", [martialArtistItem.id]);
     const talentData = replacementTalent.toObject();
-    talentData.name = `Martial Artist (${pathName})`;
+    talentData.name = pathName;
     if (talentData.effects) delete talentData.effects;
+    applyForceAdvancementToTalentItemData(talentData);
     const createdItems = await actor.createEmbeddedDocuments("Item", [talentData]);
     if (createdItems.length > 0) {
       const createdItem = createdItems[0];
@@ -107,6 +130,7 @@ async function applyMartialArtistPath(actor, martialArtistItem, pathName) {
           console.warn("WFRP4e-NoM | Martial Artist: error adding effects", e);
         }
       }
+      await appendTalentNameToCurrentCareer(actor, createdItems[0].name);
     }
     ui.notifications.info(`Martial path "${pathName}" added successfully!`);
   } catch (error) {
@@ -139,6 +163,7 @@ Hooks.on("createItem", async (item, options, userId) => {
   if (!item?.parent) return;
   const actor = item.parent;
   const isTalentType = item.type === "talent" || item.type === "skill" || item.type === "trait";
+  if (isChosenMartialPathSheetName(item.name)) return;
   const isMartialArtist = isGenericMartialArtistName(item.name);
   const itemKey = `${actor.id}-${item.id}`;
   if (martialArtistProcessing.has(itemKey)) return;
@@ -177,6 +202,7 @@ Hooks.on("createEmbeddedDocuments", async (documents, result, options, userId) =
       }
     }
     const isTalentType = doc.type === "talent" || doc.type === "skill" || doc.type === "trait";
+    if (isChosenMartialPathSheetName(doc.name)) continue;
     const isMartialArtist = isGenericMartialArtistName(doc.name);
     const itemKey = `${actor?.id}-${itemId}`;
     if (martialArtistProcessing.has(itemKey)) continue;

@@ -6,6 +6,19 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Unreleased
 
+- *Removed* **Path of the Flame runtime automation**: **`scripts/martial-artist-path-flame.js`** is **no longer** in **`module.json`** `esmodules`; tier hooks and prompts are **deferred** (file kept in repo for a possible future change). **`README`** and OpenSpec **`martial-artist-path-of-flame-automation`** updated accordingly.
+
+## [Version 1.0.8](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.0.8) (2026-04-23)
+
+- *Fixed* **Path of Iron (Apprentice)** **`preRollWeaponTest`**: merge **live** vs **clone** parsed **`N`** (`nLive` / `nClone`) so the weapon test card is neither **`SB + 0`** (when **`test.item`** is still baseline) nor **`SB + 2`** (double **`+1`**). Doc **`doc/wfrp4e/path-of-iron-novice-active-effects.md`** §8.4; **`prepareItem`** header cross-ref. OpenSpec **`repair-path-of-iron-apprentice-unarmed-damage-and-chat`** (supersedes the interim “copy live only” attempt from **`fix-path-of-iron-apprentice-prepareitem-idempotency`**); **`path-of-iron-novice-wfrp4e-effect`** spec.
+- *Changed* **Path of Iron (Apprentice)** authoring: spec + doc + **`effects/path-of-iron-apprentice.*.js`** headers clarify damage is **one +1 for the tier** (same at **2/4**, **3/4**, **4/4** Path of Iron); **`Enable`** **`>= 2`** is activation only, not a damage multiplier. OpenSpec **`path-of-iron-novice-wfrp4e-effect`**; change **`clarify-path-of-iron-apprentice-single-plus-one`**.
+- *Added* **Path of Iron (WFRP4e effect authoring)**: maintainer doc **`doc/wfrp4e/path-of-iron-novice-active-effects.md`** (Novice + **§8 Apprentice**); reference snippets **`effects/path-of-iron-novice.*.js`** (Enable with aggregate **`talent.Advances`**, Pummel `prepareItem` / `preRollWeaponTest`) and **`effects/path-of-iron-apprentice.*.js`** (unarmed damage +1, **SB+0** parse fallback, **SB+6** ceiling, `preRollWeaponTest` prefers existing `preData.itemData`); not registered in **`module.json`**; **`README`** pointer. OpenSpec **`path-of-iron-novice-wfrp4e-effect`**.
+- *Changed* **Mark of the Gods** / **Martial Artist**: after picker replacement, the embedded talent has WFRP4e **Force Advancement** on (`system.advances.force`); helper **`applyForceAdvancementToTalentItemData`** in **`scripts/career-talent-registration.js`**; OpenSpec **`nom-force-advancement-after-picker-replacement`**.
+- *Changed* **Martial Artist**: after path selection, the embedded talent **`name`** is the **path text only** (e.g. **Path of the Flame**), not `Martial Artist (…)`; picker does not fire for plain path names or legacy `Martial Artist (<catalog path>)` sheets.
+- *Added* **`scripts/career-talent-registration.js`**: after **Mark of the Gods** or **Martial Artist** path replacement, appends the new talent **`name`** to the **current career** item’s **`system.talents`** list when present (same pattern as dropping a talent on the career sheet); **`module.json`** loads it before **`martial-artist.js`** / **`mark-of-the-gods.js`**.
+- *Added* **docs-only** `effects/` scripts for **Path of Death**: Unarmed vs **Undead** sets `addDamaging` during **`calculateOpposedDamage`** (working); `preRollWeaponTest` includes a chat-card mutation attempt but the weapon test card still displays **Undamaging** (needs improvement; not fixed here).
+- *Changed* **`module.json`**: version **1.0.8**; **`download`** URL for **v1.0.8**.
+
 ## [Version 1.0.7](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.0.7) (2026-04-22)
 
 - *Added* **`scripts/grail-virtue.js`**: when generic **Grail Virtue** is added to an owned sheet, **ApplicationV2** picker (**14** Grail virtues + optional manual name); replacement uses exact chosen **`name`** and Mark-of-the-Gods-style effect merge; registered in **`module.json`** after **`talent-option-picker-app.js`**.

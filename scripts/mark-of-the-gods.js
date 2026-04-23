@@ -4,6 +4,10 @@
  */
 
 import { NomTalentRadioPicker } from "./talent-option-picker-app.js";
+import {
+  appendTalentNameToCurrentCareer,
+  applyForceAdvancementToTalentItemData
+} from "./career-talent-registration.js";
 
 const markOfTheGodsProcessing = new Set();
 
@@ -54,6 +58,7 @@ async function replaceMarkOnActor(actor, markItem, markName) {
       const baseData = markItem.toObject();
       baseData.name = markName;
       if (baseData.effects) delete baseData.effects;
+      applyForceAdvancementToTalentItemData(baseData);
       await actor.deleteEmbeddedDocuments("Item", [markItem.id]);
       const createdItems = await actor.createEmbeddedDocuments("Item", [baseData]);
       if (createdItems.length > 0 && markItem.effects?.size > 0) {
@@ -70,6 +75,7 @@ async function replaceMarkOnActor(actor, markItem, markName) {
           console.warn("WFRP4e-NoM | Mark of the Gods: error copying effects", e);
         }
       }
+      if (createdItems.length > 0) await appendTalentNameToCurrentCareer(actor, markName);
       ui.notifications.info(`Mark "${markName}" added.`);
       return;
     }
@@ -78,6 +84,7 @@ async function replaceMarkOnActor(actor, markItem, markName) {
     const talentData = replacementTalent.toObject();
     talentData.name = markName;
     if (talentData.effects) delete talentData.effects;
+    applyForceAdvancementToTalentItemData(talentData);
     const createdItems = await actor.createEmbeddedDocuments("Item", [talentData]);
     if (createdItems.length > 0) {
       const createdItem = createdItems[0];
@@ -106,6 +113,7 @@ async function replaceMarkOnActor(actor, markItem, markName) {
         }
       }
     }
+    if (createdItems.length > 0) await appendTalentNameToCurrentCareer(actor, markName);
     ui.notifications.info(`Mark "${markName}" added successfully!`);
   } catch (error) {
     console.error("WFRP4e-NoM | Mark of the Gods replacement error:", error);

@@ -12,7 +12,8 @@ This module brings the rich content from the Nations of Mankind homebrew supplem
 - **Journals Pack**: Reference materials and documentation for the Nations of Mankind content
 - **Knightly Virtue System**: **ApplicationV2** picker (shared with Martial Artist, Grail Virtue, and Mark of the Gods) so the sheet owner chooses one of **14** knightly virtues when **Knightly Virtue** is added
 - **Grail Virtue**: same shared picker for **14** Bretonnian-style **Grail Virtue of …** talents when the generic **Grail Virtue** talent is added
-- **Martial Artist paths**: Same shared **ApplicationV2** picker for **eight** paths when **Martial Artist** is added (cancel leaves the generic talent)
+- **Martial Artist paths**: Same shared **ApplicationV2** picker for **eight** paths when **Martial Artist** is added (cancel leaves the generic talent). **Authoring — Path of Iron (WFRP4e effects):** maintainer doc **`doc/wfrp4e/path-of-iron-novice-active-effects.md`**; copy-paste script bodies under **`effects/path-of-iron-novice.*.js`** and **`effects/path-of-iron-apprentice.*.js`** (not loaded at runtime; paste into the talent’s Active Effect in Foundry).
+- **Path of the Flame (automation — deferred)**: There is **no** NoM runtime automation for this path in the current build (the optional script **`scripts/martial-artist-path-flame.js`** is **not** loaded from **`module.json`**). Use WFRP4e and table rules as normal; a future release may re-enable loading.
 - **Mark of the Gods**: Same shared picker for **five** Chaos marks when **Mark of the Gods** is added (mark-only item name after confirm; same lookup/effects pattern as the other handlers)
 - **Assets**: Comprehensive icon library including:
   - Career icons
@@ -82,7 +83,7 @@ After confirmation, the generic talent is replaced by an item whose **name is ex
 
 ## Martial Artist System
 
-When a character gains the **Martial Artist** talent (exact name, with no path suffix yet), the same **ApplicationV2** picker as the other talent flows opens for the **sheet owner** so they can choose **one** of eight paths. Cancelling leaves the generic **Martial Artist** talent unchanged. Confirming replaces it with **Martial Artist (*Path name*)**, using the same replacement pattern as Knightly Virtue (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item).
+When a character gains the **Martial Artist** talent (exact name, with no path suffix yet), the same **ApplicationV2** picker as the other talent flows opens for the **sheet owner** so they can choose **one** of eight paths. Cancelling leaves the generic **Martial Artist** talent unchanged. Confirming replaces it with the **path name only** on the sheet (for example **Path of the Flame**), using the same replacement pattern as Knightly Virtue and Mark of the Gods (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item). Older sheets may still show the legacy compound name **`Martial Artist (Path of …)`**; those items do not re-open the picker. The replacement talent is created with WFRP4e **Force Advancement** enabled (`system.advances.force`), matching the Details-tab option on an owned talent. If the actor has a **current career** item on the sheet, the module also appends that talent **name** to the career’s talent list (WFRP4e `system.talents`), matching the behaviour of dragging the talent onto the career.
 
 The eight paths are:
 
@@ -95,9 +96,13 @@ The eight paths are:
 7. Path of Life  
 8. Path of Death  
 
+## Path of the Flame automation (deferred)
+
+Optional automation for **Path of the Flame** (tier tracking, opposed **Unarmed** prompts, damage reminders) lived in **`scripts/martial-artist-path-flame.js`**. That file remains in the repository for reference, but it is **not** registered in **`module.json`** `esmodules`, so Foundry **does not** run it. The **Martial Artist** picker and talent replacement above are unchanged.
+
 ## Mark of the Gods
 
-When a character gains the **Mark of the Gods** talent (exact name `Mark of the Gods`, with no mark suffix yet), the shared **ApplicationV2** + **Handlebars** picker opens for the **sheet owner** so they can choose **one** of five marks. Cancelling leaves the generic talent unchanged. Confirming replaces it with the **mark name only** on the sheet (for example **The Crow (Nurgle)**), using the same replacement pattern as Knightly Virtue, Grail Virtue, and Martial Artist for lookup and effects (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item).
+When a character gains the **Mark of the Gods** talent (exact name `Mark of the Gods`, with no mark suffix yet), the shared **ApplicationV2** + **Handlebars** picker opens for the **sheet owner** so they can choose **one** of five marks. Cancelling leaves the generic talent unchanged. Confirming replaces it with the **mark name only** on the sheet (for example **The Crow (Nurgle)**), using the same replacement pattern as Knightly Virtue, Grail Virtue, and Martial Artist for lookup and effects (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item). The replacement talent is created with WFRP4e **Force Advancement** enabled (`system.advances.force`). If the actor has a **current career** item, the chosen mark name is also added to that career’s talent list.
 
 The five marks are:
 
@@ -130,7 +135,7 @@ The fourteen options are:
 
 ## Credits and Acknowledgments
 
-This module is based on the **Nations of Mankind** unofficial supplement created by **BigBoss**. We extend our deepest gratitude to BigBoss for creating this comprehensive homebrew content that expands the Warhammer Fantasy Roleplay experience.
+This module is based on the **Nations of Mankind** unofficial supplement created by **BigBoss**. Deepest gratitude to BigBoss for creating this comprehensive homebrew content that expands the Warhammer Fantasy Roleplay experience.
 
 Additionally, this module incorporates assets and content from the Foundry VTT implementation by **Cpt-Igloo** ([nations-of-mankind-wfrp4e](https://github.com/Cpt-Igloo/nations-of-mankind-wfrp4e)). We thank Cpt-Igloo for their work in adapting the original content to Foundry VTT.
 
