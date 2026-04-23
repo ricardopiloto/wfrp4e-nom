@@ -1,7 +1,7 @@
 {
   "id": "wfrp4e-nom",
   "title": "WFRP4e - Nations of Mankind (Rev.2)",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -19,6 +19,7 @@
   },
   "esmodules": [
     "scripts/talent-option-picker-app.js",
+    "scripts/grail-virtue.js",
     "scripts/knightly-virtue.js",
     "scripts/martial-artist.js",
     "scripts/mark-of-the-gods.js"
@@ -77,6 +78,6 @@
   },
   "description": "",
   "manifest": "https://github.com/ricardopiloto/wfrp4e-nom/releases/download/latest/module.json",
-  "download": "https://github.com/ricardopiloto/wfrp4e-nom/releases/download/v1.0.6/wfrp4e-nom.zip",
+  "download": "https://github.com/ricardopiloto/wfrp4e-nom/releases/download/v1.0.7/wfrp4e-nom.zip",
   "url": "https://github.com/ricardopiloto/wfrp4e-nom"
 }

@@ -1,9 +1,16 @@
 /**
  * Knightly Virtue Handler
- * Detecta quando o talento "Knightly Virtue" é adicionado e permite ao jogador escolher entre 14 virtudes
+ * Detecta quando o talento "Knightly Virtue" (ou "Virtue of Knighthood") é adicionado e permite ao jogador escolher entre 14 virtudes
  */
 
 import { NomTalentRadioPicker } from "./talent-option-picker-app.js";
+
+/** Nomes aceites para o talento genérico antes da escolha da virtude (edições / compendiums). */
+const KNIGHTLY_VIRTUE_BASE_NAMES = new Set(["Knightly Virtue", "Virtue of Knighthood"]);
+
+function isBaseKnightlyVirtueName(name) {
+  return typeof name === "string" && KNIGHTLY_VIRTUE_BASE_NAMES.has(name);
+}
 
 // Flag para rastrear itens que já estão sendo processados
 const processingItems = new Set();
@@ -48,10 +55,10 @@ Hooks.once("ready", () => {
       return;
     }
     
-    const knightlyVirtue = actor.items.find(i => i.name === "Knightly Virtue" && (i.type === "talent" || i.type === "skill" || i.type === "trait"));
+    const knightlyVirtue = actor.items.find(i => isBaseKnightlyVirtueName(i.name) && (i.type === "talent" || i.type === "skill" || i.type === "trait"));
     if (!knightlyVirtue) {
-      console.error("WFRP4e-NoM | Talento Knightly Virtue não encontrado no actor:", actor.name);
-      ui.notifications.error(`Talento "Knightly Virtue" não encontrado na ficha de ${actor.name}`);
+      console.error("WFRP4e-NoM | Talento Knightly Virtue / Virtue of Knighthood não encontrado no actor:", actor.name);
+      ui.notifications.error(`Talento "Knightly Virtue" ou "Virtue of Knighthood" não encontrado na ficha de ${actor.name}`);
       return;
     }
     
@@ -71,8 +78,8 @@ function hasStoicismVirtue(actor) {
   if (!actor) return false;
   
   return actor.items.some(item => {
-    // Verifica pelo nome do item
-    if (item.name?.includes("Knightly Virtue (Virtue of Stoicism)")) {
+    const n = item.name;
+    if (n === "Virtue of Stoicism" || n?.includes("Knightly Virtue (Virtue of Stoicism)")) {
       return true;
     }
     // Verifica pelos efeitos
@@ -94,8 +101,8 @@ function hasPenitentVirtue(actor) {
   if (!actor) return false;
   
   return actor.items.some(item => {
-    // Verifica pelo nome do item
-    if (item.name?.includes("Knightly Virtue (Virtue of the Penitent)")) {
+    const n = item.name;
+    if (n === "Virtue of the Penitent" || n?.includes("Knightly Virtue (Virtue of the Penitent)")) {
       return true;
     }
     // Verifica pelos efeitos
@@ -341,9 +348,9 @@ Hooks.on("preCreateEmbeddedDocuments", async (documents, result, options, userId
   
   for (const doc of documents) {
     const data = doc.toObject ? doc.toObject() : doc;
-    // IMPORTANTE: Verifica apenas o nome exato "Knightly Virtue" para evitar loop
+    // IMPORTANTE: Apenas nomes base genéricos (não virtude escolhida nem legacy "Knightly Virtue (Virtue of …)")
     if ((data.type === "talent" || data.type === "skill" || data.type === "trait") && 
-        data.name === "Knightly Virtue") {
+        isBaseKnightlyVirtueName(data.name)) {
       console.log("WFRP4e-NoM | preCreateEmbeddedDocuments: Knightly Virtue detected", data);
     }
   }
@@ -357,8 +364,8 @@ Hooks.on("createItem", async (item, options, userId) => {
   
   const actor = item.parent;
   const isTalent = item.type === "talent" || item.type === "skill" || item.type === "trait";
-  // IMPORTANTE: Verifica apenas o nome exato "Knightly Virtue" para evitar loop com "Knightly Virtue (NomeDaVirtude)"
-  const isKnightlyVirtue = item.name === "Knightly Virtue";
+  // IMPORTANTE: Apenas nomes base genéricos (evita loop ao especializar ou com legacy "Knightly Virtue (…)")
+  const isKnightlyVirtue = isBaseKnightlyVirtueName(item.name);
   
   // Verifica se já está processando este item
   const itemKey = `${actor.id}-${item.id}`;
@@ -449,10 +456,10 @@ Hooks.on("createEmbeddedDocuments", async (documents, result, options, userId) =
       actor: actor?.name
     });
     
-    // Verifica se é o talento "Knightly Virtue" (verifica tanto "talent" quanto outros tipos possíveis)
-    // IMPORTANTE: Verifica apenas o nome exato "Knightly Virtue" para evitar loop com "Knightly Virtue (NomeDaVirtude)"
+    // Verifica se é o talento base (verifica tanto "talent" quanto outros tipos possíveis)
+    // IMPORTANTE: Apenas nomes base genéricos (evita loop com virtude já escolhida ou legacy "Knightly Virtue (…)")
     const isTalent = doc.type === "talent" || doc.type === "skill" || doc.type === "trait";
-    const isKnightlyVirtue = doc.name === "Knightly Virtue";
+    const isKnightlyVirtue = isBaseKnightlyVirtueName(doc.name);
     
     // Verifica se já está processando este item
     const itemKey = `${actor?.id}-${itemId}`;
@@ -490,7 +497,7 @@ Hooks.on("createEmbeddedDocuments", async (documents, result, options, userId) =
         console.warn("WFRP4e-NoM | Item not found in actor after creation, trying again...");
         // Tenta novamente após mais um delay
         await new Promise(resolve => setTimeout(resolve, 200));
-        const retryItem = actor.items.find(i => i.id === itemId || i.name === "Knightly Virtue");
+        const retryItem = actor.items.find(i => i.id === itemId || isBaseKnightlyVirtueName(i.name));
         if (retryItem) {
           console.log("WFRP4e-NoM | Item found on retry, showing dialog");
           await showKnightlyVirtueDialog(actor, retryItem);
@@ -638,7 +645,7 @@ async function applyKnightlyVirtueChoice(actor, knightlyVirtueItem, selectedVirt
       console.log("WFRP4e-NoM | Talent not found, creating new one with name:", selectedVirtueName);
 
       const baseData = knightlyVirtueItem.toObject();
-      baseData.name = `Knightly Virtue (${selectedVirtueName})`;
+      baseData.name = selectedVirtueName;
 
       if (baseData.effects) {
         delete baseData.effects;
@@ -676,7 +683,7 @@ async function applyKnightlyVirtueChoice(actor, knightlyVirtueItem, selectedVirt
     await actor.deleteEmbeddedDocuments("Item", [knightlyVirtueItem.id]);
 
     const talentData = replacementTalent.toObject();
-    talentData.name = `Knightly Virtue (${selectedVirtueName})`;
+    talentData.name = selectedVirtueName;
 
     if (talentData.effects) {
       delete talentData.effects;

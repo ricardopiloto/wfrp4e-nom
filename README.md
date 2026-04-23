@@ -10,7 +10,8 @@ This module brings the rich content from the Nations of Mankind homebrew supplem
 
 - **Items Pack**: A collection of new items, weapons, armor, and trappings from various nations
 - **Journals Pack**: Reference materials and documentation for the Nations of Mankind content
-- **Knightly Virtue System**: **ApplicationV2** picker (shared with Martial Artist and Mark of the Gods) so the sheet owner chooses one of **14** knightly virtues when **Knightly Virtue** is added
+- **Knightly Virtue System**: **ApplicationV2** picker (shared with Martial Artist, Grail Virtue, and Mark of the Gods) so the sheet owner chooses one of **14** knightly virtues when **Knightly Virtue** is added
+- **Grail Virtue**: same shared picker for **14** Bretonnian-style **Grail Virtue of …** talents when the generic **Grail Virtue** talent is added
 - **Martial Artist paths**: Same shared **ApplicationV2** picker for **eight** paths when **Martial Artist** is added (cancel leaves the generic talent)
 - **Mark of the Gods**: Same shared picker for **five** Chaos marks when **Mark of the Gods** is added (mark-only item name after confirm; same lookup/effects pattern as the other handlers)
 - **Assets**: Comprehensive icon library including:
@@ -60,7 +61,7 @@ This module requires the following dependencies:
 
 ## Knightly Virtue System
 
-When a character gains the "Knightly Virtue" talent, an **ApplicationV2** window opens (shared **Handlebars** template with Martial Artist and Mark of the Gods) so the sheet owner can choose from 14 different virtues:
+When a character gains the **Knightly Virtue** or **Virtue of Knighthood** talent (generic name only), an **ApplicationV2** window opens (shared **Handlebars** template with Martial Artist, Grail Virtue, and Mark of the Gods) so the sheet owner can choose from 14 different virtues:
 
 1. Virtue of Audacity
 2. Virtue of Confidence
@@ -77,11 +78,11 @@ When a character gains the "Knightly Virtue" talent, an **ApplicationV2** window
 13. Virtue of Purity
 14. Virtue of Stoicism
 
-The selected virtue will replace the generic "Knightly Virtue" talent on the character sheet.
+After confirmation, the generic talent is replaced by an item whose **name is exactly the chosen virtue** (for example **Virtue of Stoicism**), with no `Knightly Virtue (...)` prefix—same idea as **Mark of the Gods** mark names. Older sheets may still show the legacy pattern `Knightly Virtue (Virtue of …)`; module behaviour (for example Stoicism fear handling and Penitent hooks) supports both that legacy name and the plain virtue name.
 
 ## Martial Artist System
 
-When a character gains the **Martial Artist** talent (exact name, with no path suffix yet), the same **ApplicationV2** picker as Knightly Virtue opens for the **sheet owner** so they can choose **one** of eight paths. Cancelling leaves the generic **Martial Artist** talent unchanged. Confirming replaces it with **Martial Artist (*Path name*)**, using the same replacement pattern as Knightly Virtue (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item).
+When a character gains the **Martial Artist** talent (exact name, with no path suffix yet), the same **ApplicationV2** picker as the other talent flows opens for the **sheet owner** so they can choose **one** of eight paths. Cancelling leaves the generic **Martial Artist** talent unchanged. Confirming replaces it with **Martial Artist (*Path name*)**, using the same replacement pattern as Knightly Virtue (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item).
 
 The eight paths are:
 
@@ -96,7 +97,7 @@ The eight paths are:
 
 ## Mark of the Gods
 
-When a character gains the **Mark of the Gods** talent (exact name `Mark of the Gods`, with no mark suffix yet), the shared **ApplicationV2** + **Handlebars** picker opens for the **sheet owner** so they can choose **one** of five marks. Cancelling leaves the generic talent unchanged. Confirming replaces it with the **mark name only** on the sheet (for example **The Crow (Nurgle)**), using the same replacement pattern as Knightly Virtue and Martial Artist for lookup and effects (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item).
+When a character gains the **Mark of the Gods** talent (exact name `Mark of the Gods`, with no mark suffix yet), the shared **ApplicationV2** + **Handlebars** picker opens for the **sheet owner** so they can choose **one** of five marks. Cancelling leaves the generic talent unchanged. Confirming replaces it with the **mark name only** on the sheet (for example **The Crow (Nurgle)**), using the same replacement pattern as Knightly Virtue, Grail Virtue, and Martial Artist for lookup and effects (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item).
 
 The five marks are:
 
@@ -105,6 +106,27 @@ The five marks are:
 3. The Serpent (Slaanesh)  
 4. The Eagle (Tzeentch)  
 5. The Eight-Pointed Star (Undivided)  
+
+## Grail Virtue
+
+When a character gains the **Grail Virtue** talent (exact name `Grail Virtue` only), the shared **ApplicationV2** + **Handlebars** picker opens for the **sheet owner** so they can choose **one** of fourteen Grail virtues. Cancelling leaves the generic talent unchanged. Confirming replaces it with an item whose **name is exactly** the chosen option (for example **Grail Virtue of Stoicism**), using the same lookup and **ActiveEffect** merge pattern as **Mark of the Gods** (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item). Optional manual entry matches the **Knightly Virtue** flow.
+
+The fourteen options are:
+
+1. Grail Virtue of Audacity  
+2. Grail Virtue of Confidence  
+3. Grail Virtue of Discipline  
+4. Grail Virtue of Duty  
+5. Grail Virtue of Empathy  
+6. Grail Virtue of Heroism  
+7. Grail Virtue of Ideal  
+8. Grail Virtue of the Impetuous Knight  
+9. Grail Virtue of the Joust  
+10. Grail Virtue of Knightly Temper  
+11. Grail Virtue of Noble Disdain  
+12. Grail Virtue of the Penitent  
+13. Grail Virtue of Purity  
+14. Grail Virtue of Stoicism  
 
 ## Credits and Acknowledgments
 
