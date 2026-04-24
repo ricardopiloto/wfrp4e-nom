@@ -10,10 +10,11 @@ This module brings the rich content from the Nations of Mankind homebrew supplem
 
 - **Items Pack**: A collection of new items, weapons, armor, and trappings from various nations
 - **Journals Pack**: Reference materials and documentation for the Nations of Mankind content
-- **Knightly Virtue System**: **ApplicationV2** picker (shared with Martial Artist, Grail Virtue, and Mark of the Gods) so the sheet owner chooses one of **14** knightly virtues when **Knightly Virtue** is added
+- **Knightly Virtue System**: **ApplicationV2** picker (shared with Martial Artist, Grail Virtue, Mark of the Gods, and Kenjutsu (Style)) so the sheet owner chooses one of **14** knightly virtues when **Knightly Virtue** is added
 - **Grail Virtue**: same shared picker for **14** Bretonnian-style **Grail Virtue of …** talents when the generic **Grail Virtue** talent is added
 - **Martial Artist paths**: Same shared **ApplicationV2** picker for **eight** paths when **Martial Artist** is added (cancel leaves the generic talent). **Authoring — Path of Iron (WFRP4e effects):** maintainer doc **`doc/wfrp4e/path-of-iron-novice-active-effects.md`**; copy-paste script bodies under **`effects/path-of-iron-novice.*.js`** and **`effects/path-of-iron-apprentice.*.js`** (not loaded at runtime; paste into the talent’s Active Effect in Foundry).
 - **Path of the Flame (automation — deferred)**: There is **no** NoM runtime automation for this path in the current build (the optional script **`scripts/martial-artist-path-flame.js`** is **not** loaded from **`module.json`**). Use WFRP4e and table rules as normal; a future release may re-enable loading.
+- **Kenjutsu (Style)**: Same shared picker for **eight** Ways when **Kenjutsu (Style)** is added (Way-only item name after confirm; same lookup, Force Advancement, and career registration pattern as the other handlers)
 - **Mark of the Gods**: Same shared picker for **five** Chaos marks when **Mark of the Gods** is added (mark-only item name after confirm; same lookup/effects pattern as the other handlers)
 - **Assets**: Comprehensive icon library including:
   - Career icons
@@ -34,10 +35,10 @@ The following checklist tracks the progress of implementing careers from the Nat
 - [x] Arabyan Janissary
 - [x] Ind Ahadi
 - [x] Cathayan Dragon Monk
+- [x] Nippon Samurai
+- [x] Vimto Monks
 
 ### Pending Careers
-- [ ] Nippon Samurai
-- [ ] Vimto Monks
 - [ ] Ninja
 - [ ] Estalian Almogavar
 - [ ] Estalian Inquisidor
@@ -62,7 +63,7 @@ This module requires the following dependencies:
 
 ## Knightly Virtue System
 
-When a character gains the **Knightly Virtue** or **Virtue of Knighthood** talent (generic name only), an **ApplicationV2** window opens (shared **Handlebars** template with Martial Artist, Grail Virtue, and Mark of the Gods) so the sheet owner can choose from 14 different virtues:
+When a character gains the **Knightly Virtue** or **Virtue of Knighthood** talent (generic name only), an **ApplicationV2** window opens (shared **Handlebars** template with Martial Artist, Grail Virtue, Mark of the Gods, and Kenjutsu (Style)) so the sheet owner can choose from 14 different virtues:
 
 1. Virtue of Audacity
 2. Virtue of Confidence
@@ -96,9 +97,29 @@ The eight paths are:
 7. Path of Life  
 8. Path of Death  
 
-## Path of the Flame automation (deferred)
+## Path's automation
 
-Optional automation for **Path of the Flame** (tier tracking, opposed **Unarmed** prompts, damage reminders) lived in **`scripts/martial-artist-path-flame.js`**. That file remains in the repository for reference, but it is **not** registered in **`module.json`** `esmodules`, so Foundry **does not** run it. The **Martial Artist** picker and talent replacement above are unchanged.
+Martial path effects for every path will be automated in a future update. For now, only Path of Iron and Path of Death have automated, tested effect handling. Other paths still rely on manual play until that work ships.
+
+## Kenjutsu (Style)
+
+When a character gains the **Kenjutsu (Style)** talent (exact name `Kenjutsu (Style)` only), the shared **ApplicationV2** + **Handlebars** picker opens for the **sheet owner** so they can choose **one** of eight Ways. Cancelling leaves the generic talent unchanged. Confirming replaces it with the **Way name only** on the sheet (for example **Way of the Crane**), using the same replacement pattern as Martial Artist and Mark of the Gods (world or compendium talent when a matching item exists, otherwise a renamed copy of the base item). Older sheets may still show the legacy compound name **`Kenjutsu (Style) (Way of …)`**; those items do not re-open the picker. The replacement talent is created with WFRP4e **Force Advancement** enabled (`system.advances.force`). If the actor has a **current career** item, the module appends that talent **name** to the career’s talent list.
+
+The eight Ways are:
+
+1. Way of the Tortoise  
+2. Way of the Crane  
+3. Way of the Dragon  
+4. Way of the Tiger  
+5. Way of the Naga  
+6. Way of the Snake  
+7. Way of the Stag  
+8. Way of the Nio
+
+## Kenjutsu automation
+
+Kenjutsu effects for every style will be automated in a future update.
+
 
 ## Mark of the Gods
 
@@ -111,6 +132,10 @@ The five marks are:
 3. The Serpent (Slaanesh)  
 4. The Eagle (Tzeentch)  
 5. The Eight-Pointed Star (Undivided)  
+
+## Mark of the Gods automation
+
+Mark of the Gods effects for every will be automated in a future update.
 
 ## Grail Virtue
 
