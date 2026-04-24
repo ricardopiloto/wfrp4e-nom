@@ -8,6 +8,13 @@ All notable changes to this project will be documented in this file. The format 
 
 - *Removed* **Path of the Flame runtime automation**: **`scripts/martial-artist-path-flame.js`** is **no longer** in **`module.json`** `esmodules`; tier hooks and prompts are **deferred** (file kept in repo for a possible future change). **`README`** and OpenSpec **`martial-artist-path-of-flame-automation`** updated accordingly.
 
+## [Version 1.0.9](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.0.9) (2026-04-24)
+
+- *Added* New careers.
+- *Changed* Updated some images.
+- *Added* **docs-only** `effects/` scripts to the repository; **not** loaded at runtime (maintainer reminder).
+- *Added* **`scripts/kenjutsu-style.js`**: Kenjutsu (Style) picker/replacement flow (Nippon Samurai).
+
 ## [Version 1.0.8](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.0.8) (2026-04-23)
 
 - *Fixed* **Path of Iron (Apprentice)** **`preRollWeaponTest`**: merge **live** vs **clone** parsed **`N`** (`nLive` / `nClone`) so the weapon test card is neither **`SB + 0`** (when **`test.item`** is still baseline) nor **`SB + 2`** (double **`+1`**). Doc **`doc/wfrp4e/path-of-iron-novice-active-effects.md`** §8.4; **`prepareItem`** header cross-ref. OpenSpec **`repair-path-of-iron-apprentice-unarmed-damage-and-chat`** (supersedes the interim “copy live only” attempt from **`fix-path-of-iron-apprentice-prepareitem-idempotency`**); **`path-of-iron-novice-wfrp4e-effect`** spec.
