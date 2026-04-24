@@ -36,6 +36,9 @@ jobs:
             --exclude='.cursor' \
             --exclude='.vscode' \
             --exclude='.crush' \
+            --exclude='doc' \
+            --exclude='docs' \
+            --exclude='effects' \
             --exclude='openspec' \
             --exclude='node_modules' \
             --exclude='dist' \

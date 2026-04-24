@@ -6,6 +6,8 @@ dist/
 build/
 .vscode/
 .env
+staging/
+wfrp4e-nom.zip
 
 # OpenSpec AGENTS
 agents/*

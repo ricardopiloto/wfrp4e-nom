@@ -6,7 +6,15 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Unreleased
 
+- (none)
+
+## [Version 1.1.0](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.0) (2026-04-24)
+
+- *Changed* **Talent selection refactor (performance)**: centralized Mark of the Gods, Martial Artist, Grail Virtue, Knightly Virtue, and Kenjutsu (Style) “generic talent → picker → sheet replacement” into **`scripts/talent-specialization-handler.js`** (single `createItem` + single `createEmbeddedDocuments` hook) and updated **`module.json`** `esmodules` accordingly (fewer runtime scripts loaded).
+- *Changed* **Knightly Virtue**: `scripts/knightly-virtue.js` now contains **mechanics only** (Stoicism / Penitent hooks); the selection/replacement flow is handled by the shared specialization handler.
+- *Changed* **Release ZIP contents**: GitHub Actions packaging excludes **`doc/`**, **`docs/`**, and **`effects/`** so players download runtime-only content.
 - *Removed* **Path of the Flame runtime automation**: **`scripts/martial-artist-path-flame.js`** is **no longer** in **`module.json`** `esmodules`; tier hooks and prompts are **deferred** (file kept in repo for a possible future change). **`README`** and OpenSpec **`martial-artist-path-of-flame-automation`** updated accordingly.
+- *Changed* **`module.json`**: version **1.1.0**; **`download`** URL for **v1.1.0**.
 
 ## [Version 1.0.9](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.0.9) (2026-04-24)
 
