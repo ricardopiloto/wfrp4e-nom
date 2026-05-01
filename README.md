@@ -37,9 +37,9 @@ The following checklist tracks the progress of implementing careers from the Nat
 - [x] Cathayan Dragon Monk
 - [x] Nippon Samurai
 - [x] Vimto Monks
+- [x] Ninja
 
 ### Pending Careers
-- [ ] Ninja
 - [ ] Estalian Almogavar
 - [ ] Estalian Inquisidor
 - [ ] Tilean Condottieri

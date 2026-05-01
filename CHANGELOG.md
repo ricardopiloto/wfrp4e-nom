@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file. The format 
 
 - (none)
 
+## [Version 1.1.1](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.1) (2026-05-01)
+- *Added* New career (Ninja).
+
 ## [Version 1.1.0.1](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.0.1) (2026-04-24)
 
 - *Fixed* **Foundry in-app updates**: corrected `module.json` **`manifest`** URL to GitHub’s supported latest-release asset route (**`/releases/latest/download/module.json`**).
