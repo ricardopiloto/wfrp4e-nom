@@ -1,7 +1,7 @@
 /**
  * Estalian Inquisidor (career item **Initiate**): when that career is embedded on an actor,
  * prompt for inquisitorial school and append that school's starting talents and skills to the
- * career item (WFRP4e career lists).
+ * career item lists only (no actor `skill` / `talent` items for this package).
  *
  * Spec: openspec/specs/estalian-inquisidor-school-selection/spec.md
  */
@@ -67,16 +67,20 @@ async function appendTalentArrayEntry(careerItem, name) {
   }
 }
 
-/** School skills go to addedSkills (extras alongside printed career skills). @returns {Promise<boolean>} */
-async function appendAddedSkillEntry(careerItem, name) {
+/**
+ * School skills append to system.skills: the career item sheet (`systems/wfrp4e` career.hbs) binds the
+ * Skills editor to system.skills only; addedSkills is not shown there (used elsewhere in advancement).
+ * @returns {Promise<boolean>}
+ */
+async function appendCareerSkillEntry(careerItem, name) {
   if (!careerItem || typeof name !== "string" || !name.trim()) return false;
   if (careerHasSkillName(careerItem, name)) return true;
-  const added = normalizeStringArray(careerItem.system?.addedSkills);
+  const skills = normalizeStringArray(careerItem.system?.skills);
   try {
-    await careerItem.update({ "system.addedSkills": [...added, name] });
+    await careerItem.update({ "system.skills": [...skills, name] });
     return true;
   } catch (e) {
-    console.warn("WFRP4e-NoM | inquisidor-school: addedSkills update failed", e);
+    console.warn("WFRP4e-NoM | inquisidor-school: skills update failed", e);
     return false;
   }
 }
@@ -107,7 +111,7 @@ async function applySchoolToCareer(actor, careerItemId, schoolId) {
       ok = false;
       break;
     }
-    const step = await appendAddedSkillEntry(c, name);
+    const step = await appendCareerSkillEntry(c, name);
     if (!step) ok = false;
   }
 

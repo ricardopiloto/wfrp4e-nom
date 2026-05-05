@@ -8,6 +8,12 @@ All notable changes to this project will be documented in this file. The format 
 
 - (none)
 
+## [Version 1.1.6](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.6) (2026-05-05)
+
+- *Changed* **README**: full rewrite in English — clearer goals, what is automated vs manual/deferred, easier reading order; requirements aligned with `module.json` relationships.
+- *Removed* **Inquisidor school actor skill embed**: the module no longer creates owned **skill** items for the school package; career list updates only (`remove-inquisidor-actor-school-skill-embed`; supersedes `grant-inquisidor-school-skills-on-actor`).
+- *Fixed* **Inquisidor school skills** not appearing on the career item: the WFRP4e career sheet lists **Skills** from `system.skills` only; school picks are appended there (`fix-inquisidor-school-skills-display`).
+
 ## [Version 1.1.5](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.5) (2026-05-04)
 
 - *Fixed* **Inquisidor school choices** not appearing on the career: WFRP4e `CareerModel` stores `system.talents` / `system.addedSkills` as **string arrays** (no `system.*.add` on career items). The handler now appends via `Item#update` (`fix-inquisidor-career-wfrp4e-array-mutation`).
