@@ -16,6 +16,7 @@ This module brings the rich content from the Nations of Mankind homebrew supplem
 - **Path of the Flame (automation — deferred)**: There is **no** NoM runtime automation for this path in the current build (the optional script **`scripts/martial-artist-path-flame.js`** is **not** loaded from **`module.json`**). Use WFRP4e and table rules as normal; a future release may re-enable loading.
 - **Kenjutsu (Style)**: Same shared picker for **eight** Ways when **Kenjutsu (Style)** is added (Way-only item name after confirm; same lookup, Force Advancement, and career registration pattern as the other handlers)
 - **Mark of the Gods**: Same shared picker for **five** Chaos marks when **Mark of the Gods** is added (mark-only item name after confirm; same lookup/effects pattern as the other handlers)
+- **Estalian Inquisidor** (**Initiate** career item): When the **`Initiate`** career from the pack is added to a sheet, the shared picker asks for **San Ioan**, **San Mattheus**, or **Santa Esther** and appends that school’s three talents and two skills to the career item (see **`scripts/inquisidor-school-handler.js`**).
 - **Assets**: Comprehensive icon library including:
   - Career icons
   - Talent icons
@@ -39,9 +40,9 @@ The following checklist tracks the progress of implementing careers from the Nat
 - [x] Vimto Monks
 - [x] Ninja
 - [x] Estalian Almogavar
+- [x] Estalian Inquisidor
 
 ### Pending Careers
-- [ ] Estalian Inquisidor
 - [ ] Tilean Condottieri
 - [ ] Albionese Highlander
 

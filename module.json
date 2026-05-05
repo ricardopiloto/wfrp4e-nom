@@ -1,7 +1,7 @@
 {
   "id": "wfrp4e-nom",
   "title": "WFRP4e - Nations of Mankind (Rev.2)",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -21,6 +21,7 @@
     "scripts/talent-option-picker-app.js",
     "scripts/career-talent-registration.js",
     "scripts/talent-specialization-handler.js",
+    "scripts/inquisidor-school-handler.js",
     "scripts/knightly-virtue.js"
   ],
   "packs": [
@@ -77,6 +78,6 @@
   },
   "description": "",
   "manifest": "https://github.com/ricardopiloto/wfrp4e-nom/releases/latest/download/module.json",
-  "download": "https://github.com/ricardopiloto/wfrp4e-nom/releases/download/v1.1.2/wfrp4e-nom.zip",
+  "download": "https://github.com/ricardopiloto/wfrp4e-nom/releases/download/v1.1.5/wfrp4e-nom.zip",
   "url": "https://github.com/ricardopiloto/wfrp4e-nom"
 }

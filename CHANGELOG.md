@@ -8,10 +8,23 @@ All notable changes to this project will be documented in this file. The format 
 
 - (none)
 
-## [Version 1.1.2](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.1) (2026-05-03)
-- *Added* New career (Ninja).
+## [Version 1.1.5](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.5) (2026-05-04)
 
-## [Version 1.1.1](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.1) (2026-05-01)
+- *Fixed* **Inquisidor school choices** not appearing on the career: WFRP4e `CareerModel` stores `system.talents` / `system.addedSkills` as **string arrays** (no `system.*.add` on career items). The handler now appends via `Item#update` (`fix-inquisidor-career-wfrp4e-array-mutation`).
+
+## [Version 1.1.4](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.4) (2026-05-04)
+
+- *Fixed* **Inquisidor school picker** trigger: the packaged career item is named **`Initiate`**; the handler now matches **`Initiate`** first (legacy titles **Estalian Inquisidor** / **Estalian Inquisitor** still trigger). OpenSpec **`estalian-inquisidor-school-selection`** updated (`update-inquisidor-career-trigger-name-initiate`).
+
+## [Version 1.1.3](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.3) (2026-05-04)
+
+- *Added* New career (**Estalian Inquisidor**).
+- *Added* **Estalian Inquisidor school picker**: when that career is added to a sheet, the owner chooses **San Ioan**, **San Mattheus**, or **Santa Esther**; three talents and two skills are appended to the embedded **career** item (`scripts/inquisidor-school-handler.js`), not as separate owned skill/talent items on the actor.
+- *Added* Nations of Mankind PDF to the repository (base file used for authoring).
+- *Changed* All careers images.
+- *Changed* OpenSpec **`estalian-inquisidor-school-selection`**: documents that school packages update only the career item’s talent/skill lists (aligned with `clarify-inquisidor-school-targets-career-only`).
+
+## [Version 1.1.2](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.2) (2026-05-03)
 - *Added* New career (Ninja).
 
 ## [Version 1.1.0.1](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.0.1) (2026-04-24)
