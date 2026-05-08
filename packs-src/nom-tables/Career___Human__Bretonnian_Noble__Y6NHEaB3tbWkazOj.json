@@ -1,0 +1,237 @@
+{
+  "_id": "Y6NHEaB3tbWkazOj",
+  "name": "Career - Human (Bretonnian Noble)",
+  "img": "icons/svg/d20-grey.svg",
+  "results": [
+    {
+      "_id": "8lzv7eo4cimvn7aj",
+      "type": "text",
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/nun.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Nun",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.f5m7s9K2y1zQNmej]{Nun}",
+      "weight": 1,
+      "_key": "!tables.results!Y6NHEaB3tbWkazOj.8lzv7eo4cimvn7aj"
+    },
+    {
+      "_id": "6kdep9k58bqrg95d",
+      "type": "text",
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/wizard.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Wizard",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.PKm1L6yjZ4PH0JJG]{Wizard}",
+      "weight": 1,
+      "_key": "!tables.results!Y6NHEaB3tbWkazOj.6kdep9k58bqrg95d"
+    },
+    {
+      "_id": "76kaiusouy8qifw4",
+      "type": "text",
+      "range": [
+        4,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/advisor.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Advisor",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.pwth0cd20Vdp0B9G]{Advisor}",
+      "weight": 1,
+      "_key": "!tables.results!Y6NHEaB3tbWkazOj.76kaiusouy8qifw4"
+    },
+    {
+      "_id": "7mq7dnel34jjby0o",
+      "type": "text",
+      "range": [
+        11,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/envoy.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Envoy",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.0t9wtjQIoOofh8nO]{Envoy}",
+      "weight": 1,
+      "_key": "!tables.results!Y6NHEaB3tbWkazOj.7mq7dnel34jjby0o"
+    },
+    {
+      "_id": "hzzy5cgtpksat4pq",
+      "type": "text",
+      "range": [
+        16,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/noble.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Noble",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.t41abSTLeMAdLiWS]{Noble}",
+      "weight": 1,
+      "_key": "!tables.results!Y6NHEaB3tbWkazOj.hzzy5cgtpksat4pq"
+    },
+    {
+      "_id": "6va6v3hgqqffx618",
+      "type": "text",
+      "range": [
+        31,
+        42
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Crusader",
+      "documentUuid": null,
+      "description": "",
+      "weight": 1,
+      "_key": "!tables.results!Y6NHEaB3tbWkazOj.6va6v3hgqqffx618"
+    },
+    {
+      "_id": "v8slgvcs3mpjg47b",
+      "type": "text",
+      "range": [
+        43,
+        99
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Knight of the Realm",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.6MDYnEhDcCiuUfmW]{Knight of the Realm}",
+      "weight": 1,
+      "_key": "!tables.results!Y6NHEaB3tbWkazOj.v8slgvcs3mpjg47b"
+    },
+    {
+      "_id": "ysaiflnjwtq2952h",
+      "type": "text",
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Mamluk",
+      "documentUuid": null,
+      "description": "",
+      "weight": 1,
+      "_key": "!tables.results!Y6NHEaB3tbWkazOj.ysaiflnjwtq2952h"
+    }
+  ],
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "flags": {
+    "wfrp4e": {
+      "key": "career",
+      "column": "human-breton-noble-nom"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1778272026325,
+    "modifiedTime": 1778272037055,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "HbC5TWvEu9iEIzyL": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "description": "",
+  "sort": 600000,
+  "_key": "!tables!Y6NHEaB3tbWkazOj"
+}

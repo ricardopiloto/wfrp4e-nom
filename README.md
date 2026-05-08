@@ -31,7 +31,7 @@ Install and **enable** these, then enable **WFRP4e — Nations of Mankind (Rev.2
    After install, turn the module **on** in **Manage Modules** for your world.
 3. **Manual ZIP (pinned release bundle):** download and extract the packaged module from the **`download`** field in `module.json` — same URL as:
 
-   **[https://github.com/ricardopiloto/wfrp4e-nom/releases/download/v1.1.6/wfrp4e-nom.zip](https://github.com/ricardopiloto/wfrp4e-nom/releases/download/v1.1.6/wfrp4e-nom.zip)**
+   **[https://github.com/ricardopiloto/wfrp4e-nom/releases/download/v1.2.0/wfrp4e-nom.zip](https://github.com/ricardopiloto/wfrp4e-nom/releases/download/v1.2.0/wfrp4e-nom.zip)**
 
    Unzip into your Foundry **`Data/modules/`** folder so the folder **`wfrp4e-nom`** contains **`module.json`**, then enable the module in your world.
 
@@ -41,7 +41,9 @@ If the ZIP link fails, confirm that the matching GitHub **Release** exists; the 
 
 ### Maintainers: compendium sources
 
-Human-editable documents live under **`packs-src/<pack-name>/`** (one JSON file per Foundry document). LevelDB **`pack/`** folders are **not committed** (see `.gitignore`); regenerate them locally with **`npm install`** then **`npm run packs:build`**. GitHub **Releases** run the same compile before zipping, so installers always receive **`packs/...`** in the canonical Foundry LevelDB layout. To capture edits made inside Foundry instead, copy the LevelDB folders into the repo temporarily and run **`npm run packs:extract`**, review diffs under `packs-src/`, commit JSON, discard temp LevelDB copies if needed.
+Human-editable documents live under **`packs-src/<pack-name>/`** (one JSON file per Foundry document). LevelDB **`packs/`** folders are **not committed** (see `.gitignore`); regenerate them locally with **`npm install`** then **`npm run packs:build`**. GitHub **Releases** run the same compile before zipping, so installers always receive **`packs/...`** in the canonical Foundry LevelDB layout. To capture edits made inside Foundry instead, copy the LevelDB folders into the repo temporarily and run **`npm run packs:extract`**, review diffs under `packs-src/`, commit JSON, discard temp LevelDB copies if needed.
+
+**Nationality career roll tables** (`packs-src/nom-tables/Career___Human__*.json`) are bulk-updated with **`npm run career-tables:migrate`** (dry-run counts + **`reports/`** preview) or **`npm run career-tables:migrate:write`** (writes JSON and **`reports/career-rolltable-unmatched.txt`**). Rebuild packs afterward (**`npm run packs:build`**).
 
 ---
 

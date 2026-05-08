@@ -49,10 +49,13 @@ jobs:
             --exclude='docs' \
             --exclude='effects' \
             --exclude='openspec' \
+            --exclude='reports' \
+            --exclude='data_sources' \
             --exclude='packs-src' \
             --exclude='package.json' \
             --exclude='package-lock.json' \
             --exclude='scripts/packs-tool.mjs' \
+            --exclude='scripts/migrate-career-rolltable-links.mjs' \
             --exclude='node_modules' \
             --exclude='dist' \
             --exclude='build' \

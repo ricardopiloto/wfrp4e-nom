@@ -9,6 +9,8 @@ build/
 staging/
 wfrp4e-nom.zip
 packs/
+reports/
+data_sources/
 
 # OpenSpec AGENTS
 agents/*

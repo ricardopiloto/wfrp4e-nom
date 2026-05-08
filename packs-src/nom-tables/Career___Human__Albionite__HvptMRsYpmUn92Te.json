@@ -1,0 +1,912 @@
+{
+  "_id": "HvptMRsYpmUn92Te",
+  "name": "Career - Human (Albionite)",
+  "img": "icons/svg/d20-grey.svg",
+  "results": [
+    {
+      "_id": "n1ub7tz6sdr6f1gg",
+      "type": "text",
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/apothecary.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Apothecary",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.86gkaanqt19xYCRa]{Apothecary}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.n1ub7tz6sdr6f1gg"
+    },
+    {
+      "_id": "nnfkirkb1bhry0ro",
+      "type": "text",
+      "range": [
+        2,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/artisan.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Artisan",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.GWrZq3xoRSsDnQe0]{Artisan}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.nnfkirkb1bhry0ro"
+    },
+    {
+      "_id": "u8gxsk27cqcuo7yk",
+      "type": "text",
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/merchant.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Merchant",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.h7GdfctKdjWL0Ejp]{Merchant}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.u8gxsk27cqcuo7yk"
+    },
+    {
+      "_id": "8k4cxdwxsiyfzkuc",
+      "type": "text",
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/noble.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Noble",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.t41abSTLeMAdLiWS]{Noble}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.8k4cxdwxsiyfzkuc"
+    },
+    {
+      "_id": "5cxeai8dcfhqb60h",
+      "type": "text",
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/servant.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Servant",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.iYnopOFkz5L6hljq]{Servant}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.5cxeai8dcfhqb60h"
+    },
+    {
+      "_id": "9v3df6kwi54lcnr9",
+      "type": "text",
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/spy.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Spy",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ssJHG82vEHHRoAUF]{Spy}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.9v3df6kwi54lcnr9"
+    },
+    {
+      "_id": "innwgg6nt9o0du6n",
+      "type": "text",
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/hedge-witch.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Hedge Witch",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.03Nnub5GHNRCU9kg]{Hedge Witch}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.innwgg6nt9o0du6n"
+    },
+    {
+      "_id": "xn3yzvid8nd2syi3",
+      "type": "text",
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/herbalist.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Herbalist",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.fTqkgehpmxk7kVT6]{Herbalist}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.xn3yzvid8nd2syi3"
+    },
+    {
+      "_id": "vdk0gxenbdfnyrdr",
+      "type": "text",
+      "range": [
+        13,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/hunter.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Hunter",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.T6c9MttfG0Fj4nDm]{Hunter}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.vdk0gxenbdfnyrdr"
+    },
+    {
+      "_id": "yr473efe2dqnkjw5",
+      "type": "text",
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/miner.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Miner",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.Nu2diwbUfo786wYt]{Miner}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.yr473efe2dqnkjw5"
+    },
+    {
+      "_id": "iroofope3sem1ib8",
+      "type": "text",
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/mystic.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Mystic",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.CzebTXk5dirMAZ6p]{Mystic}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.iroofope3sem1ib8"
+    },
+    {
+      "_id": "7iyji4wzh0dcfxry",
+      "type": "text",
+      "range": [
+        23,
+        24
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/scout.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Scout",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.HSoeyY2cbQAndBFk]{Scout}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.7iyji4wzh0dcfxry"
+    },
+    {
+      "_id": "473cqt8zie7pivpq",
+      "type": "text",
+      "range": [
+        25,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/villager.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Villager",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.EYkvtokq0FXlFaPa]{Villager}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.473cqt8zie7pivpq"
+    },
+    {
+      "_id": "rkqueq8fcliv0x25",
+      "type": "text",
+      "range": [
+        46,
+        46
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/bounty-hunter.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Bounty Hunter",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.orZTfdJCm6OnUktl]{Bounty Hunter}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.rkqueq8fcliv0x25"
+    },
+    {
+      "_id": "2q5e2shl9mamf86e",
+      "type": "text",
+      "range": [
+        47,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/entertainer.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Entertainer",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.5nIDu8oyFVShLqne]{Entertainer}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.2q5e2shl9mamf86e"
+    },
+    {
+      "_id": "lu6x7uccc6cdcved",
+      "type": "text",
+      "range": [
+        51,
+        53
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/messenger.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Messenger",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.9XoJinyH6CsOcJ1h]{Messenger}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.lu6x7uccc6cdcved"
+    },
+    {
+      "_id": "0bo1t82rrdzp1u2g",
+      "type": "text",
+      "range": [
+        54,
+        58
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/pedlar.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Pedlar",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.FdlybSv02jjXG1qW]{Pedlar}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.0bo1t82rrdzp1u2g"
+    },
+    {
+      "_id": "ck4fjqqlqm93azsz",
+      "type": "text",
+      "range": [
+        59,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/boatman.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Boatman",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.Rk1V9EvtZ0p5Qhwr]{Boatman}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.ck4fjqqlqm93azsz"
+    },
+    {
+      "_id": "haw4jhslvotxq2hf",
+      "type": "text",
+      "range": [
+        61,
+        61
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/huffer.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Huffer",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.TkF2ld3b72RlH2AR]{Huffer}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.haw4jhslvotxq2hf"
+    },
+    {
+      "_id": "16k7y01wabarrt8o",
+      "type": "text",
+      "range": [
+        62,
+        63
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/riverwoman.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Riverwoman",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.c8JYF7Lvaaezt9RS]{Riverwoman}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.16k7y01wabarrt8o"
+    },
+    {
+      "_id": "kadh2xy6as58nq20",
+      "type": "text",
+      "range": [
+        64,
+        65
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/seaman.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Seaman",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.XyM54Ue5w1WuCaBD]{Seaman}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.kadh2xy6as58nq20"
+    },
+    {
+      "_id": "37cuy5qhhmiuk2zt",
+      "type": "text",
+      "range": [
+        66,
+        66
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/smuggler.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Smuggler",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.FqhOxcvai4ROvhXB]{Smuggler}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.37cuy5qhhmiuk2zt"
+    },
+    {
+      "_id": "wfz2hr513bs8wo1q",
+      "type": "text",
+      "range": [
+        67,
+        67
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/stevedore.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Stevedore",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.KslqDlYmY4trmf6S]{Stevedore}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.wfz2hr513bs8wo1q"
+    },
+    {
+      "_id": "la636xp37hlzj7b4",
+      "type": "text",
+      "range": [
+        68,
+        75
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/wrecker.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Wrecker",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.37EZqecGmYFb0fdW]{Wrecker}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.la636xp37hlzj7b4"
+    },
+    {
+      "_id": "q8ogfey9xghnxkkr",
+      "type": "text",
+      "range": [
+        76,
+        77
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/grave-robber.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Grave Robber",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.bDoNOzzUiMdKqpps]{Grave Robber}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.q8ogfey9xghnxkkr"
+    },
+    {
+      "_id": "9mpto7z4g50k4m7h",
+      "type": "text",
+      "range": [
+        78,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/outlaw.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Outlaw",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.SrqxyWytyki4WYgC]{Outlaw}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.9mpto7z4g50k4m7h"
+    },
+    {
+      "_id": "xlcqogdvssfwefh0",
+      "type": "text",
+      "range": [
+        81,
+        83
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/thief.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Thief",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.mBtIPoWNpXwAS5Yl]{Thief}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.xlcqogdvssfwefh0"
+    },
+    {
+      "_id": "4d23e7m4awsdf5j6",
+      "type": "text",
+      "range": [
+        84,
+        84
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/witch.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Witch",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.7lNzR0hDPl98NrcX]{Witch}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.4d23e7m4awsdf5j6"
+    },
+    {
+      "_id": "ekw3vp4kulbmwzrm",
+      "type": "text",
+      "range": [
+        85,
+        88
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/cavalryman.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Cavalryman",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ArFOfnzJkToXBJBF]{Cavalryman}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.ekw3vp4kulbmwzrm"
+    },
+    {
+      "_id": "fe4lik7xsnjqcmsj",
+      "type": "text",
+      "range": [
+        88,
+        90
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/guard.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Guard",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.HndWncfaHb0nzNUq]{Guard}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.fe4lik7xsnjqcmsj"
+    },
+    {
+      "_id": "2zipyeor3iitjfwx",
+      "type": "text",
+      "range": [
+        91,
+        93
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/pit fighter.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Pit Fighter",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.EELJsJuoDVxiRu9e]{Pit Fighter}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.2zipyeor3iitjfwx"
+    },
+    {
+      "_id": "d6vinrdj9ez91lw1",
+      "type": "text",
+      "range": [
+        94,
+        95
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/art/careers/protagonist.webp",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Protagonist",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.cXOl6phkTrPcUmwC]{Protagonist}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.d6vinrdj9ez91lw1"
+    },
+    {
+      "_id": "r1ksdwt2bmgk45f4",
+      "type": "text",
+      "range": [
+        96,
+        96
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Druid",
+      "documentUuid": null,
+      "description": "",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.r1ksdwt2bmgk45f4"
+    },
+    {
+      "_id": "uv64wz93q8gmpxxp",
+      "type": "text",
+      "range": [
+        97,
+        99
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Highlander",
+      "documentUuid": null,
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.5uyB7RwLWClQofSG]{Highlander}",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.uv64wz93q8gmpxxp"
+    },
+    {
+      "_id": "66ensyfm7uxm7evh",
+      "type": "text",
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "lastModifiedBy": null
+      },
+      "name": "Mamluk",
+      "documentUuid": null,
+      "description": "",
+      "weight": 1,
+      "_key": "!tables.results!HvptMRsYpmUn92Te.66ensyfm7uxm7evh"
+    }
+  ],
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "flags": {
+    "wfrp4e": {
+      "key": "career",
+      "column": "human-albionite-nom"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1778272021345,
+    "modifiedTime": 1778272037055,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "HbC5TWvEu9iEIzyL": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "description": "",
+  "sort": 900000,
+  "_key": "!tables!HvptMRsYpmUn92Te"
+}

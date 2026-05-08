@@ -7,7 +7,9 @@
   },
   "scripts": {
     "packs:extract": "node scripts/packs-tool.mjs extract",
-    "packs:build": "node scripts/packs-tool.mjs compile"
+    "packs:build": "node scripts/packs-tool.mjs compile",
+    "career-tables:migrate": "node scripts/migrate-career-rolltable-links.mjs",
+    "career-tables:migrate:write": "node scripts/migrate-career-rolltable-links.mjs --write"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "3.0.3"

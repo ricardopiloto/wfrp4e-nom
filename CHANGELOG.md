@@ -6,6 +6,14 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Unreleased
 
+## [Version 1.2.0](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.2.0) (2026-05-08)
+
+- *Changed* **`scripts/migrate-career-rolltable-links.mjs`** / **`Career___Human__*.json`**: Added **Alias NoM** after composed matching — maintainer map **`(nationalityTag, row name)` → `pages[].name`** (initially **Nipponese** + **Vimto Monk** → **`Nippon Vimto Monks`**, **`openspec`** **`fix-nom-career-journal-six-rows`**). Repaired **Arabyan** table row with empty **`results.name`** where **Janissary** had been stored only in **`description`**, so **`Arabyan Janissary`** links via composed match.
+- *Changed* **`scripts/migrate-career-rolltable-links.mjs`** / **`Career___Human__*.json`**: NoM Careers links try **composed** titles after Core and NoM **exact** match — **`{prefix} {results.name}`** where **`prefix`** comes from **`RollTable.name`**’s parenthetical nationality tag (**`openspec`** archived **`add-nom-career-table-journal-aliases`**). **`reports/career-rolltable-unmatched.txt`** lists NoM career pages not hit by any nationality row (documentation).
+- *Changed* **`packs-src/nom-tables/Career___Human__*.json`**: nationality career random tables use **`results.type: text`**, **`documentUuid: null`**, and **`results.description`** **`@UUID`** links into **`Compendium.wfrp4e-nom.nom-journals`** (**`JournalEntry.wczCPcuHT4VQDLpL`** Core text, **`trUWzGkEqCbeCzvo`** when NoM resolves **exact**, **composed**, or **alias**). Unmatched names keep prior **`description`** and appear in **`reports/career-rolltable-unmatched.txt`** after **`npm run career-tables:migrate:write`**.
+- *Added* **`packs-src/nom-journals/Class_and_Careers_wczCPcuHT4VQDLpL.json`** (Core Rulebook “Class and Careers” journal export) so table links resolve inside the module **`nom-journals`** compendium. **Licensing** for redistributing Core text remains the author’s responsibility when publishing the module.
+- *Added* **`scripts/migrate-career-rolltable-links.mjs`** and npm scripts **`career-tables:migrate`** / **`career-tables:migrate:write`**.
+- *Changed* **Release zip** excludes **`reports/`**, **`data_sources/`**, and **`scripts/migrate-career-rolltable-links.mjs`**.
 - *Changed* Compendiums: source of truth is **`packs-src/`** (JSON); LevelDB **`packs/`** is rebuilt with **`npm run packs:build`** and by **GitHub Release** workflows before packaging (no committed LevelDB blobs). Removed orphaned **`nom-bestiary`** database folder that was never listed in **`module.json`**.
 - *Added* **`packFolders`** in **`module.json`** (sidebar folder “Nations of Mankind”) and tooling **`@foundryvtt/foundryvtt-cli`** + **`scripts/packs-tool.mjs`** for extract/pack (`align-foundry-compendium-packs`).
 
