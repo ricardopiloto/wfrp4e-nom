@@ -39,6 +39,12 @@ If the ZIP link fails, confirm that the matching GitHub **Release** exists; the 
 
 ---
 
+### Maintainers: compendium sources
+
+Human-editable documents live under **`packs-src/<pack-name>/`** (one JSON file per Foundry document). LevelDB **`pack/`** folders are **not committed** (see `.gitignore`); regenerate them locally with **`npm install`** then **`npm run packs:build`**. GitHub **Releases** run the same compile before zipping, so installers always receive **`packs/...`** in the canonical Foundry LevelDB layout. To capture edits made inside Foundry instead, copy the LevelDB folders into the repo temporarily and run **`npm run packs:extract`**, review diffs under `packs-src/`, commit JSON, discard temp LevelDB copies if needed.
+
+---
+
 ## What you get (content)
 
 - **Compendiums**: Items, Journals, Tables (Nations of Mankind).

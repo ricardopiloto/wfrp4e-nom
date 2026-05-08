@@ -1,0 +1,522 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Path of Iron",
+  "type": "talent",
+  "_id": "dql2RslE4Glm8h3a",
+  "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Novice:</strong> Followers of this path are considered immortal. Your fists feel as hard as iron, breaking through stone and armor with ease. Your Unarmed Attacks gain the Pummeling Weapon Quality. </p><p><strong>Apprentice:</strong> Add an additional +1 Damage to your Unarmed Attacks. (raising the maximum bonus to SB+6)</p><p><strong>Journeyman:</strong> Your Arms and Legs gain +2 Armor Points;</p><p>moreover, you gain the +1 Resistance (Stun) Talent. </p><p><strong>Master:</strong> Gain the Strike to Stun Talent when using your Unarmed attacks.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "4"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Path of Iron (Novice)",
+      "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+      "_id": "vqhJTt0ixCkY5YQp",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          },
+          "enableConditionScript": "const talent =\n  this.item?.type === \"talent\"\n    ? this.item\n    : this.actor?.items?.find((i) => i.type === \"talent\" && i.name === \"Path of Iron\");\n\nconst adv = Number(\n  talent?.Advances ??\n    talent?.system?.Advances ??\n    foundry.utils.getProperty(talent, \"system.advances.value\") ??\n    0\n);\n\nreturn adv >= 1; // Novice; >=2 Apprentice; etc."
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "const item = args.item;\nif (!item || item.type !== \"weapon\") return;\n\nconst wg = item.system?.weaponGroup?.value;\nconst lower = (item.name ?? \"\").toLowerCase();\nconst isUnarmed = wg === \"brawling\" || lower.includes(\"unarmed\");\nif (!isUnarmed) return;\n\nconst q = item.system?.properties?.qualities;\nif (q?.pummel) return;\n\nconst list = item.system.qualities.value;\nif (!Array.isArray(list) || list.some((x) => (x?.name ?? x) === \"pummel\")) return;\n\nlist.push({ name: \"pummel\" });\nitem.system._properties = null;",
+            "label": "Add Pummel",
+            "trigger": "prePrepareItem",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "hideScript": "",
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          },
+          {
+            "script": "const test = args?.test;\nif (!test?.item) return;\n\nconst weapon = test.item;\nconst wg = weapon.system?.weaponGroup?.value;\nconst isUnarmed =\n  wg === \"brawling\" || (weapon.name ?? \"\").toLowerCase().includes(\"unarmed\");\nif (!isUnarmed) return;\n\nconst itemData = foundry.utils.duplicate(weapon.toObject());\nconst qPath = \"system.qualities.value\";\nconst fPath = \"system.flaws.value\";\n\nlet qualities = foundry.utils.getProperty(itemData, qPath) ?? [];\nlet flaws = foundry.utils.getProperty(itemData, fPath) ?? [];\n\nconst hasPummel = qualities.some((q) => (q?.name ?? q) === \"pummel\");\nif (!hasPummel) qualities = foundry.utils.duplicate(qualities).concat([{ name: \"pummel\" }]);\n\nconst hasUndamaging = flaws.some((f) => (f?.name ?? f) === \"undamaging\");\nif (!hasUndamaging) flaws = foundry.utils.duplicate(flaws).concat([{ name: \"undamaging\" }]);\n\nfoundry.utils.setProperty(itemData, qPath, qualities);\nfoundry.utils.setProperty(itemData, fPath, flaws);\nfoundry.utils.setProperty(itemData, \"system._properties\", null);\n\nconst pd = test.data?.preData;\nif (!pd) return;\n\n// Mesmo objeto: o getter usa itemData; item como object evita ir buscar a arma \"viva\" pela ID.\npd.itemData = itemData;\npd.item = itemData;",
+            "label": "Update Card",
+            "trigger": "preRollWeaponTest",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "hideScript": "",
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776949247641,
+        "modifiedTime": 1776975109126,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!items.effects!dql2RslE4Glm8h3a.vqhJTt0ixCkY5YQp"
+    },
+    {
+      "name": "Path of Iron (Apprentice)",
+      "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+      "_id": "qLpMeTb9QceaUkui",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          },
+          "enableConditionScript": "const talent =\n  this.item?.type === \"talent\"\n    ? this.item\n    : this.actor?.items?.find((i) => i.type === \"talent\" && i.name === \"Path of Iron\");\n\nconst adv = Number(\n  talent?.Advances ??\n    talent?.system?.Advances ??\n    foundry.utils.getProperty(talent, \"system.advances.value\") ??\n    0\n);\n\nreturn adv >= 2;"
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "const item = args.item;\nif (!item || item.type !== \"weapon\") return;\n\nconst wg = item.system?.weaponGroup?.value;\nconst lower = (item.name ?? \"\").toLowerCase();\nconst isUnarmed = wg === \"brawling\" || lower.includes(\"unarmed\");\nif (!isUnarmed) return;\n\nconst raw = String(item.system?.damage?.value ?? \"\");\nconst m = raw.match(/SB\\s*\\+\\s*(\\d+)/i);\nconst n = m ? Number(m[1]) : 0;\nif (n >= 6) return;\n\nitem.system.damage.value = `SB + ${n + 1}`;\nitem.system._properties = null;",
+            "label": "Add Damage",
+            "trigger": "prePrepareItem",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          },
+          {
+            "script": "/**\n * Path of Iron (Apprentice) — Chat card damage matches prepared Unarmed strike\n * Trigger: `preRollWeaponTest`\n * Talent: Path of Iron\n * WFRP4e: 9.5.x\n *\n * One +1 to N for the Apprentice tier on Unarmed only (not per Advances / rank).\n * After cloning from `preData.itemData` (Novice qualities), merge damage using **live** `test.item`\n * vs **clone** parsed N:\n * - nLive > nClone → live already includes prepareItem bump → use live string.\n * - nLive < nClone → clone ahead → use clone string.\n * - nLive === nClone === 0 → neither shows bump yet → `SB + 1` (single +1 on card).\n * - nLive === nClone > 0 → aligned → use live (avoid SB+2 double bump).\n *\n * Prefer `test.data.preData.itemData` when already set. Set `itemData` and `item` to the same object.\n * CRITICAL: `const test = args?.test;`\n */\n\nconst test = args?.test;\nif (!test?.item) return;\n\nconst weapon = test.item;\nconst wg = weapon.system?.weaponGroup?.value;\nconst isUnarmed =\n  wg === \"brawling\" || (weapon.name ?? \"\").toLowerCase().includes(\"unarmed\");\nif (!isUnarmed) return;\n\nconst pd = test.data?.preData;\nif (!pd) return;\n\nconst parseSbN = (raw) => {\n  const m = String(raw ?? \"\").match(/SB\\s*\\+\\s*(\\d+)/i);\n  return m ? Number(m[1]) : 0;\n};\n\nconst src =\n  pd.itemData && typeof pd.itemData === \"object\"\n    ? foundry.utils.duplicate(pd.itemData)\n    : foundry.utils.duplicate(weapon.toObject());\n\nconst liveRaw = String(weapon.system?.damage?.value ?? \"\");\nconst nLive = parseSbN(liveRaw);\nconst cloneRaw = String(foundry.utils.getProperty(src, \"system.damage.value\") ?? \"\");\nconst nClone = parseSbN(cloneRaw);\n\nlet outDamage;\nif (nLive > nClone) {\n  outDamage = /SB\\s*\\+\\s*\\d+/i.test(liveRaw) ? liveRaw : `SB + ${nLive}`;\n} else if (nLive < nClone) {\n  outDamage = /SB\\s*\\+\\s*\\d+/i.test(cloneRaw) ? cloneRaw : `SB + ${nClone}`;\n} else if (nLive === 0) {\n  outDamage = `SB + 1`;\n} else {\n  outDamage = /SB\\s*\\+\\s*\\d+/i.test(liveRaw) ? liveRaw : cloneRaw || `SB + ${nLive}`;\n}\n\nfoundry.utils.setProperty(src, \"system.damage.value\", outDamage);\nfoundry.utils.setProperty(src, \"system._properties\", null);\n\npd.itemData = src;\npd.item = src;",
+            "label": "Update Card",
+            "trigger": "preRollWeaponTest",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "hideScript": "",
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776949689686,
+        "modifiedTime": 1776979349576,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!items.effects!dql2RslE4Glm8h3a.qLpMeTb9QceaUkui"
+    },
+    {
+      "name": "Path of Iron (Journeyman)",
+      "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+      "_id": "AdsUQhsbsnSoqlY6",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          },
+          "enableConditionScript": "const talent =\n  this.item?.type === \"talent\"\n    ? this.item\n    : this.actor?.items?.find((i) => i.type === \"talent\" && i.name === \"Path of Iron\");\n\nconst adv = Number(\n  talent?.Advances ??\n    talent?.system?.Advances ??\n    foundry.utils.getProperty(talent, \"system.advances.value\") ??\n    0\n);\n\nreturn adv >= 3; // Novice; >=2 Apprentice; etc."
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "const AP = args?.AP;\nif (!AP) return;\n\nconsole.log(\"[PathOfIron][APCalc] AP before\", foundry.utils.deepClone(AP));\n\n// Tentativa comum: aumentar AP por localização\n// Ajuste os keys conforme seu AP object (use o log acima pra ver)\nfor (const loc of [\"lArm\", \"rArm\", \"lLeg\", \"rLeg\"]) {\n  if (AP.locations?.[loc]?.value != null) AP.locations[loc].value += 2;\n  else if (AP[loc]?.value != null) AP[loc].value += 2;\n  else if (AP[loc] != null && typeof AP[loc] === \"number\") AP[loc] += 2;\n}\n\nconsole.log(\"[PathOfIron][APCalc] AP after\", foundry.utils.deepClone(AP));",
+            "label": "Journeyman",
+            "trigger": "APCalc",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "hideScript": "",
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776949763639,
+        "modifiedTime": 1776975124716,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!items.effects!dql2RslE4Glm8h3a.AdsUQhsbsnSoqlY6"
+    },
+    {
+      "name": "Path of Iron (Master)",
+      "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+      "_id": "cNpv4o1M3ygNNebR",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          },
+          "enableConditionScript": "const talent =\n  this.item?.type === \"talent\"\n    ? this.item\n    : this.actor?.items?.find((i) => i.type === \"talent\" && i.name === \"Path of Iron\");\n\nconst adv = Number(\n  talent?.Advances ??\n    talent?.system?.Advances ??\n    foundry.utils.getProperty(talent, \"system.advances.value\") ??\n    0\n);\n\nreturn adv >= 4;"
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "",
+            "label": "Master",
+            "trigger": "manual",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776949817558,
+        "modifiedTime": 1776975144997,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!items.effects!dql2RslE4Glm8h3a.cNpv4o1M3ygNNebR"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776816606878,
+    "modifiedTime": 1776824675903,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!dql2RslE4Glm8h3a"
+}

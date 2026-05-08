@@ -1,0 +1,59 @@
+{
+  "name": "Virtue of Empathy",
+  "type": "talent",
+  "img": "modules/wfrp4e-core/icons/talents/bless.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You are a true hero of the common people. Add the Etiquette (Peasantry) and Gregarious Talents to any career you enter; moreover, your bonuses when influencing others of lower Status are doubled (WHFRP 4E Core Rulebook Page. 51). Other knights do not think less of you for talking with your social inferiors. (They may think less of you for choosing this path in the first place, however.) </p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "folder": "DsekJv5UvKUKIUpc",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.wfrp4e-bretonnia.bretonnia-items.Item.hZ71LTvga0ZbaQ79",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1765314948785,
+    "modifiedTime": 1766509328023,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "hZ71LTvga0ZbaQ79",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "sort": 2600000,
+  "_key": "!items!hZ71LTvga0ZbaQ79"
+}

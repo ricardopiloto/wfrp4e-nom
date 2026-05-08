@@ -1,0 +1,106 @@
+{
+  "_id": "7o3SZ0YnAy6VnMQJ",
+  "name": "Novice Monk",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776812690975,
+    "modifiedTime": 1778012276303,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.ixmZUKVe32V4VqyU]{Cathayan Dragon Monk}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Cathayan Dragon Monk"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Climb",
+      "Cool",
+      "Dodge",
+      "Heal",
+      "Melee (Brawling)",
+      "Melee (Polearm)",
+      "Perform (Meditation)"
+    ],
+    "talents": [
+      "Combat Reflexes",
+      "Disarm",
+      "Martial Artist",
+      "Hardy"
+    ],
+    "trappings": [
+      "Monk Robes",
+      "Shaved Head",
+      "Quarterstaff"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 3300000,
+  "_key": "!items!7o3SZ0YnAy6VnMQJ"
+}

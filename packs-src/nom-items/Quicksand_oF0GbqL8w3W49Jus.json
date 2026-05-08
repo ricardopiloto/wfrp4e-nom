@@ -1,0 +1,120 @@
+{
+  "_id": "oF0GbqL8w3W49Jus",
+  "name": "Quicksand",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/spells/desert-magic.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766499184423,
+    "modifiedTime": 1766499609393,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The magician causes the ground to sink beneath the targets as a pit of quicksand appears, slowly bringing them to their doom. Any targets hit by Quicksand have their Movement halved and must roll a <strong>Hard (-20) Athletics Test</strong> or be knocked @Condition[Prone] so long as they remain within the spell&rsquo;s radius. Those affected may retake the test at the end of each subsequent Round to remove the @Condition[Prone] Condition. After the duration ends, the targets must then roll an additional<strong> -20 Agility Test</strong> or be sucked in by the quicksand to their deaths. The target must be a @Compendium[wfrp4e-core.items.8slW8CJ2oVTxeQ6q]{Size (Large)} creature or smaller. This spell requires sufficient terrain in order to function, such as sand or soil.</p>\n<p>&nbsp;</p>\n<p><strong>Lore:</strong>&nbsp;Arcane Spells summoned from the Lore of the Desert tend to summon or shift large amounts of dust and sands upon their targets or shroud the caster in whirling sands like a desert storm. Whenever a spell from the Lore of the Desert is cast upon a target, that target has their Movement reduced by -1 and cannot Charge for the duration of the round.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "lore": {
+      "type": "String",
+      "label": "Lore",
+      "value": "Desert",
+      "effectString": ""
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Willpower Yards",
+      "vortex": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "Willpower Bonus Yards",
+      "aoe": true
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Intelligence Bonus Rounds",
+      "extendable": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": ""
+    },
+    "cn": {
+      "type": "Number",
+      "label": "Casting Number",
+      "value": 10,
+      "SL": 0
+    },
+    "magicMissile": {
+      "type": "Boolean",
+      "label": "Magic Missile",
+      "value": false
+    },
+    "ritual": {
+      "value": false,
+      "type": "",
+      "xp": 0
+    },
+    "memorized": {
+      "type": "Boolean",
+      "label": "Memorized",
+      "value": false
+    },
+    "skill": {
+      "value": ""
+    },
+    "ingredients": [],
+    "currentIng": {
+      "type": "Number",
+      "label": "Ingredient",
+      "value": "0"
+    },
+    "wind": {
+      "value": ""
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "RR24Ugol9Crv6Bk7",
+  "sort": 400000,
+  "_key": "!items!oF0GbqL8w3W49Jus"
+}

@@ -1,0 +1,115 @@
+{
+  "folder": "Ok1t4rLc68778H3u",
+  "name": "Winged Lancer Captain",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/soldier-02.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.3BdSo3n2IlEMVqr2]{Winged Lancer}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Kislev Winged Lancer"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 3
+    },
+    "status": {
+      "tier": "g",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Animal Care",
+      "Charm Animal",
+      "Endurance",
+      "Language (Battle)",
+      "Melee (Basic)",
+      "Melee (Cavalry)",
+      "Perception",
+      "Ride (Horse)",
+      "Consume Alcohol",
+      "Cool",
+      "Gossip",
+      "Melee (Any)",
+      "Outdoor Survival",
+      "Ranged (Blackpowder)",
+      "Intimidate",
+      "Intuition",
+      "Leadership",
+      "Lore (Warfare)"
+    ],
+    "talents": [
+      "Combat Reflexes",
+      "Careful Strike",
+      "Hatred (Any)",
+      "War Leader"
+    ],
+    "trappings": [
+      "Fine Quality Plate Armor and Helm",
+      "Higher Symbol of Rank",
+      "Rota of Lancers"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776823154369,
+    "modifiedTime": 1778012395404,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "_id": "zMF0fSuwn0UAHJIM",
+  "sort": 2200000,
+  "_key": "!items!zMF0fSuwn0UAHJIM"
+}

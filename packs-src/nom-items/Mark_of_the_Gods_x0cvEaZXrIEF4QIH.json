@@ -1,0 +1,60 @@
+{
+  "_id": "x0cvEaZXrIEF4QIH",
+  "name": "Mark of the Gods",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/talents/unshakable.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1766502335959,
+    "modifiedTime": 1776821597238,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Norscans worship many gods, but the dominant powers lay in the hands of Chaos. Anyone who picks this talent pays 100 XP with an additional XP cost of 100 per Talent advance-100XP&gt;200XP&gt;300XP&gt;400XP. You may only purchase this Talent once per career level, with a maximum of four. Those who purchase this Talent may select one chosen god from the list below; moreover, they cannot retract or remove this Talent once it is taken, and the god selected cannot be changed.</p><p>Once purchased, the player must roll 1d10+2 Corruption points minus their Willpower Bonus with a minimum of 1 point. This increases by +1 each subsequent Talent advancement— 1d10+2, 1d10+3, 1d10+4, 1d10+5. If a physical mutation manifests, the GM rolls based off the selected god on the Physical and Mental Mutation tables found in the Enemy in Shadows Companion (Physical pg. 68-72, Mental pg. 74-76).</p><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.mSkBGQxhFCmndGnd]{The Crow (Nurgle)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.C3mk8eA3DvU4J9pe]{The Eagle (Tzeentch)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.HvNOr2nX9WMbUj4T]{The Hound (Khorne)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.tpMi1iaY6D19D9CP]{The Serpent (Slaanesh)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.hhhooRobCctrDSGS]{The Eight-Pointed Star (Undivided)}</p></li></ul>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>For players or GM’s who don’t want a campaign involving Norsca players turning to chaos or causing complications for the group, we have added the option to instead pick the <strong><span style=\"text-decoration: underline;\">Slayer</span></strong> talent instead of the Mark of the Gods. Mark of the Gods is intended for use by the Norscan player after having given full discretion to the GM and the other players that it could cause problems for a non- Chaos focused party or campaign.</p>"
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "4"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 2400000,
+  "_key": "!items!x0cvEaZXrIEF4QIH"
+}

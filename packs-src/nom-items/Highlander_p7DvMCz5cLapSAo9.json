@@ -1,0 +1,112 @@
+{
+  "name": "Highlander",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/villager-02.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.5uyB7RwLWClQofSG]{Albinonese Highlander}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Albionese Highlander"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Peasants"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 2
+    },
+    "status": {
+      "tier": "b",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Consume Alcohol",
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Gamble",
+      "Heal",
+      "Melee (Two-Handed)",
+      "Ranged (Throwing)",
+      "Animal Care",
+      "Athletics",
+      "Lore (Monsters)",
+      "Melee (Polearm)",
+      "Outdoor Survival",
+      "Secret Signs (Hunters)"
+    ],
+    "talents": [
+      "Relentless",
+      "Resolute",
+      "Robust",
+      "Warpaint"
+    ],
+    "trappings": [
+      "Bone Necklace",
+      "Great Weapon"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [
+      0
+    ],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1778012151378,
+    "modifiedTime": 1778012151378,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "p7DvMCz5cLapSAo9",
+  "sort": 0,
+  "_key": "!items!p7DvMCz5cLapSAo9"
+}

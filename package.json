@@ -1,0 +1,15 @@
+{
+  "name": "wfrp4e-nom",
+  "private": true,
+  "description": "Build tooling only (compile compendiums for release)",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "packs:extract": "node scripts/packs-tool.mjs extract",
+    "packs:build": "node scripts/packs-tool.mjs compile"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "3.0.3"
+  }
+}

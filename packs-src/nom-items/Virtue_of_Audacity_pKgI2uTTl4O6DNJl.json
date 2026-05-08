@@ -1,0 +1,59 @@
+{
+  "name": "Virtue of Audacity",
+  "type": "talent",
+  "_id": "pKgI2uTTl4O6DNJl",
+  "img": "modules/wfrp4e-core/icons/talents/bless.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You benefit from the Slayer Talent. When determining Damage use your opponent’s Toughness Bonus as your Strength Bonus if it is higher; always determine this before any other rules modify your Strength or Strength Bonus. Further, if your target is larger than you, and your score a Critical, multiply all melee Damage you cause by the number of steps larger your target is (so, 2 steps = ×2, 3 steps = ×3, and so on); this multiplication is calculated after all modifiers are applied.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "folder": "DsekJv5UvKUKIUpc",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.wfrp4e-bretonnia.bretonnia-items.Item.pKgI2uTTl4O6DNJl",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1765314948785,
+    "modifiedTime": 1766509328023,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "sort": 2700000,
+  "_key": "!items!pKgI2uTTl4O6DNJl"
+}

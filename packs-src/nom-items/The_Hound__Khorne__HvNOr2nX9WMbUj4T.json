@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "The Hound (Khorne)",
+  "type": "talent",
+  "_id": "HvNOr2nX9WMbUj4T",
+  "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Worshipper of the Hound:</strong></p><p>-While Frenzy is activated, you can now score a Critical Hit on a tens result when using axes—10, 20, 30, 40, etc.</p><p><strong>Warrior of the Hound:</strong></p><p>-Gain +1 Movement while Frenzied.</p><p>-While Frenzy is activated, you ignore all your current Conditions (except for Ablaze) until Frenzy has ended, then all prior Conditions return as normal.</p><p><strong>Champion of the Hound:</strong></p><p>-When wielding an axe while Frenzied, the user now gains the Hack and Damaging Weapon Qualities on all one-handed axes.</p><p>-If using a two-handed Great Axe while Frenzied, it now loses the Tiring Quality for Impact.</p><p><strong>Chosen of the Hound:</strong></p><p>-When Frenzied, gain the Champion Trait.</p><p>-Warp Frenzy: Whilst Frenzied, you have the option to temporarily gain another random physical mutation for 1d10 minutes. Roll 1d10 on the table @UUID[Compendium.wfrp4e-nom.nom-tables.RollTable.tI1syOkdXB0Y5UOV]{Chosen of the Hound} to see your mutation. You gain 1 Corruption point if used.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "4"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776820960837,
+    "modifiedTime": 1776825384982,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!HvNOr2nX9WMbUj4T"
+}

@@ -29,10 +29,11 @@ wfrp4e-nom/
 │   ├── path-of-iron-novice.*
 │   ├── path-of-iron-apprentice.*
 │   └── path-of-death.*
-├── packs/                             # Compêndios LevelDB
-│   ├── nom-items/                     # Itens (talentos, armas, armaduras, equipamentos)
-│   ├── nom-journals/                  # Journals de referência
-│   └── nom-tables/                    # Tabelas de rolagem
+├── packs-src/                         # Fonte dos compêndios (JSON, versionado em Git)
+│   ├── nom-items/ …                   # Um ficheiro .json por documento Foundry
+│   ├── nom-journals/ …
+│   └── nom-tables/ …
+├── packs/                             # Compêndios LevelDB (gerados localmente ou na CI; ver .gitignore)
 ├── icons/                             # Assets (ícones de carreiras, talentos, magias, etc.)
 ├── doc/                               # Documentação técnica
 │   ├── overview.md                    # Este arquivo

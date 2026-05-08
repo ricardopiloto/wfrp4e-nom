@@ -1,0 +1,94 @@
+{
+  "name": "Do Tor!",
+  "type": "prayer",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/prayers/Kislev.png",
+  "effects": [],
+  "_id": "eraiMWviMkD0rOWs",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766497156307,
+    "modifiedTime": 1766497380671,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You entreat Tor to unleash his fury, and a bolt of lightning streaks towards your target dealing 1d10 Damage, ignoring Toughness Bonus and Armor Points. Once the target is struck, the lightning arcs to a number of targets up to your Willpower Bonus within 2 yards of the initial target. For every +2 SL, you may increase the distance of the lightning arc by 2 yards from the initial target, increase the number of targets the lightning arcs to by +Willpower Bonus, or cause an extra +2 Damage to any Undead or servants of the Ruinous Powers affected.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "type": {
+      "type": "String",
+      "label": "Type",
+      "value": "miracle"
+    },
+    "god": {
+      "type": "String",
+      "label": "God",
+      "value": "Tor"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Fellowship Yards"
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "1D10",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Lightning Arc Distance",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "rk8vCEDo880ES4bD",
+  "sort": 2500000,
+  "_key": "!items!eraiMWviMkD0rOWs"
+}

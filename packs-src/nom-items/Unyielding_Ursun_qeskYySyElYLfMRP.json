@@ -1,0 +1,94 @@
+{
+  "name": "Unyielding Ursun",
+  "type": "prayer",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/prayers/Kislev.png",
+  "effects": [],
+  "_id": "qeskYySyElYLfMRP",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766497179023,
+    "modifiedTime": 1766497380671,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Your rousing prayers tap deep into Kislevite national pride. All Kislevites and party members within range gain the +1@Compendium[wfrp4e-core.items.8pVzgPkgWpTJvfhG]{Fearless (Everything)} and +1 @Compendium[wfrp4e-core.items.8oWhzlcw7oiHGMFu]{Unshakable} Talents.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "type": {
+      "type": "String",
+      "label": "Type",
+      "value": "miracle"
+    },
+    "god": {
+      "type": "String",
+      "label": "God",
+      "value": "Ursun"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Fellowship Yards"
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Fellowship Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "Strength Bonus Allies",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "rk8vCEDo880ES4bD",
+  "sort": 1700000,
+  "_key": "!items!qeskYySyElYLfMRP"
+}

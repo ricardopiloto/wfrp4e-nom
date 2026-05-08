@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Path of Shadows",
+  "type": "talent",
+  "_id": "ZdSBUYYlFEzhnMOC",
+  "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Novice:</strong> Your methods lye in the darkness when following the Path of Shadows, striking when unseen to end your enemies without notice. You gain the Stealthy Trait. </p><p><strong>Apprentice:</strong> Gain an additional +10 to your WS Tests when striking an enemy from behind or at the sides (with a total of +30 without Advantage).</p><p><strong>Journeyman:</strong> You gain Dark Vision. </p><p><strong>Master:</strong> You cannot be Surprised before or during combat.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "4"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776816617179,
+    "modifiedTime": 1776824685537,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!ZdSBUYYlFEzhnMOC"
+}

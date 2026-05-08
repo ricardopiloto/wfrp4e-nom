@@ -1,0 +1,113 @@
+{
+  "name": "Knight Errant",
+  "type": "career",
+  "_id": "NEjmVpX09XQ77ffl",
+  "img": "modules/wfrp4e-core/icons/careers/knight-01.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.6MDYnEhDcCiuUfmW]{Knight of the Realm}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Knight of the Realm"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": true,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Animal Care",
+      "Charm Animal",
+      "Lore (Heraldry)",
+      "Melee (Basic)",
+      "Melee (Cavalry)",
+      "Ride (Horse)",
+      "Pray",
+      "Lore (The Lady)"
+    ],
+    "talents": [
+      "Etiquette (Bretonnias or Warriors)",
+      "Virtue of Knighthood",
+      "Roughrider",
+      "Sturdy"
+    ],
+    "trappings": [
+      "Destrier with Saddle and Tack",
+      "Hand Weapon",
+      "Shield",
+      "Tabard with Dukedom Heraldry",
+      "Full Mail Armour with Helm"
+    ],
+    "incomeSkill": [
+      8
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "flags": {
+    "wfrp4e-up-in-arms": {
+      "initialization-folder": "Knight of the Blazing Sun",
+      "sort": 100000
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1765315395230,
+    "modifiedTime": 1777942781372,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "sort": 4800000,
+  "_key": "!items!NEjmVpX09XQ77ffl"
+}

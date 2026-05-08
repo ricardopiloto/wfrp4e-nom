@@ -1,0 +1,111 @@
+{
+  "name": "Grail Fanatic",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/priest-01.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.H3176dkgEidemPKT]{Grail Pilgrim}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Grail Pilgrim"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Peasants"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Art (Engraving)",
+      "Dodge",
+      "Endurance",
+      "Entertain (Any)",
+      "Intimidate",
+      "Intuition",
+      "Lore (Bretonnia)",
+      "Melee (Basic)",
+      "Outdoor Survival",
+      "Lore (The Lady)"
+    ],
+    "talents": [
+      "Flee!",
+      "Frenzy",
+      "Strike to Stun",
+      "Strong-minded"
+    ],
+    "trappings": [
+      "Backpack",
+      "Robes"
+    ],
+    "incomeSkill": [
+      9
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "flags": {
+    "wfrp4e-up-in-arms": {
+      "initialization-folder": "Knight of the Blazing Sun",
+      "sort": 100000
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1765316071065,
+    "modifiedTime": 1777942781372,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "2HDlnsv8Qb7fumfl",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "sort": 4600000,
+  "_key": "!items!2HDlnsv8Qb7fumfl"
+}

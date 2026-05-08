@@ -1,0 +1,115 @@
+{
+  "name": "Evocador",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/witch-hunter-04.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.mPN1R2AidfptTsMK]{Estalian Inquisidor}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Estalian Inquisidor"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rangers"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Intimidate",
+      "Intuition",
+      "Lore (Myrmidia)",
+      "Lore (Torture)",
+      "Melee (Fencing)",
+      "Perception",
+      "Dodge",
+      "Lore (Witches)",
+      "Ranged (Blackpowder)",
+      "Ride (Horse)",
+      "Secret Signs (Cultists)",
+      "Heal",
+      "Endurance",
+      "Leadership",
+      "Lore (Law)",
+      "Lore (Local)",
+      "Lore (Chaos)",
+      "Lore (Politics)"
+    ],
+    "talents": [
+      "Frightening",
+      "Iron Will",
+      "Magical Sense",
+      "Pure Soul"
+    ],
+    "trappings": [
+      "Best Quality Courlty Garb",
+      "Subordinate Inquisidores",
+      "Seal of Taurquema"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777942780009,
+    "modifiedTime": 1778012575977,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "YfzlBl5MPbO2ZcBz",
+  "sort": 700000,
+  "_key": "!items!YfzlBl5MPbO2ZcBz"
+}

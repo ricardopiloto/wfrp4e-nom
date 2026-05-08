@@ -1,0 +1,94 @@
+{
+  "name": "Serpent's Eye",
+  "type": "prayer",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/prayers/nippon.png",
+  "effects": [],
+  "_id": "emnvQoIdxTSGCY1B",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766497169667,
+    "modifiedTime": 1766497380671,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You call on Simca to send a Divine Servant to grant you knowledge of your enemies. A spectral serpent manifests, slithering across the ground. The serpent looks like and has the capabilities of a normal snake, but cannot physically affect the world, or be harmed in any way. While the Miracle is in effect, you can see through the serpent&rsquo;s eyes and control its movement, surveying the battlefield and spying upon your enemies. Your Vision is acute, but you do not have access to any of your own sense-enhancing Talents such as Night Vision. While looking through the serpent&rsquo;s eyes, you cannot see through your own eyes, leaving you potentially vulnerable.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "type": {
+      "type": "String",
+      "label": "Type",
+      "value": "miracle"
+    },
+    "god": {
+      "type": "String",
+      "label": "God",
+      "value": "Orange Simca"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Fellowship Yards"
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Fellowship Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "rk8vCEDo880ES4bD",
+  "sort": 800000,
+  "_key": "!items!emnvQoIdxTSGCY1B"
+}

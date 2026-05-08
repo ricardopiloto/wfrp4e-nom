@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Path of Light",
+  "type": "talent",
+  "_id": "VCY4ysasUYuJinO4",
+  "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Novice:</strong> Monks who follow the Path of Light are among the purest and incorruptible beings in the realms of man, with strikes that leave the damned frightened by their presence. Your Unarmed Attacks gain the Damaging Weapon Quality against servants of Chaos—Mutants, Beastmen, Demons, Cultists, Warriors of Chaos and Corrupted Beasts. </p><p><strong>Apprentice:</strong> You can spend all your Fortune points (Minimum 1) to strike and instantly banish a single Chaos Demon with your fists back to the Warp. (GM’s discretion on what can be banished) </p><p><strong>Journeyman:</strong> You gain the +1 Resistance (Mutation) Talent. </p><p><strong>Master:</strong> Your Unarmed Attacks gain the Impact Weapon Quality against servants of Chaos—Mutants, Beastmen, Demons, Cultists, Warriors of Chaos and Corrupted Beasts.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "4"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776816651155,
+    "modifiedTime": 1776824682735,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!VCY4ysasUYuJinO4"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Trident of Shaivi",
+  "type": "prayer",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/prayers/ind.png",
+  "effects": [],
+  "_id": "zmsm6fDykgIn4ufl",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766497178199,
+    "modifiedTime": 1766497380671,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You call out to the Deva of Destruction conjuring their trident made of pure light, which can be wielded in combat, using the @Compendium[wfrp4e-core.items.PzimjNx9Ojq4g6mV]{Melee (Polearm)} Skill. It acts like a normal polearm with a with a very long range, with its Damage equal to your Willpower Bonus and counts as Magical. For every +3 SL you may add a Weapon Quality to the trident.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "type": {
+      "type": "String",
+      "label": "Type",
+      "value": "miracle"
+    },
+    "god": {
+      "type": "String",
+      "label": "God",
+      "value": "Devas"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "You"
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Fellowship Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Additional Weapon Quality",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 3,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "rk8vCEDo880ES4bD",
+  "sort": 1600000,
+  "_key": "!items!zmsm6fDykgIn4ufl"
+}

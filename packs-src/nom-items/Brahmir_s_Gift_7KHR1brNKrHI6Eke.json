@@ -1,0 +1,94 @@
+{
+  "name": "Brahmir's Gift",
+  "type": "prayer",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/prayers/ind.png",
+  "effects": [],
+  "_id": "7KHR1brNKrHI6Eke",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766497113436,
+    "modifiedTime": 1766497380671,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You call for the Creation Deva to heal the land and allow life to flow. For the duration of the Miracle, any allies in direct contact with the earth within range heal Wounds equal to your Willpower Bonus at the start of every Round. However, this act of altruism comes at a cost. For each round this Miracle is in effect you lose 1 Wound.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "type": {
+      "type": "String",
+      "label": "Type",
+      "value": "miracle"
+    },
+    "god": {
+      "type": "String",
+      "label": "God",
+      "value": "Devas"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Willpower Yards"
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Willpower Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "Fellowship Bonus Allies",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "rk8vCEDo880ES4bD",
+  "sort": 4200000,
+  "_key": "!items!7KHR1brNKrHI6Eke"
+}

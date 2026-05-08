@@ -1,0 +1,124 @@
+{
+  "name": "Questing Knight",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/knight-03.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.6MDYnEhDcCiuUfmW]{Knight of the Realm}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Knight of the Realm"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 3
+    },
+    "status": {
+      "tier": "g",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Animal Care",
+      "Charm Animal",
+      "Lore (Heraldry)",
+      "Melee (Basic)",
+      "Melee (Cavalry)",
+      "Ride (Horse)",
+      "Pray",
+      "Lore (The Lady)",
+      "Dodge",
+      "Cool",
+      "Endurance",
+      "Intimidate",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Melee (Two-handed)",
+      "Charm",
+      "Consume Alcohol",
+      "Heal",
+      "Leadership"
+    ],
+    "talents": [
+      "Combat Master",
+      "Seasoned Traveler",
+      "Stout-hearted",
+      "Unshakable",
+      "Virtue of the Quest"
+    ],
+    "trappings": [
+      "Quality Melee Weapon (Any)",
+      "Your Grail Quest"
+    ],
+    "incomeSkill": [
+      8
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [
+      1
+    ],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "flags": {
+    "wfrp4e-up-in-arms": {
+      "initialization-folder": "Knight of the Blazing Sun",
+      "sort": 100000
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1765315399760,
+    "modifiedTime": 1777942781372,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "iqt7bcAHjShM6wBW",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "sort": 4900000,
+  "_key": "!items!iqt7bcAHjShM6wBW"
+}

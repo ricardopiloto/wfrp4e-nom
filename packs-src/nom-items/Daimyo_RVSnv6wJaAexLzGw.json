@@ -1,0 +1,118 @@
+{
+  "name": "Daimyo",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.PYmCEmVxCV0xeM5r]{Nippon Samurai}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Nippon Samurai"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 7
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Intuition",
+      "Language (Battle)",
+      "Melee (Basic)",
+      "Ranged (Bow)",
+      "Art (Calligraphy or Poetry)",
+      "Cool",
+      "Melee (Polearm)",
+      "Melee (Two-handed)",
+      "Ranged (Blackpowder)",
+      "Ride Horse)",
+      "Charm",
+      "Gamble",
+      "Intimidate",
+      "Leadership",
+      "Lore (Politics)",
+      "Lore (Warfare)"
+    ],
+    "talents": [
+      "Combat Master",
+      "Inspiring",
+      "Riposte",
+      "Warleader"
+    ],
+    "trappings": [
+      "Finest Quality Samurai Armor and Helm (Plate)",
+      "Large Unit of Samurai",
+      "No-Dachi",
+      "Province in Nippon"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776996887973,
+    "modifiedTime": 1777942781372,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "RVSnv6wJaAexLzGw",
+  "sort": 1900000,
+  "_key": "!items!RVSnv6wJaAexLzGw"
+}

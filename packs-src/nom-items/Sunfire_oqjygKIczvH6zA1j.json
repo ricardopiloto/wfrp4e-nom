@@ -1,0 +1,94 @@
+{
+  "name": "Sunfire",
+  "type": "prayer",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/prayers/nippon.png",
+  "effects": [],
+  "_id": "oqjygKIczvH6zA1j",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766497173091,
+    "modifiedTime": 1766497380671,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You call the power of the Orange Simca to smite servants of the dark gods, children of the Horned One and those tempted by black magics. The holy fire of the Rising Sun explodes from your body blasting outwards for Fellowship Bonus yards. All targets within range take 1d10 Wounds ignoring Toughness Bonus and APs. Targets with the Skaven, @Compendium[wfrp4e-core.items.PFTD9gDvRWW9uh5g]{Undead} and @Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Daemonic} Creature Traits also gain the @Condition[Ablaze] Condition. For every +2 SL, you may increase the area of effect by +Fellowship Bonus yards, or cause an extra +2 Damage to any Skaven, Undead, or servants of the Ruinous Powers affected.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "type": {
+      "type": "String",
+      "label": "Type",
+      "value": "miracle"
+    },
+    "god": {
+      "type": "String",
+      "label": "God",
+      "value": "Orange Simca"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "You"
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "Fellowship Bonus Yards",
+      "aoe": true,
+      "extendableAoE": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Increase AoE or cause Extra damage",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "rk8vCEDo880ES4bD",
+  "sort": 1100000,
+  "_key": "!items!oqjygKIczvH6zA1j"
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Almocaden",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/soldier-04.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.HVUSFe72zLjhmaoU]{Estalian Almogavar}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Estalian Almogavar"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Charm",
+      "Haggle",
+      "Intuition",
+      "Lore (Myrmidia)",
+      "Melee (Basic)",
+      "Melee (Polearm)",
+      "Outdoor Survival",
+      "Perception",
+      "Endurance",
+      "Intimidate",
+      "Pray",
+      "Ranged (Blackpowder)",
+      "Ranged (Throwing)",
+      "Track",
+      "Animal Care",
+      "Climb",
+      "Ride (Horse)",
+      "Swim",
+      "Language (Battle Tongue)",
+      "Leadership"
+    ],
+    "talents": [
+      "Careful Strike",
+      "¡¡Despierta, Fierro!!",
+      "Iron Will",
+      "Strike to Injure"
+    ],
+    "trappings": [
+      "Plumed Great Helm",
+      "Officer's Insignia",
+      "Spoils of War (3d100GC)",
+      "Unit of Almogavar"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777779191790,
+    "modifiedTime": 1777942781372,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "CgkFMcVIIooOiFhK",
+  "sort": 100000,
+  "_key": "!items!CgkFMcVIIooOiFhK"
+}

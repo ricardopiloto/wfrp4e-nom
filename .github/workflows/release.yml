@@ -25,6 +25,15 @@ jobs:
           echo "module_id=$MODULE_ID" >> "$GITHUB_OUTPUT"
           echo "Packaging module id: $MODULE_ID"
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Build compendium LevelDB folders
+        run: npm ci && npm run packs:build
+
       - name: Build installable zip
         env:
           MODULE_ID: ${{ steps.meta.outputs.module_id }}
@@ -40,6 +49,10 @@ jobs:
             --exclude='docs' \
             --exclude='effects' \
             --exclude='openspec' \
+            --exclude='packs-src' \
+            --exclude='package.json' \
+            --exclude='package-lock.json' \
+            --exclude='scripts/packs-tool.mjs' \
             --exclude='node_modules' \
             --exclude='dist' \
             --exclude='build' \

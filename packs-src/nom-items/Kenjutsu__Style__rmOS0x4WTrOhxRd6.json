@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Kenjutsu (Style)",
+  "type": "talent",
+  "_id": "rmOS0x4WTrOhxRd6",
+  "img": "modules/wfrp4e-core/icons/talents/unshakable.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>An entire martial art was created to learn how to appropriately use the samurai sword dubbed Kenjutsu. The importance of studying Kenjutsu is crucial for samurai, as their proficiency in the ways of the sword is a life or death situation. Those who don’t understand the intricacies of each weapon are considered uncultivated.</p><p>Think of how useless a Handgunner would be if he didn’t know how to fire their gun in a war zone. The art of sword combat, as with all martial arts, has both a physical and spiritual level.</p><p>Each samurai clan is unique in its swordsmanship, with different schools dedicated to different methods and styles of fighting.</p><p>Samurais born into these clans spend most of their lives slaving away at mastering these techniques, or “Ways”, with those surviving long enough becoming terrifying sword masters capable of slaying dozens of enemies each battle.</p><p>Choose one of the Ways listed, but only one. Anyone who picks this talent pays 100 XP with an additional XP cost of 100 per Talent advance-100XP&gt;200XP&gt;300XP&gt;400XP. You may only purchase this Talent once per career level, with a maximum of four. You cannot change your Way or select an additional Way.</p><p>All Talents provided by the Way chosen cannot be upgraded and must be learned outside the Samurai’s career to be advanced.</p><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.u6chrY9UMYCw1UIy]{Way of the Nio}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.dAxhv54GXT4kUrnk]{Way of the Naga}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Tv7WLW1znnlM4w4H]{Way of the Stag}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.DARklfXDJWx46go0]{Way of the Snake}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.sqtkO0fWPuP2dQn5]{Way of the Crane}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.D1MW8KpP3zcg36MZ]{Way of the Tiger}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.VC4SwLf1mq5Dg3EB]{Way of the Dragon}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.7vRjdVOXjse52YbZ]{Way of the Tortoise}</p></li></ul>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "4"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776996420610,
+    "modifiedTime": 1777041520187,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!rmOS0x4WTrOhxRd6"
+}

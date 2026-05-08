@@ -1,0 +1,118 @@
+{
+  "_id": "YDKnRIkuMMgBqp9m",
+  "name": "Aga",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1767184452549,
+    "modifiedTime": 1778012242897,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.oGtStn48sS7S3Vws]{Janissary}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Janissary"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rangers"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": true,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Atlhetics",
+      "Dodge",
+      "Endurance",
+      "Language (Battle)",
+      "Melee (Basic)",
+      "Play (Drums)",
+      "Pray",
+      "Ranged (Blackpowder)",
+      "Charm",
+      "Cool",
+      "Melee (Parry)",
+      "Ranged (Explosives)",
+      "Trade (Explosives)",
+      "Trade (Gunsmith)",
+      "Bribery",
+      "Leadership",
+      "Perception",
+      "Ranged (Engineer)",
+      "Heal",
+      "Lore (Warfare)"
+    ],
+    "talents": [
+      "Linguistics",
+      "Strike to Injure",
+      "Sniper",
+      "Sure Shot"
+    ],
+    "trappings": [
+      "Hochland Long Rifle",
+      "Symbol of Rank",
+      "Very High Quality Uniform"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 2700000,
+  "_key": "!items!YDKnRIkuMMgBqp9m"
+}

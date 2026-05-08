@@ -1,0 +1,94 @@
+{
+  "name": "Banish the Wicked",
+  "type": "prayer",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/prayers/ind.png",
+  "effects": [],
+  "_id": "6rMjBOL0gqCyRJwg",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766497105510,
+    "modifiedTime": 1766497380671,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You chant a prayer to Shaivi and strike your foe with your palm punishing them for their wicked deeds with the energy of the Deva of Destruction itself. You deal 1d10+SL Damage ignoring Toughness Bonus and Armor Points. If the target has the @Compendium[wfrp4e-core.items.xsGbDFqK2qh7lsIj]{Corruption} Trait, it takes an additional 1d10 Damage per the strength of the Corruption.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "type": {
+      "type": "String",
+      "label": "Type",
+      "value": "miracle"
+    },
+    "god": {
+      "type": "String",
+      "label": "God",
+      "value": "Devas"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Touch"
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "1D10",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "rk8vCEDo880ES4bD",
+  "sort": 4300000,
+  "_key": "!items!6rMjBOL0gqCyRJwg"
+}

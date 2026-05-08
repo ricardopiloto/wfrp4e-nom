@@ -1,0 +1,100 @@
+{
+  "name": "Initiate",
+  "type": "career",
+  "_id": "4ZhaWsYcFTNaIo09",
+  "img": "modules/wfrp4e-core/icons/careers/witch-hunter-01.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p></p><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.mPN1R2AidfptTsMK]{Estalian Inquisidor}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Estalian Inquisidor"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rangers"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Intimidate",
+      "Intuition",
+      "Lore (Myrmidia)",
+      "Lore (Torture)",
+      "Melee (Fencing)",
+      "Perception"
+    ],
+    "talents": [
+      "Read/Write"
+    ],
+    "trappings": [
+      "Hand Weapon",
+      "Instruments of Torture",
+      "Bellona Myrmidia book"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777942781326,
+    "modifiedTime": 1778012567874,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "sort": 200000,
+  "_key": "!items!4ZhaWsYcFTNaIo09"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Virtue of Knighthood",
+  "type": "talent",
+  "_id": "R1bjiaD6x04qk1hN",
+  "img": "modules/wfrp4e-core/icons/talents/bless.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You may select @UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.pGTpU2i5qfDLE38i.JournalEntryPage.uPiUhkZe4LmAlgCQ#knightly-virtues]{one virtue} that best exemplifies your Knight. This Virtue cannot be retracted or upgraded. Once you select a Virtue you are beholden to the Bretonnian Code of Chivalry and must abide by its Seven Commandments and Rules of Honor or suffer Sin Points:</p><p><strong>Seven Commandments</strong></p><ul><li><p>To serve the Lady of the Lake.</p></li><li><p>To defend the domains entrusted to them.</p></li><li><p>To protect the weak and fight for the right.</p></li><li><p>Always to fight the enemies of virtue and order.</p></li><li><p>Never to give up the fight until the foe be defeated.</p></li><li><p>Never to break faith with a friend or ally.</p></li><li><p>Always to display honor and courtesy.</p></li></ul><p><strong>Rules of Honor</strong></p><ul><li><p>A knight may only fight hand-to-hand, with sword or lance; they may not use a missile weapon.</p></li><li><p>A knight shall always accept a challenge towards personal combat.</p></li><li><p>A knight shall not draw sword against their fellow Bretonnian knights, except in trial by combat or within a tournament.</p></li><li><p>A knight shall not allow themselves to be captured alive.</p></li><li><p>A knight shall not flee from the enemy, nor retreat without proper tactical cause.</p></li></ul>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "folder": "DsekJv5UvKUKIUpc",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.wfrp4e-bretonnia.bretonnia-items.Item.R1bjiaD6x04qk1hN",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1765314948785,
+    "modifiedTime": 1776903021810,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "sort": 1800000,
+  "_key": "!items!R1bjiaD6x04qk1hN"
+}

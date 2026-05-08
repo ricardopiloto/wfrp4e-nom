@@ -1,0 +1,169 @@
+{
+  "name": "Warpaint",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/talents/war-leader.png",
+  "effects": [
+    {
+      "name": "Warpaint",
+      "img": "modules/wfrp4e-core/icons/talents/war-leader.png",
+      "_id": "jsYZ6BLPE0zwJBiV",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "const levels = Number(this.item?.system?.advances?.value ?? 1);\nconst bonusAP = levels; // +1 PA por nível (ajusta offset se quiseres que 0 avanços = 0)\nif (bonusAP > 0) {\n  this.actor.system.status.addArmour(bonusAP, { source: this.effect });\n}",
+            "label": "Warpaint",
+            "trigger": "APCalc",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "hideScript": "",
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1778011488668,
+        "modifiedTime": 1778011519812,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!items.effects!XmkWJkWWRjl7scqp.jsYZ6BLPE0zwJBiV"
+    }
+  ],
+  "_id": "XmkWJkWWRjl7scqp",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1778011057373,
+    "modifiedTime": 1778011261628,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You forsake the use of modern armor, charging into battle wearing nothing more than simple garbs and war paint. Ancient customs and beliefs grant the war paint its own means of protection. With War Paint, you gain +1 AP on all body parts for the amount equal to the Talent&rsquo;s level. This AP provides no additional Flaws or Qualities and cannot be Damaged or used for Critical Deflection; however, you cannot have any armor equipped in order to receive this Talent&rsquo;s effect.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "3"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 0,
+  "_key": "!items!XmkWJkWWRjl7scqp"
+}

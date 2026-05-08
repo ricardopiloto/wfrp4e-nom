@@ -1,0 +1,120 @@
+{
+  "_id": "c0DM4WCtLftKxDPd",
+  "name": "Crystal Cloak",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/spells/ice-magic.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766499170564,
+    "modifiedTime": 1766499609393,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You call forth a swirling, shimmering, ice-laden mist and wrap it around you. Anyone within Toughness Bonus yards of you takes a &ndash;10 penalty to all Weapon Skill, Ballistic Skill and Agility Tests as the cloak&rsquo;s cold seeps into them. Further, anything living trying to attack you in melee combat must pass an <strong>Average (+20) @Compendium[wfrp4e-core.items.CcNJsS4jSwB6Ug1J]{Endurance} Test</strong> or lose their Action for next round due to the cloaks intense cold chilling them to the bone. This Test does not apply to creatures with the @Compendium[wfrp4e-core.items.PFTD9gDvRWW9uh5g]{Undead} or @Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Daemonic} Traits. For each +2 SL, you may increase the difficulty of the Endurance Test by an additional -10 up to a maximum penalty of -50.</p>\n<p>&nbsp;</p>\n<p><strong>Lore :</strong>&nbsp;The flows of Ice Magic vary in strength. By Kislev&rsquo;s sites of power, along her leylines, in freezing climates and in the depths of winter, Ice Magic is very strong, granting you a +10 to all @Compendium[wfrp4e-core.items.V8eRx66SxB9Jha0Q]{Channelling} and @Compendium[wfrp4e-core.items.e3McIND4Rrsn5cE6]{Language (Magick)} Tests when casting the Lore of Ice. But in warmer climes, it is far weaker and wanes the closer to the equator and the further from the North one travels. When casting in warmer climates, such as in most of the Empire, it counts as if casting next to a Corrupting Influence, causing a @Table[minormis] on a unit&rsquo;s roll of an 8. If you already have a @Table[minormis], the Miscast becomes a @Table[majormis]. In hotter climates, such as in a desert or jungle, you receive a permanent @Condition[Fatigued] Condition until you relocate to a cooler climate. You may spend a Resolve point to mitigate this Fatigue Condition for one round.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "lore": {
+      "type": "String",
+      "label": "Lore",
+      "value": "Ice",
+      "effectString": ""
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "You",
+      "vortex": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "You",
+      "aoe": false
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Willpower Bonus Rounds",
+      "extendable": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": ""
+    },
+    "cn": {
+      "type": "Number",
+      "label": "Casting Number",
+      "value": 7,
+      "SL": 0
+    },
+    "magicMissile": {
+      "type": "Boolean",
+      "label": "Magic Missile",
+      "value": false
+    },
+    "ritual": {
+      "value": false,
+      "type": "",
+      "xp": 0
+    },
+    "memorized": {
+      "type": "Boolean",
+      "label": "Memorized",
+      "value": false
+    },
+    "skill": {
+      "value": ""
+    },
+    "ingredients": [],
+    "currentIng": {
+      "type": "Number",
+      "label": "Ingredient",
+      "value": "0"
+    },
+    "wind": {
+      "value": ""
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Increase Opponent Endurance Test Difficulty",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "RR24Ugol9Crv6Bk7",
+  "sort": 2300000,
+  "_key": "!items!c0DM4WCtLftKxDPd"
+}

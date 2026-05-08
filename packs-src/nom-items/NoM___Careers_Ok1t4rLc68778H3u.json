@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "NoM - Careers",
+  "color": null,
+  "sorting": "a",
+  "_id": "Ok1t4rLc68778H3u",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1765314915416,
+    "modifiedTime": 1765314915416,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!folders!Ok1t4rLc68778H3u"
+}

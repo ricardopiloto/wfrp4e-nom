@@ -1,0 +1,120 @@
+{
+  "_id": "7puMQv0T8uM1JNlB",
+  "name": "Curse of the Djinn",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/spells/desert-magic.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766499171587,
+    "modifiedTime": 1766499609393,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The magician channels the immense power of the Djinn through their own body and lays a terrible curse upon their foe as their energy is sapped and their armor fails to protect them. The target suffers a penalty of &ndash;10 to all Tests, in addition to any other modifiers, and may not spend Fortune points. In addition, any of the target&rsquo;s non-magical weapons and armor begin to fail them as they break, crack and turn to dust on impact from the next time they&rsquo;re struck if the curse is not dispelled.</p>\n<p>&nbsp;</p>\n<p><strong>Lore:</strong> Arcane Spells summoned from the Lore of the Desert tend to summon or shift large amounts of dust and sands upon their targets or shroud the caster in whirling sands like a desert storm. Whenever a spell from the Lore of the Desert is cast upon a target, that target has their Movement reduced by -1 and cannot Charge for the duration of the round.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "lore": {
+      "type": "String",
+      "label": "Lore",
+      "value": "Desert",
+      "effectString": ""
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Willpower Yards",
+      "vortex": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "1",
+      "aoe": false
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Intelligence Bonus Days",
+      "extendable": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": ""
+    },
+    "cn": {
+      "type": "Number",
+      "label": "Casting Number",
+      "value": 8,
+      "SL": 0
+    },
+    "magicMissile": {
+      "type": "Boolean",
+      "label": "Magic Missile",
+      "value": false
+    },
+    "ritual": {
+      "value": false,
+      "type": "",
+      "xp": 0
+    },
+    "memorized": {
+      "type": "Boolean",
+      "label": "Memorized",
+      "value": false
+    },
+    "skill": {
+      "value": ""
+    },
+    "ingredients": [],
+    "currentIng": {
+      "type": "Number",
+      "label": "Ingredient",
+      "value": "0"
+    },
+    "wind": {
+      "value": ""
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "RR24Ugol9Crv6Bk7",
+  "sort": 2400000,
+  "_key": "!items!7puMQv0T8uM1JNlB"
+}

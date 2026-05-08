@@ -1,0 +1,146 @@
+{
+  "folder": "xUrVvvwtRnbLeVuH",
+  "name": "Tiger Claws",
+  "type": "weapon",
+  "_id": "cX7EF6N8m48Gx6td",
+  "img": "modules/wfrp4e-nom/icons/trappings/weapons/tiger-claw.jpeg",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 1
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 6,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "exotic"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": ""
+    },
+    "damageToItem": {
+      "type": "Number",
+      "value": 0,
+      "shield": 0
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": "SB+4"
+    },
+    "reach": {
+      "type": "String",
+      "label": "Reach",
+      "value": "short"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": ""
+    },
+    "skill": {
+      "type": "String",
+      "label": "Skill Override",
+      "value": "Melee (Brawling)"
+    },
+    "modeOverride": {
+      "type": "String",
+      "label": "Mode Override",
+      "value": "melee"
+    },
+    "twohanded": {
+      "type": "Boolean",
+      "label": "Two-Handed",
+      "value": false
+    },
+    "ammunitionGroup": {
+      "type": "String",
+      "label": "Ammunition Group",
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "type": "String",
+      "label": "Weapon Group",
+      "value": "brawling"
+    },
+    "qualities": {
+      "label": "Qualities",
+      "value": [
+        {
+          "name": "hack",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "label": "Flaws",
+      "value": []
+    },
+    "special": {
+      "type": "String",
+      "label": "Special",
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776814108925,
+    "modifiedTime": 1778013236878,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!cX7EF6N8m48Gx6td"
+}

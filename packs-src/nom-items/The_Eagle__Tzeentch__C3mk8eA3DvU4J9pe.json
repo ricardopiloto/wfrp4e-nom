@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "The Eagle (Tzeentch)",
+  "type": "talent",
+  "_id": "C3mk8eA3DvU4J9pe",
+  "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Worshipper of the Eagle:</strong></p><p>-Gain both the +1 Second Sight and +1 Magical Sense Talents.</p><p>-Gain the Ward (10+) Trait.</p><p><strong>Warrior of the Eagle:</strong></p><p>-All attacks now count as Magical.</p><p>-Gain Dark Vision.</p><p>-Gain the Ward (9+) Trait.</p><p><strong>Champion of the Eagle:</strong></p><p>-Gain the Language (All) Skill.</p><p>-Gain the Clever Trait.</p><p>-Gain the Ward (8+) Trait.</p><p><strong>Chosen of the Eagle:</strong></p><p>-Gain the Cunning Trait.</p><p>-Gain the Ward (7+) Trait.</p><p>-Eagle’s Eye: The Chosen’s gaze can turn flesh to flame. For its Action, it can spend all its Advantage to unleash its gaze (Minimum 3). The Chosen performs an Opposed Intelligence/Initiative test, adding 1 SL per Advantage spent. Its opponent gains 1 Stunned and 1 Ablaze Condition per 1 SL by which the Chosen wins. If it wins by at least 6 SL, its Target’s head bursts into pink and blue flame, killing it instantly. Gain 1 Corruption point if used.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "4"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776820994353,
+    "modifiedTime": 1776824600547,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!C3mk8eA3DvU4J9pe"
+}

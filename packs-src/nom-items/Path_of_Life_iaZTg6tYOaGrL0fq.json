@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Path of Life",
+  "type": "talent",
+  "_id": "iaZTg6tYOaGrL0fq",
+  "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Novice:</strong> The monks that follow the Path of Life are renowned for their kindness and compassion towards the people of Cathay, aiding any incapable of combating the dangers of the world with unshakeable courage. You may spend a Fortune Point to add a +60 modifier towards your next Heal Test for one of your allies outside of combat. Wounds amount is based on your Agility Bonus + SL. </p><p><strong>Apprentice:</strong> You may spend all your Fortune Points (minimum 1) to instantly repair any broken bones or torn muscles of one of your ally’s body parts. The ally must roll an Average (+20) Endurance Test or retain the broken bones and torn muscles. This ability can only be  performed within the first hour the injury has been</p><p>inflicted. </p><p><strong>Journeyman:</strong> You gain +1 Resistance (Disease and Poison). </p><p><strong>Master:</strong> Outside of combat, you can spend 1 Fortune Point to roll an Average (+20) Perform (Meditation) Test and regain 1d10+WPB+SL in Wounds for yourself. This process takes 1d10 hours.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "4"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776816658713,
+    "modifiedTime": 1776824679328,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!iaZTg6tYOaGrL0fq"
+}

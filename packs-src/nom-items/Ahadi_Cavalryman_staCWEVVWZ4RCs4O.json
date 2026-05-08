@@ -1,0 +1,107 @@
+{
+  "_id": "staCWEVVWZ4RCs4O",
+  "name": "Ahadi Cavalryman",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1767188250817,
+    "modifiedTime": 1778012310010,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.TSR9as1ml1ggmMvh]{Ind Ahadi}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Ind Ahadi"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Animal Care",
+      "Charm Animal",
+      "Endurance",
+      "Language (Battle)",
+      "Melee (Basic)",
+      "Navigation",
+      "Perception",
+      "Ride (Horse)"
+    ],
+    "talents": [
+      "Drilled",
+      "Roughrider",
+      "Strike Mighty Blow",
+      "Warrior Born"
+    ],
+    "trappings": [
+      "Breastplate (Boiled Leather)",
+      "Kukri (Dagger)",
+      "Light Warhorse with Saddle and Tack",
+      "Turban"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 3100000,
+  "_key": "!items!staCWEVVWZ4RCs4O"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Way of the Tiger",
+  "type": "talent",
+  "_id": "D1MW8KpP3zcg36MZ",
+  "img": "modules/wfrp4e-core/icons/talents/unshakable.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Novice:</strong> You gain +1 Damage when using Two-handed weapons.</p><p><strong>Apprentice:</strong> All Two-handed weapons gain the Shield 1 Weapon Quality.</p><p><strong>Journeyman:</strong> When using a Two-handed weapon, all rolls landing on tens cause a Critical Hit—10, 20, 30, 40, etc.</p><p><strong>Master:</strong> You now deal two Critical Wounds on a Critical Hit against an enemy when using a Two-handed weapon.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777028172662,
+    "modifiedTime": 1777028348276,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!D1MW8KpP3zcg36MZ"
+}

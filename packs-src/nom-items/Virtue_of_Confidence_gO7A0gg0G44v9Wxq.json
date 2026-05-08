@@ -1,0 +1,59 @@
+{
+  "name": "Virtue of Confidence",
+  "type": "talent",
+  "_id": "gO7A0gg0G44v9Wxq",
+  "img": "modules/wfrp4e-core/icons/talents/bless.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Whilst engaged in combat, as an Action you may issue a Challenge to a single opponent. Most targets of the Challenge are not obligated to accept the Challenge (though many do); Bretonnian Knights with any Virtue must accept. For the duration of the challenge, you gain +1 SL for all Melee Tests. Whilst engaged in a Challenge, you may not Challenge a new opponent in that combat until the first is defeated or has fled the battle. You must direct all attacks towards the challenged opponent until either you or they are defeated.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "folder": "DsekJv5UvKUKIUpc",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.wfrp4e-bretonnia.bretonnia-items.Item.gO7A0gg0G44v9Wxq",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1765314948785,
+    "modifiedTime": 1766509328023,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "sort": 2500000,
+  "_key": "!items!gO7A0gg0G44v9Wxq"
+}

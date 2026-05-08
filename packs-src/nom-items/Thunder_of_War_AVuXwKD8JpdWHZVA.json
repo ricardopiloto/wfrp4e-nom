@@ -1,0 +1,94 @@
+{
+  "name": "Thunder of War",
+  "type": "prayer",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/prayers/Kislev.png",
+  "effects": [],
+  "_id": "AVuXwKD8JpdWHZVA",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766497175726,
+    "modifiedTime": 1766497380671,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Your prayers amplify the sounds of all nearby conflicts, as the sound of thunder blasts around you for your Strength in yards, piercing the eardrums of all nearby enemies. All non-Torinyi within range gain one @Condition[Deafened] and @Condition[Fatigued] Condition. For every +2 SL, they receive +1 @Condition[Deafened] Condition.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "type": {
+      "type": "String",
+      "label": "Type",
+      "value": "miracle"
+    },
+    "god": {
+      "type": "String",
+      "label": "God",
+      "value": "Tor"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "You"
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "Strength Yards",
+      "aoe": true,
+      "extendableAoE": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Additional Defeaned Condition",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "rk8vCEDo880ES4bD",
+  "sort": 1400000,
+  "_key": "!items!AVuXwKD8JpdWHZVA"
+}

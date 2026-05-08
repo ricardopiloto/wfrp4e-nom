@@ -1,0 +1,120 @@
+{
+  "name": "Sandstorm",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/spells/desert-magic.png",
+  "effects": [],
+  "_id": "HBcnXlSkCmfpZ7GY",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766499186223,
+    "modifiedTime": 1766499609393,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You command the desert spirits to engulf your enemies in a swirling cloud of choking sand and dust. Anyone trapped within Sandstorm&rsquo;s radius, besides the caster, receives a -30 penalty to all Perception Tests, cannot see past 4 yards in front of them and cannot use missile weapons as the whirling sands make it impossible to aim and fire properly. For each +2 SL, the caster may make one ally immune to the effects of Sandstorm for the duration the spell is active.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "lore": {
+      "type": "String",
+      "label": "Lore",
+      "value": "Desert",
+      "effectString": ""
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Willpower Yards",
+      "vortex": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "Willpower Yards",
+      "aoe": true
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Intelligence Bonus Rounds",
+      "extendable": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": ""
+    },
+    "cn": {
+      "type": "Number",
+      "label": "Casting Number",
+      "value": 10,
+      "SL": 0
+    },
+    "magicMissile": {
+      "type": "Boolean",
+      "label": "Magic Missile",
+      "value": false
+    },
+    "ritual": {
+      "value": false,
+      "type": "",
+      "xp": 0
+    },
+    "memorized": {
+      "type": "Boolean",
+      "label": "Memorized",
+      "value": false
+    },
+    "skill": {
+      "value": ""
+    },
+    "ingredients": [],
+    "currentIng": {
+      "type": "Number",
+      "label": "Ingredient",
+      "value": "0"
+    },
+    "wind": {
+      "value": ""
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Make Ally Immune to Spells",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "RR24Ugol9Crv6Bk7",
+  "sort": 600000,
+  "_key": "!items!HBcnXlSkCmfpZ7GY"
+}

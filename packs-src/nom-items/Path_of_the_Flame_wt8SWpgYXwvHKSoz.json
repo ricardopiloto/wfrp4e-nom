@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Path of the Flame",
+  "type": "talent",
+  "_id": "wt8SWpgYXwvHKSoz",
+  "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Novice:</strong> Your fists burn like fire to your enemies, as your strikes following the Path of Flame cause massive internal bleeding. After a successful Unarmed strike, your opponent must roll a Challenging (+0) Opposed Strength/Toughness test or take 1 Bleed Condition. <span style=\"text-decoration: underline;\">These Bleeds do not have the 10% chance of death.</span> </p><p><strong>Apprentice:</strong> When you successfully strike the body with your Unarmed attacks and deal Bleed, you may deal your additional +SL in Bleed Conditions against your enemy instead of Damage. </p><p><strong>Journeyman:</strong> You gain the +2 Implacable Talent. </p><p><strong>Master:</strong> As an action, you may spend all your Advantage</p><p>(minimum 3) to deal a deadly strike after a successful Opposed WS Test against your enemies that deals their (Number of Bleed Conditions) x2 in Damage that cannot be resisted by Armor or their TB.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "4"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776816587888,
+    "modifiedTime": 1776824693834,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!wt8SWpgYXwvHKSoz"
+}

@@ -1,0 +1,120 @@
+{
+  "_id": "pOql6YVNBt21t13s",
+  "name": "Blizzard",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/spells/ice-magic.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766499166922,
+    "modifiedTime": 1766499609393,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>A swirling flurry of snow and ice rises from the land, freezing and blinding all in its path. Distant targets may require a @Compendium[wfrp4e-core.items.Fs06sr7y9JKpVQmB]{Perception} Test to see clearly, as dictated by the GM. Those within the radius of the spell take +Willpower Bonus Damage every round, ignoring armor, and reduce their line of sight to only 6 yards. Targets also take a &ndash;20 penalty to their Ballistic Skill and Agility Tests and have their Movement reduced by half. You are immune to Blizzard. For every +2 SL you may increase the Damage of Blizzard by +Willpower Bonus.</p>\n<p>&nbsp;</p>\n<p><strong>Lore :</strong>&nbsp;The flows of Ice Magic vary in strength. By Kislev&rsquo;s sites of power, along her leylines, in freezing climates and in the depths of winter, Ice Magic is very strong, granting you a +10 to all @Compendium[wfrp4e-core.items.V8eRx66SxB9Jha0Q]{Channelling} and @Compendium[wfrp4e-core.items.e3McIND4Rrsn5cE6]{Language (Magick)} Tests when casting the Lore of Ice. But in warmer climes, it is far weaker and wanes the closer to the equator and the further from the North one travels. When casting in warmer climates, such as in most of the Empire, it counts as if casting next to a Corrupting Influence, causing a @Table[minormis] on a unit&rsquo;s roll of an 8. If you already have a @Table[minormis], the Miscast becomes a @Table[majormis]. In hotter climates, such as in a desert or jungle, you receive a permanent @Condition[Fatigued] Condition until you relocate to a cooler climate. You may spend a Resolve point to mitigate this Fatigue Condition for one round.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "lore": {
+      "type": "String",
+      "label": "Lore",
+      "value": "Ice",
+      "effectString": ""
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Willpower Yards",
+      "vortex": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "Willpower Yards",
+      "aoe": true
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Toughness Bonus Rounds",
+      "extendable": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": ""
+    },
+    "cn": {
+      "type": "Number",
+      "label": "Casting Number",
+      "value": 12,
+      "SL": 0
+    },
+    "magicMissile": {
+      "type": "Boolean",
+      "label": "Magic Missile",
+      "value": false
+    },
+    "ritual": {
+      "value": false,
+      "type": "",
+      "xp": 0
+    },
+    "memorized": {
+      "type": "Boolean",
+      "label": "Memorized",
+      "value": false
+    },
+    "skill": {
+      "value": ""
+    },
+    "ingredients": [],
+    "currentIng": {
+      "type": "Number",
+      "label": "Ingredient",
+      "value": "0"
+    },
+    "wind": {
+      "value": ""
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Increase Blizzard Damage",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "RR24Ugol9Crv6Bk7",
+  "sort": 2700000,
+  "_key": "!items!pOql6YVNBt21t13s"
+}

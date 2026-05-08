@@ -17,6 +17,19 @@
   "flags": {
     "canUpload": true
   },
+  "packFolders": [
+    {
+      "name": "Nations of Mankind",
+      "sorting": "a",
+      "color": "#39583e",
+      "packs": [
+        "nom-journals",
+        "nom-items",
+        "nom-tables"
+      ],
+      "folders": []
+    }
+  ],
   "esmodules": [
     "scripts/talent-option-picker-app.js",
     "scripts/career-talent-registration.js",
@@ -34,8 +47,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "wfrp4e",
-      "flags": {}
+      "system": "wfrp4e"
     },
     {
       "name": "nom-items",
@@ -46,8 +58,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "wfrp4e",
-      "flags": {}
+      "system": "wfrp4e"
     },
     {
       "name": "nom-tables",
@@ -58,8 +69,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "wfrp4e",
-      "flags": {}
+      "system": "wfrp4e"
     }
   ],
   "relationships": {

@@ -1,0 +1,60 @@
+{
+  "_id": "gO9QSxBmZkpLNNcv",
+  "name": "Lightning Strike",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/talents/riposte.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776997884181,
+    "modifiedTime": 1776997884181,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Your blade is as swift as lightning! You strike before your opponent even has time to react. As an Action, you may spend all your Advantage to attempt a single Unopposed Melee Test against your target, so long as your opponent is using a weapon without the Fast Quality. This action requires a Fast Quality weapon and sacrifices your Free Action and remaining Movement, if any, for the remainder of the turn if used.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "ag"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": "Melee Test when using Lightning Strike talent"
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 0,
+  "_key": "!items!gO9QSxBmZkpLNNcv"
+}

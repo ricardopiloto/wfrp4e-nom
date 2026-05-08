@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "NoM - Trappings",
+  "color": null,
+  "sorting": "a",
+  "_id": "xUrVvvwtRnbLeVuH",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776814091442,
+    "modifiedTime": 1776814091442,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!folders!xUrVvvwtRnbLeVuH"
+}

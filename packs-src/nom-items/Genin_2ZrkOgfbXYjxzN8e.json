@@ -1,0 +1,106 @@
+{
+  "name": "Genin",
+  "type": "career",
+  "_id": "2ZrkOgfbXYjxzN8e",
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.2fHi8uJn9ZDXnt87]{Ninja}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Ninja"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rogues"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Dodge",
+      "Endurance",
+      "Melee (Basic)",
+      "Ranged (Throwing)",
+      "Secret Signs (Ninja)",
+      "Stealth (Everything)"
+    ],
+    "talents": [
+      "Night Vision",
+      "Read/Write",
+      "Rover",
+      "Tunnel Rat"
+    ],
+    "trappings": [
+      "Assassination Contract",
+      "Katana (Hand Weapon)",
+      "Ninja Robes and Mask",
+      "Tanto (Dagger)",
+      "Kunai (Throwing Knives 1d10)"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777604152105,
+    "modifiedTime": 1778012540747,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "sort": 1000000,
+  "_key": "!items!2ZrkOgfbXYjxzN8e"
+}

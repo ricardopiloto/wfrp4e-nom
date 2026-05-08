@@ -1,0 +1,119 @@
+{
+  "name": "Streltsi Captain",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/soldier-04.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.jSLXhs4nDR2bcN4o]{Kislev Kossar}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Kislev Kossar"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Intimidate",
+      "Melee (Basic)",
+      "Melee (Two-Handed)",
+      "Ranged (Bow)",
+      "Consume Alcohol",
+      "Gamble",
+      "Haggle",
+      "Language (Battle)",
+      "Perception",
+      "Ranged (Thrown)",
+      "Charm",
+      "Gossip",
+      "Ranged (Black Powder)",
+      "Pray",
+      "Melee (Polearm)",
+      "Lore (Warfare)"
+    ],
+    "talents": [
+      "Menacing",
+      "Robust",
+      "Strike Mighty Blow",
+      "Sure Shot"
+    ],
+    "trappings": [
+      "Breastplate and Helmet",
+      "Smal Unit of Streltsi"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [
+      1,
+      0
+    ],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1765464663992,
+    "modifiedTime": 1778012371572,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "kRacvtqgFDFDnzJN",
+  "sort": 3900000,
+  "_key": "!items!kRacvtqgFDFDnzJN"
+}

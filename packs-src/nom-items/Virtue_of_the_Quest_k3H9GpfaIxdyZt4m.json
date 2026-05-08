@@ -1,0 +1,60 @@
+{
+  "name": "Virtue of the Quest",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/bretknight-virtue.png",
+  "effects": [],
+  "_id": "k3H9GpfaIxdyZt4m",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766508830643,
+    "modifiedTime": 1766509328023,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You take a –50 penalty to your Weapon Skill characteristic if you have a lance. Questing Knights renounce the use of that weapon, and those with the Virtue of the Quest find it hard to break that pledge. You receive visions that direct your quest. These visions lead you to the places where you should be, which normally means that they lead you into danger. At any time, you may call upon your strength of purpose to give you succor. As an Action, you may spend a Fortune Point to heal 1d10+WPB of your own Wounds. </p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 100000,
+  "_key": "!items!k3H9GpfaIxdyZt4m"
+}

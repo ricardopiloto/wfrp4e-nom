@@ -1,0 +1,107 @@
+{
+  "name": "Vimto Novice Monk",
+  "type": "career",
+  "_id": "aeknzIj2yH312aZx",
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.V1sXqFWgj9zbeK08]{Vimto Monks}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Vimto Monks"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Cool",
+      "Dodge",
+      "Language (Battle Tongue)",
+      "Lore (Orange Simca)",
+      "Melee (Polearm)",
+      "Pray",
+      "Trade (Shrine Building)"
+    ],
+    "talents": [
+      "Bless",
+      "Disarm",
+      "Hatred (Skaven)",
+      "Read/Write"
+    ],
+    "trappings": [
+      "Armored Monk Robes (Mail Coat)",
+      "Quarterstaff",
+      "Portable Simca Shrine",
+      "Tanto (Dagger)",
+      "White Cowl"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777030061255,
+    "modifiedTime": 1777942781372,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "sort": 1200000,
+  "_key": "!items!aeknzIj2yH312aZx"
+}

@@ -1,0 +1,113 @@
+{
+  "_id": "SWZxv8e3WwzklIFS",
+  "name": "Janissary Sargent",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-03.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1767185166265,
+    "modifiedTime": 1778012238520,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.oGtStn48sS7S3Vws]{Janissary}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Janissary"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rangers"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": true,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Dodge",
+      "Endurance",
+      "Language (Battle)",
+      "Melee (Basic)",
+      "Play (Drums)",
+      "Pray",
+      "Ranged (Blackpowder)",
+      "Cool",
+      "Charm",
+      "Melee (Parry)",
+      "Ranged (Explosives)",
+      "Trade (Gunsmith)",
+      "Bribery",
+      "Leadership",
+      "Perception",
+      "Ranged (Engineer)"
+    ],
+    "talents": [
+      "Accurate Shot",
+      "Disarm",
+      "Rapid Reload",
+      "War Leader"
+    ],
+    "trappings": [
+      "Repeater Handgun",
+      "Symbol of the Great Prophet"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "sort": 2600000,
+  "_key": "!items!SWZxv8e3WwzklIFS"
+}

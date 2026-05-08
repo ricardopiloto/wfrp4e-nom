@@ -1,0 +1,109 @@
+{
+  "_id": "zLC4OUB2440CSS9j",
+  "name": "Janissary Recruit",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/soldier-01.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1767184443003,
+    "modifiedTime": 1778012226310,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.oGtStn48sS7S3Vws]{Janissary}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Janissary"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rangers"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Dodge",
+      "Endurance",
+      "Language (Battle)",
+      "Melee (Basic)",
+      "Play (Drums)",
+      "Pray",
+      "Ranged (Blackpowder)"
+    ],
+    "talents": [
+      "Gunner",
+      "Step Aside",
+      "Supportive",
+      "Well-prepared"
+    ],
+    "trappings": [
+      "Mess Kit",
+      "Pistol",
+      "Quality Uniform",
+      "Yatagan (Sword)",
+      "10 Powder and Bullets",
+      "1d10 Bandages"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 3500000,
+  "_key": "!items!zLC4OUB2440CSS9j"
+}

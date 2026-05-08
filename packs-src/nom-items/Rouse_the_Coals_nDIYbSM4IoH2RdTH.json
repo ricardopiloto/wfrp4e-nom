@@ -1,0 +1,205 @@
+{
+  "name": "Rouse the Coals",
+  "type": "prayer",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/prayers/Kislev.png",
+  "effects": [
+    {
+      "_id": "kzHmTfhKpExKhhLc",
+      "flags": {
+        "wfrp4e": {
+          "_legacyData": {
+            "effectApplication": "apply",
+            "effectTrigger": "oneTime",
+            "preventDuplicateEffects": false,
+            "script": "args.actor.addCondition(\"ablaze\", Number(args.opposeData.attackerTestResult.SL+caster.data.data.characteristics.int.bonus)"
+          }
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null,
+        "combat": null
+      },
+      "tint": "#ffffff",
+      "transfer": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "lastModifiedBy": null
+      },
+      "name": "Rouse the Coals",
+      "img": "modules/nations-of-mankind-wfrp4e/icons/prayers/Kislev.png",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Rouse the Coals",
+            "trigger": "immediate",
+            "script": "args.actor.addCondition(\"ablaze\", Number(args.opposeData.attackerTestResult.SL+caster.data.data.characteristics.int.bonus)",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!nDIYbSM4IoH2RdTH.kzHmTfhKpExKhhLc"
+    }
+  ],
+  "_id": "nDIYbSM4IoH2RdTH",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766497167800,
+    "modifiedTime": 1766497380671,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You utter a prayer celebrating Dazh awakening from his bed of coals in the east. Your target, if flammable (as determined by the GM), immediately bursts into flames taking 1d10+Fellowship Bonus @Condition[Ablaze] Conditions.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "type": {
+      "type": "String",
+      "label": "Type",
+      "value": "miracle"
+    },
+    "god": {
+      "type": "String",
+      "label": "God",
+      "value": "Dazh"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Willpower Bonus Yards"
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "rk8vCEDo880ES4bD",
+  "sort": 700000,
+  "_key": "!items!nDIYbSM4IoH2RdTH"
+}

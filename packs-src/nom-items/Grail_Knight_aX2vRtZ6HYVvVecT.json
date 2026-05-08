@@ -1,0 +1,438 @@
+{
+  "name": "Grail Knight",
+  "type": "career",
+  "_id": "aX2vRtZ6HYVvVecT",
+  "img": "modules/wfrp4e-core/icons/careers/knight-04.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.6MDYnEhDcCiuUfmW]{Knight of the Realm}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Knight of the Realm"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Animal Care",
+      "Charm Animal",
+      "Lore (Heraldry)",
+      "Melee (Basic)",
+      "Melee (Cavalry)",
+      "Ride (Horse)",
+      "Pray",
+      "Lore (The Lady)",
+      "Dodge",
+      "Cool",
+      "Endurance",
+      "Intimidate",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Melee (Two-handed)",
+      "Charm",
+      "Consume Alcohol",
+      "Heal",
+      "Leadership",
+      "Lore (Warfare)",
+      "Ride (Hippogryph or Pegasus)"
+    ],
+    "talents": [
+      "Grail Virtue",
+      "Inspiring",
+      "Iron Will",
+      "Strike to Injure"
+    ],
+    "trappings": [
+      "Blessed by the Lady (+5 Advances to Strength, Toughness and Willpower)",
+      "Immunity (Corruption, Disease, Fatigue, Poison)",
+      "Regenerate Trait"
+    ],
+    "incomeSkill": [
+      8
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [
+    {
+      "name": "Blessed by the Lady",
+      "img": "modules/wfrp4e-nom/icons/careers/knight_errant.png",
+      "_id": "yQnrptQaVyscqDZG",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "changes": [
+        {
+          "key": "system.characteristics.s.modifier",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        },
+        {
+          "key": "system.characteristics.t.modifier",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        },
+        {
+          "key": "system.characteristics.wp.modifier",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776902488562,
+        "modifiedTime": 1776902831536,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!items.effects!aX2vRtZ6HYVvVecT.yQnrptQaVyscqDZG"
+    },
+    {
+      "name": "Immunity",
+      "img": "modules/wfrp4e-nom/icons/careers/knight_errant.png",
+      "_id": "DtsMfdehvr3OLV5y",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776902881146,
+        "modifiedTime": 1776902890778,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!items.effects!aX2vRtZ6HYVvVecT.DtsMfdehvr3OLV5y"
+    },
+    {
+      "name": "Regenerate",
+      "img": "modules/wfrp4e-nom/icons/careers/knight_errant.png",
+      "_id": "H5hVXCykQk82Mjue",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "let chatData = { whisper: ChatMessage.getWhisperRecipients(\"GM\") }\nlet message = \"\"\n\nlet wounds = foundry.utils.duplicate(this.actor.status.wounds)\nlet regenRoll = await new Roll(\"1d10\").roll({allowInteractive : false});\nlet regen = regenRoll.total;\n\nif (wounds.value >= wounds.max)\n    return\n\nif (wounds.value > 0) \n{\n    wounds.value += regen\n    if (wounds.value > wounds.max)\n    {\n        wounds.value = wounds.max\n    }\n    message += `<b>${this.actor.name}</b> regains ${regen} Wounds.`\n\n    if (regen == 10)\n    {\n        message += `<br>Additionally, they regenerate a Critical Wound.`\n    }\n}\nelse if (regen >= 8) \n{\n    message += `<b>${this.actor.name}</b> rolled a ${regen} and regains 1 Wound.`\n    wounds.value += 1\n    if (regen == 10)\n    {\n        message += `<br>Additionally, they regenerate a Critical Wound.`\n    }\n}\nelse \n{\n    message += `<b>${this.actor.name}</b> Regenerate roll of ${regen} - No effect.`\n}\n\nawait this.actor.update({ \"system.status.wounds\": wounds })\nthis.script.message(message, { whisper: ChatMessage.getWhisperRecipients(\"GM\") })",
+            "label": "Regenerate",
+            "trigger": "endRound",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "hideScript": "",
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776902891701,
+        "modifiedTime": 1776903704440,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!items.effects!aX2vRtZ6HYVvVecT.H5hVXCykQk82Mjue"
+    }
+  ],
+  "folder": "Ok1t4rLc68778H3u",
+  "flags": {
+    "wfrp4e-up-in-arms": {
+      "initialization-folder": "Knight of the Blazing Sun",
+      "sort": 100000
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1765315401131,
+    "modifiedTime": 1777942781372,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "sort": 4300000,
+  "_key": "!items!aX2vRtZ6HYVvVecT"
+}

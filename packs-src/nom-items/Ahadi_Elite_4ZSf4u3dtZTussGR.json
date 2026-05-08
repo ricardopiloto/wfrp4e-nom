@@ -1,0 +1,113 @@
+{
+  "_id": "4ZSf4u3dtZTussGR",
+  "name": "Ahadi Elite",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-02.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1767188251558,
+    "modifiedTime": 1778012313137,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.TSR9as1ml1ggmMvh]{Ind Ahadi}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Ind Ahadi"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Animal Care",
+      "Charm Animal",
+      "Endurance",
+      "Language (Battle)",
+      "Melee (Basic)",
+      "Navigation",
+      "Perception",
+      "Ride (Horse)",
+      "Bribery",
+      "Charm",
+      "Cool",
+      "Gossip",
+      "Melee (Polearm)",
+      "Ranged (Blackpowder)"
+    ],
+    "talents": [
+      "Read/Write",
+      "Supportive",
+      "Trick Riding",
+      "Etiquette (Nobles)"
+    ],
+    "trappings": [
+      "Mail Coat",
+      "Symbol of Rank",
+      "Quality Gun",
+      "Quality Uniform"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 2100000,
+  "_key": "!items!4ZSf4u3dtZTussGR"
+}

@@ -1,0 +1,146 @@
+{
+  "folder": "xUrVvvwtRnbLeVuH",
+  "name": "Torinoko Grenade",
+  "type": "weapon",
+  "_id": "Hj6GP9yLcWJhc0ze",
+  "img": "systems/wfrp4e/icons/blank.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Distraction:</strong> Made up of firecrackers and noise makers, these grenades are used to lure and distract enemies.</p><p><strong>Smoke:</strong> Used to blind and surprise unaware foes, anyone caught in the radius of this grenade is Surprised and must roll a Challenging (+0) Initiative Test or gain 1 Blind Condition.</p><p><strong>Stun:</strong> Used to incapacitate foes, anyone caught in the radius of this grenade must roll a Challenging (+0) Endurance Test or gain 1 Stun condition per -SL on their roll.</p><p><strong>Poison:</strong> Used to weaken and kill targets, anyone caught in the radius of this grenade must roll a Challenging (+0) Endurance Test or gain 1 Poison condition plus 1 per -SL on their roll.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 4,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "exotic"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": ""
+    },
+    "damageToItem": {
+      "type": "Number",
+      "value": 0,
+      "shield": 0
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": ""
+    },
+    "reach": {
+      "type": "String",
+      "label": "Reach",
+      "value": ""
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "SB"
+    },
+    "skill": {
+      "type": "String",
+      "label": "Skill Override",
+      "value": "Ranged (Explosives)"
+    },
+    "modeOverride": {
+      "type": "String",
+      "label": "Mode Override",
+      "value": "ranged"
+    },
+    "twohanded": {
+      "type": "Boolean",
+      "label": "Two-Handed",
+      "value": false
+    },
+    "ammunitionGroup": {
+      "type": "String",
+      "label": "Ammunition Group",
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "type": "String",
+      "label": "Weapon Group",
+      "value": "explosives"
+    },
+    "qualities": {
+      "label": "Qualities",
+      "value": [
+        {
+          "name": "blast",
+          "value": 5
+        }
+      ]
+    },
+    "flaws": {
+      "label": "Flaws",
+      "value": []
+    },
+    "special": {
+      "type": "String",
+      "label": "Special",
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777604334815,
+    "modifiedTime": 1778013236878,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!Hj6GP9yLcWJhc0ze"
+}

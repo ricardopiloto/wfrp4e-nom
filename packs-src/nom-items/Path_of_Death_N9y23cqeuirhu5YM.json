@@ -1,0 +1,182 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Path of Death",
+  "type": "talent",
+  "_id": "N9y23cqeuirhu5YM",
+  "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Novice:</strong> Cathay is home to many horrors that stalk the lands, including the undead. These monks are said to be among the leading experts in their annihilation. Your Unarmed Attacks gain the Damaging Weapon Quality against the Undead—Zombies, Skeletons, Ghosts, Banshees, Necromancers, Vampires and any Raised Beasts.</p><p><strong>Apprentice:</strong> Your Unarmed attacks are now Magical. <strong>Journeyman:</strong> You are Immune to all Psychology affects caused by any Undead. </p><p><strong>Master:</strong> Your Unarmed Attacks gain the Impact Weapon Quality against the Undead—Zombies, Skeletons, Ghosts, Banshees, Necromancers, Vampires and any Raised Beasts.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "4"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Path of Death",
+      "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+      "_id": "5XygJTvWrhGq2GOL",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "const test = args?.test;\nif (!test?.item) return;\n\nconst weapon = test.item;\nconst wg = weapon.system?.weaponGroup?.value;\nconst isUnarmed = wg === \"brawling\" || (weapon.name ?? \"\").toLowerCase().includes(\"unarmed\");\n\nconsole.log(\"[NOM][PathOfDeath][preRollWeaponTest] start\", {\n  attacker: test.actor?.name,\n  weaponName: weapon.name,\n  weaponGroup: wg,\n  isUnarmed,\n  foundryTargetsCount: game.user.targets?.size ?? 0,\n  wfrpTargetsCount: test.targets?.length ?? 0,\n});\n\nif (!isUnarmed) return;\n\nconst isUndeadActor = (actor) => {\n  if (!actor) return false;\n\n  try {\n    if (typeof actor.has === \"function\" && actor.has(\"Undead\") !== undefined) return true;\n  } catch (_) {}\n\n  const species = (actor.system?.details?.species?.value ?? \"\").toLowerCase();\n  if (species === \"undead\") return true;\n\n  const traits = (actor.itemTypes?.trait ?? []).map((tr) => (tr.name ?? \"\").toLowerCase());\n  return traits.includes(\"undead\");\n};\n\nlet targetActors = Array.from(game.user.targets ?? [])\n  .map((t) => t?.actor)\n  .filter(Boolean);\nlet source = \"game.user.targets\";\n\nif (!targetActors.length) {\n  targetActors = (test.targets ?? []).filter(Boolean);\n  source = \"args.test.targets (WFRP4e)\";\n}\n\nconst anyUndead = targetActors.some(isUndeadActor);\nconsole.log(\"[NOM][PathOfDeath][preRollWeaponTest] targets\", {\n  source,\n  targetInfo: targetActors.map((a) => ({\n    actorName: a.name,\n    species: a.system?.details?.species?.value,\n    hasUndeadTrait: (a.itemTypes?.trait ?? []).some((t) => (t.name ?? \"\").toLowerCase() === \"undead\"),\n    isUndead: isUndeadActor(a),\n  })),\n  anyUndead,\n});\n\nif (!anyUndead) return;\n\n// Attempt: patch the test's itemData (so we don't mutate the owned item on the sheet).\n// weapon-card.hbs displays `test.item.Qualities` / `test.item.Flaws`, which are derived from\n// the underlying `system.qualities.value` / `system.flaws.value`.\nconst itemData = foundry.utils.duplicate(weapon.toObject());\n\nconst qPath = \"system.qualities.value\";\nconst fPath = \"system.flaws.value\";\n\nconst qualities = foundry.utils.getProperty(itemData, qPath) ?? [];\nconst flaws = foundry.utils.getProperty(itemData, fPath) ?? [];\n\nconst before = { qualities: [...qualities], flaws: [...flaws] };\n\nif (!qualities.includes(\"damaging\")) qualities.push(\"damaging\");\nconst newFlaws = flaws.filter((f) => f !== \"undamaging\");\n\nfoundry.utils.setProperty(itemData, qPath, qualities);\nfoundry.utils.setProperty(itemData, fPath, newFlaws);\nfoundry.utils.setProperty(itemData, \"system._properties\", null);\n\ntest.preData.itemData = itemData;\ntest.data.preData.itemData = itemData;\n\nconsole.log(\"[NOM][PathOfDeath][preRollWeaponTest] patched itemData\", {\n  before,\n  after: {\n    qualities: foundry.utils.getProperty(itemData, qPath),\n    flaws: foundry.utils.getProperty(itemData, fPath),\n  },\n});",
+            "label": "Path of Death (Card)",
+            "trigger": "preRollWeaponTest",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "hideScript": "",
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          },
+          {
+            "script": "const opposed = args?.opposedTest || args;\nconst defender = opposed?.defender;\nconst weapon = opposed?.attackerTest?.item;\n\nconsole.log(\"[NOM][PathOfDeath][calculateOpposedDamage] start\", {\n  attacker: opposed?.attacker?.name,\n  defender: defender?.name,\n  weapon: weapon?.name,\n  weaponGroup: weapon?.system?.weaponGroup?.value,\n  existingAddDamaging: args?.addDamaging,\n});\n\nif (!defender || !weapon) return;\n\nconst wg = weapon.system?.weaponGroup?.value;\nconst isUnarmed = wg === \"brawling\" || (weapon.name ?? \"\").toLowerCase().includes(\"unarmed\");\nif (!isUnarmed) return;\n\nlet hasUndead = false;\ntry {\n  hasUndead = typeof defender.has === \"function\" && defender.has(\"Undead\") !== undefined;\n} catch (_) {}\n\nconst species = defender.system?.details?.species?.value;\nconst traits = (defender.itemTypes?.trait ?? []).map((t) => t.name);\nconst isUndead =\n  (species ?? \"\").toLowerCase() === \"undead\" ||\n  traits.map((t) => (t ?? \"\").toLowerCase()).includes(\"undead\") ||\n  hasUndead;\n\nconsole.log(\"[NOM][PathOfDeath][calculateOpposedDamage] undead check\", {\n  species,\n  traits,\n  hasUndeadHelper: hasUndead,\n  isUndead,\n});\n\nif (!isUndead) return;\n\nargs.addDamaging = true;\n\nconsole.log(\"[NOM][PathOfDeath][calculateOpposedDamage] applied\", {\n  addDamagingNow: args.addDamaging,\n});",
+            "label": "Path of Death (Damage)",
+            "trigger": "calculateOpposedDamage",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "hideScript": "",
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776942838929,
+        "modifiedTime": 1776948686458,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!items.effects!N9y23cqeuirhu5YM.5XygJTvWrhGq2GOL"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776816665963,
+    "modifiedTime": 1776824672243,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!N9y23cqeuirhu5YM"
+}

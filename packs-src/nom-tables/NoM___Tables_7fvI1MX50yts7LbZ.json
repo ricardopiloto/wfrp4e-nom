@@ -1,0 +1,23 @@
+{
+  "type": "RollTable",
+  "folder": null,
+  "name": "NoM - Tables",
+  "color": null,
+  "sorting": "a",
+  "_id": "7fvI1MX50yts7LbZ",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776825201676,
+    "modifiedTime": 1776825201676,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!folders!7fvI1MX50yts7LbZ"
+}

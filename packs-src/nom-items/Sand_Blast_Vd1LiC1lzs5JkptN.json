@@ -1,0 +1,120 @@
+{
+  "_id": "Vd1LiC1lzs5JkptN",
+  "name": "Sand Blast",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/spells/desert-magic.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766499185282,
+    "modifiedTime": 1766499609393,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>A blasting sandstorm erupts from the magician&rsquo;s mouth, throwing those who stand before them onto the ground and covering them in sand. This spell is a magic missile that deals +6 Damage ignoring armor. Any target struck gains a @Condition[Blind] Condition and must attempt a <strong>Challenging (+0) Endurance Test</strong> or be knocked @Condition[Prone].</p>\n<p>&nbsp;</p>\n<p><strong>Lore:</strong>&nbsp;Arcane Spells summoned from the Lore of the Desert tend to summon or shift large amounts of dust and sands upon their targets or shroud the caster in whirling sands like a desert storm. Whenever a spell from the Lore of the Desert is cast upon a target, that target has their Movement reduced by -1 and cannot Charge for the duration of the round.</p>\n<p>&nbsp;</p>\n<p><strong>Lore:</strong>&nbsp;Arcane Spells summoned from the Lore of the Desert tend to summon or shift large amounts of dust and sands upon their targets or shroud the caster in whirling sands like a desert storm. Whenever a spell from the Lore of the Desert is cast upon a target, that target has their Movement reduced by -1 and cannot Charge for the duration of the round.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "lore": {
+      "type": "String",
+      "label": "Lore",
+      "value": "Desert",
+      "effectString": ""
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Willpower Bonus Yards",
+      "vortex": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "Willpower Bonus Yards",
+      "aoe": true
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Instant",
+      "extendable": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": "6"
+    },
+    "cn": {
+      "type": "Number",
+      "label": "Casting Number",
+      "value": 8,
+      "SL": 0
+    },
+    "magicMissile": {
+      "type": "Boolean",
+      "label": "Magic Missile",
+      "value": true
+    },
+    "ritual": {
+      "value": false,
+      "type": "",
+      "xp": 0
+    },
+    "memorized": {
+      "type": "Boolean",
+      "label": "Memorized",
+      "value": false
+    },
+    "skill": {
+      "value": ""
+    },
+    "ingredients": [],
+    "currentIng": {
+      "type": "Number",
+      "label": "Ingredient",
+      "value": "0"
+    },
+    "wind": {
+      "value": ""
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "RR24Ugol9Crv6Bk7",
+  "sort": 500000,
+  "_key": "!items!Vd1LiC1lzs5JkptN"
+}

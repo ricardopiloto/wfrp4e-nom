@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Martial Artist (Path)",
+  "type": "talent",
+  "_id": "twKu5gIjgWNWuvCs",
+  "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>After many harsh years of training, you are ready to place yourself on one of the 8 paths towards becoming a master martial artist. </p><p>Your Unarmed attacks no longer have the Undamaging Weapon Flaw; moreover, your Unarmed attacks have Average Reach and</p><p>deal +2 additional Damage, changing the damage dealt to SB+2. </p><p>Your Damage increases by an additional +1 per advance for this Talent, up to a maximum of SB+5. You may also roll a</p><p>Challenging (+0) Opposed Melee (Brawling)/Ranged (Bow/Throwing/Sling) Test against arrows or thrown weapons being used against you.</p><p>Choose one of the 8 paths listed, but only one. Anyone who picks this talent pays 100 XP with an additional XP cost of 100 per Talent advance--100XP&gt;200XP&gt;300XP&gt;400XP. You may only purchase this Talent once per career level, with a maximum of four. </p><p>You cannot change your Path or select an additional Path. All Talents provided by the Path chosen cannot be upgraded and must be learned outside the monk’s career to be advanced.</p><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.N9y23cqeuirhu5YM]{Path of Death}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.dql2RslE4Glm8h3a]{Path of Iron}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.iaZTg6tYOaGrL0fq]{Path of Life}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.VCY4ysasUYuJinO4]{Path of Light}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ZdSBUYYlFEzhnMOC]{Path of Shadows}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.EeKBlvZU1SmjNgca]{Path of the Beast}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.wt8SWpgYXwvHKSoz]{Path of the Flame}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.cjCh7XvUMJfhtawf]{Path of the Heavens}</p></li></ul><p></p><p></p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776817130155,
+    "modifiedTime": 1776817284157,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!twKu5gIjgWNWuvCs"
+}

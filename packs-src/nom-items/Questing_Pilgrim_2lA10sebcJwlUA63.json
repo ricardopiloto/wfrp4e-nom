@@ -1,0 +1,121 @@
+{
+  "name": "Questing Pilgrim",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/priest-03.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.H3176dkgEidemPKT]{Grail Pilgrim}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Grail Pilgrim"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Peasants"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Entertain (Sing)",
+      "Entertain (Storytelling)",
+      "Lore (Heraldry)",
+      "Melee (Flail)",
+      "Melee (Polearm)",
+      "Lore (The Lady)",
+      "Art (Engraving)",
+      "Dodge",
+      "Endurance",
+      "Entertain (Any)",
+      "Intimidate",
+      "Intuition",
+      "Lore (Bretonnia)",
+      "Melee (Basic)",
+      "Outdoor Survival",
+      "Athletics",
+      "Charm",
+      "Lore (Theology)",
+      "Perception"
+    ],
+    "talents": [
+      "Public Speaker",
+      "Shieldsman",
+      "Tenacious",
+      "Very Resilient"
+    ],
+    "trappings": [
+      "Large Shield with Grail Heraldry",
+      "Robes with Makeshift Grail Heraldry"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "flags": {
+    "wfrp4e-up-in-arms": {
+      "initialization-folder": "Knight of the Blazing Sun",
+      "sort": 100000
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1765316075910,
+    "modifiedTime": 1777942781372,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "2lA10sebcJwlUA63",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "sort": 4400000,
+  "_key": "!items!2lA10sebcJwlUA63"
+}

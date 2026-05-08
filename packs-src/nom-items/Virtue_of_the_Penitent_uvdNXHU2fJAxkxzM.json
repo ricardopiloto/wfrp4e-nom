@@ -1,0 +1,59 @@
+{
+  "name": "Virtue of the Penitent",
+  "type": "talent",
+  "img": "modules/wfrp4e-core/icons/talents/bless.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You may not use magic items or ride steeds other than a horse. Any weapon you wield counts as Magical, and the Critical Value of any Critical Hit roll made against you is reduced by -20. A Critical Hit with a value of 0 has no effect</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "folder": "DsekJv5UvKUKIUpc",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.wfrp4e-bretonnia.bretonnia-items.Item.uvdNXHU2fJAxkxzM",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1765314948785,
+    "modifiedTime": 1766509328023,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "uvdNXHU2fJAxkxzM",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "sort": 2800000,
+  "_key": "!items!uvdNXHU2fJAxkxzM"
+}

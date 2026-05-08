@@ -1,0 +1,171 @@
+{
+  "_id": "sSQqfayNttWiw4lF",
+  "name": "Grail Virtue of the Ideal (Strength)",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/grailknight-virtue.png",
+  "effects": [
+    {
+      "_id": "MHfgT24Eq5oroKkd",
+      "flags": {
+        "wfrp4e": {
+          "_legacyData": {
+            "effectApplication": "actor",
+            "preventDuplicateEffects": false
+          }
+        }
+      },
+      "changes": [
+        {
+          "key": "system.characteristics.s.initial",
+          "value": "10",
+          "mode": 2
+        },
+        {
+          "key": "system.characteristics.t.initial",
+          "value": "5",
+          "mode": 2
+        },
+        {
+          "key": "system.characteristics.ws.initial",
+          "value": "5",
+          "mode": 2
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null,
+        "combat": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "lastModifiedBy": null
+      },
+      "name": "Grail Virtue",
+      "img": "modules/nations-of-mankind-wfrp4e/icons/talents/grailknight-virtue.png",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!sSQqfayNttWiw4lF.MHfgT24Eq5oroKkd"
+    }
+  ],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766509328001,
+    "modifiedTime": 1766509328023,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You gain a permanent +5 Weapon Skill and a +5 to either your Strength or Toughness Characteristic this does not count towards your Advances; moreover, you may choose any 3 @Compendium[nations-of-mankind-wfrp4e.journalentries-nom.siN4XGTmiQTSMBuX]{Bretonnian Noble Species} Skills to give a free +5 Advances to.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @Compendium[wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @Compendium[wfrp4e-core.items.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 700000,
+  "_key": "!items!sSQqfayNttWiw4lF"
+}

@@ -1,0 +1,117 @@
+{
+  "_id": "nn12JwmmapWgp1gF",
+  "name": "Royal Guard",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-03.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1767188255235,
+    "modifiedTime": 1778012316397,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.TSR9as1ml1ggmMvh]{Ind Ahadi}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Ind Ahadi"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 3
+    },
+    "status": {
+      "tier": "g",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Animal Care",
+      "Charm Animal",
+      "Endurance",
+      "Language (Battle)",
+      "Melee (Basic)",
+      "Navigation",
+      "Perception",
+      "Ride (Horse)",
+      "Bribery",
+      "Charm",
+      "Cool",
+      "Gossip",
+      "Melee (Polearm)",
+      "Ranged (Blackpowder)",
+      "Intuition",
+      "Leadership",
+      "Lore (Etiquette)",
+      "Lore (Politics)"
+    ],
+    "talents": [
+      "Lucky",
+      "Nose for Trouble",
+      "Schemer",
+      "Strike to Injure"
+    ],
+    "trappings": [
+      "Courtly Garb",
+      "Symbol of Gilgadresh or Brahmir",
+      "Quality Weapon (Any)",
+      "10"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 2900000,
+  "_key": "!items!nn12JwmmapWgp1gF"
+}

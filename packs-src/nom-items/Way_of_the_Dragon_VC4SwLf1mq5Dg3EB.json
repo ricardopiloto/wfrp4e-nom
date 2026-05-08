@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Way of the Dragon",
+  "type": "talent",
+  "_id": "VC4SwLf1mq5Dg3EB",
+  "img": "modules/wfrp4e-core/icons/talents/unshakable.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Novice:</strong> When Dual Wielding, you no longer take the -10 WS penalty to defending after attacking with both weapons.</p><p><strong>Apprentice:</strong> When you Critically Hit an enemy, raise their roll on the Critical Woundsy table by +10 if striking with both weapons.</p><p><strong>Journeyman:</strong> You gain+1 SL when defending with both weapons.</p><p><strong>Master:</strong> You no longer need to hit with both weapons to gain an Advantage, with a potential gain of +2 Advantage if both strikes hit.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777028138387,
+    "modifiedTime": 1777028329080,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!VC4SwLf1mq5Dg3EB"
+}

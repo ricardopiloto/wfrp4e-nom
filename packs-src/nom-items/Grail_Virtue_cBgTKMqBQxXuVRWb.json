@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Grail Virtue",
+  "type": "talent",
+  "_id": "cBgTKMqBQxXuVRWb",
+  "img": "modules/wfrp4e-nom/icons/talents/grailknight-virtue.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Max: 1</strong></p><p>You may select@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.pGTpU2i5qfDLE38i.JournalEntryPage.uPiUhkZe4LmAlgCQ#grail-virtues]{ one Grail Virtue} after advancing to Grail Knight. This virtue cannot be retracted or upgraded and requires you’ve acquired the Knightly Virtue of the same name: You cannot acquire the Grail Virtue of Audacity for instance without first acquiring the Knightly Virtue of Audacity.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776899178366,
+    "modifiedTime": 1777041439621,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!cBgTKMqBQxXuVRWb"
+}

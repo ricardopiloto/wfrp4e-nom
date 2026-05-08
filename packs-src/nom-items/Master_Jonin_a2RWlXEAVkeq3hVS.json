@@ -1,0 +1,113 @@
+{
+  "name": "Master Jonin",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.2fHi8uJn9ZDXnt87]{Ninja}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Ninja"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rogues"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": true,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Dodge",
+      "Endurance",
+      "Melee (Basic)",
+      "Ranged (Throwing)",
+      "Secret Signs (Ninja)",
+      "Stealth (Everything)",
+      "Bribery",
+      "Charm",
+      "Intuition",
+      "Perception",
+      "Ranged (Explosives)",
+      "Trade (Explosives)",
+      "Climb",
+      "Cool",
+      "Ranged (Bow)",
+      "Sleight of Hand",
+      "Entertain (Acting)",
+      "Gossip"
+    ],
+    "talents": [],
+    "trappings": [
+      "Business Front and HQ",
+      "Elite Ninja Bodyguards",
+      "Ninja Clan",
+      "Quality Clothing",
+      "500"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777604154833,
+    "modifiedTime": 1778012548436,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "a2RWlXEAVkeq3hVS",
+  "sort": 300000,
+  "_key": "!items!a2RWlXEAVkeq3hVS"
+}

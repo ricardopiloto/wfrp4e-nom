@@ -8,6 +8,7 @@ build/
 .env
 staging/
 wfrp4e-nom.zip
+packs/
 
 # OpenSpec AGENTS
 agents/*

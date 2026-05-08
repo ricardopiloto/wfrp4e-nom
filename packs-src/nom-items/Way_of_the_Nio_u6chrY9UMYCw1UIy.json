@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Way of the Nio",
+  "type": "talent",
+  "_id": "u6chrY9UMYCw1UIy",
+  "img": "modules/wfrp4e-core/icons/talents/unshakable.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Novice:</strong> You deal +1 Damage against all Chaos Corrupted beings and Daemons.</p><p><strong>Apprentice:</strong> You gain the Bless (Orange Simca) Talent and use the Language (Battle) skill in place of the Pray skill.</p><p><strong>Journeyman:</strong> You may spend 1 Resolve to give yourself all Blessings (Orange Simca) for 1 Round.</p><p><strong>Master:</strong> Your Melee Attacks gain the Impact Weapon Quality against servants of Chaos—Mutants, Beastmen, Demons, Cultists, Warriors of Chaos and Corrupted Beasts.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777028290956,
+    "modifiedTime": 1777028337399,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!u6chrY9UMYCw1UIy"
+}

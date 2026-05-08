@@ -1,0 +1,300 @@
+{
+  "folder": "7fvI1MX50yts7LbZ",
+  "name": "Chosen of the Hound",
+  "_id": "tI1syOkdXB0Y5UOV",
+  "img": "systems/wfrp4e/ui/buttons/d10.webp",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "tuIx1uVhu0HwvLFV",
+      "name": "Iron Skin: +2 Armour Points to all locations, –10 Agility",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776825218629,
+        "modifiedTime": 1776825243489,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.tuIx1uVhu0HwvLFV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "GtqSjYKnGgBGll6f",
+      "name": "Multiple Arms: Gain one Free Attack",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776825219949,
+        "modifiedTime": 1776825248826,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.GtqSjYKnGgBGll6f"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "lVlSntwSpW24MYgy",
+      "name": "Multiple Legs: Gain +1 Movement",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776825221908,
+        "modifiedTime": 1776825253364,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.lVlSntwSpW24MYgy"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "Sh8UAj3cbmt5koBj",
+      "name": "Skull Face: Gain the Fear 2 Creature Trait",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776825222356,
+        "modifiedTime": 1776825258451,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.Sh8UAj3cbmt5koBj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "g1ZWflrSY2S6u2iW",
+      "name": "Spiked Skin/Armor: +1 Armour Points on all locations; gain a Free Attack (SB+4) when Charging",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776825222743,
+        "modifiedTime": 1776825315968,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.g1ZWflrSY2S6u2iW"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "F3hIgGnV9CXIgmpC",
+      "name": "Thorny Scales: +1 Armour Points to all locations",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776825223096,
+        "modifiedTime": 1776825321835,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.F3hIgGnV9CXIgmpC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "bKZD9J25JNW7NmsQ",
+      "name": "Three Eyes: Gain the Acute Sense (Vision) Talent",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776825223357,
+        "modifiedTime": 1776825326682,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.bKZD9J25JNW7NmsQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "k5LXLH5QUUa7vfwv",
+      "name": "Transparent Skin: Gain the Fear 2 Creature Trait",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776825223663,
+        "modifiedTime": 1776825331213,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.k5LXLH5QUUa7vfwv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "fEYTElAJ14iw4sfK",
+      "name": "Uneven Horns: +1 Armour Points to the Head and adds Horns; counts as a Creature Weapon of Damage equal to your SB+4",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776825223934,
+        "modifiedTime": 1776825335910,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.fEYTElAJ14iw4sfK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "mEc41wHPGUilU8js",
+      "name": "Wings: Gain the Flight 60 Creature Trait",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776825224217,
+        "modifiedTime": 1776825341238,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.mEc41wHPGUilU8js"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776825214180,
+    "modifiedTime": 1776825218625,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "formula": "",
+  "_key": "!tables!tI1syOkdXB0Y5UOV"
+}

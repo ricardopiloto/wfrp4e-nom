@@ -1,0 +1,111 @@
+{
+  "_id": "NKDTyPdVt19Iq3k9",
+  "name": "Janissary",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-02.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1767184441647,
+    "modifiedTime": 1778012234786,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.oGtStn48sS7S3Vws]{Janissary}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Janissary"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rangers"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": false,
+      "dex": true,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Dodge",
+      "Endurance",
+      "Language (Battle)",
+      "Melee (Basic)",
+      "Play (Drums)",
+      "Pray",
+      "Ranged (Blackpowder)",
+      "Cool",
+      "Charm",
+      "Tilean or Wastelander)",
+      "Melee (Parry)",
+      "Ranged (Explosives)",
+      "Trade (Gunsmith)"
+    ],
+    "talents": [
+      "Combat Aware",
+      "Drilled",
+      "Fast Shot",
+      "Sprinter"
+    ],
+    "trappings": [
+      "Gunsmith Tools",
+      "Symbol of Rank"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 2400000,
+  "_key": "!items!NKDTyPdVt19Iq3k9"
+}

@@ -6,7 +6,8 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Unreleased
 
-- (none)
+- *Changed* Compendiums: source of truth is **`packs-src/`** (JSON); LevelDB **`packs/`** is rebuilt with **`npm run packs:build`** and by **GitHub Release** workflows before packaging (no committed LevelDB blobs). Removed orphaned **`nom-bestiary`** database folder that was never listed in **`module.json`**.
+- *Added* **`packFolders`** in **`module.json`** (sidebar folder “Nations of Mankind”) and tooling **`@foundryvtt/foundryvtt-cli`** + **`scripts/packs-tool.mjs`** for extract/pack (`align-foundry-compendium-packs`).
 
 ## [Version 1.1.6](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.1.6) (2026-05-05)
 

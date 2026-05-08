@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "NoM - Spells",
+  "color": null,
+  "sorting": "a",
+  "_id": "RR24Ugol9Crv6Bk7",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766499128474,
+    "modifiedTime": 1766499128474,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!folders!RR24Ugol9Crv6Bk7"
+}

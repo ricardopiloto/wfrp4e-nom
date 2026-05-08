@@ -1,0 +1,120 @@
+{
+  "_id": "kHqr2B7GahN31JCz",
+  "name": "Mirage",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/spells/desert-magic.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766499182453,
+    "modifiedTime": 1766499609393,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You summon a clone of yourself to fool your enemies, confusing them with your illusory magics. You may create one clone per cast and one additional clone per +2 SL. You will automatically fool anyone without the @Compendium[wfrp4e-core.items.OEjUvJKi0xmBwbS2]{Second Sight} Talent. Those with that Talent must pass a Difficult (&ndash;10) Perception Test to notice the illusion. This does not let them see through the spell. They must dispel it to do so. During combat, illusory clones may attack or defend as if they are real, sharing your Weapon Skill and appropriate Melee Skills, but cannot deal or receive Damage. Clones may still help grant an outnumbering bonus against their enemies. Those engaged with the illusion must attempt a <strong>Hard (-20) Willpower Test</strong> to resist its effects or else treat it as if it is real and act accordingly, regardless if they are aware it&rsquo;s an illusion or not.</p>\n<p>&nbsp;</p>\n<p><strong>Lore:</strong>&nbsp;Arcane Spells summoned from the Lore of the Desert tend to summon or shift large amounts of dust and sands upon their targets or shroud the caster in whirling sands like a desert storm. Whenever a spell from the Lore of the Desert is cast upon a target, that target has their Movement reduced by -1 and cannot Charge for the duration of the round.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "lore": {
+      "type": "String",
+      "label": "Lore",
+      "value": "Desert",
+      "effectString": ""
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Willpower Yards",
+      "vortex": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "Special",
+      "aoe": false
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Intelligence Bonus Minutes",
+      "extendable": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": ""
+    },
+    "cn": {
+      "type": "Number",
+      "label": "Casting Number",
+      "value": 8,
+      "SL": 0
+    },
+    "magicMissile": {
+      "type": "Boolean",
+      "label": "Magic Missile",
+      "value": false
+    },
+    "ritual": {
+      "value": false,
+      "type": "",
+      "xp": 0
+    },
+    "memorized": {
+      "type": "Boolean",
+      "label": "Memorized",
+      "value": false
+    },
+    "skill": {
+      "value": ""
+    },
+    "ingredients": [],
+    "currentIng": {
+      "type": "Number",
+      "label": "Ingredient",
+      "value": "0"
+    },
+    "wind": {
+      "value": ""
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "RR24Ugol9Crv6Bk7",
+  "sort": 100000,
+  "_key": "!items!kHqr2B7GahN31JCz"
+}

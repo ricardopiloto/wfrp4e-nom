@@ -1,0 +1,115 @@
+{
+  "name": "Vimto Blade Master",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/advisor-03.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.V1sXqFWgj9zbeK08]{Vimto Monks}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Vimto Monks"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Cool",
+      "Dodge",
+      "Language (Battle Tongue)",
+      "Lore (Orange Simca)",
+      "Melee (Polearm)",
+      "Pray",
+      "Trade (Shrine Building)",
+      "Consume Alcohol",
+      "Entertain (Speeches)",
+      "Gossip",
+      "Melee (Basic)",
+      "Outdoor Survival",
+      "Ranged (Bow)",
+      "Endurance",
+      "Intuition",
+      "Melee (Two-Handed)",
+      "Perception"
+    ],
+    "talents": [
+      "Holy Hatred",
+      "Holy Visions",
+      "Pure Soul",
+      "Sprinter"
+    ],
+    "trappings": [
+      "Apprentice Monks",
+      "Nagamaki (Two-Handed)",
+      "Training Temple"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777030058222,
+    "modifiedTime": 1777942781372,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "IY66br7CZzx1RTcG",
+  "sort": 1100000,
+  "_key": "!items!IY66br7CZzx1RTcG"
+}

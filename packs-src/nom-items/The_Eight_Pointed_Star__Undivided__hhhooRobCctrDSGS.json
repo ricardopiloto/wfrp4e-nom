@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "The Eight-Pointed Star (Undivided)",
+  "type": "talent",
+  "_id": "hhhooRobCctrDSGS",
+  "img": "modules/wfrp4e-core/icons/talents/acute-sense.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Worshiper of the Gods:</strong></p><p>-Gain the +1 Fearless (Everything) and +1 Drilled Talents.</p><p>-Gain the Leader Trait.</p><p><strong>Warrior Undivided:</strong></p><p>-Gain the +1 Commanding Presence Talent and gain +20 to your Fellowship Tests for influencing Servants of Chaos--Mutants,</p><p>Beastmen, Demons, Cultists, Warriors of Chaos and Corrupted Beasts. (All Fellowship and Intimidation Tests)</p><p>-You may re-roll any failed Fear or Terror Test, or any failed Test to resist Intimidation once per encounter. If the re-roll succeeds, ignore the first failure.</p><p><strong>Champion Undivided:</strong></p><p>-Gain the Hatred (Order) Talent—Bretonnia, Elves, Empire and lesser Human Civilizations, Dwarfs, Lizardmen, Tomb Kings and</p><p>Wood Elves. </p><p>-Might Makes Right: Amongst Chaos, power and authority are synonymous, with strong Chaos Warriors naturally viewed as</p><p>leaders by those beneath them. The servants of Chaos understand that respect only comes to those with the might to claim it. When dealing with other Servants of Chaos, a Champion may use their status to rally other Chaos forces into conceiting they’re the leader and may replace any Fellowship Tests with Intimidation Tests.</p><p><strong>Chosen Undivided:</strong></p><p>-Gain the Hatred (Destruction) Talent—Undead, Greenskins, Skaven and Ogres.</p><p>- You gain the Champion Trait when fighting your most hatedfoes. </p><p>-You now get a +40 instead of a +20 for influencing the Servants of Chaos. (All Fellowship and Intimidation Tests)</p><p>-Gain the +1 Inspiring and +1 War Leader Talents, and the Elite Trait when in combat against the forces of Order or Destruction.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "4"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776821018200,
+    "modifiedTime": 1776824612435,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!hhhooRobCctrDSGS"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "NoM - Prayers",
+  "color": null,
+  "sorting": "a",
+  "_id": "rk8vCEDo880ES4bD",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766497079883,
+    "modifiedTime": 1766497079883,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!folders!rk8vCEDo880ES4bD"
+}

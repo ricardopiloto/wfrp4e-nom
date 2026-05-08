@@ -1,0 +1,108 @@
+{
+  "name": "Joven",
+  "type": "career",
+  "_id": "qT00kDzQBp8mDzhn",
+  "img": "modules/wfrp4e-core/icons/careers/soldier-01.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.HVUSFe72zLjhmaoU]{Estalian Almogavar}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Estalian Almogavar"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Charm",
+      "Haggle",
+      "Intuition",
+      "Lore (Myrmidia)",
+      "Melee (Basic)",
+      "Melee (Polearm)",
+      "Outdoor Survival",
+      "Perception"
+    ],
+    "talents": [
+      "Break and Enter",
+      "Combat Aware",
+      "Distract",
+      "Enclosed Fighter"
+    ],
+    "trappings": [
+      "Bedroll",
+      "Spear",
+      "Dagger",
+      "Leather Jerkin",
+      "Tinderbox",
+      "Unique Region Trapping"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777779194485,
+    "modifiedTime": 1777942781372,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "sort": 400000,
+  "_key": "!items!qT00kDzQBp8mDzhn"
+}

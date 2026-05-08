@@ -1,0 +1,121 @@
+{
+  "name": "Ice Maiden's Kiss",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/spells/ice-magic.png",
+  "effects": [],
+  "_id": "2DO6nDvYhzI9ajKg",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766499515529,
+    "modifiedTime": 1766499609393,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0,
+    "HbC5TWvEu9iEIzyL": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You breathe forth purest cold, freezing foes into glittering statues of ice. You immediately make a Cold Breath attack, as if you had spent 2 Advantage to activate the @Compendium[wfrp4e-core.items.uqGxFOEqeurwkAO3]{Breath} Creature Trait. Ice Maiden&rsquo;s Kiss is a magic missile with a Damage equal to your Toughness Bonus, ignoring armor. If the target&rsquo;s Wounds are reduced to 0 its body freezes and turns into a solid statue made of ice, a grizzly representation of its former self. For every +2 SL you may increase the width of the Breath Attack around the target by +Strength Bonus Yards.</p>\n<p><strong>Lore :</strong> The flows of Ice Magic vary in strength. By Kislev&rsquo;s sites of power, along her leylines, in freezing climates and in the depths of winter, Ice Magic is very strong, granting you a +10 to all @Compendium[wfrp4e-core.items.V8eRx66SxB9Jha0Q]{Channelling} and @Compendium[wfrp4e-core.items.e3McIND4Rrsn5cE6]{Language (Magick)} Tests when casting the Lore of Ice. But in warmer climes, it is far weaker and wanes the closer to the equator and the further from the North one travels. When casting in warmer climates, such as in most of the Empire, it counts as if casting next to a Corrupting Influence, causing a @Table[minormis] on a unit&rsquo;s roll of an 8. If you already have a @Table[minormis], the Miscast becomes a @Table[majormis]. In hotter climates, such as in a desert or jungle, you receive a permanent @Condition[Fatigued] Condition until you relocate to a cooler climate. You may spend a Resolve point to mitigate this Fatigue Condition for one round.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "lore": {
+      "type": "String",
+      "label": "Lore",
+      "value": "Ice",
+      "effectString": ""
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Toughness Bonus Yards",
+      "vortex": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "Special",
+      "aoe": false
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Instant",
+      "extendable": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": "TB"
+    },
+    "cn": {
+      "type": "Number",
+      "label": "Casting Number",
+      "value": 6,
+      "SL": 0
+    },
+    "magicMissile": {
+      "type": "Boolean",
+      "label": "Magic Missile",
+      "value": true
+    },
+    "ritual": {
+      "value": false,
+      "type": "",
+      "xp": 0
+    },
+    "memorized": {
+      "type": "Boolean",
+      "label": "Memorized",
+      "value": false
+    },
+    "skill": {
+      "value": ""
+    },
+    "ingredients": [],
+    "currentIng": {
+      "type": "Number",
+      "label": "Ingredient",
+      "value": "0"
+    },
+    "wind": {
+      "value": ""
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Increase width of Breath Attack",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "SL",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false,
+        "additional": "+2"
+      }
+    }
+  },
+  "folder": "RR24Ugol9Crv6Bk7",
+  "sort": 1300000,
+  "_key": "!items!2DO6nDvYhzI9ajKg"
+}

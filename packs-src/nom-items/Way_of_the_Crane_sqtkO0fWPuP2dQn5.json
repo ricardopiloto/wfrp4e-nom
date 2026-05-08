@@ -1,0 +1,59 @@
+{
+  "folder": "DsekJv5UvKUKIUpc",
+  "name": "Way of the Crane",
+  "type": "talent",
+  "_id": "sqtkO0fWPuP2dQn5",
+  "img": "modules/wfrp4e-core/icons/talents/unshakable.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Novice:</strong> You may issue a duel against an opponent. See Virtue of Confidence for rules. (page. 3)</p><p><strong>Apprentice:</strong> You are Immune to Fear or Intimidation affects caused by your opponent when dueling.</p><p><strong>Journeyman:</strong> Gain +10 to your WS when dueling an opponent when you’re not using a shield.</p><p><strong>Master:</strong> In a duel, gain two Advantage on a successful Opposed WS Test instead of one.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777028097799,
+    "modifiedTime": 1777028125381,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!sqtkO0fWPuP2dQn5"
+}

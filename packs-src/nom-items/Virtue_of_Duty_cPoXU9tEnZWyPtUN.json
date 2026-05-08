@@ -1,0 +1,59 @@
+{
+  "name": "Virtue of Duty",
+  "type": "talent",
+  "img": "modules/wfrp4e-core/icons/talents/bless.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You may pledge loyalty to up to three other characters. When you fight alongside those characters, they each gain a +10 bonus to their Weapon Skill characteristics and +1 Advantage at the start of a combat. Unless all of them are present in a battle, you take a -10 penalty to your Weapon Skill Characteristic. This effect does not stack with other instances of the Virtue of Duty. This pledge may be renounced should circumstances forbid your ally from accompanying you, such as their death or retirement, but it must be done under circumstances dictated by the GM and cannot be undone willingly by yourself.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "folder": "DsekJv5UvKUKIUpc",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.wfrp4e-bretonnia.bretonnia-items.Item.cPoXU9tEnZWyPtUN",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1765314948785,
+    "modifiedTime": 1766509328023,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_id": "cPoXU9tEnZWyPtUN",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "sort": 2300000,
+  "_key": "!items!cPoXU9tEnZWyPtUN"
+}

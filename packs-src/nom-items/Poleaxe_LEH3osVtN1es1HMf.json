@@ -1,0 +1,155 @@
+{
+  "folder": "xUrVvvwtRnbLeVuH",
+  "name": "Poleaxe",
+  "type": "weapon",
+  "_id": "LEH3osVtN1es1HMf",
+  "img": "modules/wfrp4e-nom/icons/trappings/weapons/poleaxe.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 3
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 8,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": ""
+    },
+    "damageToItem": {
+      "type": "Number",
+      "value": 0,
+      "shield": 0
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": "SB+6"
+    },
+    "reach": {
+      "type": "String",
+      "label": "Reach",
+      "value": "vLong"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": ""
+    },
+    "skill": {
+      "type": "String",
+      "label": "Skill Override",
+      "value": "Melee (Polearm)"
+    },
+    "modeOverride": {
+      "type": "String",
+      "label": "Mode Override",
+      "value": "melee"
+    },
+    "twohanded": {
+      "type": "Boolean",
+      "label": "Two-Handed",
+      "value": true
+    },
+    "ammunitionGroup": {
+      "type": "String",
+      "label": "Ammunition Group",
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "type": "String",
+      "label": "Weapon Group",
+      "value": "polearm"
+    },
+    "qualities": {
+      "label": "Qualities",
+      "value": [
+        {
+          "name": "hack",
+          "value": null
+        },
+        {
+          "name": "impact",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "label": "Flaws",
+      "value": [
+        {
+          "name": "tiring",
+          "value": null
+        }
+      ]
+    },
+    "special": {
+      "type": "String",
+      "label": "Special",
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776821708504,
+    "modifiedTime": 1778013236878,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!items!LEH3osVtN1es1HMf"
+}
