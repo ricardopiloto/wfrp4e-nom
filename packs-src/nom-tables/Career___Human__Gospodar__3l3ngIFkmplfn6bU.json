@@ -1447,9 +1447,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Artillerist",
+      "name": "Engineer",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.hVKMI3xwuUpO3P6c]{Engineer}",
       "weight": 1,
       "_key": "!tables.results!3l3ngIFkmplfn6bU.4iqf7e7saido0i4m"
     },
@@ -1472,9 +1472,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Cadet",
+      "name": "Soldier",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.1OTZ386bMWJ6wfzX]{Soldier}",
       "weight": 1,
       "_key": "!tables.results!3l3ngIFkmplfn6bU.jmoq6oai5qn75bex"
     },
@@ -1497,9 +1497,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Chekist",
+      "name": "Investigator",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.zLWmjUbUdAOfiV3F]{Investigator}",
       "weight": 1,
       "_key": "!tables.results!3l3ngIFkmplfn6bU.13a561vsntvk6hdg"
     },
@@ -1522,9 +1522,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Executioner",
+      "name": "Pit Fighter",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.EELJsJuoDVxiRu9e]{Pit Fighter}",
       "weight": 1,
       "_key": "!tables.results!3l3ngIFkmplfn6bU.9crzfoarxvziskhk"
     },
@@ -1547,9 +1547,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Highwayman",
+      "name": "Outlaw",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.SrqxyWytyki4WYgC]{Outlaw}",
       "weight": 1,
       "_key": "!tables.results!3l3ngIFkmplfn6bU.btfsnpu55b44loeo"
     },
@@ -1597,9 +1597,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Marine",
+      "name": "Seaman",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.XyM54Ue5w1WuCaBD]{Seaman}",
       "weight": 1,
       "_key": "!tables.results!3l3ngIFkmplfn6bU.0caejj6p6ekfexl5"
     },
@@ -1622,9 +1622,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Vampire Hunter",
+      "name": "Witch Hunter",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ADYQOtpsk5n1EHen]{Witch Hunter}",
       "weight": 1,
       "_key": "!tables.results!3l3ngIFkmplfn6bU.vy60jgw1fnurn2xp"
     },

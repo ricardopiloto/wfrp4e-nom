@@ -1472,9 +1472,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Artillerist",
+      "name": "Engineer",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.hVKMI3xwuUpO3P6c]{Engineer}",
       "weight": 1,
       "_key": "!tables.results!QuswtVr3V7hZjmNI.6h8cxst4cn5yd26k"
     },
@@ -1497,9 +1497,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Assassin",
+      "name": "Spy",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ssJHG82vEHHRoAUF]{Spy}",
       "weight": 1,
       "_key": "!tables.results!QuswtVr3V7hZjmNI.u0sbff4gy3qm4u95"
     },
@@ -1522,9 +1522,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Cadet",
+      "name": "Soldier",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.1OTZ386bMWJ6wfzX]{Soldier}",
       "weight": 1,
       "_key": "!tables.results!QuswtVr3V7hZjmNI.wjpc83bgu4dsqady"
     },
@@ -1572,9 +1572,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Executioner",
+      "name": "Pit Fighter",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.EELJsJuoDVxiRu9e]{Pit Fighter}",
       "weight": 1,
       "_key": "!tables.results!QuswtVr3V7hZjmNI.sbe7iw53tbyazvo6"
     },
@@ -1597,9 +1597,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Highwayman",
+      "name": "Outlaw",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.SrqxyWytyki4WYgC]{Outlaw}",
       "weight": 1,
       "_key": "!tables.results!QuswtVr3V7hZjmNI.or1grn561g85f6eb"
     },
@@ -1622,9 +1622,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Jinyiwei",
+      "name": "Spy",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ssJHG82vEHHRoAUF]{Spy}",
       "weight": 1,
       "_key": "!tables.results!QuswtVr3V7hZjmNI.wpiuamxoqvm5snqs"
     },
@@ -1647,9 +1647,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Mamluk",
+      "name": "Cavalryman",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ArFOfnzJkToXBJBF]{Cavalryman}",
       "weight": 1,
       "_key": "!tables.results!QuswtVr3V7hZjmNI.3zz282h4amdz5y8y"
     },
@@ -1672,9 +1672,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Marine",
+      "name": "Seaman",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.XyM54Ue5w1WuCaBD]{Seaman}",
       "weight": 1,
       "_key": "!tables.results!QuswtVr3V7hZjmNI.1aixyveqlgwl6t43"
     },
@@ -1697,9 +1697,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Paymaster",
+      "name": "Merchant",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.h7GdfctKdjWL0Ejp]{Merchant}",
       "weight": 1,
       "_key": "!tables.results!QuswtVr3V7hZjmNI.3lut49xx4dmgfewv"
     },
@@ -1722,9 +1722,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Swordsaint",
+      "name": "Protagonist",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.cXOl6phkTrPcUmwC]{Protagonist}",
       "weight": 1,
       "_key": "!tables.results!QuswtVr3V7hZjmNI.w1h2z7e0sxp7oj8y"
     }

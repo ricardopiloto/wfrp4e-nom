@@ -6,14 +6,14 @@
   "description": "",
   "results": [
     {
-      "type": "text",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         1
       ],
       "_id": "tuIx1uVhu0HwvLFV",
-      "name": "Iron Skin: +2 Armour Points to all locations, –10 Agility",
+      "name": "Iron Skin",
       "img": "icons/svg/d10-grey.svg",
       "description": "",
       "drawn": false,
@@ -29,18 +29,21 @@
         "modifiedTime": 1776825243489,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
-      "documentUuid": null,
-      "_key": "!tables.results!tI1syOkdXB0Y5UOV.tuIx1uVhu0HwvLFV"
+      "documentUuid": "Compendium.wfrp4e-nom.nom-items.Item.rsMjQAqTAAk5NaOC",
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.tuIx1uVhu0HwvLFV",
+      "documentCollection": "Compendium.wfrp4e-nom.nom-items",
+      "documentId": "rsMjQAqTAAk5NaOC",
+      "text": "Iron Skin: +2 Armour Points to all locations, –10 Agility"
     },
     {
-      "type": "text",
+      "type": "document",
       "weight": 1,
       "range": [
         2,
         2
       ],
       "_id": "GtqSjYKnGgBGll6f",
-      "name": "Multiple Arms: Gain one Free Attack",
+      "name": "Multiple Arms",
       "img": "icons/svg/d10-grey.svg",
       "description": "",
       "drawn": false,
@@ -56,18 +59,21 @@
         "modifiedTime": 1776825248826,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
-      "documentUuid": null,
-      "_key": "!tables.results!tI1syOkdXB0Y5UOV.GtqSjYKnGgBGll6f"
+      "documentUuid": "Compendium.wfrp4e-nom.nom-items.Item.2cTuA3kJ7jsYKK6q",
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.GtqSjYKnGgBGll6f",
+      "documentCollection": "Compendium.wfrp4e-nom.nom-items",
+      "documentId": "2cTuA3kJ7jsYKK6q",
+      "text": "Multiple Arms: Gain one Free Attack"
     },
     {
-      "type": "text",
+      "type": "document",
       "weight": 1,
       "range": [
         3,
         3
       ],
       "_id": "lVlSntwSpW24MYgy",
-      "name": "Multiple Legs: Gain +1 Movement",
+      "name": "Multiple Legs",
       "img": "icons/svg/d10-grey.svg",
       "description": "",
       "drawn": false,
@@ -83,18 +89,21 @@
         "modifiedTime": 1776825253364,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
-      "documentUuid": null,
-      "_key": "!tables.results!tI1syOkdXB0Y5UOV.lVlSntwSpW24MYgy"
+      "documentUuid": "Compendium.wfrp4e-nom.nom-items.Item.L460iAOGHp1Y9xai",
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.lVlSntwSpW24MYgy",
+      "documentCollection": "Compendium.wfrp4e-nom.nom-items",
+      "documentId": "L460iAOGHp1Y9xai",
+      "text": "Multiple Legs: Gain +1 Movement"
     },
     {
-      "type": "text",
+      "type": "document",
       "weight": 1,
       "range": [
         4,
         4
       ],
       "_id": "Sh8UAj3cbmt5koBj",
-      "name": "Skull Face: Gain the Fear 2 Creature Trait",
+      "name": "Skull Face",
       "img": "icons/svg/d10-grey.svg",
       "description": "",
       "drawn": false,
@@ -110,18 +119,21 @@
         "modifiedTime": 1776825258451,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
-      "documentUuid": null,
-      "_key": "!tables.results!tI1syOkdXB0Y5UOV.Sh8UAj3cbmt5koBj"
+      "documentUuid": "Compendium.wfrp4e-nom.nom-items.Item.YjZeInlOCdLAmBGr",
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.Sh8UAj3cbmt5koBj",
+      "documentCollection": "Compendium.wfrp4e-nom.nom-items",
+      "documentId": "YjZeInlOCdLAmBGr",
+      "text": "Skull Face: Gain the Fear 2 Creature Trait"
     },
     {
-      "type": "text",
+      "type": "document",
       "weight": 1,
       "range": [
         5,
         5
       ],
       "_id": "g1ZWflrSY2S6u2iW",
-      "name": "Spiked Skin/Armor: +1 Armour Points on all locations; gain a Free Attack (SB+4) when Charging",
+      "name": "Spiked Skin/Armor",
       "img": "icons/svg/d10-grey.svg",
       "description": "",
       "drawn": false,
@@ -137,18 +149,21 @@
         "modifiedTime": 1776825315968,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
-      "documentUuid": null,
-      "_key": "!tables.results!tI1syOkdXB0Y5UOV.g1ZWflrSY2S6u2iW"
+      "documentUuid": "Compendium.wfrp4e-nom.nom-items.Item.PGS6Skpdn5qD2CAg",
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.g1ZWflrSY2S6u2iW",
+      "documentCollection": "Compendium.wfrp4e-nom.nom-items",
+      "documentId": "PGS6Skpdn5qD2CAg",
+      "text": "Spiked Skin/Armor: +1 Armour Points on all locations; gain a Free Attack (SB+4) when Charging"
     },
     {
-      "type": "text",
+      "type": "document",
       "weight": 1,
       "range": [
         6,
         6
       ],
       "_id": "F3hIgGnV9CXIgmpC",
-      "name": "Thorny Scales: +1 Armour Points to all locations",
+      "name": "Thorny Scales",
       "img": "icons/svg/d10-grey.svg",
       "description": "",
       "drawn": false,
@@ -164,18 +179,21 @@
         "modifiedTime": 1776825321835,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
-      "documentUuid": null,
-      "_key": "!tables.results!tI1syOkdXB0Y5UOV.F3hIgGnV9CXIgmpC"
+      "documentUuid": "Compendium.wfrp4e-nom.nom-items.Item.n9CoRCUdXJlJBiQM",
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.F3hIgGnV9CXIgmpC",
+      "documentCollection": "Compendium.wfrp4e-nom.nom-items",
+      "documentId": "n9CoRCUdXJlJBiQM",
+      "text": "Thorny Scales: +1 Armour Points to all locations"
     },
     {
-      "type": "text",
+      "type": "document",
       "weight": 1,
       "range": [
         7,
         7
       ],
       "_id": "bKZD9J25JNW7NmsQ",
-      "name": "Three Eyes: Gain the Acute Sense (Vision) Talent",
+      "name": "Three Eyes",
       "img": "icons/svg/d10-grey.svg",
       "description": "",
       "drawn": false,
@@ -191,18 +209,21 @@
         "modifiedTime": 1776825326682,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
-      "documentUuid": null,
-      "_key": "!tables.results!tI1syOkdXB0Y5UOV.bKZD9J25JNW7NmsQ"
+      "documentUuid": "Compendium.wfrp4e-nom.nom-items.Item.RTHF9kPdreSLFxzl",
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.bKZD9J25JNW7NmsQ",
+      "documentCollection": "Compendium.wfrp4e-nom.nom-items",
+      "documentId": "RTHF9kPdreSLFxzl",
+      "text": "Three Eyes: Gain the Acute Sense (Vision) Talent"
     },
     {
-      "type": "text",
+      "type": "document",
       "weight": 1,
       "range": [
         8,
         8
       ],
       "_id": "k5LXLH5QUUa7vfwv",
-      "name": "Transparent Skin: Gain the Fear 2 Creature Trait",
+      "name": "Transparent Skin",
       "img": "icons/svg/d10-grey.svg",
       "description": "",
       "drawn": false,
@@ -218,18 +239,21 @@
         "modifiedTime": 1776825331213,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
-      "documentUuid": null,
-      "_key": "!tables.results!tI1syOkdXB0Y5UOV.k5LXLH5QUUa7vfwv"
+      "documentUuid": "Compendium.wfrp4e-nom.nom-items.Item.mfHMAuRWzOubJrfQ",
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.k5LXLH5QUUa7vfwv",
+      "documentCollection": "Compendium.wfrp4e-nom.nom-items",
+      "documentId": "mfHMAuRWzOubJrfQ",
+      "text": "Transparent Skin: Gain the Fear 2 Creature Trait"
     },
     {
-      "type": "text",
+      "type": "document",
       "weight": 1,
       "range": [
         9,
         9
       ],
       "_id": "fEYTElAJ14iw4sfK",
-      "name": "Uneven Horns: +1 Armour Points to the Head and adds Horns; counts as a Creature Weapon of Damage equal to your SB+4",
+      "name": "Uneven Horns",
       "img": "icons/svg/d10-grey.svg",
       "description": "",
       "drawn": false,
@@ -245,18 +269,21 @@
         "modifiedTime": 1776825335910,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
-      "documentUuid": null,
-      "_key": "!tables.results!tI1syOkdXB0Y5UOV.fEYTElAJ14iw4sfK"
+      "documentUuid": "Compendium.wfrp4e-nom.nom-items.Item.0Hpp7fZ0i0Ko8kz4",
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.fEYTElAJ14iw4sfK",
+      "documentCollection": "Compendium.wfrp4e-nom.nom-items",
+      "documentId": "0Hpp7fZ0i0Ko8kz4",
+      "text": "Uneven Horns: +1 Armour Points to the Head and adds Horns; counts as a Creature Weapon of Damage equal to your SB+4"
     },
     {
-      "type": "text",
+      "type": "document",
       "weight": 1,
       "range": [
         10,
         10
       ],
       "_id": "mEc41wHPGUilU8js",
-      "name": "Wings: Gain the Flight 60 Creature Trait",
+      "name": "Wings",
       "img": "icons/svg/d10-grey.svg",
       "description": "",
       "drawn": false,
@@ -272,8 +299,11 @@
         "modifiedTime": 1776825341238,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
-      "documentUuid": null,
-      "_key": "!tables.results!tI1syOkdXB0Y5UOV.mEc41wHPGUilU8js"
+      "documentUuid": "Compendium.wfrp4e-nom.nom-items.Item.r85SmkQbhdIWLugs",
+      "_key": "!tables.results!tI1syOkdXB0Y5UOV.mEc41wHPGUilU8js",
+      "documentCollection": "Compendium.wfrp4e-nom.nom-items",
+      "documentId": "r85SmkQbhdIWLugs",
+      "text": "Wings: Gain the Flight 60 Creature Trait"
     }
   ],
   "replacement": true,
@@ -292,7 +322,7 @@
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1776825214180,
-    "modifiedTime": 1776825218625,
+    "modifiedTime": 1778293685777,
     "lastModifiedBy": "bwuOpMGVHBESXkjP"
   },
   "formula": "",

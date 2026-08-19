@@ -1,3 +1,6 @@
+# Release pipeline (homebrew-qol model + NoM packs:build)
+# Contract: specs/001-github-release-workflow/contracts/release-workflow.md
+# Steps: checkout tag → module id → version → substitute module.json → compile packs → zip → gh upload
 name: Release assets
 
 on:
@@ -13,6 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name }}
 
       - name: Read module id from module.json
         id: meta
@@ -24,6 +29,24 @@ jobs:
           fi
           echo "module_id=$MODULE_ID" >> "$GITHUB_OUTPUT"
           echo "Packaging module id: $MODULE_ID"
+
+      - name: Normalize release version
+        id: version
+        run: |
+          TAG="${{ github.event.release.tag_name }}"
+          VERSION="${TAG#v}"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Substitute release-specific values in module.json
+        uses: microsoft/variable-substitution@v1
+        with:
+          files: './module.json'
+        env:
+          version: ${{ steps.version.outputs.version }}
+          url: https://github.com/${{ github.repository }}
+          manifest: https://github.com/${{ github.repository }}/releases/latest/download/module.json
+          download: https://github.com/${{ github.repository }}/releases/download/${{ steps.version.outputs.tag }}/${{ steps.meta.outputs.module_id }}.zip
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -45,6 +68,7 @@ jobs:
             --exclude='.cursor' \
             --exclude='.vscode' \
             --exclude='.crush' \
+            --exclude='.specify' \
             --exclude='doc' \
             --exclude='docs' \
             --exclude='effects' \
@@ -56,6 +80,7 @@ jobs:
             --exclude='package-lock.json' \
             --exclude='scripts/packs-tool.mjs' \
             --exclude='scripts/migrate-career-rolltable-links.mjs' \
+            --exclude='scripts/remap-nom-career-rows-to-core.mjs' \
             --exclude='node_modules' \
             --exclude='dist' \
             --exclude='build' \
@@ -69,8 +94,16 @@ jobs:
           unzip -l "${MODULE_ID}.zip" | head -40
 
       - name: Upload release assets
-        uses: softprops/action-gh-release@v2
-        with:
-          files: |
-            ${{ steps.meta.outputs.module_id }}.zip
-            module.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="${{ github.event.release.tag_name }}"
+          if [ -z "$TAG" ]; then
+            echo "::error::Release event is missing tag_name"
+            exit 1
+          fi
+          echo "Uploading assets to release tag: $TAG"
+          gh release upload "$TAG" \
+            "${{ steps.meta.outputs.module_id }}.zip" \
+            module.json \
+            --clobber

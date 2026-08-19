@@ -1272,9 +1272,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Artillerist",
+      "name": "Engineer",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.hVKMI3xwuUpO3P6c]{Engineer}",
       "weight": 1,
       "_key": "!tables.results!fPXth1yloMfB4Smv.o0d0b1agl3k7pm9x"
     },
@@ -1297,9 +1297,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Executioner",
+      "name": "Pit Fighter",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.EELJsJuoDVxiRu9e]{Pit Fighter}",
       "weight": 1,
       "_key": "!tables.results!fPXth1yloMfB4Smv.yy31cmifnlhg351j"
     },
@@ -1347,9 +1347,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Highwayman",
+      "name": "Outlaw",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.SrqxyWytyki4WYgC]{Outlaw}",
       "weight": 1,
       "_key": "!tables.results!fPXth1yloMfB4Smv.hopeiak4lxdlnv2m"
     },
@@ -1372,9 +1372,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Man-At-Arms",
+      "name": "Soldier",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.1OTZ386bMWJ6wfzX]{Soldier}",
       "weight": 1,
       "_key": "!tables.results!fPXth1yloMfB4Smv.f8595ds9hk4v2lvh"
     },
@@ -1397,9 +1397,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Marine",
+      "name": "Seaman",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.XyM54Ue5w1WuCaBD]{Seaman}",
       "weight": 1,
       "_key": "!tables.results!fPXth1yloMfB4Smv.cy2vp3dfuq6gb28q"
     },
@@ -1422,9 +1422,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Sartosan Pirate",
+      "name": "Smuggler",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.FqhOxcvai4ROvhXB]{Smuggler}",
       "weight": 1,
       "_key": "!tables.results!fPXth1yloMfB4Smv.f33v4n9c0drb47mo"
     }

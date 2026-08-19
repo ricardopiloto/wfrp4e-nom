@@ -42,7 +42,8 @@ const NATIONALITY_TO_PREFIX = new Map([
   ["Cathayan", "Cathayan"],
   ["Indan", "Ind"],
   ["Gospodar", "Kislev"],
-  ["Ungol", "Kislev"]
+  ["Ungol", "Kislev"],
+  ["Wastelander/Marienburger", "Westerland"]
 ]);
 
 /** `nationalityTag` (parenthetical)\t trimmed results.name → NoM careers `pages[].name` (openspec fix-nom-career-journal-six-rows). */

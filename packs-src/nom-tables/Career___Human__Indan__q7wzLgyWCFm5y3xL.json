@@ -1397,9 +1397,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Artillerist",
+      "name": "Engineer",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.hVKMI3xwuUpO3P6c]{Engineer}",
       "weight": 1,
       "_key": "!tables.results!q7wzLgyWCFm5y3xL.f9wnpjq080jqxc0e"
     },
@@ -1422,9 +1422,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Assassin",
+      "name": "Spy",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ssJHG82vEHHRoAUF]{Spy}",
       "weight": 1,
       "_key": "!tables.results!q7wzLgyWCFm5y3xL.le9a60czv8hi9ybv"
     },
@@ -1447,9 +1447,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Beast Tamer",
+      "name": "Hunter",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.T6c9MttfG0Fj4nDm]{Hunter}",
       "weight": 1,
       "_key": "!tables.results!q7wzLgyWCFm5y3xL.gbyr4qjoi7ik5vw5"
     },
@@ -1472,9 +1472,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Mamluk",
+      "name": "Cavalryman",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ArFOfnzJkToXBJBF]{Cavalryman}",
       "weight": 1,
       "_key": "!tables.results!q7wzLgyWCFm5y3xL.o1qqxz8cabn9tf6o"
     },
@@ -1497,9 +1497,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Marine",
+      "name": "Seaman",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.XyM54Ue5w1WuCaBD]{Seaman}",
       "weight": 1,
       "_key": "!tables.results!q7wzLgyWCFm5y3xL.wy6eh1gluwel9cf6"
     },

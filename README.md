@@ -17,9 +17,9 @@ A few **automatic helpers** run when specific talents or careers are added (see 
 |------------|--------|
 | **Foundry** | v13+ (v14 verified in `module.json`) |
 | **System** | WFRP4e (`wfrp4e-core`) |
-| **Module** | `wfrp4e-more-subspecies` |
 
-Install and **enable** these, then enable **WFRP4e — Nations of Mankind (Rev.2)** for your world.
+Install and **enable** these, then enable **WFRP4e — Nations of Mankind (Rev.2)** for your world.  
+Human nationalities (**Albionite**, **Tilean**, **Westerland / Marienburg**, etc.), their starter skills/talents, and matching **nationality career RollTables** are merged from this module (**[Adding Species](https://moo-man.github.io/WFRP4e-FoundryVTT/pages/advanced/species.html)**). If you still use the optional fan module **`wfrp4e-more-subspecies`** (Imperial dukes, extra regional entries), enable it separately; it is **not** required by NoM anymore.
 
 ---
 
@@ -29,13 +29,21 @@ Install and **enable** these, then enable **WFRP4e — Nations of Mankind (Rev.2
 2. **Recommended (in Foundry Setup):** open **Install Module**, then either search for the module name or paste the **manifest** URL from `module.json`:
    https://github.com/ricardopiloto/wfrp4e-nom/releases/latest/download/module.json  
    After install, turn the module **on** in **Manage Modules** for your world.
-3. **Manual ZIP (pinned release bundle):** download and extract the packaged module from the **`download`** field in `module.json` — same URL as:
-
-   **[https://github.com/ricardopiloto/wfrp4e-nom/releases/download/v1.2.0/wfrp4e-nom.zip](https://github.com/ricardopiloto/wfrp4e-nom/releases/download/v1.2.0/wfrp4e-nom.zip)**
+3. **Manual ZIP:** download **`wfrp4e-nom.zip`** from the [latest GitHub Release](https://github.com/ricardopiloto/wfrp4e-nom/releases/latest) (or use the **`download`** URL from the release **`module.json`**).
 
    Unzip into your Foundry **`Data/modules/`** folder so the folder **`wfrp4e-nom`** contains **`module.json`**, then enable the module in your world.
 
-If the ZIP link fails, confirm that the matching GitHub **Release** exists; the canonical link is whatever `module.json` currently sets for **`download`**.
+If the ZIP link fails, confirm that a matching GitHub **Release** exists; the canonical **`download`** URL is set when the release workflow runs (see **Cutting a release** below).
+
+---
+
+### Cutting a release (maintainers)
+
+1. Update **`CHANGELOG.md`** and bump the version you intend to ship.
+2. Commit and push; create and publish a GitHub **Release** with tag **`vX.Y.Z`** (e.g. **`v1.2.1`**).
+3. The **Release assets** workflow (`.github/workflows/release.yml`) checks out that tag, substitutes **`${version}`**, **`${url}`**, **`${manifest}`**, and **`${download}`** in **`module.json`**, runs **`npm run packs:build`**, zips the module, and uploads **`wfrp4e-nom.zip`** + **`module.json`** to the release.
+
+You do **not** need to hand-edit install URLs in the tracked **`module.json`** on the default branch — those fields are CI placeholders filled at release time (same model as [wfrp4e-homebrew-qol](https://github.com/ricardopiloto/wfrp4e-homebrew-qol)).
 
 ---
 
@@ -43,7 +51,15 @@ If the ZIP link fails, confirm that the matching GitHub **Release** exists; the 
 
 Human-editable documents live under **`packs-src/<pack-name>/`** (one JSON file per Foundry document). LevelDB **`packs/`** folders are **not committed** (see `.gitignore`); regenerate them locally with **`npm install`** then **`npm run packs:build`**. GitHub **Releases** run the same compile before zipping, so installers always receive **`packs/...`** in the canonical Foundry LevelDB layout. To capture edits made inside Foundry instead, copy the LevelDB folders into the repo temporarily and run **`npm run packs:extract`**, review diffs under `packs-src/`, commit JSON, discard temp LevelDB copies if needed.
 
-**Nationality career roll tables** (`packs-src/nom-tables/Career___Human__*.json`) are bulk-updated with **`npm run career-tables:migrate`** (dry-run counts + **`reports/`** preview) or **`npm run career-tables:migrate:write`** (writes JSON and **`reports/career-rolltable-unmatched.txt`**). Rebuild packs afterward (**`npm run packs:build`**).
+**Nationality career roll tables** (`packs-src/nom-tables/Career___Human__*.json`) should use **Core Rulebook** career **`results.name`** strings (see packaged **Class and Careers** journal under **`nom-journals`**). After importing rolls that still use supplement-style labels, run **`npm run career-tables:remap-core-names`** then **`npm run career-tables:migrate`** (dry-run + **`reports/`**) or **`npm run career-tables:migrate:write`**, then **`npm run packs:build`**. **`reports/career-rolltable-unmatched.txt`** should list **no** unmatched rows when remap + migrate are current.
+
+### Maintainer QA checklist (human subspecies + career tables)
+
+Use a throwaway world or player test: enable **WFRP4e** + **`wfrp4e-core`** + **`wfrp4e-nom`** only (no **`wfrp4e-more-subspecies`** required).
+
+1. Start **Character Creation** as **Human** and pick each NoM subspecies in turn (examples: **Tilean**, **Arabyan**, **Bretonnian Lowborn**, **Bretonnian Noble**, **Wastelander / Marienburger**, **Norscan**, …).
+2. On the **career** roll step, confirm randomisation uses the **`nom-tables`** document whose title matches **`Career - Human (...)`** for that nationality (**`flags.wfrp4e.column`** is **`human-<…>-nom`**; see **`scripts/nom-subspecies-registry.js`** + table JSON).
+3. If a rolled label errors or never links to the packaged **Class and Careers** journal, see **`reports/career-rolltable-unmatched.txt`**, run **`npm run career-tables:remap-core-names`** then **`career-tables:migrate:write`** again; maintainer map is archived under **`openspec/changes/archive/2026-05-09-remap-nom-career-rows-core-catalog/`**.
 
 ---
 

@@ -972,9 +972,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Executioner",
+      "name": "Pit Fighter",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.EELJsJuoDVxiRu9e]{Pit Fighter}",
       "weight": 1,
       "_key": "!tables.results!EoeYinboLIStfVCP.ul9moq9y8ribipwq"
     },
@@ -1022,9 +1022,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Norscan Seer",
+      "name": "Hedge Witch",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.03Nnub5GHNRCU9kg]{Hedge Witch}",
       "weight": 1,
       "_key": "!tables.results!EoeYinboLIStfVCP.9gte8fm3j6m7ke63"
     },
@@ -1047,9 +1047,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Reaver",
+      "name": "Outlaw",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.SrqxyWytyki4WYgC]{Outlaw}",
       "weight": 1,
       "_key": "!tables.results!EoeYinboLIStfVCP.vvvwm3ch65m2tjld"
     },
@@ -1072,9 +1072,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Sartosan Pirate",
+      "name": "Smuggler",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.FqhOxcvai4ROvhXB]{Smuggler}",
       "weight": 1,
       "_key": "!tables.results!EoeYinboLIStfVCP.jmhjzo7bt782uugf"
     },
@@ -1097,9 +1097,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Skald",
+      "name": "Entertainer",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.5nIDu8oyFVShLqne]{Entertainer}",
       "weight": 1,
       "_key": "!tables.results!EoeYinboLIStfVCP.9cfa4u6fewn4lpkb"
     },

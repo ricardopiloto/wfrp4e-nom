@@ -147,9 +147,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Crusader",
+      "name": "Warrior Priest",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.iYVpqJ6bz8fokdmf]{Warrior Priest}",
       "weight": 1,
       "_key": "!tables.results!Y6NHEaB3tbWkazOj.6va6v3hgqqffx618"
     },
@@ -197,9 +197,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Mamluk",
+      "name": "Cavalryman",
       "documentUuid": null,
-      "description": "",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ArFOfnzJkToXBJBF]{Cavalryman}",
       "weight": 1,
       "_key": "!tables.results!Y6NHEaB3tbWkazOj.ysaiflnjwtq2952h"
     }

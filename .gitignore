@@ -20,3 +20,5 @@ project.md
 openspec/
 .cursor/
 CLAUDE.md
+.specify
+specs/
