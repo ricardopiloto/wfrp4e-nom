@@ -1,31 +1,31 @@
 {
-  "_id": "staCWEVVWZ4RCs4O",
-  "name": "Ahadi Cavalryman",
+  "_id": "xRraZqLU0VGZ8MSw",
+  "name": "Sailor Recruit",
   "type": "career",
   "flags": {},
   "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
   "effects": [],
   "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
     "coreVersion": "14.364",
     "systemId": "wfrp4e",
-    "systemVersion": "9.5.4",
-    "createdTime": 1767188250817,
-    "modifiedTime": 1787191310117,
-    "lastModifiedBy": "7SjvqIrukDv4W6Te"
+    "systemVersion": "9.6.4",
+    "createdTime": 1787606794705,
+    "modifiedTime": 1787606794705,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "ownership": {
     "default": 0,
     "XFum9iWwbM87WzWu": 3,
-    "bwuOpMGVHBESXkjP": 3
+    "7SjvqIrukDv4W6Te": 3
   },
   "system": {
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.TSR9as1ml1ggmMvh]{Ind Ahadi}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.lLyOzf1irXbBDnJt]{Marine}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -35,12 +35,12 @@
     "careergroup": {
       "type": "String",
       "label": "Career Group",
-      "value": "Ind Ahadi"
+      "value": "Marine"
     },
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Warriors"
+      "value": "Riverfolk"
     },
     "current": {
       "type": "Boolean",
@@ -61,40 +61,41 @@
     },
     "characteristics": {
       "ws": true,
-      "bs": true,
+      "bs": false,
       "s": false,
-      "t": false,
+      "t": true,
       "i": false,
-      "ag": true,
+      "ag": false,
       "dex": false,
       "int": false,
-      "wp": false,
+      "wp": true,
       "fel": false
     },
     "skills": [
-      "Animal Care",
-      "Charm Animal",
-      "Endurance",
-      "Language (Battle)",
+      "Climb",
+      "Consume Alcohol",
+      "Gamble",
+      "Gossip",
+      "Row",
       "Melee (Basic)",
-      "Navigation",
-      "Perception",
-      "Ride (Horse)"
+      "Sail (Frigate or Patrol Boat)",
+      "Swim"
     ],
     "talents": [
-      "Drilled",
-      "Roughrider",
-      "Strike Mighty Blow",
+      "Diceman",
+      "Strong Back",
+      "Very Strong",
       "Warrior Born"
     ],
     "trappings": [
-      "Breastplate (Boiled Leather)",
-      "Kukri (Dagger)",
-      "Light Warhorse with Saddle and Tack",
-      "Turban"
+      "Bucket",
+      "Brush",
+      "Mop",
+      "Hand Weapon",
+      "Uniform"
     ],
     "incomeSkill": [
-      4
+      6
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -102,6 +103,6 @@
     "previousCareer": {}
   },
   "folder": "Ok1t4rLc68778H3u",
-  "sort": 10100000,
-  "_key": "!items!staCWEVVWZ4RCs4O"
+  "sort": 0,
+  "_key": "!items!xRraZqLU0VGZ8MSw"
 }

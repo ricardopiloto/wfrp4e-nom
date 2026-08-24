@@ -1,12 +1,13 @@
 {
-  "name": "Juramentado",
+  "name": "Militant Priest",
   "type": "career",
-  "img": "modules/wfrp4e-core/icons/careers/witch-hunter-02.png",
+  "_id": "aeknzIj2yH312aZx",
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
   "system": {
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.mPN1R2AidfptTsMK]{Estalian Inquisidor}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.V1sXqFWgj9zbeK08]{Nippon Vimto Monks}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -16,12 +17,12 @@
     "careergroup": {
       "type": "String",
       "label": "Career Group",
-      "value": "Estalian Inquisidor"
+      "value": "Vimto Monks"
     },
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Rangers"
+      "value": "Warrior"
     },
     "current": {
       "type": "Boolean",
@@ -34,54 +35,49 @@
     "level": {
       "type": "String",
       "label": "Career Level",
-      "value": 2
+      "value": 1
     },
     "status": {
-      "tier": "s",
+      "tier": "b",
       "standing": 3
     },
     "characteristics": {
       "ws": true,
-      "bs": true,
-      "s": false,
-      "t": true,
+      "bs": false,
+      "s": true,
+      "t": false,
       "i": false,
       "ag": false,
       "dex": false,
       "int": false,
-      "wp": true,
-      "fel": false
+      "wp": false,
+      "fel": true
     },
     "skills": [
-      "Intimidate",
-      "Intuition",
-      "Lore (Myrmidia)",
-      "Lore (Torture)",
-      "Melee (Fencing)",
-      "Perception",
+      "Athletics",
+      "Cool",
       "Dodge",
-      "Lore (Witches)",
-      "Ranged (Blackpowder)",
-      "Ride (Horse)",
-      "Secret Signs (Cultists)",
-      "Heal"
+      "Language (Battle)",
+      "Lore (Theology)",
+      "Melee (Polearm)",
+      "Pray",
+      "Trade (Shrine Building)"
     ],
     "talents": [
-      "Dual Wielder",
-      "Marksman",
-      "Seasoned Traveler",
-      "Warrior Born"
+      "Bless (Orange Simca)",
+      "Hatred (Skaven)",
+      "Read/Write",
+      "Strike to Stun"
     ],
     "trappings": [
-      "Feathered Hat",
-      "Leather Jack",
-      "Pair of Ornate Pistols",
-      "Riding Horse with Saddle and Tack",
-      "Rope",
-      "(Silvered Sword or Rapier)"
+      "Monk Robes",
+      "Quarterstaff",
+      "Religious Symbol",
+      "Tantō (Dagger)",
+      "White Cowl"
     ],
     "incomeSkill": [
-      4
+      6
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -102,11 +98,10 @@
     "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
-    "createdTime": 1777942782954,
-    "modifiedTime": 1787191310114,
+    "createdTime": 1777030061255,
+    "modifiedTime": 1787191310116,
     "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
-  "_id": "m7aLrOExBfmRg3FA",
-  "sort": 5600000,
-  "_key": "!items!m7aLrOExBfmRg3FA"
+  "sort": 8200000,
+  "_key": "!items!aeknzIj2yH312aZx"
 }

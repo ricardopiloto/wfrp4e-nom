@@ -73,7 +73,7 @@ Use a throwaway world or player test: enable **WFRP4e** + **`wfrp4e-core`** + **
 Source: `pdf/Nations of Mankind (Ratter Submission)_2.pdf` (Table of Contents, career pages **15–64**).  
 Module source of truth: Careers journal `Nations_of_Mankind___Careers` + matching `nom-items` tiers.
 
-**Summary:** **34 / 47** PDF careers have a journal page · **13** still missing · **1** partial/misaligned entry (**Ind Ahadi** ≈ **Rajput Warrior** tier III name in the PDF, not a separate TOC career).
+**Summary:** **40 / 47** PDF careers have a journal page · **7** still missing.
 
 #### Done (in module)
 
@@ -107,19 +107,19 @@ Module source of truth: Careers journal `Nations_of_Mankind___Careers` + matchin
 - [x] Lustrian Luchador
 - [x] Mamluk
 - [x] Man-At-Arms → Bretonnian Man-At-Arms
-- [x] Ninja → Nippon Ninja
+- [x] Marine
+- [x] Ninja
+- [x] Norscan Reaver
+- [x] Norscan Seer
+- [x] Paymaster
+- [x] Rajput Warrior → Ind Rajput Warrior
+- [x] Ronin → Nippon Ronin
 - [x] Samurai → Nippon Samurai
 - [x] Vimto Monk → Nippon Vimto Monks
 - [x] Winged Lancer → Kislev Winged Lancer
 
 #### To do (in PDF, not yet in module)
 
-- [ ] Marine (p. 48)
-- [ ] Norscan Seer (p. 50)
-- [ ] Paymaster (p. 51)
-- [ ] Rajput Warrior (p. 52)
-- [ ] Reaver (p. 53)
-- [ ] Ronin (p. 54)
 - [ ] Sartosan Pirate (p. 56)
 - [ ] Skald (p. 57)
 - [ ] Swordsaint (p. 58)
@@ -127,10 +127,6 @@ Module source of truth: Careers journal `Nations_of_Mankind___Careers` + matchin
 - [ ] Whaler (p. 61)
 - [ ] Witch Doktor (p. 63)
 - [ ] Zunu (p. 64)
-
-#### Partial / needs remap
-
-- [ ] Ind Ahadi — not a separate PDF TOC career; **Ahadi** is **tier III** of **Rajput Warrior** (p. 52). Finish **Rajput Warrior** (all four tiers) and rename/merge this entry instead of keeping a standalone Ahadi career.
 
 ---
 

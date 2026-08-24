@@ -1,0 +1,118 @@
+{
+  "_id": "mBpgdztUx41Sj8QX",
+  "name": "Coin King/Queen",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787606933391,
+    "modifiedTime": 1787606933391,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.Tq0jxueqfqfF5Q7J]{Paymaster}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Paymaster"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Courtier"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Bribery",
+      "Drive",
+      "Evaluate",
+      "Gamble",
+      "Haggle",
+      "Language (Any)",
+      "Lore (Taxes)",
+      "Ride (Horse)",
+      "Charm",
+      "Cool",
+      "Language (Battle)",
+      "Lore (Local)",
+      "Melee (Any)",
+      "Ranged (Any)",
+      "Gossip",
+      "Intuition",
+      "Language (Any)",
+      "Lore (Any)",
+      "Leadership",
+      "Lore (Any)"
+    ],
+    "talents": [
+      "Inspiring",
+      "Sharp",
+      "Wealthy",
+      "Well-prepared"
+    ],
+    "trappings": [
+      "Elite Bodyguards",
+      "Quality Breastplate and Uniform",
+      "1000 GC"
+    ],
+    "incomeSkill": [
+      0
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 0,
+  "_key": "!items!mBpgdztUx41Sj8QX"
+}

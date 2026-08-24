@@ -21,7 +21,7 @@
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Peasants"
+      "value": "Warrior"
     },
     "current": {
       "type": "Boolean",
@@ -38,7 +38,7 @@
     },
     "status": {
       "tier": "s",
-      "standing": 1
+      "standing": 2
     },
     "characteristics": {
       "ws": true,
@@ -66,7 +66,7 @@
       "Entertain (Storytelling)",
       "Lore (Heraldry)",
       "Melee (Flail)",
-      "Melee (Polearm of Two-handed)",
+      "Melee (Polearm or Two-Handed)",
       "Athletics",
       "Charm",
       "Lore (Bretonnia)",
@@ -80,7 +80,7 @@
     ],
     "trappings": [
       "Large Shield with Grail Heraldry",
-      "Robes with Makeshift Grail Heraldry"
+      "Robes with Grail Heraldry"
     ],
     "incomeSkill": [
       6

@@ -1597,7 +1597,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "Marine",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.lLyOzf1irXbBDnJt]{Marine}",
       "name": "Marine",
       "weight": 1,
       "documentUuid": null,
@@ -1622,7 +1622,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "Paymaster",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.Tq0jxueqfqfF5Q7J]{Paymaster}",
       "name": "Paymaster",
       "weight": 1,
       "documentUuid": null,

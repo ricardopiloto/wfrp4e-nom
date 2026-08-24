@@ -6,6 +6,26 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Unreleased
 
+## [Version 1.3.1](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.3.1) (2026-08-24)
+
+### Careers (PDF sync)
+
+- *Changed* Career tiers aligned to the Nations of Mankind PDF (journal + **`nom-items`**): **Marine**, **Norscan Seer**, **Paymaster**, **Norscan Reaver**, **Nippon Ronin**, **Bretonnian Knight of the Realm**, **Nippon Vimto Monks**, **Bretonnian Grail Pilgrim**, **Estalian Inquisidor**, plus earlier same-day syncs already noted under **1.3.0** where overlapping.
+- *Changed* **Nippon Vimto Monks**: tier I renamed **Vimto Novice Monk** → **Militant Priest**; Champion standing **Silver 4**; skills/talents/trappings restored to PDF (e.g. **Martial Artist**, **Strike to Stun**, **Melee (Brawling)**).
+- *Changed* **Estalian Inquisidor**: career progression order restored to PDF (**Initiate** → **Inquisidor** → **Juramentado** → **Evocador**); characteristics **WS/S/WP** (not T); Evocador **Gold 1**; journal school starting-skill blocks removed so they no longer contradict the PDF Initiate package.
+- *Changed* **Bretonnian Grail Pilgrim**: status ranks (**Brass 2/5**, **Silver 2/4**), cumulative skills, **Hardy**, trapping spellings (**Mail Armor**, **Reliquae**), and **Melee (Polearm)** *or* **Melee (Two-Handed)** journal links.
+- *Changed* Choice talents/skills in journals use paired **`@UUID`** links with *or* where the PDF offers alternatives (e.g. Knight Errant Etiquette, Grail Knight Ride, Reaver Lore/Shieldsman, Inquisidor Melee/Languages).
+
+### Career content / art
+
+- *Changed* **`npm run careers:normalize:write`**: prepended career icons for **Estalian Conquistador**, **Estalian Diestro**, **Executioner**, **Cathayan Jinyiwei**, and **Bretonnian Man-At-Arms** from new **`icons/careers/`** assets.
+- *Changed* **`npm run career-tables:migrate:write`**: refreshed nationality table journal **`@UUID`** paths; unmatched backlog remains **Sartosan Pirate** (no journal page) and **Lustrian Luchador** (no nationality table row).
+
+### Known gaps (unchanged)
+
+- *Note* Missing NoM talent item **Surgical Precision** (`bgJAtvDV67bnUe6G`) still referenced by **Arabyan Corsair** (`reports/nom-career-missing-talents.txt`).
+- *Note* Several career journal pages still lack icons until matching **`icons/careers/*.png`** files exist (e.g. Marine, Paymaster, Norscan Seer/Reaver, Nippon Ronin, Highwayman, …).
+
 ## [Version 1.3.0](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.3.0) (2026-08-24)
 
 ### Packaging and dependencies

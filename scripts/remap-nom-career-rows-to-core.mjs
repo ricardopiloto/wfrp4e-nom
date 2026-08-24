@@ -13,11 +13,6 @@ const TABLES_DIR = path.join(root, "packs-src/nom-tables");
 
 /** @type {Record<string, string>} Old label → Core journal pages[].name (NoM-only careers omitted) */
 const REMAP = {
-  Marine: "Seaman",
-  "Norscan Seer": "Hedge Witch",
-  Paymaster: "Merchant",
-  Reaver: "Outlaw",
-  Ronin: "Protagonist",
   "Sartosan Pirate": "Smuggler",
   Skald: "Entertainer",
   Swordsaint: "Protagonist",

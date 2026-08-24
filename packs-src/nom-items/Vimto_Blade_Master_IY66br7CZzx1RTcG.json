@@ -21,7 +21,7 @@
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Warriors"
+      "value": "Warrior"
     },
     "current": {
       "type": "Boolean",
@@ -56,15 +56,15 @@
       "Athletics",
       "Cool",
       "Dodge",
-      "Language (Battle Tongue)",
-      "Lore (Orange Simca)",
+      "Language (Battle)",
+      "Lore (Theology)",
       "Melee (Polearm)",
       "Pray",
       "Trade (Shrine Building)",
       "Consume Alcohol",
       "Entertain (Speeches)",
       "Gossip",
-      "Melee (Basic)",
+      "Melee (Brawling)",
       "Outdoor Survival",
       "Ranged (Bow)",
       "Endurance",
@@ -79,9 +79,8 @@
       "Sprinter"
     ],
     "trappings": [
-      "Apprentice Monks",
-      "Nagamaki (Two-Handed)",
-      "Training Temple"
+      "Apprentice Monk",
+      "Nagamaki"
     ],
     "incomeSkill": [
       6

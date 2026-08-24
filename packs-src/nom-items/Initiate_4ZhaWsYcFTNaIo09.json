@@ -7,7 +7,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p></p><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.mPN1R2AidfptTsMK]{Estalian Inquisidor}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.mPN1R2AidfptTsMK]{Estalian Inquisidor}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -22,7 +22,7 @@
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Rangers"
+      "value": "Ranger"
     },
     "current": {
       "type": "Boolean",
@@ -44,8 +44,8 @@
     "characteristics": {
       "ws": true,
       "bs": false,
-      "s": false,
-      "t": true,
+      "s": true,
+      "t": false,
       "i": false,
       "ag": false,
       "dex": false,
@@ -54,23 +54,27 @@
       "fel": false
     },
     "skills": [
+      "Bribery",
       "Intimidate",
       "Intuition",
+      "Language (Battle)",
       "Lore (Myrmidia)",
       "Lore (Torture)",
       "Melee (Fencing)",
       "Perception"
     ],
     "talents": [
+      "Ambidextrous",
+      "Combat Aware",
+      "Menacing",
       "Read/Write"
     ],
     "trappings": [
-      "Hand Weapon",
       "Instruments of Torture",
       "Bellona Myrmidia book"
     ],
     "incomeSkill": [
-      4
+      6
     ],
     "addedSkills": [],
     "requiredTrappings": [],

@@ -21,7 +21,7 @@
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Warriors"
+      "value": "Warrior"
     },
     "current": {
       "type": "Boolean",
@@ -56,29 +56,29 @@
       "Athletics",
       "Cool",
       "Dodge",
-      "Language (Battle Tongue)",
-      "Lore (Orange Simca)",
+      "Language (Battle)",
+      "Lore (Theology)",
       "Melee (Polearm)",
       "Pray",
       "Trade (Shrine Building)",
       "Consume Alcohol",
       "Entertain (Speeches)",
       "Gossip",
-      "Melee (Basic)",
+      "Melee (Brawling)",
       "Outdoor Survival",
       "Ranged (Bow)"
     ],
     "talents": [
       "Etiquette (Cultists)",
-      "In-fighter",
-      "Invoke",
+      "Invoke (Orange Simca)",
+      "Martial Artist",
       "Step Aside"
     ],
     "trappings": [
       "Breastplate",
-      "Longbow with 10 Arrows",
       "Naginata",
-      "Prayers Beeds"
+      "Prayer Beads",
+      "Scripture of the Orange Simca"
     ],
     "incomeSkill": [
       6

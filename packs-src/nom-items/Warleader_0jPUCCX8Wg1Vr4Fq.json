@@ -1,0 +1,118 @@
+{
+  "_id": "0jPUCCX8Wg1Vr4Fq",
+  "name": "Warleader",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787607394454,
+    "modifiedTime": 1787607394454,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.4O20TzcgPc4jL4ZT]{Norscan Reaver}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Reaver"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Riverfolk"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Climb",
+      "Consume Alcohol",
+      "Gamble",
+      "Lore (Chaos)",
+      "Melee (Basic or Two-handed)",
+      "Row",
+      "Sail (Wolfship)",
+      "Swim",
+      "Athletics",
+      "Dodge",
+      "Endurance",
+      "Entertain (Singing)",
+      "Melee (Brawling)",
+      "Trade (Carpenter)",
+      "Cool",
+      "Haggle",
+      "Heal",
+      "Language (Any)",
+      "Leadership",
+      "Lore (Bretonnia or Empire or Kislev)"
+    ],
+    "talents": [
+      "Inspiring",
+      "Pilot",
+      "Strike Mighty Blow",
+      "War Leader"
+    ],
+    "trappings": [
+      "Crew of Marauders and Reavers",
+      "Norscan Iron Plate Armor and Helm",
+      "Norscan Longship"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 0,
+  "_key": "!items!0jPUCCX8Wg1Vr4Fq"
+}

@@ -21,7 +21,7 @@
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Warriors"
+      "value": "Warrior"
     },
     "current": {
       "type": "Boolean",
@@ -74,7 +74,7 @@
     ],
     "talents": [
       "Holy Visions",
-      "Seasoned Traveler",
+      "Seasoned Traveller",
       "Stout-hearted",
       "Unshakeable"
     ],

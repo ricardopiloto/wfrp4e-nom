@@ -21,7 +21,7 @@
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Peasants"
+      "value": "Warrior"
     },
     "current": {
       "type": "Boolean",
@@ -38,7 +38,7 @@
     },
     "status": {
       "tier": "b",
-      "standing": 4
+      "standing": 5
     },
     "characteristics": {
       "ws": true,
@@ -58,16 +58,19 @@
       "Endurance",
       "Intimidate",
       "Intuition",
+      "Lore (The Lady)",
+      "Melee (Basic)",
+      "Outdoor Survival",
       "Cool",
       "Entertain (Singing)",
       "Entertain (Storytelling)",
       "Lore (Heraldry)",
       "Melee (Flail)",
-      "Melee (Polearm or Two-handed)"
+      "Melee (Polearm or Two-Handed)"
     ],
     "talents": [
       "Etiquette (Knights)",
-      "Hatred (Any)",
+      "Hardy",
       "Stout-hearted",
       "Very Strong"
     ],

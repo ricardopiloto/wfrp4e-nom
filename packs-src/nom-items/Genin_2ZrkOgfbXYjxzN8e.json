@@ -7,7 +7,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.2fHi8uJn9ZDXnt87]{Nippon Ninja}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.2fHi8uJn9ZDXnt87]{Ninja}</p>"
     },
     "gmdescription": {
       "type": "String",

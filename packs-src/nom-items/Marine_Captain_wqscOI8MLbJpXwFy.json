@@ -1,31 +1,31 @@
 {
-  "_id": "oOoa8dW9R8FL2Z6a",
-  "name": "Royal Guard",
+  "_id": "wqscOI8MLbJpXwFy",
+  "name": "Marine Captain",
   "type": "career",
   "flags": {},
   "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
   "effects": [],
   "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
     "coreVersion": "14.364",
     "systemId": "wfrp4e",
-    "systemVersion": "9.5.4",
-    "createdTime": 1767188258619,
-    "modifiedTime": 1787191310117,
-    "lastModifiedBy": "7SjvqIrukDv4W6Te"
+    "systemVersion": "9.6.4",
+    "createdTime": 1787606800466,
+    "modifiedTime": 1787606800466,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "ownership": {
     "default": 0,
     "XFum9iWwbM87WzWu": 3,
-    "bwuOpMGVHBESXkjP": 3
+    "7SjvqIrukDv4W6Te": 3
   },
   "system": {
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.TSR9as1ml1ggmMvh]{Ind Ahadi}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.lLyOzf1irXbBDnJt]{Marine}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -35,12 +35,12 @@
     "careergroup": {
       "type": "String",
       "label": "Career Group",
-      "value": "Ind Ahadi"
+      "value": "Marine"
     },
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Warriors"
+      "value": "Riverfolk"
     },
     "current": {
       "type": "Boolean",
@@ -57,56 +57,59 @@
     },
     "status": {
       "tier": "g",
-      "standing": 3
+      "standing": 1
     },
     "characteristics": {
       "ws": true,
       "bs": true,
-      "s": true,
-      "t": false,
-      "i": true,
+      "s": false,
+      "t": true,
+      "i": false,
       "ag": true,
       "dex": false,
       "int": false,
-      "wp": false,
+      "wp": true,
       "fel": true
     },
     "skills": [
-      "Animal Care",
-      "Charm Animal",
-      "Endurance",
-      "Language (Battle)",
-      "Melee (Basic)",
-      "Navigation",
-      "Perception",
-      "Ride (Horse)",
-      "Bribery",
-      "Charm",
-      "Cool",
+      "Climb",
+      "Consume Alcohol",
+      "Gamble",
       "Gossip",
-      "Melee (Polearm)",
-      "Ranged (Blackpowder)",
-      "Intuition",
+      "Row",
+      "Melee (Basic)",
+      "Sail (Frigate or Patrol Boat)",
+      "Swim",
+      "Athletics",
+      "Dodge",
+      "Endurance",
+      "Entertain (Singing)",
+      "Melee (Any)",
+      "Ranged (Any)",
+      "Cool",
       "Leadership",
-      "Lore (Etiquette)",
-      "Lore (Politics)",
-      "Lore (Warfare)",
-      "Ride (Elephant)"
+      "Perception",
+      "Trade (Carpenter)",
+      "Charm",
+      "Navigation"
     ],
     "talents": [
-      "Commanding Presence",
-      "Implacable",
       "Inspiring",
-      "Riposte"
+      "Orientation",
+      "Pilot",
+      "Stout-hearted"
     ],
     "trappings": [
-      "Ahadi Bodyguards",
-      "Fine Jewelry",
-      "Ind War Elephant with Battle Howdah (Saddle/Reinforced Carriage Box)",
-      "Network of Spies"
+      "Letter of Commission",
+      "Map",
+      "Orders",
+      "Quality Uniform",
+      "Sextant",
+      "Spyglass",
+      "Warship and Crew"
     ],
     "incomeSkill": [
-      4
+      6
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -114,6 +117,6 @@
     "previousCareer": {}
   },
   "folder": "Ok1t4rLc68778H3u",
-  "sort": 10000000,
-  "_key": "!items!oOoa8dW9R8FL2Z6a"
+  "sort": 0,
+  "_key": "!items!wqscOI8MLbJpXwFy"
 }

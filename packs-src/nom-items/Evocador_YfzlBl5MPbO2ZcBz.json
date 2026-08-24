@@ -21,7 +21,7 @@
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Rangers"
+      "value": "Ranger"
     },
     "current": {
       "type": "Boolean",
@@ -38,13 +38,13 @@
     },
     "status": {
       "tier": "g",
-      "standing": 3
+      "standing": 1
     },
     "characteristics": {
       "ws": true,
       "bs": true,
-      "s": false,
-      "t": true,
+      "s": true,
+      "t": false,
       "i": false,
       "ag": false,
       "dex": false,
@@ -53,38 +53,40 @@
       "fel": true
     },
     "skills": [
+      "Bribery",
       "Intimidate",
       "Intuition",
+      "Language (Battle)",
       "Lore (Myrmidia)",
       "Lore (Torture)",
       "Melee (Fencing)",
       "Perception",
-      "Dodge",
-      "Lore (Witches)",
+      "Cool",
+      "Gossip",
+      "Lore (Skaven)",
+      "Melee (Basic or Parry)",
       "Ranged (Blackpowder)",
       "Ride (Horse)",
-      "Secret Signs (Cultists)",
-      "Heal",
       "Endurance",
       "Leadership",
+      "Lore (Estalia)",
       "Lore (Law)",
-      "Lore (Local)",
-      "Lore (Chaos)",
+      "Language (Arabyan or Tilean)",
       "Lore (Politics)"
     ],
     "talents": [
       "Frightening",
       "Iron Will",
-      "Magical Sense",
-      "Pure Soul"
+      "Pure Soul",
+      "Strike to Injure"
     ],
     "trappings": [
-      "Best Quality Courlty Garb",
+      "Best Quality Courtly Garb",
       "Subordinate Inquisidores",
       "Seal of Taurquema"
     ],
     "incomeSkill": [
-      4
+      6
     ],
     "addedSkills": [],
     "requiredTrappings": [],

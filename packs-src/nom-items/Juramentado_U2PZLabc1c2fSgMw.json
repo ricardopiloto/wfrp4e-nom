@@ -1,0 +1,116 @@
+{
+  "name": "Juramentado",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/witch-hunter-03.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.mPN1R2AidfptTsMK]{Estalian Inquisidor}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Estalian Inquisidor"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Ranger"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Bribery",
+      "Intimidate",
+      "Intuition",
+      "Language (Battle)",
+      "Lore (Myrmidia)",
+      "Lore (Torture)",
+      "Melee (Fencing)",
+      "Perception",
+      "Cool",
+      "Gossip",
+      "Lore (Skaven)",
+      "Melee (Basic or Parry)",
+      "Ranged (Blackpowder)",
+      "Ride (Horse)",
+      "Endurance",
+      "Leadership",
+      "Lore (Estalia)",
+      "Lore (Law)"
+    ],
+    "talents": [
+      "Fast Shot",
+      "Fearless (Skaven)",
+      "Relentless",
+      "Riposte"
+    ],
+    "trappings": [
+      "Subordinate Initiates",
+      "Quality Clothing",
+      "Quality Gun (Any)",
+      "10 Silver Bullets with Powder"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "Ok1t4rLc68778H3u",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1777942782137,
+    "modifiedTime": 1787191310112,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
+  },
+  "_id": "U2PZLabc1c2fSgMw",
+  "sort": 2700000,
+  "_key": "!items!U2PZLabc1c2fSgMw"
+}

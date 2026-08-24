@@ -21,7 +21,7 @@
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Peasants"
+      "value": "Warrior"
     },
     "current": {
       "type": "Boolean",
@@ -53,28 +53,26 @@
       "fel": true
     },
     "skills": [
-      "Cool",
-      "Entertain (Sing)",
-      "Entertain (Storytelling)",
-      "Lore (Heraldry)",
-      "Melee (Flail)",
-      "Melee (Polearm or Two-handed)",
-      "Lore (The Lady)",
       "Art (Engraving)",
       "Dodge",
       "Endurance",
-      "Entertain (Any)",
       "Intimidate",
       "Intuition",
-      "Lore (Bretonnia)",
+      "Lore (The Lady)",
       "Melee (Basic)",
       "Outdoor Survival",
+      "Cool",
+      "Entertain (Singing)",
+      "Entertain (Storytelling)",
+      "Lore (Heraldry)",
+      "Melee (Flail)",
+      "Melee (Polearm or Two-Handed)",
       "Athletics",
       "Charm",
+      "Lore (Bretonnia)",
       "Perception",
       "Entertain (Speeches)",
-      "Leadership",
-      "Lore (Heraldry)"
+      "Leadership"
     ],
     "talents": [
       "Battle Rage",
@@ -84,8 +82,8 @@
     ],
     "trappings": [
       "Cart",
-      "Mail Armour",
-      "Relique",
+      "Mail Armor",
+      "Reliquae",
       "Unit of Grail Pilgrims"
     ],
     "incomeSkill": [

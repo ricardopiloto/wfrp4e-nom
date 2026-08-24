@@ -21,7 +21,7 @@
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Warriors"
+      "value": "Warrior"
     },
     "current": {
       "type": "Boolean",
@@ -38,7 +38,7 @@
     },
     "status": {
       "tier": "s",
-      "standing": 5
+      "standing": 4
     },
     "characteristics": {
       "ws": true,
@@ -56,15 +56,15 @@
       "Athletics",
       "Cool",
       "Dodge",
-      "Language (Battle Tongue)",
-      "Lore (Orange Simca)",
+      "Language (Battle)",
+      "Lore (Theology)",
       "Melee (Polearm)",
       "Pray",
       "Trade (Shrine Building)",
       "Consume Alcohol",
       "Entertain (Speeches)",
       "Gossip",
-      "Melee (Basic)",
+      "Melee (Brawling)",
       "Outdoor Survival",
       "Ranged (Bow)",
       "Endurance",
@@ -75,14 +75,14 @@
       "Lore (Warfare)"
     ],
     "talents": [
-      "Carefult Strike",
+      "Careful Strike",
       "Impassioned Zeal",
-      "Public Speaker",
+      "Public Speaking",
       "Strike Mighty Blow"
     ],
     "trappings": [
-      "Highest Quality Monk Robes",
-      "Religious Symbol"
+      "Quality Monk Robes",
+      "Religious Relic"
     ],
     "incomeSkill": [
       6

@@ -1,12 +1,12 @@
 {
   "name": "Inquisidor",
   "type": "career",
-  "img": "modules/wfrp4e-core/icons/careers/witch-hunter-03.png",
+  "img": "modules/wfrp4e-core/icons/careers/witch-hunter-02.png",
   "system": {
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.mPN1R2AidfptTsMK]{Estalian Inquisidor}</p><p></p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.mPN1R2AidfptTsMK]{Estalian Inquisidor}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -21,7 +21,7 @@
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Rangers"
+      "value": "Ranger"
     },
     "current": {
       "type": "Boolean",
@@ -34,56 +34,56 @@
     "level": {
       "type": "String",
       "label": "Career Level",
-      "value": 3
+      "value": 2
     },
     "status": {
       "tier": "s",
-      "standing": 5
+      "standing": 3
     },
     "characteristics": {
       "ws": true,
       "bs": true,
-      "s": false,
-      "t": true,
+      "s": true,
+      "t": false,
       "i": false,
       "ag": false,
       "dex": false,
       "int": false,
       "wp": true,
-      "fel": true
+      "fel": false
     },
     "skills": [
+      "Bribery",
       "Intimidate",
       "Intuition",
+      "Language (Battle)",
       "Lore (Myrmidia)",
       "Lore (Torture)",
       "Melee (Fencing)",
       "Perception",
-      "Dodge",
-      "Lore (Witches)",
+      "Cool",
+      "Gossip",
+      "Lore (Skaven)",
+      "Melee (Basic or Parry)",
       "Ranged (Blackpowder)",
-      "Ride (Horse)",
-      "Secret Signs (Cultists)",
-      "Heal",
-      "Endurance",
-      "Leadership",
-      "Lore (Law)",
-      "Lore (Local)"
+      "Ride (Horse)"
     ],
     "talents": [
-      "Fearless (Witches)",
-      "Menacing",
-      "Relentless",
-      "Riposte"
+      "Disarm",
+      "Dual Wielder",
+      "Marksman",
+      "Shadow"
     ],
     "trappings": [
-      "Subordinate Juramentados",
-      "Quality Clothing",
-      "Quality Gun (Any)",
-      "Silver Bullets with Powder (10)"
+      "Feathered Hat",
+      "Leather Jack",
+      "Pair of Pistols",
+      "Riding Horse with Saddle and Tack",
+      "Rope",
+      "Silvered Rapier"
     ],
     "incomeSkill": [
-      4
+      6
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -104,11 +104,11 @@
     "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
-    "createdTime": 1777942782137,
-    "modifiedTime": 1787191310112,
+    "createdTime": 1777942782954,
+    "modifiedTime": 1787191310114,
     "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
-  "_id": "U2PZLabc1c2fSgMw",
-  "sort": 2700000,
-  "_key": "!items!U2PZLabc1c2fSgMw"
+  "_id": "m7aLrOExBfmRg3FA",
+  "sort": 5600000,
+  "_key": "!items!m7aLrOExBfmRg3FA"
 }

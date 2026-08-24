@@ -1,31 +1,31 @@
 {
-  "_id": "nn12JwmmapWgp1gF",
-  "name": "Royal Guard",
+  "_id": "Gv60rlAHaYDgTOwn",
+  "name": "Paymaster",
   "type": "career",
   "flags": {},
-  "img": "modules/wfrp4e-core/icons/careers/advisor-03.png",
+  "img": "modules/wfrp4e-core/icons/careers/advisor-02.png",
   "effects": [],
   "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
     "coreVersion": "14.364",
     "systemId": "wfrp4e",
-    "systemVersion": "9.5.4",
-    "createdTime": 1767188255235,
-    "modifiedTime": 1787191310117,
-    "lastModifiedBy": "7SjvqIrukDv4W6Te"
+    "systemVersion": "9.6.4",
+    "createdTime": 1787606925468,
+    "modifiedTime": 1787606925468,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "ownership": {
     "default": 0,
     "XFum9iWwbM87WzWu": 3,
-    "bwuOpMGVHBESXkjP": 3
+    "7SjvqIrukDv4W6Te": 3
   },
   "system": {
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.TSR9as1ml1ggmMvh]{Ind Ahadi}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.Tq0jxueqfqfF5Q7J]{Paymaster}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -35,12 +35,12 @@
     "careergroup": {
       "type": "String",
       "label": "Career Group",
-      "value": "Ind Ahadi"
+      "value": "Paymaster"
     },
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Warriors"
+      "value": "Courtier"
     },
     "current": {
       "type": "Boolean",
@@ -53,58 +53,55 @@
     "level": {
       "type": "String",
       "label": "Career Level",
-      "value": 3
+      "value": 2
     },
     "status": {
       "tier": "g",
       "standing": 1
     },
     "characteristics": {
-      "ws": true,
-      "bs": true,
-      "s": true,
+      "ws": false,
+      "bs": false,
+      "s": false,
       "t": false,
-      "i": false,
-      "ag": true,
+      "i": true,
+      "ag": false,
       "dex": false,
-      "int": false,
-      "wp": false,
+      "int": true,
+      "wp": true,
       "fel": true
     },
     "skills": [
-      "Animal Care",
-      "Charm Animal",
-      "Endurance",
-      "Language (Battle)",
-      "Melee (Basic)",
-      "Navigation",
-      "Perception",
-      "Ride (Horse)",
       "Bribery",
+      "Drive",
+      "Evaluate",
+      "Gamble",
+      "Haggle",
+      "Language (Any)",
+      "Lore (Taxes)",
+      "Ride (Horse)",
       "Charm",
       "Cool",
-      "Gossip",
-      "Melee (Polearm)",
-      "Ranged (Blackpowder)",
-      "Intuition",
-      "Leadership",
-      "Lore (Etiquette)",
-      "Lore (Politics)"
+      "Language (Battle)",
+      "Lore (Local)",
+      "Melee (Any)",
+      "Ranged (Any)"
     ],
     "talents": [
-      "Lucky",
+      "Cardsharp",
+      "Embezzle",
       "Nose for Trouble",
-      "Schemer",
-      "Strike to Injure"
+      "Suave"
     ],
     "trappings": [
+      "Bodyguards",
+      "Breastplate",
       "Courtly Garb",
-      "Symbol of Gilgadresh or Brahmir",
-      "Quality Weapon (Any)",
-      "10"
+      "Paychest and Key",
+      "100 GC"
     ],
     "incomeSkill": [
-      4
+      0
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -112,6 +109,6 @@
     "previousCareer": {}
   },
   "folder": "Ok1t4rLc68778H3u",
-  "sort": 9900000,
-  "_key": "!items!nn12JwmmapWgp1gF"
+  "sort": 0,
+  "_key": "!items!Gv60rlAHaYDgTOwn"
 }

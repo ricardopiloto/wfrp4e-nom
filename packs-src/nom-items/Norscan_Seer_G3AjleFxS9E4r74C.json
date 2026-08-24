@@ -1,0 +1,112 @@
+{
+  "_id": "G3AjleFxS9E4r74C",
+  "name": "Norscan Seer",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-02.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787606876167,
+    "modifiedTime": 1787606876167,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.yz9vCSov1cUunv6l]{Norscan Seer}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Norscan Seer"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Peasant"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 2
+    },
+    "status": {
+      "tier": "b",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Channeling (Color)",
+      "Endurance",
+      "Intuition",
+      "Language (Magick)",
+      "Lore (Norsca)",
+      "Lore (Herbs)",
+      "Outdoor Survival",
+      "Perception",
+      "Cool",
+      "Gossip",
+      "Heal",
+      "Lore (Magic)",
+      "Trade (Herbalist)",
+      "Trade (Runes)"
+    ],
+    "talents": [
+      "Aethyric Attunement",
+      "Arcane Magic (Death, Fire, Hedgecraft, Metal or Shadows)",
+      "Field Dressing",
+      "Second Sight"
+    ],
+    "trappings": [
+      "Animal Hide Cloak with Skull Headdress",
+      "Bone Charms",
+      "Quarterstaff"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 0,
+  "_key": "!items!G3AjleFxS9E4r74C"
+}

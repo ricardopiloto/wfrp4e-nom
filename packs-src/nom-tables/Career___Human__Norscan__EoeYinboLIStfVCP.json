@@ -1022,9 +1022,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Hedge Witch",
+      "name": "Seer",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.03Nnub5GHNRCU9kg]{Hedge Witch}",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.yz9vCSov1cUunv6l]{Seer}",
       "weight": 1,
       "_key": "!tables.results!EoeYinboLIStfVCP.9gte8fm3j6m7ke63"
     },
@@ -1047,9 +1047,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Outlaw",
+      "name": "Reaver",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.SrqxyWytyki4WYgC]{Outlaw}",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.4O20TzcgPc4jL4ZT]{Reaver}",
       "weight": 1,
       "_key": "!tables.results!EoeYinboLIStfVCP.vvvwm3ch65m2tjld"
     },

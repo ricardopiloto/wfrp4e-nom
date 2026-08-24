@@ -135,7 +135,9 @@ const CAREER_GROUP_PAGE_ALIAS = new Map([
   ["Albionese Highlander", "Albinonese Highlander"],
   ["Norscan Mercenary", "Norscan Freeholder"],
   ["Cathayan Dragon Monk", "Celestial Dragon Monk"],
-  ["Man At Arms", "Bretonnian Man-At-Arms"]
+  ["Man At Arms", "Bretonnian Man-At-Arms"],
+  ["Reaver", "Norscan Reaver"],
+  ["Ronin", "Nippon Ronin"]
 ]);
 
 function resolveCareerPageName(careerGroup, pageByName) {

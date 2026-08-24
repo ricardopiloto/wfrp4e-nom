@@ -50,7 +50,10 @@ const NATIONALITY_TO_PREFIX = new Map([
 const NOM_ROW_ALIAS = new Map([
   ["Nipponese\tVimto Monk", "Nippon Vimto Monks"],
   ["Norscan\tMercenary", "Norscan Freeholder"],
-  ["Wastelander/Marienburger\tBlack Cap", "Wastelander Black Cap"]
+  ["Wastelander/Marienburger\tBlack Cap", "Wastelander Black Cap"],
+  ["Norscan\tSeer", "Norscan Seer"],
+  ["Norscan\tReaver", "Norscan Reaver"],
+  ["Nipponese\tRonin", "Nippon Ronin"]
 ]);
 
 function nomAliasTargetPage(nationalityTag, lookupTrimmed) {
