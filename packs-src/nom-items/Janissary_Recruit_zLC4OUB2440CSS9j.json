@@ -9,12 +9,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1767184443003,
-    "modifiedTime": 1778012226310,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310117,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "ownership": {
     "default": 0,
@@ -25,7 +25,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.oGtStn48sS7S3Vws]{Janissary}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.oGtStn48sS7S3Vws]{Arabyan Janissary}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -104,6 +104,6 @@
     "previousCareer": {}
   },
   "folder": "Ok1t4rLc68778H3u",
-  "sort": 3500000,
+  "sort": 10500000,
   "_key": "!items!zLC4OUB2440CSS9j"
 }

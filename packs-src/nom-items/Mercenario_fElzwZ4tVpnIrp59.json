@@ -1,0 +1,107 @@
+{
+  "_id": "fElzwZ4tVpnIrp59",
+  "name": "Mercenario",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787173536549,
+    "modifiedTime": 1787191310113,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.kxJaeLTgarsribxe]{Estalian Conquistador}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Conquistador"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warrior"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Endurance",
+      "Gamble",
+      "Haggle",
+      "Language (Battle)",
+      "Lore (Estalia)",
+      "Melee (Any)",
+      "Perform (Jota)",
+      "Play (Bandurria or Drum)"
+    ],
+    "talents": [
+      "Cardsharp",
+      "Dog of War",
+      "Iron Jaw",
+      "Marksman or Warrior Born"
+    ],
+    "trappings": [
+      "Chain Shirt",
+      "Company Uniform",
+      "Contract",
+      "1d10 GC"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 4600000,
+  "_key": "!items!fElzwZ4tVpnIrp59"
+}

@@ -6,7 +6,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.H3176dkgEidemPKT]{Grail Pilgrim}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.H3176dkgEidemPKT]{Bretonnian Grail Pilgrim}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -46,35 +46,30 @@
       "s": true,
       "t": true,
       "i": false,
-      "ag": false,
+      "ag": true,
       "dex": false,
       "int": false,
-      "wp": true,
+      "wp": false,
       "fel": false
     },
     "skills": [
-      "Cool",
-      "Entertain (Sing)",
-      "Entertain (Storytelling)",
-      "Lore (Heraldry)",
-      "Melee (Flail)",
-      "Melee (Polearm)",
-      "Lore (The Lady)",
       "Art (Engraving)",
       "Dodge",
       "Endurance",
-      "Entertain (Any)",
       "Intimidate",
       "Intuition",
-      "Lore (Bretonnia)",
-      "Melee (Basic)",
-      "Outdoor Survival"
+      "Cool",
+      "Entertain (Singing)",
+      "Entertain (Storytelling)",
+      "Lore (Heraldry)",
+      "Melee (Flail)",
+      "Melee (Polearm or Two-handed)"
     ],
     "talents": [
       "Etiquette (Knights)",
       "Hatred (Any)",
       "Stout-hearted",
-      "Supportive"
+      "Very Strong"
     ],
     "trappings": [
       "Bits That Fell Off the Back of a Grail Knight",
@@ -105,18 +100,18 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
-    "systemVersion": "9.3.2",
+    "systemVersion": "9.6.4",
     "createdTime": 1765316073702,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310118,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "sbPyoXPbxaKwJAwF",
   "ownership": {
     "default": 0,
     "bwuOpMGVHBESXkjP": 3
   },
-  "sort": 4700000,
+  "sort": 11700000,
   "_key": "!items!sbPyoXPbxaKwJAwF"
 }

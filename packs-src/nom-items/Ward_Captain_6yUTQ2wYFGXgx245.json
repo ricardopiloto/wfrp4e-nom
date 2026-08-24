@@ -1,0 +1,119 @@
+{
+  "_id": "6yUTQ2wYFGXgx245",
+  "name": "Ward Captain",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787172699888,
+    "modifiedTime": 1787191310110,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.VARU2wWYS8ecSgEK]{Wastelander Black Cap}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Black Cap"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Burgher"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Climb",
+      "Consume Alcohol",
+      "Dodge",
+      "Endurance",
+      "Gamble",
+      "Melee (Polearm)",
+      "Perception",
+      "Charm",
+      "Cool",
+      "Gossip",
+      "Intimidate",
+      "Lore (Marienburg)",
+      "Ranged (Crossbow)",
+      "Entertain (Storytelling)",
+      "Haggle",
+      "Leadership",
+      "Lore (Law)",
+      "Lore (Politics)",
+      "Ride (Horse)"
+    ],
+    "talents": [
+      "Public Speaker",
+      "Robust",
+      "Schemer",
+      "Wealthy"
+    ],
+    "trappings": [
+      "Quality Crossbow or Halberd",
+      "Quality Uniform and Black Cap",
+      "Quality Symbol of Rank",
+      "Riding Horse with Saddle and Tack"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 300000,
+  "_key": "!items!6yUTQ2wYFGXgx245"
+}

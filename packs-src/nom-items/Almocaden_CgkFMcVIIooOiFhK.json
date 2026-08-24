@@ -76,9 +76,9 @@
     ],
     "talents": [
       "Careful Strike",
-      "¡¡Despierta, Fierro!!",
       "Iron Will",
-      "Strike to Injure"
+      "Strike to Injure",
+      "Etiquette (Myrmidians)"
     ],
     "trappings": [
       "Plumed Great Helm",
@@ -105,14 +105,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
-    "systemVersion": "9.5.4",
+    "systemVersion": "9.6.4",
     "createdTime": 1777779191790,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310115,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "CgkFMcVIIooOiFhK",
-  "sort": 100000,
+  "sort": 7100000,
   "_key": "!items!CgkFMcVIIooOiFhK"
 }

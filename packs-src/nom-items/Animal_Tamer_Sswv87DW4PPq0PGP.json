@@ -1,0 +1,106 @@
+{
+  "_id": "Sswv87DW4PPq0PGP",
+  "name": "Animal Tamer",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787172458815,
+    "modifiedTime": 1787191310112,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.LVA95PZ5ipr6bxYj]{Ind Beast Tamer}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Beast Tamer"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Ranger"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": true,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Animal Care",
+      "Charm Animal",
+      "Drive",
+      "Lore\n(Beasts)",
+      "Melee (Brawling)",
+      "Play (Drums)",
+      "Ride (Horse)"
+    ],
+    "talents": [
+      "Animal Affinity",
+      "Dirty Fighting",
+      "Fearless (Beasts)",
+      "Roughrider"
+    ],
+    "trappings": [
+      "Leather Jerkin",
+      "Riding Horse with Saddle and Tack",
+      "d10 Animal Traps"
+    ],
+    "incomeSkill": [
+      1
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 2500000,
+  "_key": "!items!Sswv87DW4PPq0PGP"
+}

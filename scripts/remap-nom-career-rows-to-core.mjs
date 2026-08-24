@@ -11,24 +11,8 @@ import { fileURLToPath } from "node:url";
 const root = path.join(fileURLToPath(new URL(".", import.meta.url)), "..");
 const TABLES_DIR = path.join(root, "packs-src/nom-tables");
 
-/** @type {Record<string, string>} Old label → Core journal pages[].name */
+/** @type {Record<string, string>} Old label → Core journal pages[].name (NoM-only careers omitted) */
 const REMAP = {
-  Artillerist: "Engineer",
-  Assassin: "Spy",
-  "Beast Tamer": "Hunter",
-  "Black Cap": "Witch Hunter",
-  Cadet: "Soldier",
-  Chekist: "Investigator",
-  Conquistador: "Soldier",
-  Crusader: "Warrior Priest",
-  Diestro: "Duellist",
-  Druid: "Hedge Witch",
-  Executioner: "Pit Fighter",
-  Highwayman: "Outlaw",
-  Jinyiwei: "Spy",
-  "Lustrian Luchador": "Pit Fighter",
-  Mamluk: "Cavalryman",
-  "Man-At-Arms": "Soldier",
   Marine: "Seaman",
   "Norscan Seer": "Hedge Witch",
   Paymaster: "Merchant",

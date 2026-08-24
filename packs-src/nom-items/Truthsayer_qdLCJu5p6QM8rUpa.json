@@ -1,0 +1,117 @@
+{
+  "_id": "qdLCJu5p6QM8rUpa",
+  "name": "Truthsayer",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787173880015,
+    "modifiedTime": 1787191310114,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.c9D3PcocKHlku14i]{Albionese Druid}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Druid"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Academic"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "b",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": true,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Channeling (Color)",
+      "Endurance",
+      "Intuition",
+      "Language (Magick)",
+      "Lore (Herbs)",
+      "Melee (Polearm)",
+      "Outdoor Survival",
+      "Perception",
+      "Cool",
+      "Gossip",
+      "Heal",
+      "Lore (Local)",
+      "Melee (Brawling)",
+      "Trade (Charms)",
+      "Haggle",
+      "Lore (Dhar)",
+      "Lore (Magic)",
+      "Lore (Spirits)",
+      "Intimidate",
+      "Lore (Chaos)"
+    ],
+    "talents": [
+      "Master Craftsman (Charms)",
+      "Savant (Spirits)",
+      "Strongminded",
+      "War Wizard"
+    ],
+    "trappings": [
+      "Assortment of Animal Bone Charms",
+      "Magical Item"
+    ],
+    "incomeSkill": [
+      0
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 6100000,
+  "_key": "!items!qdLCJu5p6QM8rUpa"
+}

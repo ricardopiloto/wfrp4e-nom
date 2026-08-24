@@ -31,7 +31,7 @@ const EXCLUDED_NOM_PAGE_NAMES = new Set(["Talents"]);
 
 /** Parsed nationality tag inside RollTable.name parentheses → composed prefix for NoM (design.md). */
 const NATIONALITY_TO_PREFIX = new Map([
-  ["Albionite", "Albinonese"],
+  ["Albionite", "Albionese"],
   ["Estalian", "Estalian"],
   ["Tilean", "Tilean"],
   ["Nipponese", "Nippon"],
@@ -47,7 +47,11 @@ const NATIONALITY_TO_PREFIX = new Map([
 ]);
 
 /** `nationalityTag` (parenthetical)\t trimmed results.name → NoM careers `pages[].name` (openspec fix-nom-career-journal-six-rows). */
-const NOM_ROW_ALIAS = new Map([["Nipponese\tVimto Monk", "Nippon Vimto Monks"]]);
+const NOM_ROW_ALIAS = new Map([
+  ["Nipponese\tVimto Monk", "Nippon Vimto Monks"],
+  ["Norscan\tMercenary", "Norscan Freeholder"],
+  ["Wastelander/Marienburger\tBlack Cap", "Wastelander Black Cap"]
+]);
 
 function nomAliasTargetPage(nationalityTag, lookupTrimmed) {
   if (!nationalityTag || !lookupTrimmed) return null;
@@ -84,6 +88,18 @@ function makeUuid(journalId, pageId, label) {
   return `@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.${journalId}.JournalEntryPage.${pageId}]{${label}}`;
 }
 
+/** Career name stored in description when results.name is empty (legacy import). */
+function repairInvertedRow(r) {
+  const name = typeof r.name === "string" ? r.name.trim() : "";
+  if (name) return false;
+
+  const desc = typeof r.description === "string" ? r.description.trim() : "";
+  if (!desc || desc.startsWith("@UUID[") || desc.startsWith("@Compendium[")) return false;
+
+  r.name = desc;
+  return true;
+}
+
 async function main() {
   const coreJson = JSON.parse(await fs.readFile(CORE_PATH, "utf8"));
   const coreMap = buildPageNameMap(coreJson.pages ?? [], "Core datasource");
@@ -99,6 +115,7 @@ async function main() {
   let rowNomExact = 0;
   let rowNomComposed = 0;
   let rowNomAlias = 0;
+  let rowInvertedRepaired = 0;
   let rowPreserved = 0;
   /** @type {Set<string>} */
   const unmatchedLines = new Set();
@@ -116,6 +133,8 @@ async function main() {
     const prefix = nationalityTag ? NATIONALITY_TO_PREFIX.get(nationalityTag) ?? null : null;
 
     for (const r of doc.results ?? []) {
+      if (repairInvertedRow(r)) rowInvertedRepaired++;
+
       const label = typeof r.name === "string" ? r.name : "";
       const oldDesc = r.description ?? "";
       const lookup = label.trim();
@@ -197,6 +216,7 @@ async function main() {
         rowsLinkedNoMComposed: rowNomComposed,
         rowsLinkedNoMAlias: rowNomAlias,
         rowsLinkedNoM: rowNomExact + rowNomComposed + rowNomAlias,
+        rowsInvertedRepaired: rowInvertedRepaired,
         rowsPreservedDescription: rowPreserved,
         unmatchedDistinctRows: unmatchedLines.size,
         nomCareerPagesUnlinked: unusedLines.length,

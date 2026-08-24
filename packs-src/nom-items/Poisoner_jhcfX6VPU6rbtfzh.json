@@ -1,0 +1,106 @@
+{
+  "_id": "jhcfX6VPU6rbtfzh",
+  "name": "Poisoner",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787172341660,
+    "modifiedTime": 1787191310114,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.YNicSQM5TDANUnMm]{Assassin}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Assassin"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rogue"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Bribery",
+      "Charm",
+      "Gossip",
+      "Lore (Poisons)",
+      "Melee (Brawling)",
+      "Ranged (Any)",
+      "Stealth (Urban)",
+      "Trade (Poisoner)"
+    ],
+    "talents": [
+      "Alley Cat",
+      "Night Vision",
+      "Read/Write",
+      "Strike Mighty Blow"
+    ],
+    "trappings": [
+      "Assassination Contract",
+      "Hood and Mask",
+      "3 Vials of Poison"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 5100000,
+  "_key": "!items!jhcfX6VPU6rbtfzh"
+}

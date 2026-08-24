@@ -6,7 +6,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.6MDYnEhDcCiuUfmW]{Knight of the Realm}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.6MDYnEhDcCiuUfmW]{Bretonnian Knight of the Realm}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -38,7 +38,7 @@
     },
     "status": {
       "tier": "g",
-      "standing": 1
+      "standing": 3
     },
     "characteristics": {
       "ws": true,
@@ -48,32 +48,31 @@
       "i": false,
       "ag": true,
       "dex": false,
-      "int": true,
+      "int": false,
       "wp": true,
       "fel": false
     },
     "skills": [
       "Athletics",
       "Animal Care",
-      "Charm Animal",
       "Lore (Heraldry)",
+      "Lore (Theology)",
       "Melee (Basic)",
       "Melee (Cavalry)",
-      "Ride (Horse)",
       "Pray",
-      "Lore (The Lady)",
-      "Dodge",
+      "Ride (Horse)",
       "Cool",
+      "Dodge",
       "Endurance",
       "Intimidate",
       "Language (Battle)",
-      "Melee (Two-handed)"
+      "Melee (Any)"
     ],
     "talents": [
       "Bless (The Lady)",
+      "Knightly Virtue (Any)",
       "Shieldsman",
-      "Strike Mighty Blow",
-      "Fearless (Everything)"
+      "Strike Mighty Blow"
     ],
     "trappings": [
       "Horse Barding",
@@ -81,7 +80,7 @@
       "Servants"
     ],
     "incomeSkill": [
-      8
+      5
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -100,18 +99,18 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1765315397671,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310119,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "PiDpvMfWr2Zeh2AC",
   "ownership": {
     "default": 0,
     "bwuOpMGVHBESXkjP": 3
   },
-  "sort": 5000000,
+  "sort": 12000000,
   "_key": "!items!PiDpvMfWr2Zeh2AC"
 }

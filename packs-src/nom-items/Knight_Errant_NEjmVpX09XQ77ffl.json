@@ -7,7 +7,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.6MDYnEhDcCiuUfmW]{Knight of the Realm}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.6MDYnEhDcCiuUfmW]{Bretonnian Knight of the Realm}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -38,8 +38,8 @@
       "value": 1
     },
     "status": {
-      "tier": "s",
-      "standing": 5
+      "tier": "g",
+      "standing": 1
     },
     "characteristics": {
       "ws": true,
@@ -49,36 +49,35 @@
       "i": false,
       "ag": true,
       "dex": false,
-      "int": true,
+      "int": false,
       "wp": false,
       "fel": false
     },
     "skills": [
       "Athletics",
       "Animal Care",
-      "Charm Animal",
       "Lore (Heraldry)",
+      "Lore (Theology)",
       "Melee (Basic)",
       "Melee (Cavalry)",
-      "Ride (Horse)",
       "Pray",
-      "Lore (The Lady)"
+      "Ride (Horse)"
     ],
     "talents": [
-      "Etiquette (Bretonnias or Warriors)",
-      "Virtue of Knighthood",
+      "Etiquette (Nobles or Cultists)",
+      "Fearless (Everything)",
       "Roughrider",
       "Sturdy"
     ],
     "trappings": [
-      "Destrier with Saddle and Tack",
+      "Bretonnian Destrier with Saddle and Tack",
+      "Full Mail Armor with Helm",
       "Hand Weapon",
       "Shield",
-      "Tabard with Dukedom Heraldry",
-      "Full Mail Armour with Helm"
+      "Tabard with Dukedom Heraldry"
     ],
     "incomeSkill": [
-      8
+      5
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -97,17 +96,17 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1765315395230,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310119,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "ownership": {
     "default": 0,
     "bwuOpMGVHBESXkjP": 3
   },
-  "sort": 4800000,
+  "sort": 11800000,
   "_key": "!items!NEjmVpX09XQ77ffl"
 }

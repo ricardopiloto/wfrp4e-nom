@@ -6,7 +6,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.H3176dkgEidemPKT]{Grail Pilgrim}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.H3176dkgEidemPKT]{Bretonnian Grail Pilgrim}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -45,33 +45,31 @@
       "bs": false,
       "s": true,
       "t": true,
-      "i": false,
+      "i": true,
       "ag": true,
       "dex": false,
       "int": false,
-      "wp": true,
+      "wp": false,
       "fel": false
     },
     "skills": [
-      "Cool",
-      "Entertain (Sing)",
-      "Entertain (Storytelling)",
-      "Lore (Heraldry)",
-      "Melee (Flail)",
-      "Melee (Polearm)",
-      "Lore (The Lady)",
       "Art (Engraving)",
       "Dodge",
       "Endurance",
-      "Entertain (Any)",
       "Intimidate",
       "Intuition",
-      "Lore (Bretonnia)",
+      "Lore (The Lady)",
       "Melee (Basic)",
       "Outdoor Survival",
+      "Cool",
+      "Entertain (Singing)",
+      "Entertain (Storytelling)",
+      "Lore (Heraldry)",
+      "Melee (Flail)",
+      "Melee (Polearm of Two-handed)",
       "Athletics",
       "Charm",
-      "Lore (Theology)",
+      "Lore (Bretonnia)",
       "Perception"
     ],
     "talents": [
@@ -104,18 +102,18 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
-    "systemVersion": "9.3.2",
+    "systemVersion": "9.6.4",
     "createdTime": 1765316075910,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310118,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "2lA10sebcJwlUA63",
   "ownership": {
     "default": 0,
     "bwuOpMGVHBESXkjP": 3
   },
-  "sort": 4400000,
+  "sort": 11400000,
   "_key": "!items!2lA10sebcJwlUA63"
 }

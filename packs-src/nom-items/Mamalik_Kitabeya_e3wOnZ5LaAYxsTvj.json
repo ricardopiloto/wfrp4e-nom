@@ -1,0 +1,107 @@
+{
+  "_id": "e3wOnZ5LaAYxsTvj",
+  "name": "Mamalik Kitabeya",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787191613830,
+    "modifiedTime": 1787191613830,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.Vb0YiysMKyNX2fwV]{Mamluk}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Mamluk"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warrior"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Animal Care",
+      "Charm Animal",
+      "Endurance",
+      "Heal",
+      "Language (Battle)",
+      "Lore (Heraldry)",
+      "Melee (Basic or Cavalry)",
+      "Ride (Camel or Horse)"
+    ],
+    "talents": [
+      "Etiquette (Any)",
+      "Roughrider",
+      "Sturdy",
+      "Warrior Born"
+    ],
+    "trappings": [
+      "Boiled Breastplate and Helm",
+      "Religious Symbol",
+      "Riding Horse (Arabyan Pureblood) or Camel with Saddle and Tack",
+      "Shield"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 0,
+  "_key": "!items!e3wOnZ5LaAYxsTvj"
+}

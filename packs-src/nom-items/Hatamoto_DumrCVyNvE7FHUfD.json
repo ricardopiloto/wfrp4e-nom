@@ -44,9 +44,9 @@
       "ws": true,
       "bs": false,
       "s": true,
-      "t": true,
+      "t": false,
       "i": true,
-      "ag": false,
+      "ag": true,
       "dex": false,
       "int": false,
       "wp": true,
@@ -57,33 +57,36 @@
       "Dodge",
       "Endurance",
       "Heal",
-      "Intuition",
       "Language (Battle)",
+      "Lore (Heraldry)",
       "Melee (Basic)",
-      "Ranged (Bow)",
+      "Perception",
       "Art (Calligraphy or Poetry)",
       "Cool",
       "Melee (Polearm)",
       "Melee (Two-handed)",
-      "Ranged (Blackpowder)",
-      "Ride Horse)",
+      "Ranged (Blackpowder or Bow)",
+      "Ride (Horse)",
       "Charm",
-      "Gamble",
       "Intimidate",
-      "Leadership"
+      "Leadership",
+      "Lore (Etiquette)"
     ],
     "talents": [
-      "Ambidextrous",
       "Disarm",
       "Lightning Strike",
-      "Reaction Strike"
+      "Reaction Strike",
+      "Stout-hearted"
     ],
     "trappings": [
       "Clan War Banner",
-      "Symbol of Rank and Status"
+      "Horo (Cloak)",
+      "No-Dachi",
+      "Symbol of Rank and Status",
+      "Quality Courtly Garb"
     ],
     "incomeSkill": [
-      6
+      11
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -101,14 +104,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1776996898192,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310116,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "DumrCVyNvE7FHUfD",
-  "sort": 1600000,
+  "sort": 8600000,
   "_key": "!items!DumrCVyNvE7FHUfD"
 }

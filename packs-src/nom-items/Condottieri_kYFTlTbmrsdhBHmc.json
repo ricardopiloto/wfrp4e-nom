@@ -43,45 +43,46 @@
     "characteristics": {
       "ws": true,
       "bs": true,
-      "s": true,
-      "t": false,
+      "s": false,
+      "t": true,
       "i": false,
       "ag": false,
       "dex": false,
       "int": false,
-      "wp": false,
-      "fel": true
+      "wp": true,
+      "fel": false
     },
     "skills": [
-      "Animal Care",
       "Bribery",
-      "Endurance",
-      "Haggle",
-      "Language (Battle Tongue)",
-      "Melee (Cavalry)",
-      "Ride (Horse)",
       "Charm",
+      "Endurance",
+      "Gamble",
+      "Haggle",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Melee (Basic)",
       "Cool",
-      "Gossip",
+      "Evaluate",
       "Language (Any)",
-      "Melee (Polearm or Two-handed)",
-      "Ranged (Bow)"
+      "Lore (Local)",
+      "Melee (Polearm)",
+      "Ranged (Crossbow)"
     ],
     "talents": [
+      "Drilled",
       "Etiquette (Mercenaries)",
-      "Furious Assault",
-      "Marksman",
-      "Rapid Reload"
+      "Rapid Reload",
+      "Shieldsman"
     ],
     "trappings": [
-      "Breatplate and Plummed Helm",
-      "Heavy Crossbow",
-      "Destrier with Saddle and Tack",
+      "Breastplate and Plumed Helm",
+      "Destrier or Light Warhorse with Saddle and Tack",
+      "Symbol of Rank",
       "Quality Uniform",
-      "GC(50)"
+      "50 GC"
     ],
     "incomeSkill": [
-      5
+      6
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -99,14 +100,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1777944682237,
-    "modifiedTime": 1777944682237,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310114,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "kYFTlTbmrsdhBHmc",
-  "sort": 0,
+  "sort": 5300000,
   "_key": "!items!kYFTlTbmrsdhBHmc"
 }

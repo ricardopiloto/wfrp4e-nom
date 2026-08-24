@@ -123,18 +123,15 @@
         },
         "condition": {
           "numbered": false
-        }
+        },
+        "changes": []
       },
-      "changes": [],
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null,
-        "seconds": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -151,13 +148,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.364",
         "systemId": "wfrp4e",
         "systemVersion": "9.5.4",
         "createdTime": 1776942838929,
         "modifiedTime": 1776948686458,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!N9y23cqeuirhu5YM.5XygJTvWrhGq2GOL"
     }
   ],
@@ -171,7 +171,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1776816665963,

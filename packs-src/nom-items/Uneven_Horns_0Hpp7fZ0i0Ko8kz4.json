@@ -89,18 +89,15 @@
             },
             "async": true
           }
-        ]
+        ],
+        "changes": []
       },
-      "changes": [],
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null,
-        "seconds": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "<p><strong>Horns</strong> creature weapon uses the trait’s specification as damage bonus (set to <strong>SB+4</strong> when the effect is applied).</p>",
       "origin": null,
@@ -117,13 +114,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.364",
         "systemId": "wfrp4e",
         "systemVersion": "9.5.4",
         "createdTime": 1778293464388,
         "modifiedTime": 1778293464388,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!0Hpp7fZ0i0Ko8kz4.9bce1490cfdc1628"
     }
   ],
@@ -132,7 +132,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1778291709699,

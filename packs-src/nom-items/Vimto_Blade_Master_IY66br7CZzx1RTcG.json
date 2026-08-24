@@ -6,7 +6,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.V1sXqFWgj9zbeK08]{Vimto Monks}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.V1sXqFWgj9zbeK08]{Nippon Vimto Monks}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -102,14 +102,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1777030058222,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310115,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "IY66br7CZzx1RTcG",
-  "sort": 1100000,
+  "sort": 8100000,
   "_key": "!items!IY66br7CZzx1RTcG"
 }

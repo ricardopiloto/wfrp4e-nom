@@ -1547,9 +1547,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Dragon Monk",
+      "name": "Celestial Dragon Monk",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.ixmZUKVe32V4VqyU]{Dragon Monk}",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.ixmZUKVe32V4VqyU]{Celestial Dragon Monk}",
       "weight": 1,
       "_key": "!tables.results!QuswtVr3V7hZjmNI.zl7jqx9nca28ip59"
     },
@@ -1722,9 +1722,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Protagonist",
+      "name": "Jinyiwei",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.cXOl6phkTrPcUmwC]{Protagonist}",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.qiTEh8ybni6pKncQ]{Jinyiwei}",
       "weight": 1,
       "_key": "!tables.results!QuswtVr3V7hZjmNI.w1h2z7e0sxp7oj8y"
     }

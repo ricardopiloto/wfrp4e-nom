@@ -44,50 +44,49 @@
       "ws": true,
       "bs": false,
       "s": true,
-      "t": true,
+      "t": false,
       "i": true,
-      "ag": false,
+      "ag": true,
       "dex": false,
-      "int": true,
+      "int": false,
       "wp": true,
-      "fel": false
+      "fel": true
     },
     "skills": [
       "Athletics",
       "Dodge",
       "Endurance",
       "Heal",
-      "Intuition",
       "Language (Battle)",
+      "Lore (Heraldry)",
       "Melee (Basic)",
-      "Ranged (Bow)",
+      "Perception",
       "Art (Calligraphy or Poetry)",
       "Cool",
       "Melee (Polearm)",
       "Melee (Two-handed)",
-      "Ranged (Blackpowder)",
-      "Ride Horse)",
+      "Ranged (Blackpowder or Bow)",
+      "Ride (Horse)",
       "Charm",
-      "Gamble",
       "Intimidate",
       "Leadership",
+      "Lore (Etiquette)",
       "Lore (Politics)",
       "Lore (Warfare)"
     ],
     "talents": [
-      "Combat Master",
       "Inspiring",
+      "Noble Blood",
       "Riposte",
-      "Warleader"
+      "War Leader"
     ],
     "trappings": [
-      "Finest Quality Samurai Armor and Helm (Plate)",
+      "Land in Nippon",
       "Large Unit of Samurai",
-      "No-Dachi",
-      "Province in Nippon"
+      "Quality Samurai Armor and Kabuto"
     ],
     "incomeSkill": [
-      6
+      19
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -105,14 +104,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1776996887973,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310116,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "RVSnv6wJaAexLzGw",
-  "sort": 1900000,
+  "sort": 8900000,
   "_key": "!items!RVSnv6wJaAexLzGw"
 }

@@ -1,0 +1,118 @@
+{
+  "_id": "JtCg0GezlAO3l6nx",
+  "name": "Commandant",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787173229759,
+    "modifiedTime": 1787191310112,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.BAPw9caiKWVjs4gO]{Cadet}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Cadet"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warrior"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Language (Battle)",
+      "Leadership",
+      "Melee (Fencing)",
+      "Play (Bugle or Drum)",
+      "Consume Alcohol",
+      "Gamble",
+      "Gossip",
+      "Lore (Any)",
+      "Lore\n(Warfare)",
+      "Melee (Any)",
+      "Intuition",
+      "Melee (Any)",
+      "Outdoor Survival",
+      "Perception"
+    ],
+    "talents": [
+      "Commanding Presence",
+      "Master Orator",
+      "Riposte",
+      "Savant (Warfare)"
+    ],
+    "trappings": [
+      "Best Quality Breastplate and Uniform",
+      "Best Quality Rapier",
+      "Large Unit of Soldiers",
+      "Monocle",
+      "Subordinate Officers"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 1800000,
+  "_key": "!items!JtCg0GezlAO3l6nx"
+}

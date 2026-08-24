@@ -1,0 +1,108 @@
+{
+  "_id": "lAyHEYmKfg4uLmQu",
+  "name": "Foot Squire",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787173648852,
+    "modifiedTime": 1787191310110,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.8f74ESsngujUn86X]{Crusader}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Crusader"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warrior"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Animal Care",
+      "Heal",
+      "Language (Arabyan or\nBretonnian)",
+      "Language (Estalian or Tilean)",
+      "Lore (Heraldry)",
+      "Melee (Basic)",
+      "Ride (Horse)"
+    ],
+    "talents": [
+      "Relentless",
+      "Strong Back",
+      "Sturdy",
+      "Warrior Born"
+    ],
+    "trappings": [
+      "Leather Jack",
+      "Mail Shirt",
+      "Riding Horse with Saddle and Tack",
+      "Shield",
+      "Trade Tools (Farrier)"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 200000,
+  "_key": "!items!lAyHEYmKfg4uLmQu"
+}

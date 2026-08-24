@@ -39,41 +39,44 @@
     },
     "status": {
       "tier": "s",
-      "standing": 1
+      "standing": 2
     },
     "characteristics": {
       "ws": true,
-      "bs": true,
+      "bs": false,
       "s": false,
-      "t": false,
+      "t": true,
       "i": false,
       "ag": false,
       "dex": false,
       "int": false,
-      "wp": false,
-      "fel": true
+      "wp": true,
+      "fel": false
     },
     "skills": [
-      "Animal Care",
       "Bribery",
+      "Charm",
       "Endurance",
+      "Gamble",
       "Haggle",
-      "Language (Battle Tongue)",
-      "Melee (Cavalry)",
-      "Ride (Horse)"
+      "Language (Battle)",
+      "Melee (Any)",
+      "Melee (Basic)"
     ],
     "talents": [
       "Dealmaker",
-      "Drilled",
-      "Roughrider",
-      "Seasoned Traveller"
+      "Dog of War",
+      "Marksman or Warrior Born",
+      "Strong Back"
     ],
     "trappings": [
       "Chain Shirt",
-      "GC (1d10)"
+      "Company Uniform",
+      "Contract",
+      "1d10 GC"
     ],
     "incomeSkill": [
-      5
+      6
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -91,13 +94,13 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1777944684246,
-    "modifiedTime": 1777944684246,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310113,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
-  "sort": 0,
+  "sort": 4300000,
   "_key": "!items!ctPoXZ7FJ2vhvKEI"
 }

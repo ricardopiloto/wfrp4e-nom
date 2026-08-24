@@ -6,17 +6,45 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Unreleased
 
+## [Version 1.3.0](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.3.0) (2026-08-24)
+
+### Packaging and dependencies
+
 - *Changed* **GitHub Release workflow** (`.github/workflows/release.yml`): aligns with [wfrp4e-homebrew-qol](https://github.com/ricardopiloto/wfrp4e-homebrew-qol) — checkout release tag, substitute **`module.json`** placeholders at CI time, **`gh release upload --clobber`**; retains **`npm run packs:build`** before zip (**`speckit`** **`001-github-release-workflow`**).
 - *Changed* **`module.json`** on the default branch uses **`${version}`**, **`${url}`**, **`${manifest}`**, **`${download}`** placeholders filled when publishing a release (no manual URL bumps per version).
 - *Breaking (install)* **`module.json`** no longer requires **`wfrp4e-more-subspecies`**. Worlds that still want fan Imperials/Kislev homebrew tiers from that module should enable **`wfrp4e-more-subspecies`** in addition to **NoM** (`*`‑prefixed subspecies remain that module’s responsibility).
+
+### Human nationalities (chargen)
+
 - *Changed* **`module.json`** registers **Human** nationalities bundled with NoM (**skills / talents / random talents**) via **`scripts/nom-subspecies-registry.js`** (`Hooks.once("init")`, **`foundry.utils.mergeObject`** → **`game.wfrp4e.config.subspecies.human`**); random career nationality tables resolve like core chargen (**`human-<nationality>-nom`** ↔ RollTable **`flags.wfrp4e.column`**).
 - *Added* **`packs-src/nom-tables/Career___Human__Wastelander_Marienburger__8F482NzQN2KbnwZ5.json`**: **`Career - Human (Wastelander/Marienburger)`** (**`flags.wfrp4e.column` `human-westerlander-nom`**) with rows normalised by **`npm run career-tables:migrate:write`** like other nationality tables.
-- *Changed* **`scripts/migrate-career-rolltable-links.mjs`**: composed NoM prefix for parenthetical **`Wastelander/Marienburger`** → **`Westerland`** for journal row matching.
+- *Changed* **`scripts/migrate-career-rolltable-links.mjs`**: composed NoM prefix for parenthetical **`Wastelander/Marienburger`** → **`Westerland`** for journal row matching; Albionite prefix **Albionese**; maintainer aliases (**Norscan Mercenary** → **Freeholder**, **Wastelander Black Cap**, **Vimto Monk**, …).
+
+### Career nationality tables
+
 - *Added* **`scripts/remap-nom-career-rows-to-core.mjs`** and npm **`career-tables:remap-core-names`** (**`openspec`** **`remap-nom-career-rows-core-catalog`**): rewrites **`results.name`** on **`Career___Human__*.json`** from supplement-style labels to **Core Rulebook** titles (maintainer map in archived change **`design.md`**; **Skald** → **Entertainer** because Core journal has no **Bard** page). Run before **`npm run career-tables:migrate:write`** when ingesting exports with non-Core names.
-- *Changed* **`packs-src/nom-tables/Career___Human__*.json`**: nationality random-career rows that previously referenced names outside the packaged Core careers journal (e.g. **Artillerist**, **Marine**, **Vampire Hunter**) now use Core career names (**Engineer**, **Seaman**, **Witch Hunter**, …) so Character Creation resolves **Tier 1** careers and **`reports/career-rolltable-unmatched.txt`** lists **no** unmatched nationality-row labels after migrate.
+- *Changed* **`packs-src/nom-tables/Career___Human__*.json`**: nationality random-career rows that previously referenced names outside the packaged Core careers journal (e.g. **Artillerist**, **Marine**, **Vampire Hunter**) now use Core career names (**Engineer**, **Seaman**, **Witch Hunter**, …) so Character Creation resolves **Tier 1** careers and **`reports/career-rolltable-unmatched.txt`** lists **no** unmatched nationality-row labels after migrate (Core-only Arabyan rows **Marine** / **Paymaster** / **Sartosan Pirate** remain plain text where no NoM journal page exists).
+- *Changed* Nationality tables: patched missing NoM journal **`@UUID`** rows so nearly all NoM career pages resolve from at least one **`Career___Human__*`** table (**Lustrian Luchador** still has no Lustrian nationality table — tracked in **`reports/TODO-nom-items.md`**).
+
+### Chosen of the Hound
+
 - *Added* Ten **`type: talent`** **`Item`** documents for **Chosen of the Hound** (**`RollTable`** **`tI1syOkdXB0Y5UOV`**) mutations — names from the text before **`": "`** on each row (**Iron Skin**, **Spiked Skin/Armor**, **Wings**, …), full row string in **`system.description`**, folder **NoM - Talents** (**`DsekJv5UvKUKIUpc`**) (**`openspec`** **`add-chosen-hound-mark-talent-items`**).
 - *Changed* **Chosen of the Hound** mark talents (**`packs-src/nom-items/*`**) now embed **actor `ActiveEffect`s**: **`APCalc`** + **`addArmour`** for natural AP; **Iron Skin** **`ag.modifier`** **−10**; **Multiple Legs** **`prePrepareData`** on **`system.details.move.value`** (+**0.5** per run, **+1** effective); **Fear (2)**, **Flight 60**, **Horns (SB+4)**, **Acute Sense (Vision)** via **`addItems`** from **`wfrp4e-core`** (Multiple Arms / Spiked charge rider left as on-effect description; **`openspec`** **`add-chosen-hound-mark-talent-effects`**).
 - *Changed* **`packs-src/nom-tables/Chosen_of_the_Hound_tI1syOkdXB0Y5UOV.json`**: each **`results[]`** row is **`type: document`** linked to **`nom-items`** (**`wire-chosen-hound-rolltable-talent-links`**); **`results[].name`** is the short **talent** title (matching **`Item.name`**, **`shorten-chosen-hound-table-result-names`**); **`results[].text`** is the full mutation line for chat/previews (**`restore-chosen-hound-rolltable-result-text`**); authoritative rules also remain on the **Item**.
+
+### Career content tooling
+
+- *Added* **`scripts/normalize-career-content.mjs`** and npm **`careers:normalize`** / **`careers:normalize:write`**: batch-normalises the Careers journal (`Nations_of_Mankind___Careers`), **`nom-items`** career tier back-links, nationality table journal paths, tier symbols (✠♟♜♛), icons when present, and reports missing NoM talent IDs to **`reports/nom-career-missing-talents.txt`**. Supports **`--career`** and **`--from-career`** filters.
+- *Added* Maintainer skills **`.cursor/skills/nom-career-content`** and **`.cursor/skills/nom-career-tiers`** for journal/item sync workflows.
+- *Added* **`reports/TODO-nom-items.md`**: backlog for missing talents, career icons, and table gaps.
+
+### Careers and talents (compendium)
+
+- *Changed* Career tiers synced from PDF / author specs (journal + **`nom-items`**): **Bretonnian Knight of the Realm**, **Celestial Dragon Monk** (characteristic scheme), **Nippon Ninja**, **Nippon Samurai** (**Elite Soldier** → **Kenin**), **Tilean Condottieri**, and related advance schemes / income skills.
+- *Changed* Batch journal / item link cleanup from **Artillerist** onward (~20 careers): legacy **`@Compendium`** → **`@UUID`**, tier headers, icons where assets exist; **Mamluk** page rewritten from legacy entity-links to canonical **`@UUID`**.
+- *Added* Restored missing **Highwayman** career tier items (**Bandit**, **Highwayman**, **Gang Leader**, **Road Lord**) with journal back-links; fixed **Gunner** talent UUID on that page to **`wfrp4e-up-in-arms`**.
+- *Added* **Dog of War** talent item (**`1Y6Fu7uAsItBBYsl`**) in **`nom-items`**; journal links updated (**Estalian Almogavar**, **Estalian Conquistador**, **Tilean Condottieri**).
+- *Changed* Career icons refreshed for several careers (e.g. Highlander, Condottieri, Cathayan Dragon Monk); new career art assets added under **`icons/careers/`** where available.
 
 ## [Version 1.2.0](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.2.0) (2026-05-08)
 

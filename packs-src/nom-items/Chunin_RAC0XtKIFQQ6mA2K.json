@@ -6,7 +6,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.2fHi8uJn9ZDXnt87]{Ninja}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.2fHi8uJn9ZDXnt87]{Nippon Ninja}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -55,33 +55,34 @@
     "skills": [
       "Athletics",
       "Dodge",
-      "Endurance",
       "Melee (Basic)",
+      "Melee (Brawling)",
       "Ranged (Throwing)",
       "Secret Signs (Ninja)",
-      "Stealth (Everything)",
-      "Bribery",
-      "Charm",
-      "Intuition",
+      "Sleight of Hand",
+      "Stealth (Any)",
+      "Intimidate",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Climb",
       "Perception",
+      "Pick Lock",
       "Ranged (Explosives)",
       "Trade (Explosives)"
     ],
     "talents": [
-      "Combat Reflexes",
+      "Catfall",
       "Scale Sheer Surface",
       "Shadow",
       "Strike to Injure"
     ],
     "trappings": [
       "Bomb Crafting Recipes",
-      "Disguise Kit",
-      "Hidden Blade (Dagger)",
-      "Ninja Hidout (Any)",
-      "Vial of Poison (3)"
+      "Ninja Hideout",
+      "10 Shuriken"
     ],
     "incomeSkill": [
-      6
+      3
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -99,14 +100,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1777604150550,
-    "modifiedTime": 1778012543064,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310115,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "RAC0XtKIFQQ6mA2K",
-  "sort": 800000,
+  "sort": 7800000,
   "_key": "!items!RAC0XtKIFQQ6mA2K"
 }

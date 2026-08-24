@@ -69,10 +69,10 @@
       "Track"
     ],
     "talents": [
-      "Call to Myrmidia",
       "Marksman",
       "Relentless",
-      "Seasoned Traveller"
+      "Seasoned Traveller",
+      "Invoke (Myrmidia)"
     ],
     "trappings": [
       "Brand of Compañia",
@@ -99,14 +99,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
-    "systemVersion": "9.5.4",
+    "systemVersion": "9.6.4",
     "createdTime": 1777779192636,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310115,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "xvzn5jFOyewfJend",
-  "sort": 600000,
+  "sort": 7600000,
   "_key": "!items!xvzn5jFOyewfJend"
 }

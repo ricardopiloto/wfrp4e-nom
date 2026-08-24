@@ -6,7 +6,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.H3176dkgEidemPKT]{Grail Pilgrim}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.H3176dkgEidemPKT]{Bretonnian Grail Pilgrim}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -45,11 +45,11 @@
       "bs": false,
       "s": true,
       "t": true,
-      "i": false,
+      "i": true,
       "ag": true,
       "dex": false,
       "int": false,
-      "wp": true,
+      "wp": false,
       "fel": true
     },
     "skills": [
@@ -58,7 +58,7 @@
       "Entertain (Storytelling)",
       "Lore (Heraldry)",
       "Melee (Flail)",
-      "Melee (Polearm)",
+      "Melee (Polearm or Two-handed)",
       "Lore (The Lady)",
       "Art (Engraving)",
       "Dodge",
@@ -71,10 +71,10 @@
       "Outdoor Survival",
       "Athletics",
       "Charm",
-      "Lore (Theology)",
       "Perception",
       "Entertain (Speeches)",
-      "Leadership"
+      "Leadership",
+      "Lore (Heraldry)"
     ],
     "talents": [
       "Battle Rage",
@@ -108,18 +108,18 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
-    "systemVersion": "9.3.2",
+    "systemVersion": "9.6.4",
     "createdTime": 1765316068252,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310118,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "XWiteCFcj9XJYZXu",
   "ownership": {
     "default": 0,
     "bwuOpMGVHBESXkjP": 3
   },
-  "sort": 4500000,
+  "sort": 11500000,
   "_key": "!items!XWiteCFcj9XJYZXu"
 }

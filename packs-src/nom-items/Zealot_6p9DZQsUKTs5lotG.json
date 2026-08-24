@@ -1,0 +1,105 @@
+{
+  "_id": "6p9DZQsUKTs5lotG",
+  "name": "Zealot",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/flagellant-01.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787173724931,
+    "modifiedTime": 1787191310110,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.mrOfRf2ooKlDzptL]{Arabyan Dervish}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Dervish"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warrior"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Dodge",
+      "Endurance",
+      "Intimidate",
+      "Intuition",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Outdoor Survival",
+      "Perform (Dance)"
+    ],
+    "talents": [
+      "Berserk Charge",
+      "Fleet Footed",
+      "Frenzy",
+      "Read/Write"
+    ],
+    "trappings": [
+      "Quality Robes",
+      "3 Vials of Poison"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 100000,
+  "_key": "!items!6p9DZQsUKTs5lotG"
+}

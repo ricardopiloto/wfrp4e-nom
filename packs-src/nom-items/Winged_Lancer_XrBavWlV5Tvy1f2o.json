@@ -8,7 +8,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.3BdSo3n2IlEMVqr2]{Winged Lancer}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.3BdSo3n2IlEMVqr2]{Kislev Winged Lancer}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -86,7 +86,7 @@
     "previousCareer": {}
   },
   "effects": [],
-  "sort": 3200000,
+  "sort": 10200000,
   "ownership": {
     "default": 0,
     "bwuOpMGVHBESXkjP": 3
@@ -96,12 +96,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1776822453875,
-    "modifiedTime": 1778012388167,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310117,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_key": "!items!XrBavWlV5Tvy1f2o"
 }

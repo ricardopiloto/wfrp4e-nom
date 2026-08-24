@@ -1,0 +1,106 @@
+{
+  "_id": "V8BAK6mr3OA1Ml3t",
+  "name": "Druidic Apprentice",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787173865352,
+    "modifiedTime": 1787191310112,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.c9D3PcocKHlku14i]{Albionese Druid}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Druid"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Academic"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": true,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Channeling (Color)",
+      "Endurance",
+      "Intuition",
+      "Language (Magick)",
+      "Lore (Herbs)",
+      "Melee (Polearm)",
+      "Outdoor Survival",
+      "Perception"
+    ],
+    "talents": [
+      "Fast Hands",
+      "Petty Magic",
+      "Rover",
+      "Strider (Woodlands)"
+    ],
+    "trappings": [
+      "Animal Hide Sack",
+      "Quarterstaff",
+      "Tribal Tattoos"
+    ],
+    "incomeSkill": [
+      0
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 3000000,
+  "_key": "!items!V8BAK6mr3OA1Ml3t"
+}

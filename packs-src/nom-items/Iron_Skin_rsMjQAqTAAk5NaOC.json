@@ -75,25 +75,22 @@
             },
             "async": false
           }
+        ],
+        "changes": [
+          {
+            "key": "system.characteristics.ag.modifier",
+            "value": -10,
+            "priority": null,
+            "type": "add"
+          }
         ]
       },
-      "changes": [
-        {
-          "key": "system.characteristics.ag.modifier",
-          "mode": 2,
-          "value": "-10",
-          "priority": null
-        }
-      ],
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null,
-        "seconds": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -110,13 +107,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.364",
         "systemId": "wfrp4e",
         "systemVersion": "9.5.4",
         "createdTime": 1778293464384,
         "modifiedTime": 1778293464384,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!rsMjQAqTAAk5NaOC.e4aa300d862b75f6"
     }
   ],
@@ -125,7 +125,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1778291709699,

@@ -1,0 +1,117 @@
+{
+  "_id": "WeXziL6k7Nz1wKYw",
+  "name": "Matasietes",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787173820628,
+    "modifiedTime": 1787191310112,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.PDqZYFg6ODo3S8JH]{Estalian Diestro}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Diestro"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Courtier"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Intuition",
+      "Language (Classical)",
+      "Melee (Fencing)",
+      "Perception",
+      "Charm",
+      "Cool",
+      "Consumer Alcohol",
+      "Lore (Etiquette)",
+      "Gamble",
+      "Melee (Parry)",
+      "Intimidate",
+      "Leadership",
+      "Melee (Basic)",
+      "Perform\n(Acrobatics)",
+      "Lore (History)",
+      "Melee (Any)"
+    ],
+    "talents": [
+      "Combat Aware",
+      "Combat Master",
+      "Reaction Strike",
+      "Strike Mighty Blow"
+    ],
+    "trappings": [
+      "Students",
+      "2 Quality Melee Weapons (Any)"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 3200000,
+  "_key": "!items!WeXziL6k7Nz1wKYw"
+}

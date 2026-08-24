@@ -1,0 +1,114 @@
+{
+  "_id": "fNGaSUcKo3NshSZY",
+  "name": "Gang Leader",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-03.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787191310114,
+    "modifiedTime": 1787191310114,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.EMporLqYHOpJ6IAM]{Highwayman}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Highwayman"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rogue"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 3
+    },
+    "status": {
+      "tier": "b",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Bribery",
+      "Consume Alcohol",
+      "Gossip",
+      "Intimidate",
+      "Lore (Local)",
+      "Melee (Basic)",
+      "Perception",
+      "Ranged (Blackpowder)",
+      "Animal Care",
+      "Endurance",
+      "Gamble",
+      "Outdoor Survival",
+      "Ride (Horse)",
+      "Stealth (Rural)",
+      "Charm",
+      "Drive",
+      "Leadership",
+      "Ranged (Crossbows or Explosives)"
+    ],
+    "talents": [
+      "Etiquette (Criminals)",
+      "Fearless (Road Wardens)",
+      "Gunner",
+      "Menacing"
+    ],
+    "trappings": [
+      "Gang of Highwaymen",
+      "Mail Coat"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 5930000,
+  "_key": "!items!fNGaSUcKo3NshSZY"
+}

@@ -1497,9 +1497,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Investigator",
+      "name": "Chekist",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.zLWmjUbUdAOfiV3F]{Investigator}",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.AGuuQHzKIFxGDIEi]{Chekist}",
       "weight": 1,
       "_key": "!tables.results!3l3ngIFkmplfn6bU.13a561vsntvk6hdg"
     },

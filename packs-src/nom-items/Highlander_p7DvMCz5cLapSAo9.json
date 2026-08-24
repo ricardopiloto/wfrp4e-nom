@@ -76,7 +76,8 @@
     ],
     "trappings": [
       "Bone Necklace",
-      "Great Weapon"
+      "Great Weapon (Any)",
+      "Skull Trophies"
     ],
     "incomeSkill": [
       6
@@ -99,14 +100,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1778012151378,
-    "modifiedTime": 1778012151378,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310114,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "p7DvMCz5cLapSAo9",
-  "sort": 0,
+  "sort": 5900000,
   "_key": "!items!p7DvMCz5cLapSAo9"
 }

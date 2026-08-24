@@ -1,0 +1,59 @@
+{
+  "name": "Combat Might",
+  "type": "talent",
+  "_id": "AeiPIsFbYMHgAKXm",
+  "img": "modules/wfrp4e-core/icons/talents/ambidextrous.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Your strength of arms is so great you can wield weapons of massive size and weight with but one hand! You may wield any two-handed melee weapon with one hand with a -20 WS penalty. Any Melee Tests made wielding a two-handed weapon in one hand are replaced with Melee (Basic) as its primary Test. For each additional Talent level, the penalty is reduced by 10 until there is no penalty. At Talent level 3 you ignore any Slow or Tiring Weapon Flaws when wielding a melee weapon with both hands.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "2"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "folder": "DsekJv5UvKUKIUpc",
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1778012149451,
+    "modifiedTime": 1778012149451,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "sort": 0,
+  "_key": "!items!AeiPIsFbYMHgAKXm"
+}

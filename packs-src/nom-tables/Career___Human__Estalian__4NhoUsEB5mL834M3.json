@@ -1822,9 +1822,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Merchant",
+      "name": "Free Company Militiaman",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.h7GdfctKdjWL0Ejp]{Merchant}",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.cIsvQryuUO2QxGnl]{Free Company Militiaman}",
       "weight": 1,
       "_key": "!tables.results!4NhoUsEB5mL834M3.eh9zxboxekqk7604"
     },
@@ -1847,9 +1847,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Smuggler",
+      "name": "Conquistador",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.FqhOxcvai4ROvhXB]{Smuggler}",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.kxJaeLTgarsribxe]{Conquistador}",
       "weight": 1,
       "_key": "!tables.results!4NhoUsEB5mL834M3.hhwh28qheunqsmiv"
     },
@@ -1872,9 +1872,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Witch Hunter",
+      "name": "Diestro",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ADYQOtpsk5n1EHen]{Witch Hunter}",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.PDqZYFg6ODo3S8JH]{Diestro}",
       "weight": 1,
       "_key": "!tables.results!4NhoUsEB5mL834M3.knnqov4xpjq66mwf"
     }

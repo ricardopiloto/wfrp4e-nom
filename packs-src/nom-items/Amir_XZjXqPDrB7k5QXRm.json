@@ -1,0 +1,118 @@
+{
+  "_id": "XZjXqPDrB7k5QXRm",
+  "name": "Amir",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787191621007,
+    "modifiedTime": 1787191621008,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.Vb0YiysMKyNX2fwV]{Mamluk}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Mamluk"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warrior"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Animal Care",
+      "Charm Animal",
+      "Endurance",
+      "Heal",
+      "Language (Battle)",
+      "Lore (Heraldry)",
+      "Melee (Basic or Cavalry)",
+      "Ride (Camel or Horse)",
+      "Cool",
+      "Dodge",
+      "Haggle",
+      "Intimidate",
+      "Melee (Any)",
+      "Perception",
+      "Charm",
+      "Language (Any)",
+      "Leadership",
+      "Lore (Theology)",
+      "Entertain (Speeches)",
+      "Lore (Warfare)"
+    ],
+    "talents": [
+      "Inspiring",
+      "Master Orator",
+      "Public Speaker",
+      "Suave"
+    ],
+    "trappings": [
+      "Gift from the Sultan",
+      "Large Unit of Mamluk Knights or Several Small Units of Mamluk Knights",
+      "Quality Courtly Garb"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 0,
+  "_key": "!items!XZjXqPDrB7k5QXRm"
+}

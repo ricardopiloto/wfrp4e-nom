@@ -1,0 +1,117 @@
+{
+  "_id": "bKmolQWwK95TIW1G",
+  "name": "Black Scimitar Guard",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787173736240,
+    "modifiedTime": 1787191310113,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.mrOfRf2ooKlDzptL]{Arabyan Dervish}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Dervish"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warrior"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Dodge",
+      "Endurance",
+      "Intimidate",
+      "Intuition",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Outdoor Survival",
+      "Perform (Dance)",
+      "Athletics",
+      "Cool",
+      "Entertain (Singing)",
+      "Lore (Araby)",
+      "Perform\n(Sword Tricks)",
+      "Secret Signs (Cultists)",
+      "Charm",
+      "Language (Any)",
+      "Lore (Local)",
+      "Perception",
+      "Entertain (Speeches)",
+      "Leadership"
+    ],
+    "talents": [
+      "Battle Rage",
+      "Fearless (Heretics)",
+      "Frightening",
+      "Impassioned Zeal"
+    ],
+    "trappings": [
+      "Followers of Ormazd (Including Zealots",
+      "Dervishes and Mujāhid)"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 4000000,
+  "_key": "!items!bKmolQWwK95TIW1G"
+}

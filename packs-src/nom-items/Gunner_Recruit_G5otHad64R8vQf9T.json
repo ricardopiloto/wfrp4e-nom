@@ -1,0 +1,106 @@
+{
+  "_id": "G5otHad64R8vQf9T",
+  "name": "Gunner Recruit",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787170607377,
+    "modifiedTime": 1787191310111,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.iOTyXkDJCsZgeHdy]{Artillerist}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Artillerist"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Academic"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": true,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Consume Alcohol",
+      "Cool",
+      "Endurance",
+      "Lore (Armory)",
+      "Lore (Engineer)",
+      "Perception",
+      "Ranged (Blackpowder)",
+      "Trade (Gunsmith)"
+    ],
+    "talents": [
+      "Gunner",
+      "Read/Write",
+      "Sturdy",
+      "Tinker"
+    ],
+    "trappings": [
+      "Book (Engineer)",
+      "Hand Weapon",
+      "Uniform"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 1400000,
+  "_key": "!items!G5otHad64R8vQf9T"
+}

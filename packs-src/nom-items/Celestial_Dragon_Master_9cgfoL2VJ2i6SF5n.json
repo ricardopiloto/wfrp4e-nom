@@ -1,0 +1,118 @@
+{
+  "_id": "9cgfoL2VJ2i6SF5n",
+  "name": "Celestial Dragon Master",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776812605631,
+    "modifiedTime": 1787191310117,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.ixmZUKVe32V4VqyU]{Celestial Dragon Monk}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Celestial Dragon Monk"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Climb",
+      "Cool",
+      "Dodge",
+      "Heal",
+      "Melee (Brawling)",
+      "Melee (Polearm)",
+      "Perform (Meditation)",
+      "Art (Tattoo)",
+      "Gossip",
+      "Outdoor Survival",
+      "Play (Flute)",
+      "Sleight of Hand",
+      "Stealth (Any)",
+      "Art (Tea Making)",
+      "Endurance",
+      "Perception",
+      "Perform (Acrobatics)",
+      "Art (Painting or Poetry)",
+      "Lore (Dragons)"
+    ],
+    "talents": [
+      "Careful Strike",
+      "Combat Master",
+      "Furious Assault",
+      "Very Strong"
+    ],
+    "trappings": [
+      "Best Quality Monk Robes",
+      "Dragon Staff",
+      "Small Unit of Dragon Monks"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 9300000,
+  "_key": "!items!9cgfoL2VJ2i6SF5n"
+}

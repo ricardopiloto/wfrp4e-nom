@@ -60,18 +60,15 @@
         "condition": {
           "numbered": false
         },
-        "scriptData": []
+        "scriptData": [],
+        "changes": []
       },
-      "changes": [],
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null,
-        "seconds": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "<p>Gain one extra <strong>Free Attack</strong> each round where the rules grant Free Attacks (not automated).</p>",
       "origin": null,
@@ -88,13 +85,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.364",
         "systemId": "wfrp4e",
         "systemVersion": "9.5.4",
         "createdTime": 1778293464387,
         "modifiedTime": 1778293464387,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!2cTuA3kJ7jsYKK6q.ba071f34a8d064f3"
     }
   ],
@@ -103,7 +103,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1778291709699,

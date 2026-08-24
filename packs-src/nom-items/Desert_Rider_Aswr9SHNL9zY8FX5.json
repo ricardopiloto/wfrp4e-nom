@@ -1,0 +1,112 @@
+{
+  "_id": "Aswr9SHNL9zY8FX5",
+  "name": "Desert Rider",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/outlaw-02.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787173788922,
+    "modifiedTime": 1787191310111,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.YyJ0orKCuXi3lwre]{Arabyan Desert Rider}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Desert Rider"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rogue"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Animal Care",
+      "Charm Animal",
+      "Drive",
+      "Language (Thieves Tongue)",
+      "Lore (Araby)",
+      "Melee (Basic or Polearm)",
+      "Play (Drum or Flute)",
+      "Ride (Camel or Horse)",
+      "Cool",
+      "Gamble",
+      "Outdoor Survival",
+      "Perception",
+      "Ranged (Bow)",
+      "Sleight of Hand"
+    ],
+    "talents": [
+      "Accurate Shot",
+      "Cardsharp",
+      "Deadeye Shot",
+      "Night Vision"
+    ],
+    "trappings": [
+      "Map",
+      "Recurve Bow and 10 Arrows",
+      "Tent"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 800000,
+  "_key": "!items!Aswr9SHNL9zY8FX5"
+}

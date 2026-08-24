@@ -1,0 +1,106 @@
+{
+  "_id": "mIlPV5uNSDgsH8VA",
+  "name": "Bandit",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-01.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787191310114,
+    "modifiedTime": 1787191310114,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.EMporLqYHOpJ6IAM]{Highwayman}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Highwayman"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rogue"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": true,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Bribery",
+      "Consume Alcohol",
+      "Gossip",
+      "Intimidate",
+      "Lore (Local)",
+      "Melee (Basic)",
+      "Perception",
+      "Ranged (Blackpowder)"
+    ],
+    "talents": [
+      "Criminal",
+      "Dual Wielder",
+      "Flee!",
+      "Rover"
+    ],
+    "trappings": [
+      "Bedroll",
+      "Hand Weapon",
+      "Leather Jerkin",
+      "Tinderbox"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 5910000,
+  "_key": "!items!mIlPV5uNSDgsH8VA"
+}

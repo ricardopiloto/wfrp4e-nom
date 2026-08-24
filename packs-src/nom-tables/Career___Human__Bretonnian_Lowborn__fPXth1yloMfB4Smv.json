@@ -1397,9 +1397,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Seaman",
+      "name": "Man-At-Arms",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.XyM54Ue5w1WuCaBD]{Seaman}",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.svAtyhh8hprchwVv]{Man-At-Arms}",
       "weight": 1,
       "_key": "!tables.results!fPXth1yloMfB4Smv.cy2vp3dfuq6gb28q"
     },
@@ -1422,9 +1422,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Smuggler",
+      "name": "Crusader",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.FqhOxcvai4ROvhXB]{Smuggler}",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.8f74ESsngujUn86X]{Crusader}",
       "weight": 1,
       "_key": "!tables.results!fPXth1yloMfB4Smv.f33v4n9c0drb47mo"
     }

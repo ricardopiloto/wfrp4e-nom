@@ -1,0 +1,60 @@
+{
+  "name": "Dog of War",
+  "type": "talent",
+  "_id": "1Y6Fu7uAsItBBYsl",
+  "img": "modules/wfrp4e-core/icons/talents/wealthy.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You are an active mercenary making money from conflicts, and you&rsquo;re recognizable for it. For the purposes of securing money, either when Earning during play or performing an Income Endeavour, refer to the following table:</p>\n<table style=\"width: 98.4694%; height: 80px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 16px;\">\n<td style=\"text-align: center; width: 33.0447%; height: 16px;\">Career Level</td>\n<td style=\"text-align: center; width: 65.66%; height: 16px;\">Bonus Money per time the Talent is taken</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"text-align: center; width: 33.0447%; height: 16px;\">1</td>\n<td style=\"text-align: center; width: 65.66%; height: 16px;\">+1d10 Silver Shillings</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"text-align: center; width: 33.0447%; height: 16px;\">2</td>\n<td style=\"text-align: center; width: 65.66%; height: 16px;\">+2d10 Silver Shillings</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"text-align: center; width: 33.0447%; height: 16px;\">3</td>\n<td style=\"text-align: center; width: 65.66%; height: 16px;\">+3d10 Silver Shillings</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"text-align: center; width: 33.0447%; height: 16px;\">4</td>\n<td style=\"text-align: center; width: 65.66%; height: 16px;\">\n<p>+1 Gold Crown</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Because of your profession, you are bound to make enemies. Opposition to the employers who hire you for your services consider you lower Status than them and might even harbor additional Psychologies such as Prejudice or Hatred as determined by the GM&mdash;perhaps you have cost them a chunk of land, destroyed their business, killed a loved one of theirs or see you simply as foreign scum. Because of this, opposing forces such as military and law enforcement run by your contractor&rsquo;s enemies are always suspicious of you and your company and suspect your motivations, which only gets worse the more times you have this Talent, with the exact implications determined by the GM.</p>\n<p>The scale of these oppositions might be something small such as villages or towns up to entire provinces or cities depending on the scale of the conflict. These penalties do not apply to mercenary work against widely opposed enemies of mankind, such as Beastmen, Greenskins, Dark Elves, Skaven or various monsters ravaging the countryside, among other known threats.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "effects": [],
+  "folder": "DsekJv5UvKUKIUpc",
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787192000000,
+    "modifiedTime": 1787192000000,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
+  },
+  "sort": 0,
+  "_key": "!items!1Y6Fu7uAsItBBYsl"
+}

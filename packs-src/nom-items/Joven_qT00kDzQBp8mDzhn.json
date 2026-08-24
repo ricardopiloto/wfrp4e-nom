@@ -64,10 +64,10 @@
       "Perception"
     ],
     "talents": [
-      "Break and Enter",
       "Combat Aware",
       "Distract",
-      "Enclosed Fighter"
+      "Enclosed Fighter",
+      "Dog of War"
     ],
     "trappings": [
       "Bedroll",
@@ -96,13 +96,13 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
-    "systemVersion": "9.5.4",
+    "systemVersion": "9.6.4",
     "createdTime": 1777779194485,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310115,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
-  "sort": 400000,
+  "sort": 7400000,
   "_key": "!items!qT00kDzQBp8mDzhn"
 }

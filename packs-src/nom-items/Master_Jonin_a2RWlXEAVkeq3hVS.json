@@ -6,7 +6,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.2fHi8uJn9ZDXnt87]{Ninja}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.2fHi8uJn9ZDXnt87]{Nippon Ninja}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -43,46 +43,51 @@
     "characteristics": {
       "ws": true,
       "bs": true,
-      "s": false,
+      "s": true,
       "t": false,
       "i": true,
       "ag": true,
       "dex": true,
       "int": false,
       "wp": false,
-      "fel": true
+      "fel": false
     },
     "skills": [
       "Athletics",
       "Dodge",
-      "Endurance",
       "Melee (Basic)",
+      "Melee (Brawling)",
       "Ranged (Throwing)",
       "Secret Signs (Ninja)",
-      "Stealth (Everything)",
-      "Bribery",
-      "Charm",
-      "Intuition",
+      "Sleight of Hand",
+      "Stealth (Any)",
+      "Intimidate",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Climb",
       "Perception",
+      "Pick Lock",
       "Ranged (Explosives)",
       "Trade (Explosives)",
-      "Climb",
-      "Cool",
-      "Ranged (Bow)",
-      "Sleight of Hand",
-      "Entertain (Acting)",
-      "Gossip"
+      "Melee (Flail)",
+      "Perform (Acrobatics)",
+      "Ranged (Bow or Sling)",
+      "Art (Any)",
+      "Intuition"
     ],
-    "talents": [],
+    "talents": [
+      "Combat Aware",
+      "Combat Reflexes",
+      "Fearless (Guards)",
+      "Tunnel Rat"
+    ],
     "trappings": [
       "Business Front and HQ",
-      "Elite Ninja Bodyguards",
-      "Ninja Clan",
-      "Quality Clothing",
-      "500"
+      "Genin Apprentice",
+      "Quality Clothing"
     ],
     "incomeSkill": [
-      6
+      3
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -100,14 +105,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1777604154833,
-    "modifiedTime": 1778012548436,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310115,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "a2RWlXEAVkeq3hVS",
-  "sort": 300000,
+  "sort": 7300000,
   "_key": "!items!a2RWlXEAVkeq3hVS"
 }

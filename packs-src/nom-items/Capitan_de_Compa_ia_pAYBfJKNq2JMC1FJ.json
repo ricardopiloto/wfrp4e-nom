@@ -1,0 +1,120 @@
+{
+  "_id": "pAYBfJKNq2JMC1FJ",
+  "name": "Capitan de Compañia",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787173549517,
+    "modifiedTime": 1787191310114,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.kxJaeLTgarsribxe]{Estalian Conquistador}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Conquistador"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warrior"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Endurance",
+      "Gamble",
+      "Haggle",
+      "Language (Battle)",
+      "Lore\n(Estalia)",
+      "Melee (Any)",
+      "Perform (Jota)",
+      "Play (Bandurria or Drum)",
+      "Consume Alcohol",
+      "Cool",
+      "Intimidate",
+      "Language (Any)",
+      "Melee (Polearm)",
+      "Ranged (Blackpowder)",
+      "Drive",
+      "Leadership",
+      "Lore (Warfare)",
+      "Ranged (Engineering)",
+      "Lore (Local)",
+      "Ride (Horse)"
+    ],
+    "talents": [
+      "Commanding Presence",
+      "Frightening",
+      "Inspiring",
+      "Wealthy"
+    ],
+    "trappings": [
+      "Best Quality Uniform",
+      "Light Warhorse (Estalian Pureblood with Fast Trait)",
+      "Officer’s Tent (Large)",
+      "Your Own Company of Mercenaries",
+      "500 GC"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 6000000,
+  "_key": "!items!pAYBfJKNq2JMC1FJ"
+}

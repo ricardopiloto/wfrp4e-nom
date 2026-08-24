@@ -1,0 +1,111 @@
+{
+  "_id": "BaTMh5550bY0zqit",
+  "name": "Beast Tamer",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-02.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787172463736,
+    "modifiedTime": 1787191310111,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.LVA95PZ5ipr6bxYj]{Ind Beast Tamer}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Beast Tamer"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Ranger"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": true,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": true,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Animal Care",
+      "Charm Animal",
+      "Drive",
+      "Lore\n(Beasts)",
+      "Melee (Brawling)",
+      "Play (Drums)",
+      "Ride (Horse)",
+      "Animal Training (Any)",
+      "Cool",
+      "Dodge",
+      "Lore (Monsters)",
+      ""
+    ],
+    "talents": [
+      "Crack the Whip",
+      "Seasoned Traveler",
+      "Strike Mighty Blow",
+      "Trick Riding"
+    ],
+    "trappings": [
+      "Melee Weapon (Any)",
+      "Net",
+      "Training Whip"
+    ],
+    "incomeSkill": [
+      1
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 1000000,
+  "_key": "!items!BaTMh5550bY0zqit"
+}

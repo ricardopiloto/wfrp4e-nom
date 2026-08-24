@@ -7,7 +7,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.6MDYnEhDcCiuUfmW]{Knight of the Realm}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.6MDYnEhDcCiuUfmW]{Bretonnian Knight of the Realm}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -39,7 +39,7 @@
     },
     "status": {
       "tier": "g",
-      "standing": 4
+      "standing": 7
     },
     "characteristics": {
       "ws": true,
@@ -49,27 +49,25 @@
       "i": false,
       "ag": true,
       "dex": false,
-      "int": true,
+      "int": false,
       "wp": true,
       "fel": true
     },
     "skills": [
       "Athletics",
       "Animal Care",
-      "Charm Animal",
       "Lore (Heraldry)",
+      "Lore (Theology)",
       "Melee (Basic)",
       "Melee (Cavalry)",
-      "Ride (Horse)",
       "Pray",
-      "Lore (The Lady)",
-      "Dodge",
+      "Ride (Horse)",
       "Cool",
+      "Dodge",
       "Endurance",
       "Intimidate",
       "Language (Battle)",
       "Melee (Any)",
-      "Melee (Two-handed)",
       "Charm",
       "Consume Alcohol",
       "Heal",
@@ -78,18 +76,19 @@
       "Ride (Hippogryph or Pegasus)"
     ],
     "talents": [
+      "Disarm",
       "Grail Virtue",
       "Inspiring",
-      "Iron Will",
       "Strike to Injure"
     ],
     "trappings": [
-      "Blessed by the Lady (+5 Advances to Strength, Toughness and Willpower)",
-      "Immunity (Corruption, Disease, Fatigue, Poison)",
-      "Regenerate Trait"
+      "Best Quality Weapon (Any)",
+      "Best Quality Plate Armor and Helm",
+      "Religious Relic",
+      "Tabard with Grail Heraldry"
     ],
     "incomeSkill": [
-      8
+      5
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -153,37 +152,34 @@
         },
         "condition": {
           "numbered": false
-        }
+        },
+        "changes": [
+          {
+            "key": "system.characteristics.s.modifier",
+            "value": 5,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.characteristics.t.modifier",
+            "value": 5,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.characteristics.wp.modifier",
+            "value": 5,
+            "priority": null,
+            "type": "add"
+          }
+        ]
       },
-      "changes": [
-        {
-          "key": "system.characteristics.s.modifier",
-          "mode": 2,
-          "value": "5",
-          "priority": null
-        },
-        {
-          "key": "system.characteristics.t.modifier",
-          "mode": 2,
-          "value": "5",
-          "priority": null
-        },
-        {
-          "key": "system.characteristics.wp.modifier",
-          "mode": 2,
-          "value": "5",
-          "priority": null
-        }
-      ],
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null,
-        "seconds": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -200,13 +196,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.364",
         "systemId": "wfrp4e",
         "systemVersion": "9.5.4",
         "createdTime": 1776902488562,
         "modifiedTime": 1776902831536,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!aX2vRtZ6HYVvVecT.yQnrptQaVyscqDZG"
     },
     {
@@ -265,18 +264,15 @@
         },
         "condition": {
           "numbered": false
-        }
+        },
+        "changes": []
       },
-      "changes": [],
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null,
-        "seconds": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -293,13 +289,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.364",
         "systemId": "wfrp4e",
         "systemVersion": "9.5.4",
         "createdTime": 1776902881146,
         "modifiedTime": 1776902890778,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!aX2vRtZ6HYVvVecT.DtsMfdehvr3OLV5y"
     },
     {
@@ -373,18 +372,15 @@
         },
         "condition": {
           "numbered": false
-        }
+        },
+        "changes": []
       },
-      "changes": [],
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "combat": null,
-        "seconds": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -401,13 +397,16 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.364",
         "systemId": "wfrp4e",
         "systemVersion": "9.5.4",
         "createdTime": 1776902891701,
         "modifiedTime": 1776903704440,
         "lastModifiedBy": "bwuOpMGVHBESXkjP"
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!aX2vRtZ6HYVvVecT.H5hVXCykQk82Mjue"
     }
   ],
@@ -422,17 +421,17 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1765315401131,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310118,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "ownership": {
     "default": 0,
     "bwuOpMGVHBESXkjP": 3
   },
-  "sort": 4300000,
+  "sort": 11300000,
   "_key": "!items!aX2vRtZ6HYVvVecT"
 }

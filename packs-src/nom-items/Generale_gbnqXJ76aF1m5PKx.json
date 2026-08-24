@@ -38,53 +38,57 @@
     },
     "status": {
       "tier": "g",
-      "standing": 3
+      "standing": 2
     },
     "characteristics": {
       "ws": true,
       "bs": true,
-      "s": true,
+      "s": false,
       "t": true,
-      "i": false,
+      "i": true,
       "ag": false,
       "dex": false,
-      "int": true,
-      "wp": false,
+      "int": false,
+      "wp": true,
       "fel": true
     },
     "skills": [
-      "Animal Care",
       "Bribery",
-      "Endurance",
-      "Haggle",
-      "Language (Battle Tongue)",
-      "Melee (Cavalry)",
-      "Ride (Horse)",
       "Charm",
+      "Endurance",
+      "Gamble",
+      "Haggle",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Melee (Basic)",
       "Cool",
-      "Gossip",
+      "Evaluate",
       "Language (Any)",
-      "Melee (Polearm or Two-handed)",
-      "Ranged (Bow)",
-      "Intimidate",
-      "Intuition",
+      "Lore (Local)",
+      "Melee (Polearm)",
+      "Ranged (Crossbow)",
+      "Consume Alcohol",
       "Leadership",
       "Lore (Politics)",
-      "Lore (Any)",
+      "Perception",
+      "Lore (Warfare)",
       "Navigation"
     ],
     "talents": [
-      "Reaction Strike",
-      "Savant (Politics)",
-      "Strike Mighty Blow"
+      "Inspiring",
+      "Seasoned Traveler",
+      "Stout-hearted",
+      "Wealthy"
     ],
     "trappings": [
-      "Finest Quality Plate Armor and Uniform",
-      "Unit of Mercenaries and Small Unit of Condottieri",
-      "GC (500)"
+      "Best Quality Uniform",
+      "Mercenary Headquarters",
+      "Quality Plate Armor",
+      "Your Own Company of Mercenaries",
+      "500 GC"
     ],
     "incomeSkill": [
-      5
+      6
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -102,14 +106,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1777944683461,
-    "modifiedTime": 1777944683461,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310113,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "gbnqXJ76aF1m5PKx",
-  "sort": 0,
+  "sort": 4700000,
   "_key": "!items!gbnqXJ76aF1m5PKx"
 }

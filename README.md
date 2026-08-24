@@ -67,8 +67,70 @@ Use a throwaway world or player test: enable **WFRP4e** + **`wfrp4e-core`** + **
 
 - **Compendiums**: Items, Journals, Tables (Nations of Mankind).
 - **Assets**: Icons for careers, talents, spells, gear, etc.
-- **Careers in this build** (implemented as pack items):  
-  Bretonnian Knight · Kislev Kossar · Kislev Winged Lancer · Norscan Mercenary · Arabyan Janissary · Ind Ahadi · Cathayan Dragon Monk · Nippon Samurai · Vimto Monks · Ninja · Estalian Almogavar · **Estalian Inquisidor** · Tilean Condottieri · Albionese Highlander  
+
+### Careers checklist (PDF ↔ module)
+
+Source: `pdf/Nations of Mankind (Ratter Submission)_2.pdf` (Table of Contents, career pages **15–64**).  
+Module source of truth: Careers journal `Nations_of_Mankind___Careers` + matching `nom-items` tiers.
+
+**Summary:** **34 / 47** PDF careers have a journal page · **13** still missing · **1** partial/misaligned entry (**Ind Ahadi** ≈ **Rajput Warrior** tier III name in the PDF, not a separate TOC career).
+
+#### Done (in module)
+
+- [x] Almogavar → Estalian Almogavar
+- [x] Artillerist
+- [x] Assassin
+- [x] Beast Tamer → Ind Beast Tamer
+- [x] Black Cap → Wastelander Black Cap
+- [x] Cadet
+- [x] Celestial Dragon Monk
+- [x] Chekist → Kislev Chekist
+- [x] Condottiero → Tilean Condottieri
+- [x] Conquistador → Estalian Conquistador
+- [x] Corsair → Arabyan Corsair
+- [x] Crusader
+- [x] Dervish → Arabyan Dervish
+- [x] Desert Rider → Arabyan Desert Rider
+- [x] Diestro → Estalian Diestro
+- [x] Druid → Albionese Druid
+- [x] Executioner
+- [x] Free Company Militia → Free Company Militiaman
+- [x] Freeholder → Norscan Freeholder
+- [x] Grail Pilgrim → Bretonnian Grail Pilgrim
+- [x] Highlander → Albionese Highlander
+- [x] Highwayman
+- [x] Inquisidor → Estalian Inquisidor
+- [x] Janissary → Arabyan Janissary
+- [x] Jinyiwei → Cathayan Jinyiwei
+- [x] Knight of the Realm → Bretonnian Knight of the Realm
+- [x] Kossar → Kislev Kossar
+- [x] Lustrian Luchador
+- [x] Mamluk
+- [x] Man-At-Arms → Bretonnian Man-At-Arms
+- [x] Ninja → Nippon Ninja
+- [x] Samurai → Nippon Samurai
+- [x] Vimto Monk → Nippon Vimto Monks
+- [x] Winged Lancer → Kislev Winged Lancer
+
+#### To do (in PDF, not yet in module)
+
+- [ ] Marine (p. 48)
+- [ ] Norscan Seer (p. 50)
+- [ ] Paymaster (p. 51)
+- [ ] Rajput Warrior (p. 52)
+- [ ] Reaver (p. 53)
+- [ ] Ronin (p. 54)
+- [ ] Sartosan Pirate (p. 56)
+- [ ] Skald (p. 57)
+- [ ] Swordsaint (p. 58)
+- [ ] Vampire Hunter (p. 59)
+- [ ] Whaler (p. 61)
+- [ ] Witch Doktor (p. 63)
+- [ ] Zunu (p. 64)
+
+#### Partial / needs remap
+
+- [ ] Ind Ahadi — not a separate PDF TOC career; **Ahadi** is **tier III** of **Rajput Warrior** (p. 52). Finish **Rajput Warrior** (all four tiers) and rename/merge this entry instead of keeping a standalone Ahadi career.
 
 ---
 

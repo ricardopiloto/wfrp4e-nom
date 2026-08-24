@@ -43,48 +43,48 @@
     "characteristics": {
       "ws": true,
       "bs": true,
-      "s": true,
-      "t": false,
-      "i": false,
+      "s": false,
+      "t": true,
+      "i": true,
       "ag": false,
       "dex": false,
-      "int": true,
-      "wp": false,
-      "fel": true
+      "int": false,
+      "wp": true,
+      "fel": false
     },
     "skills": [
-      "Animal Care",
       "Bribery",
-      "Endurance",
-      "Haggle",
-      "Language (Battle Tongue)",
-      "Melee (Cavalry)",
-      "Ride (Horse)",
       "Charm",
+      "Endurance",
+      "Gamble",
+      "Haggle",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Melee (Basic)",
       "Cool",
-      "Gossip",
+      "Evaluate",
       "Language (Any)",
-      "Melee (Polearm or Two-handed)",
-      "Ranged (Bow)",
-      "Intimidate",
-      "Intuition",
+      "Lore (Local)",
+      "Melee (Polearm)",
+      "Ranged (Crossbow)",
+      "Consume Alcohol",
       "Leadership",
-      "Lore (Politics)"
+      "Lore (Politics)",
+      "Perception"
     ],
     "talents": [
-      "Commanding Presence",
-      "Hardy",
-      "Shieldsman",
+      "Enclosed Fighter",
+      "Furious Assault",
+      "Strike Mighty Blow",
       "War Leader"
     ],
     "trappings": [
       "Barding",
-      "Tower Shield",
       "Quality Weapon (Any)",
-      "GC (2d100)"
+      "2d100 GC"
     ],
     "incomeSkill": [
-      5
+      6
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -102,14 +102,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1777944681512,
-    "modifiedTime": 1777944681512,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310113,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "df5IWMfvfuZFUJ3R",
-  "sort": 0,
+  "sort": 4500000,
   "_key": "!items!df5IWMfvfuZFUJ3R"
 }

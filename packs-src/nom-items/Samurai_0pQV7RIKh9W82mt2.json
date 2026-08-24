@@ -38,15 +38,15 @@
     },
     "status": {
       "tier": "s",
-      "standing": 4
+      "standing": 5
     },
     "characteristics": {
       "ws": true,
       "bs": false,
       "s": true,
-      "t": true,
+      "t": false,
       "i": true,
-      "ag": false,
+      "ag": true,
       "dex": false,
       "int": false,
       "wp": false,
@@ -57,32 +57,32 @@
       "Dodge",
       "Endurance",
       "Heal",
-      "Intuition",
       "Language (Battle)",
+      "Lore (Heraldry)",
       "Melee (Basic)",
-      "Ranged (Bow)",
+      "Perception",
       "Art (Calligraphy or Poetry)",
       "Cool",
       "Melee (Polearm)",
       "Melee (Two-handed)",
-      "Ranged (Blackpowder)",
-      "Ride Horse)"
+      "Ranged (Blackpowder or Bow)",
+      "Ride (Horse)"
     ],
     "talents": [
+      "Combat Aware",
       "Combat Reflexes",
-      "Dual Wilder",
       "Etiquette (Soldiers)",
-      "Shieldsman"
+      "Roughrider"
     ],
     "trappings": [
-      "Clan Symbol",
-      "Full Samurai Armor and Helm (Plate)",
+      "Clan Mon (Symbol)",
+      "Katana",
+      "Samurai Armor and Kabuto",
       "Light Warhorse with Saddle and Tack",
-      "Warhammer or Spear",
       "Your Honor"
     ],
     "incomeSkill": [
-      6
+      11
     ],
     "addedSkills": [],
     "requiredTrappings": [],
@@ -100,14 +100,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1776996899238,
-    "modifiedTime": 1777942781372,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310116,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "0pQV7RIKh9W82mt2",
-  "sort": 1400000,
+  "sort": 8400000,
   "_key": "!items!0pQV7RIKh9W82mt2"
 }

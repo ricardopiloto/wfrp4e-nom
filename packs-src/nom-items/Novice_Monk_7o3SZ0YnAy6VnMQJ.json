@@ -9,12 +9,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1776812690975,
-    "modifiedTime": 1778012276303,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787191310117,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "ownership": {
     "default": 0,
@@ -25,7 +25,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.ixmZUKVe32V4VqyU]{Cathayan Dragon Monk}</p>"
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.ixmZUKVe32V4VqyU]{Celestial Dragon Monk}</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -35,7 +35,7 @@
     "careergroup": {
       "type": "String",
       "label": "Career Group",
-      "value": "Cathayan Dragon Monk"
+      "value": "Celestial Dragon Monk"
     },
     "class": {
       "type": "String",
@@ -82,10 +82,10 @@
       "Perform (Meditation)"
     ],
     "talents": [
-      "Combat Reflexes",
+      "Dirty Fighting",
       "Disarm",
       "Martial Artist",
-      "Hardy"
+      "Reversal"
     ],
     "trappings": [
       "Monk Robes",
@@ -101,6 +101,6 @@
     "previousCareer": {}
   },
   "folder": "Ok1t4rLc68778H3u",
-  "sort": 3300000,
+  "sort": 10300000,
   "_key": "!items!7o3SZ0YnAy6VnMQJ"
 }

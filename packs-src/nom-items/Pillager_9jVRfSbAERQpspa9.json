@@ -1,0 +1,102 @@
+{
+  "_id": "9jVRfSbAERQpspa9",
+  "name": "Pillager",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/outlaw-01.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787173777180,
+    "modifiedTime": 1787191310111,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.YyJ0orKCuXi3lwre]{Arabyan Desert Rider}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Desert Rider"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Rogue"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Animal Care",
+      "Charm Animal",
+      "Drive",
+      "Language (Thieves Tongue)",
+      "Lore (Araby)",
+      "Melee (Basic or Polearm)",
+      "Play (Drum or Flute)",
+      "Ride (Camel or Horse)"
+    ],
+    "talents": [
+      "Lightning Reflexes",
+      "Marksman",
+      "Roughrider",
+      "Strider (Desert)"
+    ],
+    "trappings": [],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 700000,
+  "_key": "!items!9jVRfSbAERQpspa9"
+}

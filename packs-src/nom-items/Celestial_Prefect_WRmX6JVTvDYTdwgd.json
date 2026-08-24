@@ -1,0 +1,117 @@
+{
+  "_id": "WRmX6JVTvDYTdwgd",
+  "name": "Celestial Prefect",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787191461520,
+    "modifiedTime": 1787191461520,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.qiTEh8ybni6pKncQ]{Cathayan Jinyiwei}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Jinyiwei"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Ranger"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Charm",
+      "Heal",
+      "Intimidate",
+      "Intuition",
+      "Lore (Torture)",
+      "Melee (Basic)",
+      "Perception",
+      "Research",
+      "Cool",
+      "Gossip",
+      "Melee (Any)",
+      "Lore (Tzeentch or Vampires)",
+      "Ranged (Any)",
+      "Ride (Horse)",
+      "Endurance",
+      "Leadership",
+      "Lore (Law)",
+      "Lore (Chaos or\nUndead)",
+      "Haggle",
+      "Lore (Politics)"
+    ],
+    "talents": [
+      "Frightening",
+      "Magic Resistance",
+      "Magical Sense",
+      "Pure Soul"
+    ],
+    "trappings": [
+      "Large Spy Ring of Imperial Agents",
+      "Quality Courtly Garb"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 0,
+  "_key": "!items!WRmX6JVTvDYTdwgd"
+}
