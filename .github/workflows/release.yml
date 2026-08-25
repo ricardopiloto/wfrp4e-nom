@@ -71,6 +71,7 @@ jobs:
             --exclude='.specify' \
             --exclude='doc' \
             --exclude='docs' \
+            --exclude='pdf' \
             --exclude='effects' \
             --exclude='openspec' \
             --exclude='reports' \
@@ -78,9 +79,6 @@ jobs:
             --exclude='packs-src' \
             --exclude='package.json' \
             --exclude='package-lock.json' \
-            --exclude='scripts/packs-tool.mjs' \
-            --exclude='scripts/migrate-career-rolltable-links.mjs' \
-            --exclude='scripts/remap-nom-career-rows-to-core.mjs' \
             --exclude='node_modules' \
             --exclude='dist' \
             --exclude='build' \
@@ -89,8 +87,23 @@ jobs:
             --exclude='staging' \
             --exclude="${MODULE_ID}.zip" \
             ./ "staging/${MODULE_ID}/"
+          # Runtime only: keep scripts listed in module.json esmodules; drop maintainer/.mjs/deferred JS
+          mapfile -t KEEP < <(jq -r '.esmodules[]' "staging/${MODULE_ID}/module.json" | xargs -n1 basename)
+          while IFS= read -r -d '' f; do
+            base="$(basename "$f")"
+            keep=0
+            for k in "${KEEP[@]}"; do
+              if [ "$base" = "$k" ]; then keep=1; break; fi
+            done
+            if [ "$keep" -eq 0 ]; then
+              rm -f "$f"
+              echo "Excluded from zip: scripts/${base}"
+            fi
+          done < <(find "staging/${MODULE_ID}/scripts" -type f -print0 2>/dev/null || true)
           (cd staging && zip -rq "../${MODULE_ID}.zip" "${MODULE_ID}")
           ls -la "${MODULE_ID}.zip"
+          echo "Scripts in zip:"
+          unzip -l "${MODULE_ID}.zip" | grep -E 'scripts/' || true
           unzip -l "${MODULE_ID}.zip" | head -40
 
       - name: Upload release assets

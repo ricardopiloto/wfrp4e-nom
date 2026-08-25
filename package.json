@@ -12,7 +12,9 @@
     "career-tables:migrate:write": "node scripts/migrate-career-rolltable-links.mjs --write",
     "career-tables:remap-core-names": "node scripts/remap-nom-career-rows-to-core.mjs",
     "careers:normalize": "node scripts/normalize-career-content.mjs --dry-run",
-    "careers:normalize:write": "node scripts/normalize-career-content.mjs --write"
+    "careers:normalize:write": "node scripts/normalize-career-content.mjs --write",
+    "icons:webp": "node scripts/convert-icons-to-webp.mjs",
+    "icons:webp:write": "node scripts/convert-icons-to-webp.mjs --write"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "3.0.3"

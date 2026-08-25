@@ -65,11 +65,11 @@ function migrateJournalLinks(content) {
   );
   out = out.replace(
     /@Compendium\[wfrp4e-core\.skills\.([^[\]{}]+)\]\{([^}]*)\}/g,
-    "@UUID[Compendium.wfrp4e-core.items.$1]{$2}"
+    "@UUID[Compendium.wfrp4e-core.items.Item.$1]{$2}"
   );
   out = out.replace(
     /@Compendium\[wfrp4e-core\.talents\.([^[\]{}]+)\]\{([^}]*)\}/g,
-    "@UUID[Compendium.wfrp4e-core.items.$1]{$2}"
+    "@UUID[Compendium.wfrp4e-core.items.Item.$1]{$2}"
   );
   out = out.replace(
     /@Compendium\[nations-of-mankind-wfrp4e\.talents-nom\.([^[\]{}]+)\]\{([^}]*)\}/g,
@@ -80,6 +80,34 @@ function migrateJournalLinks(content) {
     `@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.${JOURNAL_ID}.JournalEntryPage.$1]{$2}`
   );
   return out;
+}
+
+/** Prefer Foundry Item UUID segment for core skills/talents. */
+function preferCoreItemUuids(content) {
+  return content.replace(
+    /@UUID\[Compendium\.wfrp4e-core\.items\.(?!Item\.)([^[\]{}]+)\]\{([^}]*)\}/g,
+    "@UUID[Compendium.wfrp4e-core.items.Item.$1]{$2}"
+  );
+}
+
+/** ✠@UUID → ✠ @UUID (space after tier chess symbol in h3). */
+function fixChessSymbolSpacing(content) {
+  return content.replace(/([✠♟♜♛])(@UUID\[)/g, "$1 $2");
+}
+
+/** Module icon srcs: kebab-case + .webp only. */
+function fixModuleIconSrcs(content) {
+  return content.replace(
+    /(src="modules\/(?:wfrp4e-nom|nations-of-mankind-wfrp4e)\/icons\/)([^"]+)(")/g,
+    (_m, prefix, rest, suffix) => {
+      const parts = rest.split("/");
+      let file = parts[parts.length - 1].replace(/_/g, "-");
+      file = file.replace(/\.(png|jpe?g)$/i, ".webp");
+      if (file === "Kislev.webp") file = "kislev.webp";
+      parts[parts.length - 1] = file;
+      return prefix + parts.join("/") + suffix;
+    }
+  );
 }
 
 function fixTierH3Headers(content) {
@@ -234,11 +262,16 @@ async function loadIconMap() {
   } catch {
     return map;
   }
-  for (const f of files.filter((x) => x.endsWith(".png"))) {
-    const base = f.replace(/\.png$/i, "");
-    map.set(normalizeKey(base), f);
-    map.set(normalizeKey(base.replace(/-/g, " ")), f);
-    if (base === "cader") map.set(normalizeKey("cadet"), f);
+  const iconFiles = files.filter((x) => /\.webp$/i.test(x));
+  for (const f of iconFiles) {
+    const base = f.replace(/\.webp$/i, "");
+    const key = normalizeKey(base);
+    const keySpaced = normalizeKey(base.replace(/-/g, " "));
+    if (!map.has(key)) map.set(key, f);
+    if (!map.has(keySpaced)) map.set(keySpaced, f);
+    if (base === "cader" && !map.has(normalizeKey("cadet"))) {
+      map.set(normalizeKey("cadet"), f);
+    }
   }
   return map;
 }
@@ -313,6 +346,9 @@ async function main() {
     const before = content;
 
     content = migrateJournalLinks(content);
+    content = preferCoreItemUuids(content);
+    content = fixModuleIconSrcs(content);
+    content = fixChessSymbolSpacing(content);
     content = fixTierH3Headers(content);
     content = fixAdvanceSchemeSecondRow(content);
     content = normalizeNomItemSegment(content);

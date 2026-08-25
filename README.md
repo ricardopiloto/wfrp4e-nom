@@ -41,7 +41,7 @@ If the ZIP link fails, confirm that a matching GitHub **Release** exists; the ca
 
 1. Update **`CHANGELOG.md`** and bump the version you intend to ship.
 2. Commit and push; create and publish a GitHub **Release** with tag **`vX.Y.Z`** (e.g. **`v1.2.1`**).
-3. The **Release assets** workflow (`.github/workflows/release.yml`) checks out that tag, substitutes **`${version}`**, **`${url}`**, **`${manifest}`**, and **`${download}`** in **`module.json`**, runs **`npm run packs:build`**, zips the module, and uploads **`wfrp4e-nom.zip`** + **`module.json`** to the release.
+3. The **Release assets** workflow (`.github/workflows/release.yml`) checks out that tag, substitutes **`${version}`**, **`${url}`**, **`${manifest}`**, and **`${download}`** in **`module.json`**, runs **`npm run packs:build`**, zips the module (**`scripts/`** in the zip = only files listed under **`module.json` `esmodules`**), and uploads **`wfrp4e-nom.zip`** + **`module.json`** to the release.
 
 You do **not** need to hand-edit install URLs in the tracked **`module.json`** on the default branch — those fields are CI placeholders filled at release time (same model as [wfrp4e-homebrew-qol](https://github.com/ricardopiloto/wfrp4e-homebrew-qol)).
 
@@ -52,6 +52,29 @@ You do **not** need to hand-edit install URLs in the tracked **`module.json`** o
 Human-editable documents live under **`packs-src/<pack-name>/`** (one JSON file per Foundry document). LevelDB **`packs/`** folders are **not committed** (see `.gitignore`); regenerate them locally with **`npm install`** then **`npm run packs:build`**. GitHub **Releases** run the same compile before zipping, so installers always receive **`packs/...`** in the canonical Foundry LevelDB layout. To capture edits made inside Foundry instead, copy the LevelDB folders into the repo temporarily and run **`npm run packs:extract`**, review diffs under `packs-src/`, commit JSON, discard temp LevelDB copies if needed.
 
 **Nationality career roll tables** (`packs-src/nom-tables/Career___Human__*.json`) should use **Core Rulebook** career **`results.name`** strings (see packaged **Class and Careers** journal under **`nom-journals`**). After importing rolls that still use supplement-style labels, run **`npm run career-tables:remap-core-names`** then **`npm run career-tables:migrate`** (dry-run + **`reports/`**) or **`npm run career-tables:migrate:write`**, then **`npm run packs:build`**. **`reports/career-rolltable-unmatched.txt`** should list **no** unmatched rows when remap + migrate are current.
+
+### Maintainers: icon WebP conversion
+
+Module art under **`icons/`** ships as **WebP** only. Filenames use **hyphens** (not underscores), e.g. `icons/careers/kislev-kossar.webp`.
+
+When you add new art:
+
+1. Drop the file under the right folder using **kebab-case** (e.g. `icons/careers/my-career.png` or already `.webp`).
+2. Point any new item/journal `img` / `<img src="…">` at that path.
+3. If the source is PNG/JPEG: dry-run **`npm run icons:webp`**, then **`npm run icons:webp:write`**.
+4. Run **`npm run careers:normalize:write`** so career journal pages pick up new career icons when the basename matches the page name.
+
+What **`icons:webp:write`** does:
+
+- Converts every **`icons/**/*.png`** / **`.jpg`** / **`.jpeg`** → **`.webp`** (ImageMagick **`magick`**, default quality **82**; override with `--quality=90`).
+- Removes the source raster after a successful convert.
+- Rewrites **`packs-src/**/*.json`** module icon paths from raster extensions to **`.webp`** (`wfrp4e-nom` + legacy `nations-of-mankind-wfrp4e`).
+- Single file: **`node scripts/convert-icons-to-webp.mjs --write --path=icons/careers/foo.png`**
+
+Prefer naming new files with **`-`** already (`arabyan-janissary.webp`, not `arabyan_janissary.webp`).
+
+**Do not** rewrite `modules/wfrp4e-core/…` paths — those stay as published by core.  
+Requires **ImageMagick 7** (`magick` on `PATH`). After conversion, run **`npm run packs:build`** before testing in Foundry.
 
 ### Maintainer QA checklist (human subspecies + career tables)
 

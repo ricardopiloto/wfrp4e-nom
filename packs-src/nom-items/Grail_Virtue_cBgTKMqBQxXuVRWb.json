@@ -3,7 +3,7 @@
   "name": "Grail Virtue",
   "type": "talent",
   "_id": "cBgTKMqBQxXuVRWb",
-  "img": "modules/wfrp4e-nom/icons/talents/grailknight-virtue.png",
+  "img": "modules/wfrp4e-nom/icons/talents/grailknight-virtue.webp",
   "system": {
     "description": {
       "type": "String",

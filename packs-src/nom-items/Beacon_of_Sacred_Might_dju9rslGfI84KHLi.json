@@ -3,7 +3,7 @@
   "name": "Beacon of Sacred Might",
   "type": "prayer",
   "flags": {},
-  "img": "modules/wfrp4e-nom/icons/prayers/nippon.png",
+  "img": "modules/wfrp4e-nom/icons/prayers/nippon.webp",
   "effects": [],
   "_stats": {
     "compendiumSource": null,

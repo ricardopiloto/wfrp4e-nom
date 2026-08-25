@@ -21,7 +21,7 @@
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Warriors"
+      "value": "Warrior"
     },
     "current": {
       "type": "Boolean",
@@ -37,8 +37,8 @@
       "value": 3
     },
     "status": {
-      "tier": "g",
-      "standing": 1
+      "tier": "s",
+      "standing": 4
     },
     "characteristics": {
       "ws": true,
@@ -60,36 +60,34 @@
       "Intimidate",
       "Melee (Basic)",
       "Melee (Two-Handed)",
+      "Outdoor Survival",
       "Ranged (Bow)",
       "Consume Alcohol",
       "Gamble",
       "Haggle",
       "Language (Battle)",
       "Perception",
-      "Ranged (Thrown)",
-      "Charm",
-      "Gossip",
-      "Ranged (Black Powder)",
-      "Pray"
+      "Ranged (Throwing)",
+      "Language (Any)",
+      "Melee (Polearm)",
+      "Ranged (Blackpowder)"
     ],
     "talents": [
-      "Coolheaded",
-      "Frightening",
+      "Carouser",
       "Gunner",
-      "Marksman"
+      "Reaction Strike",
+      "War Leader"
     ],
     "trappings": [
       "Handgun",
       "Poleaxe",
-      "10"
+      "10 Powder and Bullets"
     ],
     "incomeSkill": [
       5
     ],
     "addedSkills": [],
-    "requiredTrappings": [
-      0
-    ],
+    "requiredTrappings": [],
     "trappingsOwned": [],
     "previousCareer": {}
   },

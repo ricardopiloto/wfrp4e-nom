@@ -3,7 +3,7 @@
   "name": "Tiger Claws",
   "type": "weapon",
   "_id": "cX7EF6N8m48Gx6td",
-  "img": "modules/wfrp4e-nom/icons/trappings/weapons/tiger-claw.jpeg",
+  "img": "modules/wfrp4e-nom/icons/trappings/weapons/tiger-claw.webp",
   "system": {
     "description": {
       "type": "String",

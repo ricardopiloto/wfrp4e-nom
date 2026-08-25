@@ -3,7 +3,7 @@
   "name": "Death Frost",
   "type": "spell",
   "flags": {},
-  "img": "modules/wfrp4e-nom/icons/spells/ice-magic.png",
+  "img": "modules/wfrp4e-nom/icons/spells/ice-magic.webp",
   "effects": [],
   "_stats": {
     "compendiumSource": null,

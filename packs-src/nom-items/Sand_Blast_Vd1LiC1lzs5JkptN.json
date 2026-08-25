@@ -3,7 +3,7 @@
   "name": "Sand Blast",
   "type": "spell",
   "flags": {},
-  "img": "modules/wfrp4e-nom/icons/spells/desert-magic.png",
+  "img": "modules/wfrp4e-nom/icons/spells/desert-magic.webp",
   "effects": [],
   "_stats": {
     "compendiumSource": null,

@@ -3,7 +3,7 @@
   "name": "Cathayan Longsword",
   "type": "weapon",
   "_id": "EAJx2RxV7kqfzPFL",
-  "img": "modules/wfrp4e-nom/icons/trappings/weapons/cathayan-longsword.jpeg",
+  "img": "modules/wfrp4e-nom/icons/trappings/weapons/cathayan-longsword.webp",
   "system": {
     "description": {
       "type": "String",

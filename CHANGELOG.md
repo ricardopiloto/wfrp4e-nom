@@ -6,7 +6,36 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Unreleased
 
+## [Version 1.3.2](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.3.2) (2026-08-24)
+
+### Packaging
+
+- *Changed* **Release zip** (`.github/workflows/release.yml`): after staging, keeps only **`module.json` `esmodules`** under **`scripts/`** (runtime); strips maintainer tooling (`.mjs`) and deferred handlers (e.g. **`martial-artist-path-flame.js`**, **`mark-of-the-gods.js`**).
+- *Changed* Release zip also excludes **`pdf/`** (authoring source; not needed in installers).
+
+### Assets
+
+- *Changed* Module icons under **`icons/`** converted from **PNG** / **JPEG** to **WebP**; filenames normalised to **kebab-case** (`_` → `-`); **`packs-src`** module icon paths updated (`wfrp4e-nom` + legacy **`nations-of-mankind-wfrp4e`**).
+- *Added* Maintainer npm scripts **`icons:webp`** / **`icons:webp:write`** (`scripts/convert-icons-to-webp.mjs`); README documents the conversion workflow.
+- *Changed* **`scripts/normalize-career-content.mjs`**: resolves career icons from **`.webp`** only; forces kebab-case **`.webp`** `src` on journal pages; core skill/talent links prefer **`wfrp4e-core.items.Item.{id}`**; tier chess-symbol spacing fixed (`✠ @UUID…`).
+
+### Careers (PDF sync)
+
+- *Changed* **Kislev Kossar** aligned to PDF (page **Kislev Kossar** name kept): **Kossar Recruit** → **Kossar** → **Streltsi** → **Streltsi Captain**; status **Silver 1/3/4**, **Gold 1**; skills/talents/trappings restored (e.g. Outdoor Survival, Marksman/Sharpshooter, Carouser/Reaction Strike).
+- *Changed* **Kislev Winged Lancer** aligned to PDF (page name kept): **Lancer Recruit** → **Winged Lancer** → **Winged Lancer Officer** → **Gryphon Legion**; advance scheme **WP ♜** / **Fel ♛**; Field Dressing / Fearless (Chaos) / Hardy package restored.
+
+### Career content
+
+- *Changed* Full careers journal normalize pass: **36** pages updated for core **`.Item.`** UUID form, icon paths, and tier header spacing; nationality tables re-migrated.
+- *Changed* New career art wired into journal pages where assets exist (e.g. Black Cap, Chekist, Marine, Seer, Paymaster, Reaver, Ronin, Highwayman, Mamluk, Free Company Militiaman, Lustrian Luchador, …).
+
+### Known gaps (unchanged)
+
+- *Note* Missing NoM talent item **Surgical Precision** (`bgJAtvDV67bnUe6G`) still referenced by **Arabyan Corsair** (`reports/nom-career-missing-talents.txt`).
+- *Note* Nationality tables: unmatched **Sartosan Pirate**; **Lustrian Luchador** still has no nationality table row.
+
 ## [Version 1.3.1](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.3.1) (2026-08-24)
+
 
 ### Careers (PDF sync)
 

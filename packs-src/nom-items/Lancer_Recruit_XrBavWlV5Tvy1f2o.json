@@ -1,0 +1,105 @@
+{
+  "folder": "Ok1t4rLc68778H3u",
+  "name": "Lancer Recruit",
+  "type": "career",
+  "_id": "XrBavWlV5Tvy1f2o",
+  "img": "modules/wfrp4e-core/icons/careers/soldier-01.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.3BdSo3n2IlEMVqr2]{Kislev Winged Lancer}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Kislev Winged Lancer"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warrior"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Animal Care",
+      "Animal Training (Horses)",
+      "Endurance",
+      "Language (Battle)",
+      "Lore (Kislev)",
+      "Melee (Basic)",
+      "Melee (Cavalry)",
+      "Ride (Horse)"
+    ],
+    "talents": [
+      "Lightning Reflexes",
+      "Roughrider",
+      "Strike to Injure",
+      "Warrior Born"
+    ],
+    "trappings": [
+      "Kislev Light Warhorse with Saddle and Tack",
+      "Uniform",
+      "Your Kislevite National Pride"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 10200000,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.5.4",
+    "createdTime": 1776822453875,
+    "modifiedTime": 1787191310117,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
+  },
+  "_key": "!items!XrBavWlV5Tvy1f2o"
+}

@@ -3,7 +3,7 @@
   "name": "Grail Virtue of the Impetuous Knight",
   "type": "talent",
   "flags": {},
-  "img": "modules/wfrp4e-nom/icons/talents/grailknight-virtue.png",
+  "img": "modules/wfrp4e-nom/icons/talents/grailknight-virtue.webp",
   "effects": [
     {
       "_id": "MHfgT24Eq5oroKkd",
@@ -36,7 +36,7 @@
         "modifiedTime": null
       },
       "name": "Grail Virtue",
-      "img": "modules/nations-of-mankind-wfrp4e/icons/talents/grailknight-virtue.png",
+      "img": "modules/nations-of-mankind-wfrp4e/icons/talents/grailknight-virtue.webp",
       "type": "base",
       "system": {
         "transferData": {

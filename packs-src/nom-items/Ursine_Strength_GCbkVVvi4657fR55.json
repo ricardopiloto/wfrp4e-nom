@@ -3,7 +3,7 @@
   "name": "Ursine Strength",
   "type": "prayer",
   "flags": {},
-  "img": "modules/wfrp4e-nom/icons/prayers/Kislev.png",
+  "img": "modules/wfrp4e-nom/icons/prayers/kislev.webp",
   "effects": [],
   "_stats": {
     "compendiumSource": null,

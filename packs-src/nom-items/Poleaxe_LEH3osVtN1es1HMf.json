@@ -3,7 +3,7 @@
   "name": "Poleaxe",
   "type": "weapon",
   "_id": "LEH3osVtN1es1HMf",
-  "img": "modules/wfrp4e-nom/icons/trappings/weapons/poleaxe.png",
+  "img": "modules/wfrp4e-nom/icons/trappings/weapons/poleaxe.webp",
   "system": {
     "description": {
       "type": "String",

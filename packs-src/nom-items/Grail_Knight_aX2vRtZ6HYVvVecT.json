@@ -98,7 +98,7 @@
   "effects": [
     {
       "name": "Blessed by the Lady",
-      "img": "modules/wfrp4e-nom/icons/careers/knight_errant.png",
+      "img": "modules/wfrp4e-nom/icons/careers/knight-errant.webp",
       "_id": "yQnrptQaVyscqDZG",
       "type": "base",
       "system": {
@@ -210,7 +210,7 @@
     },
     {
       "name": "Immunity",
-      "img": "modules/wfrp4e-nom/icons/careers/knight_errant.png",
+      "img": "modules/wfrp4e-nom/icons/careers/knight-errant.webp",
       "_id": "DtsMfdehvr3OLV5y",
       "type": "base",
       "system": {
@@ -303,7 +303,7 @@
     },
     {
       "name": "Regenerate",
-      "img": "modules/wfrp4e-nom/icons/careers/knight_errant.png",
+      "img": "modules/wfrp4e-nom/icons/careers/knight-errant.webp",
       "_id": "H5hVXCykQk82Mjue",
       "type": "base",
       "system": {

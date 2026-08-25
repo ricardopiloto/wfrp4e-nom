@@ -21,7 +21,7 @@
     "class": {
       "type": "String",
       "label": "Class",
-      "value": "Warriors"
+      "value": "Warrior"
     },
     "current": {
       "type": "Boolean",
@@ -38,7 +38,7 @@
     },
     "status": {
       "tier": "g",
-      "standing": 2
+      "standing": 1
     },
     "characteristics": {
       "ws": true,
@@ -60,19 +60,19 @@
       "Intimidate",
       "Melee (Basic)",
       "Melee (Two-Handed)",
+      "Outdoor Survival",
       "Ranged (Bow)",
       "Consume Alcohol",
       "Gamble",
       "Haggle",
       "Language (Battle)",
       "Perception",
-      "Ranged (Thrown)",
-      "Charm",
-      "Gossip",
-      "Ranged (Black Powder)",
-      "Pray",
+      "Ranged (Throwing)",
+      "Language (Any)",
       "Melee (Polearm)",
-      "Lore (Warfare)"
+      "Ranged (Blackpowder)",
+      "Leadership",
+      "Ranged (Engineering)"
     ],
     "talents": [
       "Menacing",
@@ -82,16 +82,13 @@
     ],
     "trappings": [
       "Breastplate and Helmet",
-      "Smal Unit of Streltsi"
+      "Small Unit of Streltsi"
     ],
     "incomeSkill": [
       5
     ],
     "addedSkills": [],
-    "requiredTrappings": [
-      1,
-      0
-    ],
+    "requiredTrappings": [],
     "trappingsOwned": [],
     "previousCareer": {}
   },
