@@ -1,0 +1,64 @@
+{
+  "_id": "n0mKcReaper00001",
+  "name": "Reaper",
+  "type": "talent",
+  "img": "systems/wfrp4e/icons/blank.png",
+  "effects": [],
+  "folder": "DsekJv5UvKUKIUpc",
+  "flags": {
+    "wfrp4e-nom": {
+      "honorKind": "killCount",
+      "killCountEnemy": "",
+      "killCountRank": "reaper"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Kill Count Rank:</strong> Reaper</p><p><strong>Enemy Type:</strong> Free text. Set <code>flags.wfrp4e-nom.killCountEnemy</code> and/or rename this talent to <em>Reaper (Enemy)</em> when awarding. Suggested examples: Beastmen, Orcs, Undead, Outlaws, Skaven, Chaos. Foe-specific bonuses do not apply while Enemy Type is blank.</p><p><strong>Progression:</strong> For a single Enemy Type only the <strong>highest</strong> rank remains active (Reaper &gt; Killer &gt; Hunter). When awarding a higher rank, remove or supersede the lower rank for that enemy.</p><p><strong>Requirements:</strong> The warrior has slaughtered scores of enemies of the Empire. Award this Kill Count for having successfully completed five or more adventures against a particular foe. Optionally, the GM can award this Kill Count if the character has decimated the enemy forces in numerous engagements, likely over the course of years or decades, and has earned 300 or more confirmed kills against this foe.</p><p><strong>Bonuses:</strong> You have faced this enemy in innumerable battles, and your combat prowess against this foe has become legendary. You know exactly how the enemy behaves, and how and where to hit that enemy when it is weakest. You inflict a bonus +1 Damage when attacking the chosen enemy and the @UUID[Compendium.wfrp4e-core.items.Item.8pVzgPkgWpTJvfhG]{Fearless (Enemy Type)} Talent is added to the Talent list of any career you are in.</p><p><em>Automation (Wave 4):</em> Until automated, the GM applies the bonuses above manually when the medal is worn (Imperial Honors) or when the honor applies (Kill Counts).</p><h3>Medal Notes (Kill Counts)</h3><p>Kill Counts are informal honors (no physical medal required). Recipient rules for talents still apply; the GM enforces awards and superseding ranks.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": "Kill Count (Reaper) — set Enemy Type when awarded"
+    }
+  },
+  "sort": 0,
+  "_key": "!items!n0mKcReaper00001"
+}

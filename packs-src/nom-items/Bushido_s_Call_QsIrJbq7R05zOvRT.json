@@ -25,7 +25,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>Your prayers of honor instill your allies with an unbreakable courage against their foes. All allies affected receive the +1 @Compendium[wfrp4e-core.items.J9MK0AIaTbvd5oF6]{Drilled} and @Compendium[wfrp4e-core.items.8pVzgPkgWpTJvfhG]{Fearless} Talents towards any enemies engaging them in combat.</p>"
+      "value": "<p>Your prayers of honor instill your allies with an unbreakable courage against their foes. All allies affected receive the +1 @UUID[Compendium.wfrp4e-core.items.Item.J9MK0AIaTbvd5oF6]{Drilled} and @UUID[Compendium.wfrp4e-core.items.Item.8pVzgPkgWpTJvfhG]{Fearless} Talents towards any enemies engaging them in combat.</p>"
     },
     "gmdescription": {
       "type": "String",

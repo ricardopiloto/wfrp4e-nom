@@ -13,10 +13,8 @@ const TABLES_DIR = path.join(root, "packs-src/nom-tables");
 
 /** @type {Record<string, string>} Old label → Core journal pages[].name (NoM-only careers omitted) */
 const REMAP = {
-  "Sartosan Pirate": "Smuggler",
-  Skald: "Entertainer",
-  Swordsaint: "Protagonist",
-  "Vampire Hunter": "Witch Hunter"
+  // Intentionally empty: Sartosan Pirate, Skald, Swordsaint, Vampire Hunter,
+  // Whaler, Witch Doktor, Zunu (and other NoM careers) must stay on nom-journals.
 };
 
 async function main() {

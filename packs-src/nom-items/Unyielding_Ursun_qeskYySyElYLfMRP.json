@@ -25,7 +25,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>Your rousing prayers tap deep into Kislevite national pride. All Kislevites and party members within range gain the +1@Compendium[wfrp4e-core.items.8pVzgPkgWpTJvfhG]{Fearless (Everything)} and +1 @Compendium[wfrp4e-core.items.8oWhzlcw7oiHGMFu]{Unshakable} Talents.</p>"
+      "value": "<p>Your rousing prayers tap deep into Kislevite national pride. All Kislevites and party members within range gain the +1@UUID[Compendium.wfrp4e-core.items.Item.8pVzgPkgWpTJvfhG]{Fearless (Everything)} and +1 @UUID[Compendium.wfrp4e-core.items.Item.8oWhzlcw7oiHGMFu]{Unshakable} Talents.</p>"
     },
     "gmdescription": {
       "type": "String",

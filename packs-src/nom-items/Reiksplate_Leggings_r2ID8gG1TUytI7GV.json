@@ -1,0 +1,148 @@
+{
+  "_id": "r2ID8gG1TUytI7GV",
+  "name": "Reiksplate Leggings",
+  "type": "armour",
+  "img": "modules/wfrp4e-core/icons/equipment/armour/plate-leggings.png",
+  "effects": [],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787624334190,
+    "modifiedTime": 1787624342204,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "HbC5TWvEu9iEIzyL": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 2
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 80,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "exotic"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": ""
+    },
+    "damageToItem": {
+      "type": "Number",
+      "value": 0,
+      "shield": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "armorType": {
+      "type": "String",
+      "label": "Armour Type",
+      "value": "plate"
+    },
+    "penalty": {
+      "type": "String",
+      "label": "Penalty",
+      "value": ""
+    },
+    "qualities": {
+      "type": "String",
+      "label": "Qualities",
+      "value": [
+        {
+          "name": "impenetrable",
+          "value": null
+        },
+        {
+          "name": "durable",
+          "value": null
+        },
+        {
+          "name": "fine",
+          "value": null
+        },
+        {
+          "name": "lightweight",
+          "value": null
+        },
+        {
+          "name": "practical",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "type": "String",
+      "label": "Flaws",
+      "value": [
+        {
+          "name": "weakpoints",
+          "value": null
+        }
+      ]
+    },
+    "special": {
+      "type": "String",
+      "label": "Special",
+      "value": ""
+    },
+    "AP": {
+      "head": 0,
+      "lArm": 0,
+      "rArm": 0,
+      "lLeg": 2,
+      "rLeg": 2,
+      "body": 0
+    },
+    "APdamage": {
+      "head": 0,
+      "lArm": 0,
+      "rArm": 0,
+      "lLeg": 2,
+      "rLeg": 2,
+      "body": 0
+    },
+    "equipped": {
+      "value": false
+    }
+  },
+  "sort": 6100000,
+  "_key": "!items!r2ID8gG1TUytI7GV"
+}

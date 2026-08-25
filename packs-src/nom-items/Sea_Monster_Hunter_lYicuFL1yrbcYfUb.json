@@ -1,0 +1,116 @@
+{
+  "_id": "lYicuFL1yrbcYfUb",
+  "name": "Sea Monster Hunter",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-03.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787670077527,
+    "modifiedTime": 1787670077527,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.5mWsxlp92Zll0HC8]{Norscan Whaler}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Whaler"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Riverfolk"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 3
+    },
+    "status": {
+      "tier": "b",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": true,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Endurance",
+      "Lore (Sea of Claws)",
+      "Melee (Brawling)",
+      "Melee (Polearm)",
+      "Ranged (Throwing)",
+      "Stealth (Rural)",
+      "Track",
+      "Heal",
+      "Outdoor Survival",
+      "Ranged (Sling)",
+      "Row",
+      "Sail (Wolfship)",
+      "Swim",
+      "Entertain (Storytelling)",
+      "Lore (Folktales)",
+      "Lore (Monsters)",
+      "Perception"
+    ],
+    "talents": [
+      "Deadeye Shot",
+      "Fearless (Monsters)",
+      "Resolute",
+      "Slayer"
+    ],
+    "trappings": [
+      "Whale Bone Headdress",
+      "Whale Skin Coat",
+      "Whale Trophy"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 0,
+  "_key": "!items!lYicuFL1yrbcYfUb"
+}

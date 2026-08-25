@@ -36,7 +36,7 @@
         "modifiedTime": null
       },
       "name": "Grail Virtue",
-      "img": "modules/nations-of-mankind-wfrp4e/icons/talents/grailknight-virtue.webp",
+      "img": "modules/wfrp4e-nom/icons/talents/grailknight-virtue.webp",
       "type": "base",
       "system": {
         "transferData": {
@@ -126,8 +126,8 @@
     "systemId": "wfrp4e",
     "systemVersion": "9.3.2",
     "createdTime": 1766509328001,
-    "modifiedTime": 1766509328023,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787623977975,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "ownership": {
     "default": 0,
@@ -138,7 +138,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>You gain a permanent +5 Weapon Skill and a +5 to either your Strength or Toughness Characteristic this does not count towards your Advances; moreover, you may choose any 3 @Compendium[nations-of-mankind-wfrp4e.journalentries-nom.siN4XGTmiQTSMBuX]{Bretonnian Noble Species} Skills to give a free +5 Advances to.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @Compendium[wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @Compendium[wfrp4e-core.items.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
+      "value": "<p>You gain a permanent +5 Weapon Skill and a +5 to either your Strength or Toughness Characteristic this does not count towards your Advances; moreover, you may choose any 3 Bretonnian Noble Species Skills to give a free +5 Advances to.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @UUID[Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @UUID[Compendium.wfrp4e-core.items.Item.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -168,6 +168,6 @@
     }
   },
   "folder": "DsekJv5UvKUKIUpc",
-  "sort": 700000,
+  "sort": 6000000,
   "_key": "!items!sSQqfayNttWiw4lF"
 }

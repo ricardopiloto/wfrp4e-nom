@@ -38,7 +38,7 @@
     }
   },
   "effects": [],
-  "sort": 0,
+  "sort": 5100000,
   "ownership": {
     "default": 0,
     "bwuOpMGVHBESXkjP": 3
@@ -48,12 +48,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1776816587888,
-    "modifiedTime": 1776824693834,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787623977974,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_key": "!items!wt8SWpgYXwvHKSoz"
 }

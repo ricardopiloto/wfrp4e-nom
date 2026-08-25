@@ -1,0 +1,60 @@
+{
+  "_id": "2jGP3xJgARI3AEbI",
+  "name": "Crippling Blow",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/crippling-blow.webp",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623976974,
+    "modifiedTime": 1787624143638,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You can focus your entire body into a single, brutal close combat attack. For your Action, you may attempt a <strong>Challenging (+0) Strength</strong> Test. If you succeed, and you successfully attack an opponent before the end of the next Round, you inflict a Critical Wound, ignoring Critical Deflections. You can use Crippling Blow a number of times per encounter equal to your Crippling Blow level. For every +2 SL on the Strength Test, you increase the result on the Critical Wounds Table by +10.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "s"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": "Strength for Crippling Blow"
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 800000,
+  "_key": "!items!2jGP3xJgARI3AEbI"
+}

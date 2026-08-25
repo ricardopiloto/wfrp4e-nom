@@ -1,0 +1,60 @@
+{
+  "_id": "dzuzDXPEgZs5w1El",
+  "name": "Volley Shot",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/volley-shot.webp",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623984569,
+    "modifiedTime": 1787624207821,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You have trained extensively with your fellow marksman, ensuring that your shots are perfectly timed to inflict maximum damage upon the enemy. If an enemy causes you to lose Advantage when standing beside an active ally with the Volley Shot Talent, you may keep 1 lost Advantage for each time you&rsquo;ve taken the Volley Shot Talent.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "bs"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": "Ranged Tests when beside an ally with Volley Shot"
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 0,
+  "_key": "!items!dzuzDXPEgZs5w1El"
+}

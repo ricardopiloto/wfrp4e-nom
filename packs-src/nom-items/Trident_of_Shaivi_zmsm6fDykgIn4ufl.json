@@ -25,7 +25,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>You call out to the Deva of Destruction conjuring their trident made of pure light, which can be wielded in combat, using the @Compendium[wfrp4e-core.items.PzimjNx9Ojq4g6mV]{Melee (Polearm)} Skill. It acts like a normal polearm with a with a very long range, with its Damage equal to your Willpower Bonus and counts as Magical. For every +3 SL you may add a Weapon Quality to the trident.</p>"
+      "value": "<p>You call out to the Deva of Destruction conjuring their trident made of pure light, which can be wielded in combat, using the @UUID[Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV]{Melee (Polearm)} Skill. It acts like a normal polearm with a with a very long range, with its Damage equal to your Willpower Bonus and counts as Magical. For every +3 SL you may add a Weapon Quality to the trident.</p>"
     },
     "gmdescription": {
       "type": "String",

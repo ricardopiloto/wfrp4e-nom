@@ -1,0 +1,118 @@
+{
+  "_id": "2q7QmDRxHxaDWIG8",
+  "name": "War Chief",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787670129203,
+    "modifiedTime": 1787670129203,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.4weUTWdDxDo6VyNb]{Zunu}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Zunu"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warrior"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Charm Animal",
+      "Dodge",
+      "Endurance",
+      "Intimidate",
+      "Melee (Polearm)",
+      "Navigation",
+      "Outdoor Survival",
+      "Perform (Tribal Dance)",
+      "Athletics",
+      "Climb",
+      "Cool",
+      "Lore (Southlands)",
+      "Melee (Basic or Two-handed)",
+      "Ranged (Sling or Throwing)",
+      "Language (Saurian)",
+      "Lore (Lizardmen)",
+      "Perception",
+      "Stealth (Rural)",
+      "Leadership",
+      "Lore (Warfare)"
+    ],
+    "talents": [
+      "Combat Master",
+      "Frightening",
+      "Strike to Injure",
+      "War Leader"
+    ],
+    "trappings": [
+      "Lizard Skull Helmet",
+      "Lizardmen Magical Item",
+      "Obsinite Shield"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 0,
+  "_key": "!items!2q7QmDRxHxaDWIG8"
+}

@@ -36,7 +36,7 @@
         "modifiedTime": null
       },
       "name": "Grail Virtue",
-      "img": "modules/nations-of-mankind-wfrp4e/icons/talents/grailknight-virtue.webp",
+      "img": "modules/wfrp4e-nom/icons/talents/grailknight-virtue.webp",
       "type": "base",
       "system": {
         "transferData": {
@@ -121,8 +121,8 @@
     "systemId": "wfrp4e",
     "systemVersion": "9.3.2",
     "createdTime": 1766509322826,
-    "modifiedTime": 1766509328023,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787623977974,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "ownership": {
     "default": 0,
@@ -133,7 +133,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>When outnumbered in melee, the knight gains the same Combat Difficulty Modifiers to hit as their enemies would. This bonus applies even though their enemies are denied the outnumbering bonus.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @Compendium[wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @Compendium[wfrp4e-core.items.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
+      "value": "<p>When outnumbered in melee, the knight gains the same Combat Difficulty Modifiers to hit as their enemies would. This bonus applies even though their enemies are denied the outnumbering bonus.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @UUID[Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @UUID[Compendium.wfrp4e-core.items.Item.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -163,6 +163,6 @@
     }
   },
   "folder": "DsekJv5UvKUKIUpc",
-  "sort": 400000,
+  "sort": 5700000,
   "_key": "!items!TanGz1CH6Ub2mWyB"
 }

@@ -25,7 +25,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>Your chants fill you with implacable, ferocious rage. You gain the +1 @Compendium[wfrp4e-core.items.FtjMeeGEO4YuGIBv]{Battle Rage} Talent and gain the @Compendium[wfrp4e-core.items.DrNUTPeodEgpWTnT]{Frenzy} Psychology.</p>"
+      "value": "<p>Your chants fill you with implacable, ferocious rage. You gain the +1 @UUID[Compendium.wfrp4e-core.items.Item.FtjMeeGEO4YuGIBv]{Battle Rage} Talent and gain the @UUID[Compendium.wfrp4e-core.items.Item.DrNUTPeodEgpWTnT]{Frenzy} Psychology.</p>"
     },
     "gmdescription": {
       "type": "String",

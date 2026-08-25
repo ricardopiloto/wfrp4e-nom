@@ -8,7 +8,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p><strong>Max: 1</strong></p><p>You may select@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.pGTpU2i5qfDLE38i.JournalEntryPage.uPiUhkZe4LmAlgCQ#grail-virtues]{ one Grail Virtue} after advancing to Grail Knight. This virtue cannot be retracted or upgraded and requires you’ve acquired the Knightly Virtue of the same name: You cannot acquire the Grail Virtue of Audacity for instance without first acquiring the Knightly Virtue of Audacity.</p>"
+      "value": "<p><strong>Max: 1</strong></p><p>You may select@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mNationRules01.JournalEntryPage.uPiUhkZe4LmAlgCQ#grail-virtues]{ one Grail Virtue} after advancing to Grail Knight. This virtue cannot be retracted or upgraded and requires you’ve acquired the Knightly Virtue of the same name: You cannot acquire the Grail Virtue of Audacity for instance without first acquiring the Knightly Virtue of Audacity.</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -38,7 +38,7 @@
     }
   },
   "effects": [],
-  "sort": 0,
+  "sort": 3400000,
   "ownership": {
     "default": 0,
     "bwuOpMGVHBESXkjP": 3
@@ -48,12 +48,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1776899178366,
-    "modifiedTime": 1777041439621,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787623977972,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_key": "!items!cBgTKMqBQxXuVRWb"
 }

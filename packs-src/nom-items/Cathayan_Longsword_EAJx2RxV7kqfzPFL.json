@@ -137,7 +137,7 @@
     }
   },
   "effects": [],
-  "sort": 1000000,
+  "sort": 8600000,
   "ownership": {
     "default": 0,
     "bwuOpMGVHBESXkjP": 3
@@ -147,12 +147,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1776814175746,
-    "modifiedTime": 1778013236878,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787624342205,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_key": "!items!EAJx2RxV7kqfzPFL"
 }

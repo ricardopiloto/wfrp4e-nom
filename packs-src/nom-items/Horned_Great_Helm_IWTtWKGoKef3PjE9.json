@@ -1,0 +1,260 @@
+{
+  "_id": "IWTtWKGoKef3PjE9",
+  "name": "Horned Great Helm",
+  "type": "armour",
+  "img": "modules/wfrp4e-nom/icons/trappings/armor/horned-great-helm.webp",
+  "effects": [
+    {
+      "_id": "Juc27j7CGYwL9biZ",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "transfer": true,
+      "flags": {
+        "wfrp4e": {
+          "hide": false,
+          "_legacyData": {
+            "effectApplication": "equipped",
+            "effectTrigger": "prefillDialog",
+            "preventDuplicateEffects": false,
+            "script": "if (args.type == \"skill\" && args.item.name == \"Perception\")\n   args.prefillModifiers.modifier -= 20"
+          }
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787624292763,
+        "modifiedTime": 1787624292763,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Horned Great Helm",
+      "img": "modules/wfrp4e-nom/icons/trappings/armor/horned-great-helm.webp",
+      "system": {
+        "changes": [],
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": true,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "shape": {
+              "color": null,
+              "type": "circle",
+              "angle": 60,
+              "curvature": "round",
+              "base": {
+                "width": 1,
+                "height": 1,
+                "hole": false,
+                "shape": 4,
+                "type": "token"
+              }
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false,
+              "visibility": 0
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Horned Great Helm",
+            "trigger": "dialog",
+            "script": "if (args.type == \"skill\" && args.item.name == \"Perception\")\n   args.prefillModifiers.modifier -= 20",
+            "options": {
+              "activateScript": "return true",
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "start": null,
+      "type": "base",
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_key": "!items.effects!IWTtWKGoKef3PjE9.Juc27j7CGYwL9biZ"
+    }
+  ],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787624292763,
+    "modifiedTime": 1787624342201,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "HbC5TWvEu9iEIzyL": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 2
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 2,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "exotic"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": ""
+    },
+    "damageToItem": {
+      "type": "Number",
+      "value": 0,
+      "shield": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "armorType": {
+      "type": "String",
+      "label": "Armour Type",
+      "value": "plate"
+    },
+    "penalty": {
+      "type": "String",
+      "label": "Penalty",
+      "value": "-20 Perception"
+    },
+    "qualities": {
+      "type": "String",
+      "label": "Qualities",
+      "value": [
+        {
+          "name": "impenetrable",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "type": "String",
+      "label": "Flaws",
+      "value": [
+        {
+          "name": "weakpoints",
+          "value": null
+        },
+        {
+          "name": "ugly",
+          "value": null
+        }
+      ]
+    },
+    "special": {
+      "type": "String",
+      "label": "Special",
+      "value": ""
+    },
+    "AP": {
+      "head": 3,
+      "lArm": 0,
+      "rArm": 0,
+      "lLeg": 0,
+      "rLeg": 0,
+      "body": 0
+    },
+    "APdamage": {
+      "head": 3,
+      "lArm": 0,
+      "rArm": 0,
+      "lLeg": 0,
+      "rLeg": 0,
+      "body": 0
+    },
+    "equipped": {
+      "value": false
+    }
+  },
+  "sort": 3100000,
+  "_key": "!items!IWTtWKGoKef3PjE9"
+}

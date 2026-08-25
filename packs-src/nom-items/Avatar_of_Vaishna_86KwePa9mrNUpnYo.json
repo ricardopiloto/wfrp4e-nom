@@ -25,7 +25,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>You channel the heavenly wrath of Vaishna into your very soul and become the embodiment of The Preserver itself. Your eyes glow and your skin changes blue. You gain the @Compendium[wfrp4e-core.items.9NROryHer1uXAKwY]{Elite} Trait and you&rsquo;re Immune to Psychology so long as you&rsquo;re protecting something of great importance. When the Miracle&rsquo;s duration ends you return to normal and are unconscious until next sunrise, as the strain of wielding such godly power is great.</p>"
+      "value": "<p>You channel the heavenly wrath of Vaishna into your very soul and become the embodiment of The Preserver itself. Your eyes glow and your skin changes blue. You gain the @UUID[Compendium.wfrp4e-core.items.Item.9NROryHer1uXAKwY]{Elite} Trait and you&rsquo;re Immune to Psychology so long as you&rsquo;re protecting something of great importance. When the Miracle&rsquo;s duration ends you return to normal and are unconscious until next sunrise, as the strain of wielding such godly power is great.</p>"
     },
     "gmdescription": {
       "type": "String",

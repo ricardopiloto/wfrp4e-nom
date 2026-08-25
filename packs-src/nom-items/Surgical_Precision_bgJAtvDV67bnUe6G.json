@@ -1,0 +1,60 @@
+{
+  "_id": "bgJAtvDV67bnUe6G",
+  "name": "Surgical Precision",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/talents/dirty-fighting.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623933124,
+    "modifiedTime": 1787623977972,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You have mastered the art of bringing down foes non-lethally. Whenever you deal a Critical Hit to an opponent, you may instead make an <strong>Average (+20) Intelligence</strong> Test. If you succeed, you inflict +1 <em>Fatigued </em>Condition upon your target for each SL you scored on the Intelligence Test. Further, you gain a +40 bonus to any Heal Test to treat the wounds of your target once they&rsquo;ve been subdued, assuming they&rsquo;re still alive.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "s"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": "Melee tests when trying to bring down a foe non-lethally"
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 3100000,
+  "_key": "!items!bgJAtvDV67bnUe6G"
+}

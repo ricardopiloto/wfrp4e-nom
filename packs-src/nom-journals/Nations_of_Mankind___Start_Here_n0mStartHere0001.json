@@ -1,0 +1,64 @@
+{
+  "folder": "CtX3SGpKsZVd1aGx",
+  "name": "Nations of Mankind - Start Here",
+  "_id": "n0mStartHere0001",
+  "pages": [
+    {
+      "name": "Start Here",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Nations of Mankind</h1><p>Start here for peoples, nation rules, careers, lores, armory, and the bestiary index.</p><h2>Contents</h2><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.iOTIqPoQo6ppBfSQ]{Peoples (Warhammer Nations)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mEmpire0000001.JournalEntryPage.WELjIk1hjAdYq95u]{The Empire}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mRoR0000000001.JournalEntryPage.RXnJC2aYqUA4xXJ4]{Regiments of Renown}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mDoW0000000001.JournalEntryPage.p6p90qyALHZkyV17]{Dogs of War}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mNationRules01.JournalEntryPage.rKOIOO0r2idyiwp8]{Nation Rules}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mTalents000001.JournalEntryPage.a6GQRJftkHnSkhsj]{Talents}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mBestiaryIdx01.JournalEntryPage.V9eimuunkzsIwCVt]{Bestiary Index}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.ODC1TQBu6uDkDzfx]{Lores & Faith}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.6MDYnEhDcCiuUfmW]{Careers}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryIndex01]{Armory}</p></li></ul><p><em>Core reference:</em> @UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.84Aj04uEEBh3yTS3]{Class and Careers} (WFRP Core Rulebook).</p>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mStartHere0001.JournalEntryPage.n0mHubPage000001",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382507,
+        "modifiedTime": 1787665382507,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mHubPage000001",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mStartHere0001.n0mHubPage000001"
+    }
+  ],
+  "categories": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1787665382507,
+    "modifiedTime": 1787665382507,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!journal!n0mStartHere0001"
+}

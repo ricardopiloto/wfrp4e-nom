@@ -1,0 +1,116 @@
+{
+  "_id": "t5GbzN2GRs6BZgar",
+  "name": "Banner Bearer",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-03.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787670012923,
+    "modifiedTime": 1787670012923,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.PqojRALkytOubbGk]{Norscan Skald}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Skald"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Ranger"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": true,
+      "int": true,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Charm",
+      "Entertain (Storytelling)",
+      "Gossip",
+      "Haggle",
+      "Perform (Any)",
+      "Play (Harp or Lyre)",
+      "Sleight of Hand",
+      "Art (Poetry)",
+      "Entertain (Singing)",
+      "Entertain (Comedy or Speeches)",
+      "Lore (Norsca)",
+      "Melee (Basic)",
+      "Row",
+      "Animal Care",
+      "Art (Writing)",
+      "Charm Animal",
+      "Language (Any)"
+    ],
+    "talents": [
+      "Blather",
+      "Inspiring",
+      "Perfect Pitch",
+      "Sturdy"
+    ],
+    "trappings": [
+      "Leather Jack and Skull Cap",
+      "Mail Coat",
+      "Tribe Banner"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 0,
+  "_key": "!items!t5GbzN2GRs6BZgar"
+}

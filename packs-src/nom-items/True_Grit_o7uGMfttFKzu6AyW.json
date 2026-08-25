@@ -1,0 +1,60 @@
+{
+  "_id": "o7uGMfttFKzu6AyW",
+  "name": "True Grit",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/true-grit.webp",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623983708,
+    "modifiedTime": 1787624194588,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You can shrug off wounds that would fell lesser beings. Whenever you suffer Critical Wounds, you may make a <strong>Challenging (+0) @UUID[Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J]{Endurance} </strong>Test. If successful, you may reduce the result of the Critical Wound by 10 per level of True Grit. This Endurance Test is often modified by the Strength behind the blow that hit you: for every +10 Strength the blow has over your Toughness, you suffer a penalty of -10 to the @UUID[Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J]{Endurance} Test, and vice versa.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "t"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 0,
+  "_key": "!items!o7uGMfttFKzu6AyW"
+}

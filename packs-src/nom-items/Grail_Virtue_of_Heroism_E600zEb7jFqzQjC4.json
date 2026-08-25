@@ -38,7 +38,7 @@
         "modifiedTime": null
       },
       "name": "Grail Virtue",
-      "img": "modules/nations-of-mankind-wfrp4e/icons/talents/grailknight-virtue.webp",
+      "img": "modules/wfrp4e-nom/icons/talents/grailknight-virtue.webp",
       "type": "base",
       "system": {
         "transferData": {
@@ -147,7 +147,7 @@
         "modifiedTime": null
       },
       "name": "Grail Virtue of Heroism",
-      "img": "modules/nations-of-mankind-wfrp4e/icons/talents/grailknight-virtue.webp",
+      "img": "modules/wfrp4e-nom/icons/talents/grailknight-virtue.webp",
       "type": "base",
       "system": {
         "transferData": {
@@ -235,8 +235,8 @@
     "systemId": "wfrp4e",
     "systemVersion": "9.3.2",
     "createdTime": 1766509324822,
-    "modifiedTime": 1766509328023,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787623977975,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "ownership": {
     "default": 0,
@@ -247,7 +247,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>If you inflict Damage on an opponent, you deal an additional number of Wounds equal to the opponent&rsquo;s Armor Points on that location. In addition, if you deal any Melee Damage to non-metal armor, armor has no effect in Damage reduction for the creature.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @Compendium[wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @Compendium[wfrp4e-core.items.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
+      "value": "<p>If you inflict Damage on an opponent, you deal an additional number of Wounds equal to the opponent&rsquo;s Armor Points on that location. In addition, if you deal any Melee Damage to non-metal armor, armor has no effect in Damage reduction for the creature.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @UUID[Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @UUID[Compendium.wfrp4e-core.items.Item.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -277,6 +277,6 @@
     }
   },
   "folder": "DsekJv5UvKUKIUpc",
-  "sort": 1100000,
+  "sort": 6400000,
   "_key": "!items!E600zEb7jFqzQjC4"
 }

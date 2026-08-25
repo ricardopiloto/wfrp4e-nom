@@ -36,7 +36,7 @@
         "modifiedTime": null
       },
       "name": "Grail Virtue",
-      "img": "modules/nations-of-mankind-wfrp4e/icons/talents/grailknight-virtue.webp",
+      "img": "modules/wfrp4e-nom/icons/talents/grailknight-virtue.webp",
       "type": "base",
       "system": {
         "transferData": {
@@ -121,8 +121,8 @@
     "systemId": "wfrp4e",
     "systemVersion": "9.3.2",
     "createdTime": 1766509322096,
-    "modifiedTime": 1766509328023,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787623977974,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "ownership": {
     "default": 0,
@@ -133,7 +133,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>Whilst you are involved in a Challenge, all other opponents must succeed a <strong>Very Hard (&ndash;30) Weapon Skill Test</strong> to hit you. Also, you gain a +1 to your Toughness Bonus against your opponent during the duel, cannot be @Compendium[wfrp4e-core.items.Ib2YQYChktDFN93y]{Feared} or @Compendium[wfrp4e-core.items.I0yPc4PH5erWJLmu]{Intimidated} by your opponent and you cannot lose Advantage if hit during the duel by enemies that are not the challenger.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @Compendium[wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @Compendium[wfrp4e-core.items.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
+      "value": "<p>Whilst you are involved in a Challenge, all other opponents must succeed a <strong>Very Hard (&ndash;30) Weapon Skill Test</strong> to hit you. Also, you gain a +1 to your Toughness Bonus against your opponent during the duel, cannot be @UUID[Compendium.wfrp4e-core.items.Item.Ib2YQYChktDFN93y]{Feared} or @UUID[Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu]{Intimidated} by your opponent and you cannot lose Advantage if hit during the duel by enemies that are not the challenger.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @UUID[Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @UUID[Compendium.wfrp4e-core.items.Item.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -163,6 +163,6 @@
     }
   },
   "folder": "DsekJv5UvKUKIUpc",
-  "sort": 300000,
+  "sort": 5600000,
   "_key": "!items!brXOeqIBAoxQyXBF"
 }

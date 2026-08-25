@@ -25,7 +25,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>You reach out to Brahmir praying for the Deva&rsquo;s protection. In return your body begins to sweat profusely, closing your wounds and invigorating you. You gain the @Compendium[wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Regenerate} Creature Trait. When the Miracle ends, gain +1 @Condition[Fatigued].</p>"
+      "value": "<p>You reach out to Brahmir praying for the Deva&rsquo;s protection. In return your body begins to sweat profusely, closing your wounds and invigorating you. You gain the @UUID[Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR]{Regenerate} Creature Trait. When the Miracle ends, gain +1 @Condition[Fatigued].</p>"
     },
     "gmdescription": {
       "type": "String",

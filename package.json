@@ -14,7 +14,14 @@
     "careers:normalize": "node scripts/normalize-career-content.mjs --dry-run",
     "careers:normalize:write": "node scripts/normalize-career-content.mjs --write",
     "icons:webp": "node scripts/convert-icons-to-webp.mjs",
-    "icons:webp:write": "node scripts/convert-icons-to-webp.mjs --write"
+    "icons:webp:write": "node scripts/convert-icons-to-webp.mjs --write",
+    "links:sprint-a": "node scripts/migrate-sprint-a-links.mjs",
+    "links:sprint-a:write": "node scripts/migrate-sprint-a-links.mjs --write",
+    "journals:sprint-b": "node scripts/migrate-sprint-b-journals.mjs",
+    "journals:sprint-b:write": "node scripts/migrate-sprint-b-journals.mjs --write",
+    "journals:armory": "node scripts/build-armory-journal.mjs",
+    "journals:armory:write": "node scripts/build-armory-journal.mjs --write",
+    "medals:generate": "node scripts/generate-medals-honors-items.mjs"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "3.0.3"

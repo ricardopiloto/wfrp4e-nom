@@ -53,7 +53,12 @@ const NOM_ROW_ALIAS = new Map([
   ["Wastelander/Marienburger\tBlack Cap", "Wastelander Black Cap"],
   ["Norscan\tSeer", "Norscan Seer"],
   ["Norscan\tReaver", "Norscan Reaver"],
-  ["Nipponese\tRonin", "Nippon Ronin"]
+  ["Nipponese\tRonin", "Nippon Ronin"],
+  ["Estalian\tLuchador", "Lustrian Luchador"],
+  ["Tilean\tLuchador", "Lustrian Luchador"],
+  ["Norscan\tSkald", "Norscan Skald"],
+  ["Norscan\tWhaler", "Norscan Whaler"],
+  ["Cathayan\tSwordsaint", "Cathayan Swordsaint"],
 ]);
 
 function nomAliasTargetPage(nationalityTag, lookupTrimmed) {
@@ -87,9 +92,12 @@ function parseNationalityTag(rollTableName) {
   return m ? m[1].trim() : "";
 }
 
-function makeUuid(journalId, pageId, label) {
-  return `@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.${journalId}.JournalEntryPage.${pageId}]{${label}}`;
+function makeUuid(modulePack, journalId, pageId, label) {
+  return `@UUID[Compendium.${modulePack}.JournalEntry.${journalId}.JournalEntryPage.${pageId}]{${label}}`;
 }
+
+const CORE_JOURNALS_PACK = "wfrp4e-core.journals";
+const NOM_JOURNALS_PACK = "wfrp4e-nom.nom-journals";
 
 /** Career name stored in description when results.name is empty (legacy import). */
 function repairInvertedRow(r) {
@@ -146,24 +154,24 @@ async function main() {
       r.documentUuid = null;
 
       if (lookup && coreMap.has(lookup)) {
-        r.description = makeUuid(CORE_JOURNAL_ID, coreMap.get(lookup), label);
+        r.description = makeUuid(CORE_JOURNALS_PACK, CORE_JOURNAL_ID, coreMap.get(lookup), label);
         rowCore++;
       } else if (lookup && nomMap.has(lookup)) {
         const pageId = nomMap.get(lookup);
-        r.description = makeUuid(NOM_JOURNAL_ID, pageId, label);
+        r.description = makeUuid(NOM_JOURNALS_PACK, NOM_JOURNAL_ID, pageId, label);
         unreachableNomPages.delete(lookup);
         rowNomExact++;
       } else if (lookup && prefix) {
         const composed = `${prefix} ${lookup}`.trim();
         if (nomMap.has(composed)) {
           const pageId = nomMap.get(composed);
-          r.description = makeUuid(NOM_JOURNAL_ID, pageId, label);
+          r.description = makeUuid(NOM_JOURNALS_PACK, NOM_JOURNAL_ID, pageId, label);
           unreachableNomPages.delete(composed);
           rowNomComposed++;
         } else {
           const aliasPage = nomAliasTargetPage(nationalityTag, lookup);
           if (aliasPage && nomMap.has(aliasPage)) {
-            r.description = makeUuid(NOM_JOURNAL_ID, nomMap.get(aliasPage), label);
+            r.description = makeUuid(NOM_JOURNALS_PACK, NOM_JOURNAL_ID, nomMap.get(aliasPage), label);
             unreachableNomPages.delete(aliasPage);
             rowNomAlias++;
           } else {
@@ -175,7 +183,7 @@ async function main() {
       } else {
         const aliasPage = lookup ? nomAliasTargetPage(nationalityTag, lookup) : null;
         if (aliasPage && nomMap.has(aliasPage)) {
-          r.description = makeUuid(NOM_JOURNAL_ID, nomMap.get(aliasPage), label);
+          r.description = makeUuid(NOM_JOURNALS_PACK, NOM_JOURNAL_ID, nomMap.get(aliasPage), label);
           unreachableNomPages.delete(aliasPage);
           rowNomAlias++;
         } else {

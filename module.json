@@ -25,7 +25,8 @@
       "packs": [
         "nom-journals",
         "nom-items",
-        "nom-tables"
+        "nom-tables",
+        "nom-bestiary"
       ],
       "folders": []
     }
@@ -68,6 +69,17 @@
       "type": "RollTable",
       "ownership": {
         "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e"
+    },
+    {
+      "name": "nom-bestiary",
+      "label": "Nations of Mankind - Bestiary",
+      "path": "packs/nom-bestiary",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       },
       "system": "wfrp4e"

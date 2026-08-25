@@ -25,7 +25,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>You call the power of the Orange Simca to smite servants of the dark gods, children of the Horned One and those tempted by black magics. The holy fire of the Rising Sun explodes from your body blasting outwards for Fellowship Bonus yards. All targets within range take 1d10 Wounds ignoring Toughness Bonus and APs. Targets with the Skaven, @Compendium[wfrp4e-core.items.PFTD9gDvRWW9uh5g]{Undead} and @Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Daemonic} Creature Traits also gain the @Condition[Ablaze] Condition. For every +2 SL, you may increase the area of effect by +Fellowship Bonus yards, or cause an extra +2 Damage to any Skaven, Undead, or servants of the Ruinous Powers affected.</p>"
+      "value": "<p>You call the power of the Orange Simca to smite servants of the dark gods, children of the Horned One and those tempted by black magics. The holy fire of the Rising Sun explodes from your body blasting outwards for Fellowship Bonus yards. All targets within range take 1d10 Wounds ignoring Toughness Bonus and APs. Targets with the Skaven, @UUID[Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g]{Undead} and @UUID[Compendium.wfrp4e-core.items.Item.v3uzEthcq0JRar0J]{Daemonic} Creature Traits also gain the @Condition[Ablaze] Condition. For every +2 SL, you may increase the area of effect by +Fellowship Bonus yards, or cause an extra +2 Damage to any Skaven, Undead, or servants of the Ruinous Powers affected.</p>"
     },
     "gmdescription": {
       "type": "String",

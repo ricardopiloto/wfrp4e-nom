@@ -1,0 +1,126 @@
+{
+  "_id": "UIO4VS1txJLI4TAz",
+  "name": "Skull Trophies",
+  "type": "armour",
+  "img": "modules/wfrp4e-core/icons/equipment/trappings/skull.png",
+  "effects": [],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1787669600883,
+    "modifiedTime": 1787669600883,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 0,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": ""
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": ""
+    },
+    "damageToItem": {
+      "type": "Number",
+      "value": 0,
+      "shield": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "armorType": {
+      "type": "String",
+      "label": "Armour Type",
+      "value": "other"
+    },
+    "penalty": {
+      "type": "String",
+      "label": "Penalty",
+      "value": ""
+    },
+    "qualities": {
+      "type": "String",
+      "label": "Qualities",
+      "value": []
+    },
+    "flaws": {
+      "type": "String",
+      "label": "Flaws",
+      "value": [
+        {
+          "name": "ugly",
+          "value": null
+        }
+      ]
+    },
+    "special": {
+      "type": "String",
+      "label": "Special",
+      "value": "Fear 1 while worn (any location). See Nations of Mankind PDF."
+    },
+    "AP": {
+      "head": 0,
+      "lArm": 0,
+      "rArm": 0,
+      "lLeg": 0,
+      "rLeg": 0,
+      "body": 0
+    },
+    "APdamage": {
+      "head": 0,
+      "lArm": 0,
+      "rArm": 0,
+      "lLeg": 0,
+      "rLeg": 0,
+      "body": 0
+    },
+    "equipped": {
+      "value": false
+    }
+  },
+  "sort": 9100000,
+  "_key": "!items!UIO4VS1txJLI4TAz"
+}

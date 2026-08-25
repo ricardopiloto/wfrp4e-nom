@@ -1,0 +1,87 @@
+{
+  "_id": "n0mMedalMeteor01",
+  "name": "Meteoric Medal",
+  "type": "trapping",
+  "img": "systems/wfrp4e/icons/blank.png",
+  "effects": [],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {},
+    "wfrp4e-nom": {
+      "honorKind": "imperialMedal"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Awarded For:</strong> Preserving the ancient oath of friendship between Man and Dwarf, or proving yourself an ally to their cause through other means, by committing an act of great heroism in their name, such as: aiding them in discovering and reclaiming a long lost dwarf hold, returning ancient sacred Dwarfen artifacts, or crossing off the name of one of the Dwarf’s greatest enemies from the Great Book of Grudges itself.</p><p><strong>Description:</strong> A gromril medallion carved into the head of Grungni, the Dwarf god of artistry, metalwork and mining, and emblazoned with a clan insignia and a glowing rune on the back side of the medal.</p><p><strong>Bonuses:</strong> The wearer of this medal gains a @UUID[Compendium.wfrp4e-core.items.Item.Bvd2aZ0gQUXHfCTh]{Ward (9+)} Creature Trait against all attacks and spells targeting you. Each hit successfully saved increases the Ward’s effectiveness by 1, to a maximum of @UUID[Compendium.wfrp4e-core.items.Item.Bvd2aZ0gQUXHfCTh]{Ward (6+)}. The Ward resets back to 9+ at the end of an encounter or if the medal is removed.</p><p><em>Automation (Wave 4):</em> Until automated, the GM applies the bonuses above manually when the medal is worn (Imperial Honors) or when the honor applies (Kill Counts).</p><h3>Medal Notes</h3>\n<p>Talents granted by medals apply only to the <strong>original recipient</strong>. Non-talent bonuses require the medal to be <strong>worn</strong> by the earner. Non-earners do not gain these benefits — the GM enforces recipient rules (no automatic earner lock). Medals can be identified with Easy (+40) Lore (Empire / Heraldry / History). Fake medals: Evaluate + Numismatics (GM difficulty).</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 0,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "exotic"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "clothingAccessories"
+    },
+    "worn": true,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "qualities": {
+      "label": "Qualities",
+      "value": []
+    },
+    "flaws": {
+      "label": "Flaws",
+      "value": []
+    }
+  },
+  "sort": 0,
+  "_key": "!items!n0mMedalMeteor01"
+}

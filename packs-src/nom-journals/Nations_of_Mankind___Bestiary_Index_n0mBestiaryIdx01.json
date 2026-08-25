@@ -1,0 +1,254 @@
+{
+  "folder": "CtX3SGpKsZVd1aGx",
+  "name": "Nations of Mankind - Bestiary Index",
+  "_id": "n0mBestiaryIdx01",
+  "pages": [
+    {
+      "name": "Bestiary Index",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h3 style=\"text-align:center\"><strong>I. Mounts</strong></h3>\n<h3 style=\"text-align:center\"><strong>II. Empire Bestiary</strong></h3>\n<h3 style=\"text-align:center\"><strong>III. Bretonnia Bestiary</strong></h3>\n<h3 style=\"text-align:center\"><strong>IV. Dog of War Bestiary</strong></h3>\n<h3 style=\"text-align:center\"><strong>V. Kislev Bestiary</strong></h3>\n<p> </p>\n<ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mBestiaryIdx01.JournalEntryPage.n0mBestMounts001]{Mounts}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mBestiaryIdx01.JournalEntryPage.n0mBestEmpire001]{Empire Bestiary}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mBestiaryIdx01.JournalEntryPage.n0mBestBretonn01]{Bretonnia Bestiary}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mBestiaryIdx01.JournalEntryPage.n0mBestDoW000001]{Dog of War Bestiary}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mBestiaryIdx01.JournalEntryPage.n0mBestKislev001]{Kislev Bestiary}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mBestiaryIdx01.JournalEntryPage.V9eimuunkzsIwCVt",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382507,
+        "modifiedTime": 1787665382507,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "V9eimuunkzsIwCVt",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mBestiaryIdx01.V9eimuunkzsIwCVt"
+    },
+    {
+      "name": "Mounts",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Mounts</h2>\n<ul>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.Ws11CG2ZaQgjtXL5]{Bretonnian Destrier}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.O7WMkJcCYM0CaTcI]{Demigryph War Mount}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.fELjTU1CJxVFFikT]{Hippogryph Mount}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.RN35DlsFXk8laiij]{Imperial Griffon Mount}</li>\n<li> @UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.y2nTZSqIiXJlwrWS]{Kislev Light Warhorse}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.kp3yCVC6OHNYQsHh]{Kislev Warbear}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.x5sOHB1mjEM8NJzq]{Light War Pegasus}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.NeM2E7D9SWFYtKkH]{Norscan Mammoth}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.8BL5lyYy9fSx5iBn]{Riding Camel}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.WAJ4ZNjzGoTXUYpl]{Royal Pegasus}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.9xKqNGmuZyVRSzj9]{War Camel}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.xTWZzYECL0TaBN1o]{War Elephant}</li>\n</ul>\n<p> </p>\n"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mBestiaryIdx01.JournalEntryPage.n0mBestMounts001",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382507,
+        "modifiedTime": 1787665382507,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mBestMounts001",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mBestiaryIdx01.n0mBestMounts001"
+    },
+    {
+      "name": "Empire",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Empire Bestiary</h2>\n<p>Each regiment has a wide variety of weapons for certain types of engagements, with spears, halberds, and swords being the most common and the most flexible in battle situations. Imperial regiments used as long-range support are often equipped with handguns, crossbows, and longbows, among others. When not in war, Imperial soldiers are required to drill and train on a regular basis in order to build their stamina and deepen their martial abilities when the time for combat soon reappears. Supervised by drill-sergeants, these men and women are harshly instructed in the importance of formation tactics and the need to fight as a cohesive unit capable of lending support to one another in the chaos of the battlefield.</p>\n<p><strong>Optional: </strong>For an even more diverse roster and to add further customization options, GMs should consider including Human starting Talents based on the Empire Provinces the Imperials of this bestiary hail from. Consult the Regiments of Renown or Knightly Order Skills and Talents for further customization. For further variety, reduce the Attributes of a unit by 10 each and roll 2d10 to determine their stats.</p>\n<blockquote>\n<p>“Where march you, men of Reikland, where carry your halberd and sword... We march to war for our Emperor, and Sigmar our saviour and lord... Tomorrow we go to war, to face the hordes of Chaos... Tomorrow we will be buried, in cold graves that await us... And when the fighting is done, and the sun goes down at night... Hear my prayers, save my soul, and take me to Sigmar's Light...”</p>\n<p style=\"text-align:right\">—Old soldier's song from Reikland</p>\n</blockquote>\n<ul>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.HsUUOTrVkBCMiDRW]{Empire Swordsman}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.fgHxr9C1AFXsCh7K]{Empire Halberdier}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.NNXBHUbAbTTlKama]{Empire Spearman}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.YDbbOJnJi3kkHKbP]{Empire Handgunner}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.6Wil5fqNFYSkTRuI]{Empire Archer}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.GGFXMdPjuanRKB3k]{Empire Crossbowman}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.xDDTyjb8KOrjXaST]{Empire Greatswords}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.uabYHy8uDWEy3z4t]{Empire Sergeant}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.9cOXhDLRAJQqkpX2]{Empire Captain}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.RQP7A1mlSNpfIo1P]{Empire General}</li>\n<li>Empire Pistolier</li>\n<li>Empire Outrider</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.0K1ySwzVBDbfYiWq]{War Priest of Sigmar}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.JRJI7dvxfo4yfIiZ]{War Priest Captain of Sigmar}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.2fLMgDczRglJ5Ygg]{Arch-Lector of Sigmar}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.vRwTFaTyCmjXtysL]{Empire Knight}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.E4OMqvgJ15NlQFHx]{Empire Knight of the Inner Circle}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.waiuOJyiw86ZQQvo]{Empire Grand Master}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.vBdgA7AcZsTpMDLo]{Witch Hunter}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.vBdgA7AcZsTpMDLo]{Witch Hunter General}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.tbcTlsFyMjNxAJTw]{Empire Master Engineer}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.nCJamuYBpIqk6j1b]{Empire Battle Wizard}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.Wd68AxTqOLUUJjR4]{Magister Wizard Lord}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.JJIj6q50k1sTG1fP]{Magister Patriarch}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.CVWxkyNTRmcnOubA]{Flagellant}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.ZFilTVNBz9dlKktq]{Prophet of Doom}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.FZQ1KktWhonmTjau]{War Priest of Ulric}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.eRRX1FC4NLAMfkfq]{War Priest Captain of Ulric}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.b514V5tGOh2YK9HU]{Arch-Lector of Ulric}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.P8nKLJBrIb45baEe]{Free Company Militia}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.Y6dzmMubW7USxMGG]{Free Company Leader}</li>\n</ul>\n<p> </p>\n"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mBestiaryIdx01.JournalEntryPage.n0mBestEmpire001",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382507,
+        "modifiedTime": 1787665382507,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mBestEmpire001",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mBestiaryIdx01.n0mBestEmpire001"
+    },
+    {
+      "name": "Bretonnia",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Bretonnia Bestiary</h2>\n<p>The Bretonnian military are a powerful army formed around a core of brave knights supported by scores of low-born peasants. They are a warlike and valiant people who willingly seek out battles as a way of securing personal honor and pride. Any who invade their domains face the fury of their powerful knights and few foes can match them on open ground. The knights range from the youngest Knights Errant, eager to prove their worth, through the Knights of the Realm, defenders of the land. Rarer still are the Questing Knights, wandering warriors engaged in a quest for the Grail. And then there are the legendary Grail Knights themselves, who have succeeded in their quest and sipped from their goddess's Grail, becoming imbued with fey power and longevity. Riding into war atop the finest steeds, from mighty Warhorses to soaring Pegasi and roaring Hippogryphs, the Knights of Bretonnia are warriors with few equals.</p>\n<ul>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.gPLOOZJ5mWtGan0W]{Man-At-Arms}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.NVi22pOIRIASimnD]{Peasant Bowman}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.LCwlSku8jxEIGKpX]{Yeoman}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.LCwlSku8jxEIGKpX]{Yeoman Sergeant}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.uOkTnJggijsRFBDs]{Grail Pilgrim}</li>\n<li>Battle Pilgrim</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.jV2te22OL3X4KU2e]{Foot Squire}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.ftyQ4DdFnPS3JlKT]{Foot Knight}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.u3IpmSwWobEdjAmc]{Son of Bretonnia}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.oB8PLLbK8hFlLQH1]{Knight Errant}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.R3IedqyKqgayQGJr]{Knight of the Realm}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.HCi21iKqCjsKsrOx]{Questing Knight}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.fGg1KB4X0AHlXoDC]{Grail Knight}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.4gxaTIbNBdCeUE9H]{Paladin}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.oyrLVxJiInXDcO5E]{Bretonnian Lord}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.wuaSacvZe41jLugY]{Grail Damsel}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.ziOPzlQupnCVvsAQ]{Prophetess of The Lady}</li>\n</ul>\n<p> </p>\n"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mBestiaryIdx01.JournalEntryPage.n0mBestBretonn01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382507,
+        "modifiedTime": 1787665382507,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mBestBretonn01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mBestiaryIdx01.n0mBestBretonn01"
+    },
+    {
+      "name": "Dog of War",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Dog of War Bestiary</h2>\n<p>The Dogs of War, also known as the Regiments of Renown, is a polite catch-all term to generally describe Mercenaries from all across the known World, fighting on behalf of anyone willing to pay their exorbitant prices. They are drawn to places where fortunes can be won by ruthless adventures. From the lush jungles of the West to the misty isles of the East, and from the steamy swamplands of the South to the harsh snowlands of the north, the world is truly awash with rag-tag armies of sellswords who nurture the wishful dreams of loot, plunder and adventure. Although many Dogs of War ply their bloody trade to every point on the compass, the most notorious breeding-ground of mercenaries lies within the fraction war-torn city-states of Tilea in the Old World. From all the kingdoms of the Old World and many more beyond, sell-swords come towards Tilea in the tens of thousands, reassured of profitable employment and great battles to be won. Tilea is the battleground from which these gold-hungry mercenaries will ply their expertise to all those willing to pay. Yet no matter the motivation, bold armies of Dogs of War depart every few weeks from the ports of Tilea and sail off into the sunset, ready to conqueror new lands and found new Kingdoms the likes of which no man have ever seen before.</p>\n<p><strong>Cost:</strong> Each Mercenary Company charges its own rates, some straight forward and others are bizarre and unique. These Cost rates are flat and pay for exactly one mercenary’s day of service. A full week of service is 3x the listed Cost for the mercenary, however they will not ask for a portion of any loot acquired. Time is money, and these elite mercenaries have no time for simple quick jobs and scuffles, they’re above that. If you wish to hire an entire Unit of mercenaries, the Cost will be multiplied by 10x, however they will not share any additional Traits purchased. To make controlling a Unit easier, add the Swarm Creature Trait to the Unit for the purposes of combat. Optional Traits may be purchased for a single mercenary and increase the GC Cost of the mercenary by 50% of their base price per Trait and an increase in their share of the loot by a percentage equal to their Initial Fellowship Bonus prior to any Traits added. Only one mercenary may have the @UUID[Compendium.wfrp4e-core.items.Item.wGTD2LezlI6Atyy0]{Leader} Trait.</p>\n<p><strong>Availability:</strong> Availability is relative to the Empire and requires a d100 roll by the GM to see if they may be hired within the territory the PCs occupy. If the PCs wish to hire a company from outside of their territory, they must write a letter with half of the required payment to the designated mercenary company and wait. Their request will take 30 + d10 Days until the PC receives an answer, meanwhile it will take 30 – Fellowship Bonus Days for the mercenary, or mercenaries, to arrive should they accept any contract with the PC. The Availability of these mercenaries is increased by 2x when in the lands of Araby, Estalia, Marienburg, The Border Princes or Tilea.</p>\n<h3> </h3>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.L8nQJZCKQaoHKwUB]{Empire Veteran Mercenaries}</h3>\n<p><strong>Cost:</strong> 4 GC + 5d10 Silver Shillings, 15% Portion of Loot</p>\n<p><strong>Availability:</strong> 30% Chance (Does not increase outside The Empire)</p>\n<p><strong>Nation of Origin:</strong> The Empire</p>\n<p><strong>Motto:</strong> None</p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.nhMl7rZa6FC2hROg]{Al Muktar’s Desert Dogs}</h3>\n<p>Al Muktar's Desert Dogs are a famous band of Dogs of War mercenaries that hail from the arid-deserts of great Araby. This band of bandit's and mercenaries are experienced raiders and skirmishers often raiding isolated villages, and caravans, while riding in calvary and wearing light armour or leather to make them agile in their attacks. Also, this Mercenary band is almost entirely composed of Arabyan corsairs or bandits from the inner deserts, where tribes of vicious warriors on camel-back raid the rich and fertile lands of Araby. This group however is lead by a foreigner, a man of the Empire, known as Werner Glook, a former son of a rich and aristocratic noblemen and merchant of the great City-State of Marienburg.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 5 GC + 2d10 Silver Shilling, 15% Portion of Loot or Jewelry</p>\n<p><strong>Availability:</strong> 10% Chance</p>\n<p><strong>Nation of Origin:</strong> Araby</p>\n<p><strong>Motto:</strong><em> “Mighty are the Muktarhin!”</em></p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.aHpqe27UlWkEAIoy]{Bearmen of Urslo}</h3>\n<p><sup id=\"fn_2a_back\"></sup></p>\n<p>The Bearmen, like many of the tribes of Norsca, are affected by the dark power of Chaos. This has made them as much beasts as men and all are touched with the mark of the were-bear to some extent, with shaggy hair, brutal ursine faces, massive teeth, and slashing claws. They wear barbaric clothing made of furs and held together with leather straps, and they have wild, unkempt hair. Their iron helmets have horns which make them look especially ferocious, and over their light chainmail armours, many wear long shaggy cloaks made from wild bears - often with the head or claws left on.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 5 GC + d10 Silver Shillings, +1 Corruption Point, 20% Portion of Loot</p>\n<p><strong>Availability:</strong> 10% Chance</p>\n<p><strong>Nation of Origin:</strong> Norsca</p>\n<p><strong>Motto:</strong> <em>“The Dark Gods bless us!”</em></p>\n<p> </p>\n<h3>Birdmen of Catrazza</h3>\n<p>The Birdmen of Catrazza are a famous band of Dogs of War mercenaries that hail from the Tilean city-state of Verezzo. Wearing their trademark bird-mask, these Mercenaries are famous throughout the lands of Tilea for their ability to fly across the battlefield by using a pair of wings made entirely of canvas stretched out over a light wooden frame. This is strapped to their shoulders by means of a harness that leaves both hands free to shoot a smaller variant of the crossbow. In flight, the wings can be flapped by means of a stirrup attached to the feet, allowing the Birdmen to glide up and down the battlefield.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 6 GC + 5d10 Silver Shillings, 20% Portion of Loot</p>\n<p><strong>Availability:</strong> 5% Chance</p>\n<p><strong>Nation of Origin:</strong> Verezzo, Tilean City-State</p>\n<p><strong>Motto:</strong> <em>“Those magnificent men in their flying machines.”</em></p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.oT7OHqnd6Tx8ANpS]{Braganza's Besiegers}</h3>\n<p>Lead by Luca Braganza the Braganza's Besiegers are a famous band of Dogs of War mercenaries that hails from the Tilean city-state of Miragliano, trained and maintained as heavily armored Crossbowmen. These veteran crossbowmen are typically equipped with thick plate Armour that protects the Besiegers from most harms, allowing them to fight against their foe's both in range and melee combat. The mercenary company uses a certain type of shield called a <em>Pavise</em>, which acts as a carriable shield either strapped into the Besiegers back, to protect the crossbowen while they reload, or stacked them up in a line to act as a make-shift barricade. The armour they wear is stylized in the exotic Miragliano style, with many wearing red-crested helmets. They have a strong rivalry with the Marksmen of Miragliano, both of whom are veteran crossbowmen mercenaries hailing from the same city.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 6 GC + 5d10 Silver Shillings, 20% Portion of Loot</p>\n<p><strong>Availability:</strong> 10% Chance</p>\n<p><strong>Nation of Origin:</strong> Miragliano, Tilean City-State</p>\n<p><strong>Motto:</strong> <em>“Invincibility at no extra charge.”</em></p>\n<p> </p>\n<h3>Bronzino's Galloper Guns</h3>\n<p>Al Muktar's Desert Dogs are a famous band of Dogs of War mercenaries that hail from the arid-deserts of great Araby. This band of bandit's and mercenaries are experienced raiders and skirmishers often raiding isolated villages, and caravans, while riding in calvary and wearing light armour or leather to make them agile in their attacks. Also, this Mercenary band is almost entirely composed of Arabyan corsairs or bandits from the inner deserts, where tribes of vicious warriors on camel-back raid the rich and fertile lands of Araby. This group however is lead by a foreigner, a man of the Empire, known as Werner Glook, a former son of a rich and aristocratic noblemen and merchant of the great City-State of Marienburg.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 5 GC + 5d10 Silver Shillings, Gun Parts,15% Portion of Loot</p>\n<p><strong>Availability:</strong> 5% Chance</p>\n<p><strong>Nation of Origin:</strong> Remas, Tilean City-State</p>\n<p><strong>Motto:</strong> <em>“The biggest bang for your bucks!”</em></p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.X3Elbf3yFrnJ8KYP]{Golgfag's Maneaters}</h3>\n<p>Golgfag's Maneaters also known as Golgfag's Ogres, are a famous band of Dogs of War mercenaries hailing from the arid mountains of the Ogre Kingdoms. This band of mercenaries consist entirely of Ogre Maneaters, lead by their leader and perhaps the most infamous Maneater alive, Golgfag Maneater. For as long as he had lived, Golfag Maneater has lead his brethren into countless battles for riches, glory, and most importantly, food. He has served in the armies of many warlords and generals of many nations, never discriminating on who he is fighting for or against.<sup id=\"fn_1a_back\"></sup></p>\n<p>Such is his reputation in the battlefield that the Ogres under his command are never short on employment. This Ogre company has seen many exotic lands and horrific battlefields, forging these already formidable warriors into battle-hardened veterans, even among their fearsome kin.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 9 GC, Massive Feast, 25% Portion of Loot</p>\n<p><strong>Availability:</strong> 5% Chance</p>\n<p><strong>Nation of Origin:</strong> The Ogre Kingdoms</p>\n<p><strong>Motto:</strong> <em>“You’ve hired da rest, now try da best!”</em></p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.rAkzbCWWrrQxy29t]{Leopold’s Leopard Company}</h3>\n<p>Leopold's Leopard Company is a famous band of Dogs of War mercenaries that has its origins within the great city-state of Luccini. The Leopard Company takes its name from the legendary Leopard of Luccini, which is a badge and mascot of the city. It is said that this Leopard was the guardian of the divine twins Lucan and Luccini, founders of the city. According to the story, the twins became lost in the wilderness  when they were still only children and took refuge in a cave carved on a great rock, later to be the acropolis of the city. The cave was the lair of a leopard, but this was no ordinary leopard, she had two heads and three tails! She could also speak prophecies from one of her heads and warnings from the other.<sup id=\"fn_1a_back\"></sup></p>\n<p>The Leopard protected the twins just as if they were her own cubs until shepherds found them. They also found the bones of many Orcs, wolves, bears and Trolls around the cave which the leopard had slain protecting the twins. According to the myth, the Leopard prophesied that Lucan and Luccina would found a great city on the rock and rule it as king and queen. Then the other head warned that the descendants of the twins would fight each other for the realm. After having thus spoken, the Leopard ventured deeper into the cave, and was never heard from again.<sup id=\"fn_1a_back\"></sup></p>\n<p>The temple of Lucan and Luccina was built over the cave in which credulous people still believe the leopard lives. The guardians of the temple, hired by the priests and paid for by pious donations from the merchants of the city, were called the Leopard Company because their sworn duty was to guard the acropolis as ferociously as the leopard! Thus the regiment adopted the leopard as its badge.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 6 GC + 5d10 Silver Shillings, 20% Portion of Loot</p>\n<p><strong>Availability:</strong> 10% Chance</p>\n<p><strong>Nation of Origin:</strong> Luccini, Tilean City-State</p>\n<p><strong>Motto:</strong> <em>“Proceeds to the Luccini Temple’s restoration fund.”</em></p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.RoSVafNpjI99AVth]{Long Drong Slayer Pirates}</h3>\n<p>Long Drong Slayer's Pirates (or Long Drong's Slayer Pirates<sup id=\"fn_2a_back\"></sup> are an infamous band of mercenary Sea Slayers that travel the seven seas aboard the <em>Fair Fregar</em>. They specialise in recovering lost pay chests - for the right price.<sup id=\"fn_1a_back\"></sup></p>\n<p>Long Drong has a hook hand, peg leg, eyepatch, long red plaited beard, pistols stuffed down his breeches and a parrot on his shoulder which says 'bits o' gold, bits o' gold' all the time. His crew are a swarthy bunch of rogues who are proud to fight under the skulls and crossbones flag. All the pirates are festooned with pistols, which they shoot off in a hurricane of destruction. They carry so many pistols that they never need to reload.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 4 GC + 4d10 Brass Pennies, Several Kegs of Ale, 10% Portion of Loot</p>\n<p><strong>Availability:</strong> 10% Chance</p>\n<p><strong>Nation of Origin:</strong> Sartosa, Tilean Pirate Republic</p>\n<p><strong>Motto:</strong> <em>“Lost pay chest recovery is our specialty.”</em></p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.kejBhhssYr7t0mRk]{Lumpin Croop’s Fighting Cocks}</h3>\n<p>Lumpin Croop's Fighting Cocks are a famous band of Dogs of War mercenaries that hail from the peaceful and agricultural farmlands of the Moot, the homeland of the Halfling race. Halflings are generally thought of as peaceful, well meaning, honest and sociable people, slow to anger and disdainful of violence. This, at least, is the common view, and it is a view readily encouraged by the sight of rosy cheeked, well-fed Halfling faces and broad Halfling smiles. Such are nature's gifts to that race, and the bountiful lands they occupy within the Empire of Man.<sup id=\"fn_1a_back\"></sup></p>\n<p>However, even amongst this tolerant and easy-going people, there is the odd proverbial rotten apple that spoils an otherwise toothsome batch. In this case, the rotten apple goes by the name of Lumpin Croop and the batch in question is known as Lumpin Croop's Fighting Cocks. Extraordinary trackers and excellent marksmen, this band of Halfling game-wardens and hunters have fought many battles under Lumpins leadership, using their expert tracking skills to lead their allies through thick wilderness to ambush enemy armies without being notice.<sup id=\"fn_1a_back\"></sup></p>\n<p>Lumpin Croop himself was a former thief and poacher before he became a mercenary, using his skills of stealth and tracking to mold the Fighting Cocks into what they are today. Ever since then, Lumpin has shown great compassion towards his fellow Halflings, staying up for hours to create an ingenious plan that would hopefully bring him and his company victory upon the battlefield.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 4 GC + d10 Silver, Meats &amp; Veggies, 15% Portion of Loot</p>\n<p><strong>Availability:</strong> 20% Chance</p>\n<p><strong>Nation of Origin:</strong> The Moot, Empire Province</p>\n<p><strong>Motto:</strong> <em>“Expert marksman, trackers and woodsmen. Baggage train guarding a specialty.”</em></p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.uZCzdwEEqCssQ60r]{Marksmen of Miragliano}</h3>\n<p>The Marksmen of Miragliano are a famous band of Dogs of War mercenaries whoses origins hails from the Tilean city-state of Miragliano as their name implies. Although the use of the crossbow as a weapon of war is far from uncommon in Tilea, very few mercenary companies can hope to match the accuracy and precision of these marksmen. Captain Maximilian Damark, who is a veteran marksman with dozens of years of experience, currently leads the company.<sup id=\"fn_1a_back\"></sup></p>\n<p>The crossbow has always been the favoured weapon in Tilea because its long range allows troops to shoot from high positions on the ramparts and across moats and ditches into the enemy hordes. Crossbow bolts are powerful enough to pierce armour and inflict mortal wounds on tough and determined opponents. The crossbow is also handy for use in confined spaces, like ramparts, towers, gateways, and the narrow strees of most Tilean cities and on board Tilean ships. It is therefore no surprise that the Tileans never really bothered with the use of ordinary bows.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 6 GC + 5d10 Silver Shillings, 20% Portion of Loot</p>\n<p><strong>Availability:</strong> 10% Chance</p>\n<p><strong>Nation of Origin:</strong> Miragliano, Tilean City-State</p>\n<p><strong>Motto:</strong> <em>“We hit the right spot every time.”</em></p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.YaROrcdNtNdeG7ee]{Pirazzo’s Lost Legion}</h3>\n<p>Pirazzo's Lost Legion<strong> </strong>are a famous band of Dogs of War mercenaries that had made legend for being one of the few armies in the world to have set foot upon the lush jungle-continent of Lustria, and live to tell the tale. Not only have these men survived this perilous journey, but their leader, Fernando Pirazzo himself became wealthy with the treasure he has gathered, and has since become a highly successful mercenary captain employed by the rich and wealthy of many nations of the Old World.<sup id=\"fn_1a_back\"></sup></p>\n<p>It is said that his legion fought for the mysterious Lizardmen civilization of Lustria, aiding them in destroying a force of Undead warriors assailing the jungle nation from the eastern coast. His highly-effective fighting force devastated the Undead hordes, and managed to grab a ship and set sail for home with a large cargo of fabulous treasures. It is said that he became so wealthy that one of the Merchant Princes of Tilea tried to assassinate him in order to steal his wealth.<sup id=\"fn_1a_back\"></sup></p>\n<p>Pirazzo's Lost Legion is all that remains of a expeditions sent to Lustria by the Merchants of Tobaro. The regiments in Tobaro were amongst the most reckless poverty-stricken youths of the city. The promise of untold wealth to be found in the jungles of Lustria was a temptation none could resist and they joined by the droves to be part of this magnificent expeditions. Although only one-third of these men will survive the journey, those that remain will become richer beyond their wildest dreams.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 6 GC + 5d10 Silver Shillings, 20% Portion of Loot</p>\n<p><strong>Availability:</strong> 10% Chance</p>\n<p><strong>Nation of Origin:</strong> Tobaro, Tilean City-State</p>\n<p><strong>Motto:</strong> <em>“Trained in Lustria.”</em></p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.XlCJ7EdMbJtA1P8V]{Ricco's Republican Guard}</h3>\n<p>Ricco's Republican Guard are a famous band of Dogs of War mercenaries hailing from the great Republican city-state of Remas. The Republican Guard was raised in Remas by a rebellious group of merchants during the time of disastrous famines and widespread revolt that preceded the birth of the Republic. The regiment played a leading part in overthrowing the tyrannical Merchant Prince of Remas, the notorious Omilio Mondo. It was upon one of the Guard's pikes that Mondo's head was paraded around the city to the drunken applause of the mob.<sup id=\"fn_1a_back\"></sup></p>\n<p>The revolt involved a great deal of vicious street fighting, in which no mercy was shown by either faction, and none asked for either. Several captains of the Republican Guard fell in quick succession, often shot in the back by Mondo's henchmen who had concealed themselves on the rooftops or high up in the bell towers surrounding the palace. In the thick of battle a common soldier named Ricco, known as Ragged Ricco because of his torn and bloodied clothing, assumed command. He seemed blessed by the war goddess herself and survived even the bloodiest hand-to-hand combat, despite fighting at the forefront of battle.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 6 GC + 5d10 Silver Shillings, 20% Portion of Loot</p>\n<p><strong>Availability:</strong> 5% Chance</p>\n<p><strong>Nation of Origin:</strong> Remas, Tilean City-State</p>\n<p><strong>Motto:</strong> <em>“Ricco’s Republican Guard. The price of freedom!”</em></p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.epKSc3dS0UaJx9h2]{The Alcatani Fellowship}</h3>\n<p>The Alcatani Fellowship are a famous band of Dogs of War mercenaries that hail from the tranquil countryside of war-torn Tilea. The Alcatani Fellowship are unlike any other mercenary company in existence, for not only are they a crack and able fighting force but they also share a common heart for all commoners and peasants alike. As such, the Fellowship were considered the only mercenary company not completely driven by money, fighting also for the good-will of the people, making Rodrigo an extremely famous and popular mercenary captain amongst the common people.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 4 GC + 5d10 Silver Shillings, 5% Portion of Loot</p>\n<p><strong>Availability:</strong> 20% Chance</p>\n<p><strong>Nation of Origin:</strong> Remas, Tilean City-State</p>\n<p><strong>Motto:</strong> “The cut-price cut-throats you can afford!”</p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.xJfn2Ffq7sqHuTJK]{Vespero's Vendetta}</h3>\n<p>Vespero's Vendetta are a famous band of Dogs of War mercenaries which soon earned a notorious reputation as deadly duellists, reliable bodyguards, and expert saboteurs and assassins. The rivalry between the Merchant princes of Tilea are so violent that everyone of a right mind would hire bodyguards. These bodyguards would protect their master from plotters, assassins, and rebels alike. Inevitably however, bodyguards of rival families or houses would often clash with other families and small street duels are an often common place in the largest of Tilean cities.<sup id=\"fn_1a_back\"></sup></p>\n<p>It is said that<strong> </strong>Stabbio the Bad, exiled Prince of Luccini, was the first to train his bodyguards as expert duellist, armed in what has since become the traditional duellist style. Others started copying his innovative style fighting after suffering at the hands of Stabbio's henchmen. A prince finding himself an exile or fugitive from his city is wise to hire a band of freelance duellist and use their services to regain or usurp power.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 7 GC + 5d10 Silver Shillings, 20% Portion of Loot or A Favor</p>\n<p><strong>Availability:</strong> 5% Chance</p>\n<p><strong>Nation of Origin:</strong> Luccini, Tilean City-State</p>\n<p><strong>Motto:</strong> <em>“Vengeance with a smile.”</em></p>\n<p> </p>\n<h3>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.KayWbVJgJwOsxn7j]{Voland's Venators}</h3>\n<p>Voland's Venators are a famous band of Dogs of War mercenaries whose reputation as the best cavalrymen in all of Tilea exceeds that of even veteran knights of the Empire or some say, even Bretonnia itself. These band of renegades, exiles, and disposed sons of nobles and lords are expert cavalrymen, and like everyone in the company, their leader is also a superb horsemen. The leader and captain of this expert band of knights is named Voland. No one knows of Voland's origin, but some say he was the son of a noblemen of the Empire, or the disposed son of an Elector Count, and some would even say that he is none other then the bastard son of the Emperor himself. Voland himself neither denies nor acknowledges these rumours.<sup id=\"fn_1a_back\"></sup></p>\n<p>Voland came to Tilea from somewhere within the Empire. At the time he was just one of many mercenary heroes hired by the Tileans in the never-ending civil wars that ravaged the land. He rose to prominence as leader of a band of mercenary knights called the Venators, which means \"Hunters\" in low Tilean. The motives of Voland and his brother knights could not have been more different from the Bretonnian or even the Empire traditions of Knighthood. They were soldiers of fortune interested only in two things, namely money and spending it. They were also expert cavalry whose thunderous charge could scatter the deepest enemy formations - something which the Tileans desperately needed, but lacked until that time.<sup id=\"fn_1a_back\"></sup></p>\n<p style=\"text-align:right\"><strong>- Warhammer Wiki</strong></p>\n<p><strong>Cost:</strong> 6 GC + 5d10 Silver Shillings, Barrel of Wine or Ale, 20% of Loot</p>\n<p><strong>Availability:</strong> 5% Chance</p>\n<p><strong>Nation of Origin:</strong> The Empire</p>\n<p><strong>Motto:</strong> <em>“Voland’s Venators. The answer. No questions asked.”</em></p>\n<p> </p>\n"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mBestiaryIdx01.JournalEntryPage.n0mBestDoW000001",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382507,
+        "modifiedTime": 1787665382507,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mBestDoW000001",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mBestiaryIdx01.n0mBestDoW000001"
+    },
+    {
+      "name": "Kislev",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Kislev Bestiary</h2>\n<p>Standing at the very doorsteps of madness and corruption, the nation of Kislev has been, since its founding, a nation driven by warfare. Throughout the course of human history, Kislev has always bred hardy people, not only because of the harsh climate and generally infertile lands, but also due to the constant depredation by the raiders of the Northern Waste. The fiery hatred for these Men of the North is well evident, for so many years have the sons of Kislev died by their hands, with the Ungol tribes of the north bearing the greatest of this hatred. Since the founding of this mighty kingdom, Kislev has been, since its very creation, under siege by the murderous Hordes of Chaos Undivided, a kingdom that sits forever at the brink of total annihilation. Countless generations of Kislevites have fought, bled, and died in the snowy tundra of those harsh northern lands, and it is thanks to these brave Kislevite warriors that the Kingdoms of Men have managed to flourish in the south, huddled together in their warm and safe homes, whilst the Sons of Kislev fight till they draw their last dying breath.</p>\n<ul>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.UjsV5XyLJHwjA8T0]{Horse Archer}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.gZEDWIJk7AIPpIiB]{Kossar}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.ELxhJnZLBzkNIAdt]{Streltsi}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.BWJK6DMNrA3MFMjo]{Streltsi Captain}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.LVIOChpPxdGhJ93g]{Winged Lancer}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.QcYM1A5Z1sr6oKv2]{Gryphon Legion}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.Hd8uwSARr9bOcm9T]{Chekist}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.SOu0NS1fwqlGykjo]{Silovik}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.M5tFSOyWEhLvp9qG]{Kreml Guard}</li>\n<li>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.9ekpHFDsRM9i5pE9]{Boyar}</li>\n</ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mBestiaryIdx01.JournalEntryPage.n0mBestKislev001",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382507,
+        "modifiedTime": 1787665382507,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mBestKislev001",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mBestiaryIdx01.n0mBestKislev001"
+    }
+  ],
+  "categories": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1787665382507,
+    "modifiedTime": 1787665382507,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!journal!n0mBestiaryIdx01"
+}

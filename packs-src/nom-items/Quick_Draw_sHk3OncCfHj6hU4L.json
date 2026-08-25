@@ -1,0 +1,60 @@
+{
+  "_id": "sHk3OncCfHj6hU4L",
+  "name": "Quick Draw",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/quick-draw.webp",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623981198,
+    "modifiedTime": 1787624182325,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You have practiced so frequently with your weapons that they practically leap into your hands in response to a simple thought. Once per Round, you can draw and ready a one-handed weapon for free without the use of a Free Action outside of the normal Initiative sequence.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "dex"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": "Ranged (Point Blank) with pistols"
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 0,
+  "_key": "!items!sHk3OncCfHj6hU4L"
+}

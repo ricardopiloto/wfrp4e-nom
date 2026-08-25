@@ -6,7 +6,7 @@ Foundry VTT module for **Warhammer Fantasy Roleplay 4th Edition**: compendium co
 
 ## What this module is for
 
-It gives you **Items**, **Journals**, **Roll Tables**, and **career / talent** packs so you can run Nations of Mankind material in Foundry.  
+It gives you **Items**, **Journals**, **Roll Tables**, a **Bestiary** (Actor pack), and **career / talent** helpers so you can run Nations of Mankind material in Foundry.  
 A few **automatic helpers** run when specific talents or careers are added (see below). Everything else is played with normal WFRP4e rules and GM judgment.
 
 ---
@@ -51,7 +51,9 @@ You do **not** need to hand-edit install URLs in the tracked **`module.json`** o
 
 Human-editable documents live under **`packs-src/<pack-name>/`** (one JSON file per Foundry document). LevelDB **`packs/`** folders are **not committed** (see `.gitignore`); regenerate them locally with **`npm install`** then **`npm run packs:build`**. GitHub **Releases** run the same compile before zipping, so installers always receive **`packs/...`** in the canonical Foundry LevelDB layout. To capture edits made inside Foundry instead, copy the LevelDB folders into the repo temporarily and run **`npm run packs:extract`**, review diffs under `packs-src/`, commit JSON, discard temp LevelDB copies if needed.
 
-**Nationality career roll tables** (`packs-src/nom-tables/Career___Human__*.json`) should use **Core Rulebook** career **`results.name`** strings (see packaged **Class and Careers** journal under **`nom-journals`**). After importing rolls that still use supplement-style labels, run **`npm run career-tables:remap-core-names`** then **`npm run career-tables:migrate`** (dry-run + **`reports/`**) or **`npm run career-tables:migrate:write`**, then **`npm run packs:build`**. **`reports/career-rolltable-unmatched.txt`** should list **no** unmatched rows when remap + migrate are current.
+**Nationality career roll tables** (`packs-src/nom-tables/Career___Human__*.json`) should use **Core Rulebook** career **`results.name`** strings and link Core rows to **`Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL`** (official Class and Careers journal — do **not** ship a copy in this module). NoM-only careers link to **`nom-journals`** Careers. After importing rolls that still use supplement-style labels, run **`npm run career-tables:remap-core-names`** then **`npm run career-tables:migrate`** (dry-run + **`reports/`**) or **`npm run career-tables:migrate:write`**, then **`npm run packs:build`**. **`reports/career-rolltable-unmatched.txt`** should list **no** unmatched rows when remap + migrate are current.
+
+**Empire Medals & Honors** catalog: regenerate with **`npm run medals:generate`**; id map **`reports/medals-honors-id-map.md`**; smoke **`reports/medals-honors-smoke.md`**. Player/GM automation status is documented under **[Medals & Honors (automation in progress)](#medals--honors-automation-in-progress)** below.
 
 ### Maintainers: icon WebP conversion
 
@@ -82,13 +84,13 @@ Use a throwaway world or player test: enable **WFRP4e** + **`wfrp4e-core`** + **
 
 1. Start **Character Creation** as **Human** and pick each NoM subspecies in turn (examples: **Tilean**, **Arabyan**, **Bretonnian Lowborn**, **Bretonnian Noble**, **Wastelander / Marienburger**, **Norscan**, …).
 2. On the **career** roll step, confirm randomisation uses the **`nom-tables`** document whose title matches **`Career - Human (...)`** for that nationality (**`flags.wfrp4e.column`** is **`human-<…>-nom`**; see **`scripts/nom-subspecies-registry.js`** + table JSON).
-3. If a rolled label errors or never links to the packaged **Class and Careers** journal, see **`reports/career-rolltable-unmatched.txt`**, run **`npm run career-tables:remap-core-names`** then **`career-tables:migrate:write`** again; maintainer map is archived under **`openspec/changes/archive/2026-05-09-remap-nom-career-rows-core-catalog/`**.
+3. If a rolled label errors or never links to the Core **Class and Careers** journal (`wfrp4e-core.journals`), see **`reports/career-rolltable-unmatched.txt`**, run **`npm run career-tables:remap-core-names`** then **`career-tables:migrate:write`** again; maintainer map is archived under **`openspec/changes/archive/2026-05-09-remap-nom-career-rows-core-catalog/`**.
 
 ---
 
 ## What you get (content)
 
-- **Compendiums**: Items, Journals, Tables (Nations of Mankind).
+- **Compendiums**: Items, Journals, Tables, Bestiary actors (Nations of Mankind).
 - **Assets**: Icons for careers, talents, spells, gear, etc.
 
 ### Careers checklist (PDF ↔ module)
@@ -96,7 +98,7 @@ Use a throwaway world or player test: enable **WFRP4e** + **`wfrp4e-core`** + **
 Source: `pdf/Nations of Mankind (Ratter Submission)_2.pdf` (Table of Contents, career pages **15–64**).  
 Module source of truth: Careers journal `Nations_of_Mankind___Careers` + matching `nom-items` tiers.
 
-**Summary:** **40 / 47** PDF careers have a journal page · **7** still missing.
+**Summary:** **47 / 47** PDF careers have a journal page · **0** missing.
 
 #### Done (in module)
 
@@ -138,18 +140,19 @@ Module source of truth: Careers journal `Nations_of_Mankind___Careers` + matchin
 - [x] Rajput Warrior → Ind Rajput Warrior
 - [x] Ronin → Nippon Ronin
 - [x] Samurai → Nippon Samurai
+- [x] Sartosan Pirate
+- [x] Skald → Norscan Skald
+- [x] Swordsaint → Cathayan Swordsaint
+- [x] Vampire Hunter
 - [x] Vimto Monk → Nippon Vimto Monks
+- [x] Whaler → Norscan Whaler
 - [x] Winged Lancer → Kislev Winged Lancer
+- [x] Witch Doktor
+- [x] Zunu
 
 #### To do (in PDF, not yet in module)
 
-- [ ] Sartosan Pirate (p. 56)
-- [ ] Skald (p. 57)
-- [ ] Swordsaint (p. 58)
-- [ ] Vampire Hunter (p. 59)
-- [ ] Whaler (p. 61)
-- [ ] Witch Doktor (p. 63)
-- [ ] Zunu (p. 64)
+*(none — checklist complete)*
 
 ---
 
@@ -172,10 +175,36 @@ Implementation is centred on `scripts/talent-specialization-handler.js`, plus `s
 
 ---
 
+## Medals & Honors (automation in progress)
+
+Empire **Medals & Honors** (journal **Nations of Mankind - The Empire** → page **Medals & Honors**) ship as **18** catalog items in **`nom-items`**: **15** wearable Imperial Honor medals + **3** Kill Count talents (**Hunter** / **Killer** / **Reaper**). All entries already have full award/bonus text and journal `@UUID` links. Catalog art uses the WFRP system default blank portrait (dedicated medal art can replace it later). **Mechanical automation is rolled out in waves** via Active Effects on those items (no separate `esmodules` helper for medals yet).
+
+### How to use at the table
+
+1. Open the Empire **Medals & Honors** page (or the items compendium) and drag the honor onto the character.
+2. **Imperial Honors:** keep the medal **worn/equipped** for wearer bonuses. Unequip to turn automated bonuses off.
+3. **Kill Counts:** set **Enemy Type** (rename to e.g. `Hunter (Beastmen)` and/or set `flags.wfrp4e-nom.killCountEnemy`). For one enemy, only the **highest** rank should remain (Reaper > Killer > Hunter) — the GM removes/supersedes lower ranks.
+4. **Recipient rules** (Medal Notes): talents and earner-only benefits are **GM-enforced**; the module does not lock medals to an “original recipient” id.
+5. **“Add talent to career list”** lines on medals are **manual** (GM/player adds Core talents as usual).
+
+### Automation status by wave
+
+| Wave | Status | Entries | What is automated today |
+|------|--------|---------|-------------------------|
+| **1** | **Done** (first ship) | Pure Soul Medal, White Dove, Platinum Owl, Artillerist’s Honors, Hunter | Skill dialog **+10** where the listed skill matches (Pray / Heal / Lore specializations / Engineering lore & Ranged Engineering; Hunter Perception/Cool-style tests when Enemy Type is set). Medals require **worn**. |
+| **2** | **In progress / planned** | Sacred Fire Medal, Medal of Destiny, Martyr’s Medal, Killer | Regen / Body AP / Fortune→Fear-Terror / combat +SL vs Enemy Type — **rules on the item; GM applies until effects land**. |
+| **3** | **Planned** | Black Raven, Bronze Stag, Rat Slayer Commendation, Iron Comet, Silver Wolf, Golden Eagle | Situational weapon qualities / damage vs foe types — **manual until automated**. |
+| **4** | **Planned** | Reaper, Meteoric Medal, Magnus Cross | Fear ranks, escalating Ward, critical-table hooks — **manual until automated**. |
+
+Items not yet automated still list the full published bonuses and a short **“GM applies manually”** note so nothing is silently omitted.
+
+---
+
 ## Not automated (or manual / deferred)
 
 | Topic | Status |
 |--------|--------|
+| **Medals & Honors Waves 2–4** | Catalog + full text shipped; combat/regen/crit/Ward scripts **not** automated yet — see **[Medals & Honors](#medals--honors-automation-in-progress)**. |
 | **Path of the Flame** | **`scripts/martial-artist-path-flame.js`** is **not** loaded from `module.json`. No module runtime for this path. |
 | **Other Martial Artist paths** (except optional paste below) | No general “path abilities” automation in shipped JS — use rules + item effects manually. |
 | **Kenjutsu / Mark of the Gods mechanical effects** | Picker + item swap only — not full rules automation per style/mark. |

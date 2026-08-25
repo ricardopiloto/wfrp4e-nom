@@ -161,7 +161,7 @@
       "_key": "!items.effects!N9y23cqeuirhu5YM.5XygJTvWrhGq2GOL"
     }
   ],
-  "sort": 0,
+  "sort": 2400000,
   "ownership": {
     "default": 0,
     "bwuOpMGVHBESXkjP": 3
@@ -175,8 +175,8 @@
     "systemId": "wfrp4e",
     "systemVersion": "9.5.4",
     "createdTime": 1776816665963,
-    "modifiedTime": 1776824672243,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787623977972,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_key": "!items!N9y23cqeuirhu5YM"
 }

@@ -6,6 +6,36 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Unreleased
 
+## [Version 1.4.0](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.4.0) (2026-08-25)
+
+### Compendiums
+
+- *Added* Actor pack **`nom-bestiary`** (label **Nations of Mankind - Bestiary**) in **`module.json`** / **`packFolders`**; JSON source is **`packs-src/nom-bestiary/`** (**91** creatures). Player ownership is **NONE** (GM-only), matching Core Bestiary.
+- *Removed* duplicate **Demigryph War Mount** actor (`uhiKIqYjgLud2ACk`); canonical id **`O7WMkJcCYM0CaTcI`**.
+- *Changed* **Lustrian Luchador** on nationality tables: roll **95** on **Estalian** and **Tilean** (`Pit Fighter` slot swapped); migrate aliases for short name **Luchador**.
+
+### Items / journals
+
+- *Changed* Empire **Medals & Honors** catalog portraits (and Wave 1 effect icons) from the shared medal placeholder to the WFRP system default **`systems/wfrp4e/icons/blank.png`** (Talent and Trapping); generator/templates updated; placeholder asset removed.
+- *Added* Empire **Medals & Honors** playable catalog (**18** `nom-items`): **15** wearable Imperial Honor trappings + **3** Kill Count talents (Hunter / Killer / Reaper); Empire journal page links; Wave 1 skill Active Effects (Pure Soul, White Dove, Platinum Owl, Artillerist’s Honors, Hunter). Tooling: **`scripts/generate-medals-honors-items.mjs`**, id map **`reports/medals-honors-id-map.md`**. OpenSpec: **`add-medals-honors-items`**.
+- *Added* Journal **Nations of Mankind - Armory** (`n0mArmory0000001`): Empire attachments (PDF 78–80), New Qualities, Melee / Ranged / Armour / Siege tables linked to `nom-items`, Mounts linked to `nom-bestiary`; hub **Start Here** link. Tooling: **`npm run journals:armory[:write]`**.
+- *Added* Missing PDF Armory gear in **`nom-items`**: Tonfa, Glaive, Air Rifle, Triple-Barrel Repeater Pistol, Chakram, Kunai, Shuriken, Throwing Hammer, special arrows / Pellets, Reiksplate Bracers, Horo Cloak, Skull Trophies; deduped Tiger Claws / Poleaxe. Tooling: **`scripts/fix-todo-nom-items.mjs`**.
+- *Changed* Synced PDF careers **Sartosan Pirate**, **Skald**, **Swordsaint**, **Vampire Hunter**, **Whaler**, **Witch Doktor**, **Zunu** (tier stats + journals + nationality tables); created **Zunu Militiaman** L1; journal career icons from **`icons/careers/`**; README careers checklist **47/47**.
+- *Changed* `careers:normalize` **ICON_PAGE_ALIAS** for **Cathayan Swordsaint** → `cathay-sword-saint.webp`; removed NoM careers from **`remap-nom-career-rows-to-core`** REMAP.
+- *Removed* Packaged **Core — Class and Careers** journal copy; nationality tables and NoM journals now link **`Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL`**.
+- *Changed* **Sprint B** journal IA: split **Additional Rules** into **Start Here**, **Peoples** (13), **The Empire** (4+TOC), **Regiments of Renown**, **Dogs of War**, **Nation Rules**, **Bestiary Index** (5+TOC), **Talents**; rename **Lores & Faith**; link official Core **Class and Careers** (do not ship a copy); remove empty **Prayers**. Tooling: **`npm run journals:sprint-b[:write]`** (`reports/sprint-b-journal-map.json`).
+- *Changed* Nation Rules dedupe: Kislev / Ind / Araby / Nippon lore blocks → pointers into **Lores & Faith**.
+- *Changed* **Lores & Faith** Divine Lore pages (**Araby**, **Ind**, **Kislev**, **Nippon**): blessings as `<ul>` of `@UUID` links; strictures in `<blockquote class="sidebar">` (replaces combined table + list).
+- *Changed* Sprint A link migration: all remaining **`@Compendium`** in **`packs-src`** (journals, bestiary nested items, NoM spells/prayers/talents) → **`@UUID`**; legacy **`bestiary-nom`** → **`nom-bestiary.Actor.*`** (5 missing creatures left as plain text). Tooling: **`npm run links:sprint-a[:write]`**.
+- *Changed* **Summon Djinn** / **Form of the Frostfiend** religados aos Actors Djinn / Frostfiend (e variantes elementais).
+- *Changed* Nested Bretonnian virtue icons on bestiary actors: **`nations-of-mankind-wfrp4e`…png** → **`wfrp4e-nom`…webp**.
+- *Changed* New **`nom-items`** trappings, armor, siege weapons, talents, and Grail Virtues: icon paths from legacy **`nations-of-mankind-wfrp4e`** **`.png`** → **`wfrp4e-nom`** **`.webp`**; **`@Compendium`** / entity-links → **`@UUID`** (`wfrp4e-core.items.Item.*`).
+- *Added* Talent **Surgical Precision** (`bgJAtvDV67bnUe6G`) — clears Corsair missing-talent report.
+- *Changed* Journals (legacy **Additional Rules**, **Class and Careers**, **Careers**, **Lores**): migrate legacy core **`@Compendium`** links; Empire knightly orders page; bare **`JournalEntry`** UUIDs → full Compendium paths; refresh **`compendiumSource`** metadata.
+- *Changed* **Warhammer Nations** (now under **Peoples**): **361** skill/talent/trait links → core **`items.Item`** UUIDs; repaired labels **Prejudice (Bretonnians)**, **Strider (Snow)**; **Careers** label **Fearless (Beastmen or Greenskins)**; Class and Careers bare journal UUIDs completed.
+- *Changed* **Talents** master list (own journal): all **`nom-items`** talents (**89**) as alphabetical `@UUID` links.
+- *Changed* Journal readability pass: remove spacer paragraphs; unify field labels and `Item.` UUIDs; strip wiki/ChatGPT markup; center Advance Scheme / Empire section titles; clearer XP progressions.
+
 ## [Version 1.3.2](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.3.2) (2026-08-24)
 
 ### Packaging
@@ -31,7 +61,6 @@ All notable changes to this project will be documented in this file. The format 
 
 ### Known gaps (unchanged)
 
-- *Note* Missing NoM talent item **Surgical Precision** (`bgJAtvDV67bnUe6G`) still referenced by **Arabyan Corsair** (`reports/nom-career-missing-talents.txt`).
 - *Note* Nationality tables: unmatched **Sartosan Pirate**; **Lustrian Luchador** still has no nationality table row.
 
 ## [Version 1.3.1](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.3.1) (2026-08-24)

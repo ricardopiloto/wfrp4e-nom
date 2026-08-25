@@ -1,0 +1,255 @@
+{
+  "_id": "B9Mk76rF7Hc9e72n",
+  "name": "Lamellar Chausses",
+  "type": "armour",
+  "img": "modules/wfrp4e-core/icons/equipment/armour/mail-chausses.png",
+  "effects": [
+    {
+      "_id": "2SiYN6X2rYf9GwnG",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "transfer": true,
+      "flags": {
+        "wfrp4e": {
+          "hide": false,
+          "_legacyData": {
+            "effectApplication": "equipped",
+            "effectTrigger": "prefillDialog",
+            "preventDuplicateEffects": false,
+            "script": "if (args.type == \"skill\" && args.item.name.includes(\"Stealth\"))\n   args.prefillModifiers.modifier -= 10"
+          }
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787624306689,
+        "modifiedTime": 1787624306689,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Lamellar Chausses",
+      "img": "modules/wfrp4e-core/icons/equipment/armour/mail-chausses.png",
+      "system": {
+        "changes": [],
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": true,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "shape": {
+              "color": null,
+              "type": "circle",
+              "angle": 60,
+              "curvature": "round",
+              "base": {
+                "width": 1,
+                "height": 1,
+                "hole": false,
+                "shape": 4,
+                "type": "token"
+              }
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false,
+              "visibility": 0
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Lamellar Chausses",
+            "trigger": "dialog",
+            "script": "if (args.type == \"skill\" && args.item.name.includes(\"Stealth\"))\n   args.prefillModifiers.modifier -= 10",
+            "options": {
+              "activateScript": "return true",
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "start": null,
+      "type": "base",
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_key": "!items.effects!B9Mk76rF7Hc9e72n.2SiYN6X2rYf9GwnG"
+    }
+  ],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787624306689,
+    "modifiedTime": 1787624342202,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "HbC5TWvEu9iEIzyL": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 3
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 8,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "exotic"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": ""
+    },
+    "damageToItem": {
+      "type": "Number",
+      "value": 0,
+      "shield": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "armorType": {
+      "type": "String",
+      "label": "Armour Type",
+      "value": "plate"
+    },
+    "penalty": {
+      "type": "String",
+      "label": "Penalty",
+      "value": "-10 Stealth"
+    },
+    "qualities": {
+      "type": "String",
+      "label": "Qualities",
+      "value": [
+        {
+          "name": "missile-resistant",
+          "value": null
+        },
+        {
+          "name": "durable",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "type": "String",
+      "label": "Flaws",
+      "value": []
+    },
+    "special": {
+      "type": "String",
+      "label": "Special",
+      "value": ""
+    },
+    "AP": {
+      "head": 0,
+      "lArm": 0,
+      "rArm": 0,
+      "lLeg": 2,
+      "rLeg": 2,
+      "body": 0
+    },
+    "APdamage": {
+      "head": 0,
+      "lArm": 0,
+      "rArm": 0,
+      "lLeg": 2,
+      "rLeg": 2,
+      "body": 0
+    },
+    "equipped": {
+      "value": false
+    }
+  },
+  "sort": 4300000,
+  "_key": "!items!B9Mk76rF7Hc9e72n"
+}

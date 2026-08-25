@@ -1,0 +1,60 @@
+{
+  "_id": "VANOdNWFo3P9gzxg",
+  "name": "Ambusher",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/ambusher.webp",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623965325,
+    "modifiedTime": 1787624072132,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>A battle is easily won if the enemy does not know they are fighting. You take this tactic to heart, striving to always seize the initiative and make the most of the element of surprise to finish fights before they truly begin. Your melee attacks against @Condition[Surprised] Targets gain a SL bonus equal to your levels of Ambusher.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "ag"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": "Melee when attacking a Surprised target"
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 100000,
+  "_key": "!items!VANOdNWFo3P9gzxg"
+}

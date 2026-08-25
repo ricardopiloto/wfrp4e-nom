@@ -1,0 +1,60 @@
+{
+  "_id": "ijvxbPdaMBblJ3b2",
+  "name": "Overkill",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/overkill.webp",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623980440,
+    "modifiedTime": 1787624175691,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You have spent enough time fighting the enemies of the Old World to know that some creatures do not die when all sense says that they should expire, and that it is better to be safe than sorry when dealing with the unknown. Once per encounter, when you hit with a ranged attack, you may make a <strong>Challenging (+0) Perception </strong>Test. If successful, you add the SL to the Ranged Test for the attack. If you have the @UUID[Compendium.wfrp4e-core.items.Item.9h82z72XGo9tfgQS]{Acute Sense (Sight)} Talent, any benefits you receive from it may be applied to this Talent.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 0,
+  "_key": "!items!ijvxbPdaMBblJ3b2"
+}

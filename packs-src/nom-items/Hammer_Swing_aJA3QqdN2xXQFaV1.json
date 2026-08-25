@@ -1,0 +1,60 @@
+{
+  "_id": "aJA3QqdN2xXQFaV1",
+  "name": "Hammer Swing",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/hammerswing.webp",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623978840,
+    "modifiedTime": 1787624161891,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You strike blows with such focus and force that it breaks armor and pulps flesh as it strikes. When using a single-handed melee weapon with two hands to make a single melee attack, you add +1 Strength Bonus to the attack. Any Melee (Two-handed) weapon with the <em>Hack </em>or <em>Pummel </em>Quality may also count as having the <em>Impact </em>Quality for a number of attacks equal to your level of Hammer Swing per day, to represent the shocking force of your blow&rsquo;s impacts. Any attack made using the <em>Impact </em>Quality in this manner after expending your daily uses requires a <strong>Very Hard (-30) Endurance</strong> Test. If failed, you receive one @Condition[Fatigued] Condition.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "s"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 0,
+  "_key": "!items!aJA3QqdN2xXQFaV1"
+}

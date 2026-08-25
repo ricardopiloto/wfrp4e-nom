@@ -9,12 +9,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.3.2",
     "createdTime": 1766508830643,
-    "modifiedTime": 1766509328023,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787623977974,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "ownership": {
     "default": 0,
@@ -55,6 +55,6 @@
     }
   },
   "folder": "DsekJv5UvKUKIUpc",
-  "sort": 100000,
+  "sort": 5400000,
   "_key": "!items!k3H9GpfaIxdyZt4m"
 }

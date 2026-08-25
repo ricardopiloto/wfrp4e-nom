@@ -1,0 +1,87 @@
+{
+  "_id": "n0mMedalDestiny1",
+  "name": "Medal of Destiny",
+  "type": "trapping",
+  "img": "systems/wfrp4e/icons/blank.png",
+  "effects": [],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {},
+    "wfrp4e-nom": {
+      "honorKind": "imperialMedal"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Awarded For:</strong> Accomplishing perilous and borderline suicidal missions granted by an official of high esteem within the Empire, so dangerous you would have most likely needed divine aid to have survived.</p><p><strong>Description:</strong> A gold medallion encrusted with gemstones in the colors of the local Province and the seal of a noble house etched on top.</p><p><strong>Bonuses:</strong> The wearer of this medal gains 1 AP on the Body, and the @UUID[Compendium.wfrp4e-core.items.Item.u0CFf3xwiyidD9T5]{Luck} and @UUID[Compendium.wfrp4e-core.items.Item.1IVGksL10N7GVrw3]{Noble Blood} Talents are added to the Talent list of any career you are in. If the AP is Damaged, it takes until sunrise the following day for it to recover.</p><p><em>Automation (Wave 2):</em> Until automated, the GM applies the bonuses above manually when the medal is worn (Imperial Honors) or when the honor applies (Kill Counts).</p><h3>Medal Notes</h3>\n<p>Talents granted by medals apply only to the <strong>original recipient</strong>. Non-talent bonuses require the medal to be <strong>worn</strong> by the earner. Non-earners do not gain these benefits — the GM enforces recipient rules (no automatic earner lock). Medals can be identified with Easy (+40) Lore (Empire / Heraldry / History). Fake medals: Evaluate + Numismatics (GM difficulty).</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 0,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "exotic"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "clothingAccessories"
+    },
+    "worn": true,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "qualities": {
+      "label": "Qualities",
+      "value": []
+    },
+    "flaws": {
+      "label": "Flaws",
+      "value": []
+    }
+  },
+  "sort": 0,
+  "_key": "!items!n0mMedalDestiny1"
+}

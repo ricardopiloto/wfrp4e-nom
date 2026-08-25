@@ -1,0 +1,162 @@
+{
+  "_id": "NA9nNQxYfR1l3BBn",
+  "name": "Hydra Flail",
+  "type": "weapon",
+  "img": "modules/wfrp4e-nom/icons/trappings/weapons/hydra-flail.webp",
+  "effects": [],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787624295161,
+    "modifiedTime": 1787624342201,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "HbC5TWvEu9iEIzyL": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 3
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 4,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "rare"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": ""
+    },
+    "damageToItem": {
+      "type": "Number",
+      "value": 0,
+      "shield": 0
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": "SB+6"
+    },
+    "reach": {
+      "type": "String",
+      "label": "Reach",
+      "value": "long"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": ""
+    },
+    "skill": {
+      "type": "String",
+      "label": "Skill Override",
+      "value": ""
+    },
+    "modeOverride": {
+      "type": "String",
+      "label": "Mode Override",
+      "value": ""
+    },
+    "twohanded": {
+      "type": "Boolean",
+      "label": "Two-Handed",
+      "value": true
+    },
+    "ammunitionGroup": {
+      "type": "String",
+      "label": "Ammunition Group",
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": "0"
+    },
+    "consumesAmmo": {
+      "value": true
+    },
+    "weaponGroup": {
+      "type": "String",
+      "label": "Weapon Group",
+      "value": "flail"
+    },
+    "qualities": {
+      "label": "Qualities",
+      "value": [
+        {
+          "name": "damaging",
+          "value": null
+        },
+        {
+          "name": "distract",
+          "value": null
+        },
+        {
+          "name": "wrap",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "label": "Flaws",
+      "value": [
+        {
+          "name": "imprecise",
+          "value": null
+        }
+      ]
+    },
+    "special": {
+      "type": "String",
+      "label": "Special",
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "sort": 3400000,
+  "_key": "!items!NA9nNQxYfR1l3BBn"
+}

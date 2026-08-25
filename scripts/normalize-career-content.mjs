@@ -165,7 +165,10 @@ const CAREER_GROUP_PAGE_ALIAS = new Map([
   ["Cathayan Dragon Monk", "Celestial Dragon Monk"],
   ["Man At Arms", "Bretonnian Man-At-Arms"],
   ["Reaver", "Norscan Reaver"],
-  ["Ronin", "Nippon Ronin"]
+  ["Ronin", "Nippon Ronin"],
+  ["Skald", "Norscan Skald"],
+  ["Whaler", "Norscan Whaler"],
+  ["Swordsaint", "Cathayan Swordsaint"],
 ]);
 
 function resolveCareerPageName(careerGroup, pageByName) {
@@ -253,6 +256,16 @@ async function loadNomItemsIndex() {
   return { byId, byCareerGroup };
 }
 
+/**
+ * Page name → icon basename when kebab filename ≠ normalizeKey(pageName).
+ * Keys are journal `pages[].name`.
+ */
+const ICON_PAGE_ALIAS = new Map([
+  ["Cathayan Swordsaint", "cathay-sword-saint.webp"],
+  ["Celestial Dragon Monk", "cathayan-dragon-monk.webp"],
+  ["Albinonese Highlander", "albionese-highlander.webp"],
+]);
+
 async function loadIconMap() {
   /** @type {Map<string, string>} normalized page name -> filename */
   const map = new Map();
@@ -277,6 +290,12 @@ async function loadIconMap() {
 }
 
 function resolveIcon(pageName, iconMap) {
+  const alias = ICON_PAGE_ALIAS.get(pageName);
+  if (alias) {
+    const known = new Set(iconMap.values());
+    if (known.has(alias)) return alias;
+  }
+
   const key = normalizeKey(pageName);
   if (iconMap.has(key)) return iconMap.get(key);
 

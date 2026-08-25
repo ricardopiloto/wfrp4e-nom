@@ -1,0 +1,87 @@
+{
+  "_id": "n0mMedalMagCro01",
+  "name": "Magnus Cross",
+  "type": "trapping",
+  "img": "systems/wfrp4e/icons/blank.png",
+  "effects": [],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {},
+    "wfrp4e-nom": {
+      "honorKind": "imperialMedal"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Awarded For:</strong> Preserving the Empire by protecting an Imperial figure of great importance from harm, such as an Elector Count or the Emperor (with their knowledge of your actions, of course).</p><p><strong>Description:</strong> A black cross made of obsidian gemstone, with a gold trim and a golden skull wearing a civic crown in its center.</p><p><strong>Bonuses:</strong> Whenever the wearer of this medal inflicts a Critical Hit against a Greenskin, Servant of Chaos or Undead, you may roll twice on the Critical Wounds Table and pick the higher result. Greenskins, Servants of Chaos and Undead may not ignore the Critical Wound under any circumstances (unless they successfully dodge it with an Opposed @UUID[Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl]{Dodge} Test), including spending a Fate Point, using Critical Deflection or having the Impenetrable Armor Quality. The @UUID[Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv]{Resistance (Corruption)} Talent is added to the Talent list of any career you are in, and any bonus effects for Tests you gain from your Status are doubled with any Imperials who respect Status.</p><p><em>Automation (Wave 4):</em> Until automated, the GM applies the bonuses above manually when the medal is worn (Imperial Honors) or when the honor applies (Kill Counts).</p><h3>Medal Notes</h3>\n<p>Talents granted by medals apply only to the <strong>original recipient</strong>. Non-talent bonuses require the medal to be <strong>worn</strong> by the earner. Non-earners do not gain these benefits — the GM enforces recipient rules (no automatic earner lock). Medals can be identified with Easy (+40) Lore (Empire / Heraldry / History). Fake medals: Evaluate + Numismatics (GM difficulty).</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 0,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "exotic"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "clothingAccessories"
+    },
+    "worn": true,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "qualities": {
+      "label": "Qualities",
+      "value": []
+    },
+    "flaws": {
+      "label": "Flaws",
+      "value": []
+    }
+  },
+  "sort": 0,
+  "_key": "!items!n0mMedalMagCro01"
+}

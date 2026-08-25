@@ -1,0 +1,60 @@
+{
+  "_id": "v2x3DYSwdj2sK9Bf",
+  "name": "Thunderous Charge",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/thunderous-charge.webp",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623981898,
+    "modifiedTime": 1787624188926,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The character charges into combat using their body as an additional weapon to push foes away or to the ground. Driven by your rage and momentum, the impact of such a charge can knock a foe flying or bring them to their knees. When the character makes a Charge Action, instead of causing Damage, a successful attack can slam an opponent back 1 yard per SL by which you win the Opposed Test. If this brings them into contact with a wall or other large obstacle, they take Damage equal to the distance travelled in yards, reduced by Toughness Bonus and armor. If they collide with another creature, they take the same Damage as the initial target of the Charge. Once the target is hit, they must then make a <strong>Challenging (+0) Endurance Test</strong> or gain a @Condition[Fatigued] Condition, as the wind is knocked out of them. If they hit a wall or similar obstacle from the charge, the target must make a<strong> Hard (-20) Endurance</strong> Test instead.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "s"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": "Melee on a Round when you Charge"
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 0,
+  "_key": "!items!v2x3DYSwdj2sK9Bf"
+}

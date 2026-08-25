@@ -25,7 +25,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>Your prayer ignites the fires of war within your comrades. Affected targets gain the +1 @Compendium[wfrp4e-core.items.oRx92ByVNEBN6YkK]{Berserk Charge} Talent. For Every +2 SL, you may increase @Compendium[wfrp4e-core.items.oRx92ByVNEBN6YkK]{Berserk Charge} by an additional +1.</p>"
+      "value": "<p>Your prayer ignites the fires of war within your comrades. Affected targets gain the +1 @UUID[Compendium.wfrp4e-core.items.Item.oRx92ByVNEBN6YkK]{Berserk Charge} Talent. For Every +2 SL, you may increase @UUID[Compendium.wfrp4e-core.items.Item.oRx92ByVNEBN6YkK]{Berserk Charge} by an additional +1.</p>"
     },
     "gmdescription": {
       "type": "String",

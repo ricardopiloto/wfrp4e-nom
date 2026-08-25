@@ -1,0 +1,127 @@
+{
+  "_id": "mxGUgnap58SORrqK",
+  "name": "Gambeson",
+  "type": "armour",
+  "img": "modules/wfrp4e-nom/icons/trappings/armor/gambeson.webp",
+  "effects": [],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787624284567,
+    "modifiedTime": 1787624342200,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "HbC5TWvEu9iEIzyL": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 1
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 1,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": ""
+    },
+    "damageToItem": {
+      "type": "Number",
+      "value": 0,
+      "shield": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "armorType": {
+      "type": "String",
+      "label": "Armour Type",
+      "value": "softLeather"
+    },
+    "penalty": {
+      "type": "String",
+      "label": "Penalty",
+      "value": ""
+    },
+    "qualities": {
+      "type": "String",
+      "label": "Qualities",
+      "value": [
+        {
+          "name": "flexible",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "type": "String",
+      "label": "Flaws",
+      "value": []
+    },
+    "special": {
+      "type": "String",
+      "label": "Special",
+      "value": ""
+    },
+    "AP": {
+      "head": 0,
+      "lArm": 1,
+      "rArm": 1,
+      "lLeg": 0,
+      "rLeg": 0,
+      "body": 1
+    },
+    "APdamage": {
+      "head": 0,
+      "lArm": 1,
+      "rArm": 1,
+      "lLeg": 0,
+      "rLeg": 0,
+      "body": 1
+    },
+    "equipped": {
+      "value": false
+    }
+  },
+  "sort": 2200000,
+  "_key": "!items!mxGUgnap58SORrqK"
+}

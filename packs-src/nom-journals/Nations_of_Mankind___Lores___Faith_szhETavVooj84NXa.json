@@ -1,0 +1,260 @@
+{
+  "folder": "CtX3SGpKsZVd1aGx",
+  "name": "Nations of Mankind - Lores & Faith",
+  "_id": "szhETavVooj84NXa",
+  "pages": [
+    {
+      "name": "Divine Lore of Araby",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Ormazd</h2><p>Although its roots go back further, scholars typically date the creation of the Cult of the Great Prophet to the 11th century IC, making it among the youngest of the major human religions. The Cult of the Great Prophet started in his home city of Martek, the birthplace of modern Arabyan Civilization, during the time of the prophet Mulhaed al-Quyat’s life. He began receiving what Arabyans regard as divine revelations delivered through the god Ormazd. Afterwards he was said to have spawned the oasis’ across Araby, granting fertile land and precious water to the people. Since the “War of the Death” and the destruction of Bel-Aliad at the hands of Arkhan the Black more than a thousand years prior, Araby had been a broken nation, but Mulhaed al-Quyat reunited the peoples of Araby, and through faith became the first Great Sultan. Today, despite Araby’s decline after the Crusades in the 15th Century IC, the faith is held strongly. However, it is theorized by imperial scholars that the entity the Great Prophet received visions from was an even older god, perhaps one that was worshipped by another now long-lost civilization.</p><p>His holy symbol is that of a crescent moon, and it can be seen on many Arabyan standards, and even the shape of their shield; something that his worshippers believe will bless them in battle.</p><h3>Ormazd's Blessings</h3><ul><li><p>@UUID[Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP]{Blessing of Battle}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.Cg2Q3TV66cpmheHS]{Blessing of Courage}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.maUl7MoLvuvTOhM0]{Blessing of Grace}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.K5DE9cceinUTIrem]{Blessing of Protection}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.GvaOlWY8iD5CO1WB]{Blessing of Tenacity}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.FRkIz2sR7ZC92W2G]{Blessing of Wisdom}</p></li></ul><blockquote class=\"sidebar\"><h3 style=\"text-align:center;font-style:normal\"><strong>Strictures</strong></h3><ul><li><p>There are no gods equal to Ormazd.</p></li><li><p>Pray facing Martek three times each day to Ormazd: at dawn, two hours past midday, and two hours past sunset.</p></li><li><p>Donate a fixed portion of your income to believers in need. Many rulers and wealthy Arabyans build temples, drinking fountains, hospitals, schools, and other institutions both as a religious duty and to secure the blessings associated with charity.</p></li><li><p>During the daylight hours of the ninth month of the Imperial Calendar, all healthy adult Arabyan believers are required to abstain from food and drink. Through this temporary deprivation, they renew their awareness of and gratitude for everything the Great Prophet has provided in their lives.</p></li><li><p>Every Arabyan believer whose health and finances permit it must make at least one visit to the holy city of Martek per year.</p></li><li><p>Vanquish all undead—in memory of Bel-Aliad.</p></li></ul></blockquote><h3>Miracles of Ormazd</h3><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ImMCUkXCD5F7fQbC]{Burning Sands}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.DojGXBk7cdj7RGWx]{Bury the Soul}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ZVVhCsOF2aVlcgNn]{Forgiveness of Al-Alnon}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.PWHhC2ftAjNqaLEr]{Healing Sands}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ry0e2Ouk1R3AGN05]{Sword of Ormazd}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.SIj5lIpHOhM32Ab1]{Waters of Life}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.xgZQzPeNH0DUUjxP",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1766496487942,
+        "modifiedTime": 1787659316311,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te"
+      },
+      "_id": "xgZQzPeNH0DUUjxP",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_key": "!journal.pages!szhETavVooj84NXa.xgZQzPeNH0DUUjxP"
+    },
+    {
+      "name": "Divine Lore of Ind",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>The Devas of Ind</h2><p>Ind is a land of many mysteries, but little is more mysterious and unique as its religion. The Kingdoms of Ind is also widely known as the Land of a Thousand Gods, and for good reason. The piety on display—from the temples of marble that reach the sky to the innumerable symbols found in every household, piece of clothing and jewelry—is enough to raise an eyebrow from all but the most dogmatic of the Sigmarite, Myrmidian and Ulrician faiths. The Indan religion is one of polytheism, worshipping not one but numerous gods (or ‘Devas’ as the people of Ind call them) at once, each representing a different aspect of the religion’s teachings. While the idea of practicing the faith of multiple gods isn’t new, it’s the equal worship of the Divine Trinity (Brahmir, Vaishna and Shaivi) and their children that makes them unique. Unlike the Empire that squabbles between its own faiths--such as the Cult of Sigmar and Ulric--the people of Ind worship under a unified pantheon. Some gods fall into greater favor than others, but it is extremely rare to find sects dedicated to only one or a few gods and excluding the rest of the pantheon.</p><p>Priests of the Divine Trinity can be found wearing long, colorful robes with markings on their foreheads. They are known to be kind and understanding individuals, wise men and women highly educated and sought after for advice. Their war priests are a different beast altogether: War Priests of Ind are said to be giants of men and women, avatars of their gods sent to punish the wicked and purge Ind of corruption. They are clad in armor and wear massive turbans called dastaar which are covered in religious symbols of the various gods and are said to grow larger as the war priest gains experience. Some dastaar can weight up to 50 kg from the sheer amount of charms and trophies of war placed in them.</p><h3>Devas' Blessings</h3><ul><li><p>@UUID[Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP]{Blessing of Battle}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.iIfYOlNrLb0uiV8c]{Blessing of Fortune}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.C92dpJPRYpkZFsGu]{Blessing of Healing}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.K5DE9cceinUTIrem]{Blessing of Protection}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.Jkt465WPdRcejLwl]{Blessing of Recuperation}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.tMocig1z9dHKNiCT]{Blessing of Wit}</p></li></ul><blockquote class=\"sidebar\"><h3 style=\"text-align:center;font-style:normal\"><strong>Strictures</strong></h3><ul><li><p><strong>Brahmir, the Deva of Creation:</strong> Do not harm cows as they represent life given from the Devas. They are a source of goodness and its milk nourishes all creatures.</p></li><li><p><strong>Vaishna, the Deva of Preservation:</strong> Protect your lands, people and family at all cost. Do not allow the corruption of the Dark Ones to poison the minds of the innocent.</p></li><li><p><strong>Shaivi, the Deva of Destruction:</strong> Seek out and destroy the chaos of the world: the Greenskins, the Heathens, the Ratmen and Dark Ones--all must burn so creation may flow.</p></li></ul></blockquote><h3>Miracles of the Devas</h3><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.86KwePa9mrNUpnYo]{Avatar of Vaishna}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.6rMjBOL0gqCyRJwg]{Banish the Wicked}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.7KHR1brNKrHI6Eke]{Brahmir's Gift}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.azziHRjEfq2BBMgQ]{Dance of Flame}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.suQ5zQyJgjmyebrd]{Gilgadresh’s Fortune}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.1WkkjP6ZdQCKbm66]{Idran’s Will}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.UpH0IDRjwbeInvnG]{Sweat of Creation}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.zmsm6fDykgIn4ufl]{Trident of Shaivi}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.ZItscG16nzetI35V",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1766496499248,
+        "modifiedTime": 1766497263998,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "ZItscG16nzetI35V",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_key": "!journal.pages!szhETavVooj84NXa.ZItscG16nzetI35V"
+    },
+    {
+      "name": "Divine Lore of Kislev",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Dazh, God of Fire and Hospitality</h2><p>Dazh is the God of fire, the sun, and hospitality. He has been worshipped in the lands of Kislev for uncounted centuries and is believed to have taught early Ungol tribesmen the secrets of fire. Dazh is often comparable to Shallya in terms of benevolence and caring for his followers, and this attitude reflects strongly on the priests who worship him. Priests of Dazh are warm-hearted individuals who take deep pride in their hearts and homes, and many bedeck themselves in sacred gold. Those who call upon Dazh often prefer heat to cold and may feel uncomfortable when the sun sets.</p><h3>Dazh's Blessings</h3><ul><li><p>@UUID[Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP]{Blessing of Battle}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.tEMwdlHM8A40h6HE]{Blessing of Conscience}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.Cg2Q3TV66cpmheHS]{Blessing of Courage}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.iIfYOlNrLb0uiV8c]{Blessing of Fortune}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.K5DE9cceinUTIrem]{Blessing of Protection}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.tMocig1z9dHKNiCT]{Blessing of Wit}</p></li></ul><blockquote class=\"sidebar\"><h3 style=\"text-align:center;font-style:normal\"><strong>Strictures</strong></h3><ul><li><p>Never let a fire go out during the night. Many interpret this stricture as never leaving a fire unattended.</p></li><li><p>Never light a fire on a dirty hearth.</p></li><li><p>Always give hospitality to those who ask for it, even enemies. Leave none out in the cold.</p></li><li><p>Offer sacrifices to Dazh on the first day of the winter snows, so he returns with all speed.</p></li></ul></blockquote><h3>Miracles of Dazh</h3><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.mfd2Q3F8oH7w8Pvp]{Blessing of Dazh}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.7qtCJzptXNrP3L8g]{Brilliance}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.9osSigWd5Tn4NAuS]{Dazh Szheg!}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.3eRsG3BvysAv0wjk]{Dance of the Alari}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.T0pWaZIrsUbmAUhv]{Gift of Fire}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.nDIYbSM4IoH2RdTH]{Rouse the Coals}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.eHp4Q1uh4F4TwXTo]{Sacred Guest}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.hpDFSYteYcuLWJdd]{Wreath of Flame}</p></li></ul><h2>Tor, God of War and Thunder</h2><p>Tor is the God of thunder, lightning, and war. He is popular amongst the war-like Kislevites and was worshipped in the area long before the Gospodars arrived. The Axe of Tor is a sacred symbol among the people of Kislev, as his influence is so powerful that even towns sacked by marauders are said to have their temples dedicated to Tor perfectly intact. It is theorized that even the foul servants of Chaos dare not tempt his wrath, for his reputation as a butcher of daemons and undead is so legendary, and his followers so full of vengeful fury, that it’s a guaranteed death sentence to anger the ancient war god. Priests of Tor are often taciturn and belligerent, and many wield war axes detailed in sacred silver. Those who call upon Tor can be quick to anger, and many are drawn to high locations, such as mountains or tall towers. At the GM’s whim, any use of Torinyi prayers involving thunder, lightning, or rain may bring on a full storm.</p><h3>Tor's Blessings</h3><ul><li><p>@UUID[Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP]{Blessing of Battle}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.Cg2Q3TV66cpmheHS]{Blessing of Courage}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.0r3moMIHXsBrcOyh]{Blessing of Hardiness}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.KSDrXcieyRc37YI7]{Blessing of Might}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.eBRjKAF6U0yR0KK8]{Blessing of Savagery}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.GvaOlWY8iD5CO1WB]{Blessing of Tenacity}</p></li></ul><blockquote class=\"sidebar\"><h3 style=\"text-align:center;font-style:normal\"><strong>Strictures</strong></h3><ul><li><p>Never stand under a tree during a thunderstorm.</p></li></ul></blockquote><h3>Miracles of Tor</h3><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Kj16kz7MhUyglfWj]{Call of Tor}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.B8XYBARBek7wsdfa]{Cleave the Sky}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.eraiMWviMkD0rOWs]{Do Tor!}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.EgrP2ecMVHjOJXWu]{Incoming Storm}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.AVuXwKD8JpdWHZVA]{Thunder of War}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.LhrVlXwDApp0Zhcg]{Tor's Fury}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ZYMpqR54q3J4V4Bv]{Wrath of Tor}</p></li></ul><h2>Ursun, God of Bears and Strength</h2><p>Ursun is the God of bears and patron of Kislev. His cult was introduced by the Gospodars almost a thousand years ago and is now the most powerful in the land. Priests of Ursun tend to be wild individuals, and many wear sacred skins and holy bear bones. The trails to becoming a priest of Ursun are brutal, with the most famous requiring an acolyte to wrestle a bear in the woods bare handed. Those calling upon Ursun are often uncomfortable around the trappings of civilization and frequently grow lethargic in winter. It is very common for Ursun priests, especially war priests, to travel into the same forests in which they first underwent the test to becoming a priest, reacquainting with the bear they wrestled with, and through various means, bond with them making the bear a valued ally, mount and friend.</p><h3>Ursun's Blessings</h3><ul><li><p>@UUID[Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP]{Blessing of Battle}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.Cg2Q3TV66cpmheHS]{Blessing of Courage}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.0r3moMIHXsBrcOyh]{Blessing of Hardiness}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.By5dc8Q7ZAGpr177]{Blessing of The Hunt}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.KSDrXcieyRc37YI7]{Blessing of Might}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.2WN0muIB2BFd4kBO]{Righteousness}</p></li></ul><blockquote class=\"sidebar\"><h3 style=\"text-align:center;font-style:normal\"><strong>Strictures</strong></h3><ul><li><p>Never hunt a bear in winter—let him sleep as he lets you sleep.</p></li><li><p>Wake the bear in the spring, and feed him well before his winter rests.</p></li><li><p>Bears must only be killed by the strength of your hand or the flight of an arrow.</p></li><li><p>Only display the hide, claw, tooth, or skull of a bear you have killed yourself.</p></li><li><p>Shun the comforts of indoor life whenever possible. In particular, all ablutions and bathing must be done outdoors.</p></li><li><p>Eat fish at least once a week, as the bear does. Never eat fish and another meat on the same day, as this is wasteful.</p></li></ul></blockquote><h3>Miracles of Ursun</h3><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.4jCnBsAX6gmPYuVE]{Blessing of the Licked Paw}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.QvoHl9J279WEc0Bj]{Blessing of Ursun}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.LgPbA88zKlxhXtQp]{Father Bear}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.DgPoRHIETTKaTsHI]{Growling Fury}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.zrlPnsVUnxXp652U]{Skin of the Ice Bear}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.qeskYySyElYLfMRP]{Unyielding Ursun}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.GCbkVVvi4657fR55]{Ursine Strength}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.De4GiKFo2z97CC7M]{Winter's Sleep}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.dKjEXJmbWXqthxah",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1766496503489,
+        "modifiedTime": 1766497623784,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "dKjEXJmbWXqthxah",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_key": "!journal.pages!szhETavVooj84NXa.dKjEXJmbWXqthxah"
+    },
+    {
+      "name": "Divine Lore of Nippon",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Orange Simca</h2><p>The Orange Simca is the Goddess of the Rising Sun, Honor and War. Her followers consist primarily of the warrior clans that dominate Nippon (although many commoners worship her for protection and strength), with the warrior monks being the most fanatical of her worshippers. She is often paid tribute in silver, blooming flowers, snake bones and silks. It is said her worshippers feel a greater sense pride and vigor when basking in the sun but are somewhat melancholy and composed during the night. The monks are said to be so blessed or inspired by her holy light that they don’t need to sleep, defending the innocent as their goddess rests in the heavens until the next morning.</p><h3>Orange Simca's Blessings</h3><ul><li><p>@UUID[Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP]{Blessing of Battle}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.Cg2Q3TV66cpmheHS]{Blessing of Courage}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.iIfYOlNrLb0uiV8c]{Blessing of Fortune}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.0r3moMIHXsBrcOyh]{Blessing of Hardiness}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.KSDrXcieyRc37YI7]{Blessing of Might}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.2WN0muIB2BFd4kBO]{Blessing of Righteousness}</p></li></ul><blockquote class=\"sidebar\"><h3 style=\"text-align:center;font-style:normal\"><strong>Strictures</strong></h3><ul><li><p>Do not watch the sun as it sets but be prepared to see as it rises. Guard the innocent as she sleeps.</p></li><li><p>Always ask three times for permission before accepting any gifts from the innocent, as it is a warrior’s duty to protect the helpless, not to take from them.</p></li><li><p>Always offer aid to warriors against Skaven who ask for it, regardless of political affiliation or race.</p></li><li><p>Offer sacrifices on the first morning of every month, as tribute for a new month of light.</p></li></ul></blockquote><h3>Miracles of the Orange Simca</h3><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.7VFt6NvQDaTa3T4w]{Banzai Charge}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.dju9rslGfI84KHLi]{Beacon of Sacred Might}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.QsIrJbq7R05zOvRT]{Bushido's Call}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.NDgYm2aVCMj10VK8]{Gift of the Rising Sun}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.GbuVXGEqtWWhHGNO]{Red Sun's Smite}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.emnvQoIdxTSGCY1B]{Serpent's Eye}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.XVCxX1BwEPMMiKwm]{Shield of the Sun}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.oqjygKIczvH6zA1j]{Sunfire}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.dB4zBvYtxgGDJSdz",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1766496509276,
+        "modifiedTime": 1766499070496,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "dB4zBvYtxgGDJSdz",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 300000,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_key": "!journal.pages!szhETavVooj84NXa.dB4zBvYtxgGDJSdz"
+    },
+    {
+      "name": "Lore of Ice",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1 style=\"text-align:center\">Lore of Ice</h1><p>Ice Magic, also known as the Lore of Ice, is Kislev’s oldest magical tradition, dating back many centuries before the Empire founded the Colleges of Magic under Magnus the Pious, and exclusively wielded by women of Kislev sensitive to the Winds of Magic. Before invading Kislev in 1497 IC under the Khan-Queen Miska, the first Ice Witches practiced their magic on the Endless Steppe. Unlike their former brethren, the Hung and Kurgan—who worshipped the Great Eye after falling to Chaos—the Gospodars learned to tap the cold power coursing through the land itself, establishing a relationship not too dissimilar with the Jade Order and their ties to nature. The ice witches of Kislev are more than just women with the ability to channel the Ancient Widow’s cold flows; they are an organized sisterhood who works together to achieve shared goals under the orders of the Tzar/Tzarina of Kislev. Although this magic does not carry the same risks of mutation as magics of Chaos, it is very difficult to control and often kills unwary and inexperienced Witches. Many centuries later, things are little different. As should be expected for a magic with its roots in wars on the Endless Steppe, Ice Magic is deadly and extremely so, not just for the Witches’ enemies but for the Witches themselves. Many apprentice Witches do not survive their training; indeed, some can be found to this day in isolated corners of the Oblast, frozen eternally as sparkling statues of ice by the magic they failed to control. Ice witches can often be found wearing heavy winters clothes with fur coats, capes and boots (even in hotter climates) with older and more experienced ice witches wearing crowns of ice on their heads.</p><p><strong>Lore Attribute:</strong> The flows of Ice Magic vary in strength. By Kislev’s sites of power, along her leylines, in freezing climates and in the depths of winter, Ice Magic is very strong, granting you a +10 to all Channeling and Language Magick Tests when casting the Lore of Ice. But in warmer climes, it is far weaker and wanes the closer to the equator and the further from the North one travels. When casting in warmer climates, such as in most of the Empire, it counts as if casting next to a Corrupting Influence, causing a Minor Miscast on a unit’s roll of an 8. If you already have a Minor Miscast, the Miscast becomes a Major Miscast. In hotter climates, such as in a desert or jungle, you receive a permanent Fatigued Condition until you relocate to a cooler climate. You may spend a Resolve point to mitigate this Fatigue Condition for one round.</p><p><strong>Ingredients:</strong> Ice of all types, from snowflakes, hailstones, icicles and carved ice sculptures, comprise the majority of the Lore of Ice’s ingredients. While plentiful in the cold lands of Kislev, due to their frozen nature, it is potentially much more difficult to acquire or preserve these ingredients needed depending on the region, climate and time of year. However, many spells also use trappings associated with the body parts of certain wildlife within Kislev, including the claws of a frostfiend, a ball of bear fat, fangs of a white dragon or the tongue of a hawk.</p><h3>Spells</h3><ul><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.qgdwGhYIaGYWR6h9]{Biting Wind}</li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.pOql6YVNBt21t13s]{Blizzard}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.mqktfTIQDkgycvwc]{Chill}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.qu4My8KV2Wq9LPRM]{Chill Voice}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.c0DM4WCtLftKxDPd]{Crystal Cloak}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.8xcqDJycW7O9OOP4]{Death Frost}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.sSMen3XXCY2jZ2CV]{Form of the Frostfiend}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.mqkBtPUX7NEF0ouV]{Frost Blade}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.UXHgHKjAUAa27zfc]{Hailstorm}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.c2kGYd5oOCO9XqVR]{Hawks of Miska}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.2DO6nDvYhzI9ajKg]{Ice Maiden's Kiss}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.HL4p2CRTTshAczbK]{Ice Sheet}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.4IxkhraDM0cYmEr7]{Permafrost}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.nlG5zkUTh1uNTSu2]{Shardstorm}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Tcgfdb7iVdo6Dc8i]{Shoika's Call}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.vMb9P8WdJRebN93m]{Walk the Endless Steppe}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.9GeKCw8XW2zRcb4L]{Wall of Ice}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.qCuzgwOb45ybYZaQ]{Winter Walk}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.ODC1TQBu6uDkDzfx",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1766496579695,
+        "modifiedTime": 1766499549565,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "ODC1TQBu6uDkDzfx",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 400000,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_key": "!journal.pages!szhETavVooj84NXa.ODC1TQBu6uDkDzfx"
+    },
+    {
+      "name": "Lore of the Desert",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1 style=\"text-align:center\">Lore of the Desert</h1><p>The Lore of the Desert is the dominant form of magic within Araby, with its Magicians held in high regard within its social class. The Lore of the Desert is considered a difficult Wind to perceive and manipulate, appearing scattered even to those skilled with the Sight, resembling a chaotic sandstorm as it swirls around them. This makes it tricky to manipulate but dangerous in the hands of a skilled Magician. The wind is associated with power, intelligence, and prestige. The Magicians of Araby are acclaimed for their skill, knowledge, and their sheer determination, even able to bend the wills of the Djinn, magical being of the elements, to their service. Spells from the Lore of the desert are some of the most bizarre, including summoning desert sands even in areas of the world where it impossible, and those that summon Djinn to the mortal plane. There are also more manipulative applications used to fool enemies by summoning mirror images of their deepest desires, such as piles of gold, or even copies of yourself making it impossible for them to confront you. Magicians of the Lore of the Desert tend to wear fine silk robes known as “thawbs” in Araby accompanied by a traditional headwrap known as a “keffiyeh”. Due to their higher status within the Arabyan hierarchy, Magicians rarely dress the same--dying their robes in exotic colors and having them designed with eccentric and unique patterns that reflect their personality, favoring fashion over practicality. Those with the money to do so flaunt their wealth with glittering jewelry hanging from their necks, and fine bangles and rings across their arms and fingers.</p><p><strong>Lore Attribute:</strong> Arcane Spells summoned from the Lore of the Desert tend to summon or shift large amounts of dust and sands upon their targets or shroud the caster in whirling sands like a desert storm. Whenever a spell from the Lore of the Desert is cast upon a target, that target has their Movement reduced by -1 and cannot Charge for the duration of the round.</p><p><strong>Ingredients:</strong> Magicians of the Lore of the Desert use many artefacts associated with the harsh arid lands of Araby, supplemented by crystals, glass jars, gemstones, lamps and small statues depicting the mystical beings known as Djinn. White candles, silver carvings, and bleached paper are also common.</p><h3>Spells</h3><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.7puMQv0T8uM1JNlB]{Curse of the Djinn}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.FX7LgkoFvUgp5FZc]{Dancing Scimitar}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.3x11TmfrdUNvRkgr]{Flying Servant}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.kHqr2B7GahN31JCz]{Mirage}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.oF0GbqL8w3W49Jus]{Quicksand}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Vd1LiC1lzs5JkptN]{Sand Blast}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.HBcnXlSkCmfpZ7GY]{Sandstorm}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.XxmlmN89d5RT012Y]{Summon Djinn}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.lNZX4QYOOBynrt6g]{Sun Spear}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.nJVysCnXzMXGBSMY",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1766496583743,
+        "modifiedTime": 1766499646328,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "nJVysCnXzMXGBSMY",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 500000,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_key": "!journal.pages!szhETavVooj84NXa.nJVysCnXzMXGBSMY"
+    }
+  ],
+  "categories": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1766496479567,
+    "modifiedTime": 1766496783150,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!journal!szhETavVooj84NXa"
+}

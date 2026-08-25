@@ -1,0 +1,558 @@
+{
+  "folder": "CtX3SGpKsZVd1aGx",
+  "name": "Nations of Mankind - Peoples",
+  "_id": "n0mPeoples000001",
+  "pages": [
+    {
+      "name": "Warhammer Nations",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Warhammer Nations</h1><blockquote><p>All Nation Races are intended for use for all careers, not just the homebrew careers. All Characters are assumed to be fluent in Reikspiel, the language of the Empire, and their native tongue based on their nation of origin, and do not need to take it as a Skill. A Character who plays a Merchant from Araby is expected to speak Arabyan without any issues. </p></blockquote><h2>Peoples</h2><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleAlbion1]{Albion}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleAraby01]{Araby}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleBreton1]{Bretonnia}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleCathay1]{Cathay}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleEstali1]{Estalia}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleInd0001]{Ind}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleKislev1]{Kislev}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleNippon1]{Nippon}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleNorsca1]{Norsca}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleSouth01]{Southlands}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleStriga1]{Strigany}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleTilea01]{Tilea}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleWastel1]{Westerland (Wasteland)}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.iOTIqPoQo6ppBfSQ",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382506,
+        "modifiedTime": 1787665382506,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "iOTIqPoQo6ppBfSQ",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.iOTIqPoQo6ppBfSQ"
+    },
+    {
+      "name": "Albion",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>1. Albion</h2><blockquote><p>Albion is a small, windswept island off the coast of Norsca in the Great Ocean. It is said that it rains every day in Albion, that the islands are shrouded in mist and heavy fog while the land is predominantly bogs, marshes and fens. This damp and gloomy environment is inhabited by tribes of woad-wearing humans, led by Truthsayers, guardians of the mysterious Ogham Stones, and inhabited by creatures such as Giants and the strange Fimirs. </p><p>A Tilean explorer and conqueror,  Curious Gesar, the so-called First Citizen of Remas, at one time reached the shores of the misty islands and tried to bring the native barbarians his view of Tilean culture. He was unsuccessful, instead taking Hengus the Druid and the two biggest Giants of Albion with him as hostages. Back in Tilea he was assassinated and the Giants roam now the Old World as mercenaries.</p><p>No truth to these stories has ever been proven, and the rumours of Albion remain little more than fantastic tales told by drunks to any who would listen. But then a new legend spread across the land. Sailors talked of an island which had suddenly appeared to the far north. Huge white cliffs loomed out from the sea but the sailors had also spied beaches where a small boat may possibly make a landing. It would seem that the mists had parted and the land lay open to explore. Every race across the world gathered its armies to seek the treasures of Albion and claim the island as their own.</p><p><strong>- Warhammer Wiki</strong></p></blockquote><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV]{Athletics}, @UUID[Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd]{Climb}, @UUID[Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe]{Cool}, @UUID[Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J]{Endurance}, @UUID[Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu]{Intimidate}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Albion)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Beasts or Monsters)}, @UUID[Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6]{Melee (Basic)}, @UUID[Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV]{Melee (Polearm)}, @UUID[Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh]{Outdoor Survival}, @UUID[Compendium.wfrp4e-core.items.Item.NSnpJQiky8JcMnme]{Ranged (Throwing)}, @UUID[Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt]{Stealth (Rural)}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv]{Resistance (Mutations)}, @UUID[Compendium.wfrp4e-core.items.Item.spdiWsONKTzkLbg3]{Stone Soup}, @UUID[Compendium.wfrp4e-core.items.Item.1dUizIgLBgn4jICC]{Strider (Marshes)}, @UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}, @UUID[Compendium.wfrp4e-core.items.Item.Zf0vk2rjllpDh0Ua]{Very Strong} <em>or @UUID[Compendium.wfrp4e-core.items.Item.RmY0CUjiFYZ3GEKY]{Very Resilient}</em></p>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleAlbion1",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382505,
+        "modifiedTime": 1787665382505,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleAlbion1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleAlbion1"
+    },
+    {
+      "name": "Araby",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>2. Araby</h2><blockquote><p>The kingdom of Araby encompasses the regions bordering the great desert north of the Southlands. It is a land of contrasts, where the people are both devout and godless. Exotic and extravagant cities where massive vaulted palaces, full of wealth beyond the imagination of the dwarfs, loom over adobe and stucco houses in winding streets. Its cheerful and bustling nights, street performers, music, alcohol, narcotics, fiery food and concubines make Araby a charming and irresistible place for many travelers. These islands of civilization are isolated by vast expanses of arid badlands and suffocating deserts. It is a land where few ideas are forbidden and where human sciences and philosophy rival even the elves of Ulthuan in sophistication. Sun-bleached ruins stand as reminders of the tumultuous past of Araby, but the invaders of old are the partners of today and almost all languages of the known world can be heard in the streets of its ports and bazaars.</p><p>Even united under the distant rule of the Great Sultan, the people of Araby are a disparate lot. The coastal Arabyans live in relatively fertile lands and have built some of the most wonderous cities of the world. They are educated, often multilingual and open to foreign cultures. The Arabyans of the hinterlands are hardier folks, used to surviving in the desert where almost no water or shade can be found and heat is pervasive. They are a mystical and harsh people, shaped by their home desert and daily struggles for survival.</p><p>However, the apparent prosperity of the land conceals many problems. Often enough, a sorcerer oversteps one of the few taboos and delves into the forbidden arts. Nomad bandits scour the desert, and are but the least of many threats a traveler may encounter across the expanses of Araby. Ancient curses slumber in the ruins that dot the landscape while undead remnants of past wars still wander the desert or wait patiently beneath unsuspecting cities. The mysterious ratmen are still rumored to monitor the evolution of Araby from their lairs in the mountains, and secret cults to blasphemous deities lurk in the deepest valleys and ruins. <strong>- Kingdom of the Shifting Sands</strong></p></blockquote><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.fdq3RFSOKl5b3WzW]{Art ( Any)}, @UUID[Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39]{Evaluate}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf]{Haggle}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Indan or Southlander)}, @UUID[Compendium.wfrp4e-core.items.Item.X16IoUlKcVLI4MRw]{Language (Wastelander)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (City State)}, @UUID[Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6]{Melee (Basic)}, @UUID[Compendium.wfrp4e-core.items.Item.zZUX7wO4rOo8k9F0]{Navigation}, @UUID[Compendium.wfrp4e-core.items.Item.9xR9uO8FIvi4YsJp]{Pray}, @UUID[Compendium.wfrp4e-core.items.Item.MeXCAQ3wqJzX07X7]{Ride (Camel or Horse)}, @UUID[Compendium.wfrp4e-core.items.Item.n8IfmLt4kzMhIKIv]{Sail (Xebec or Dhow or Felucca)}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.7bZjB82f6LSkeczP]{Nimble Fingered} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.LPgjE0cexTVOBVCY]{Suave}, @UUID[Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf]{Read/Write} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z]{Craftsman (Any)}, @UUID[Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv]{Resistance (Heat)} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.1dUizIgLBgn4jICC]{Strider (Deserts)}, <strong>City State Trait (Any)</strong></p><h3>City State Traits</h3><ul><li><p><strong>Copher: </strong>@UUID[Compendium.wfrp4e-core.items.Item.34EBUkHQkrqF1sq7]{Briber} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG]{Dealmaker}, one roll on the Random Talents table</p></li><li><p><strong>El-Kalabad: </strong>@UUID[Compendium.wfrp4e-core.items.Item.wBhPFggGqIXwbx1r]{Alley Cat} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.9sMAf0xmehjEmUao]{Fast Hands}, one roll on the Random Talents table</p></li><li><p><strong>Lashiek: </strong>@UUID[Compendium.wfrp4e-core.items.Item.Ij9N3G8jzxb4lrwy]{Sea Legs} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA]{Sturdy}, one roll on the Random Talents table</p></li><li><p><strong>Martek: </strong>@UUID[Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z]{Craftsman (Mining)} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.Z91GFaT6FhEwyESU]{Tunnel Rat}, One @Table[talents]</p></li><li><p><strong>Sudenberg: </strong>@UUID[Compendium.wfrp4e-core.items.Item.726gbrANZt8OqXr5]{Linguistics} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79]{Numismatics}, One @Table[talents]</p></li><li><p><strong>Antoch: </strong>@UUID[Compendium.wfrp4e-core.items.Item.5lcttqGToT54WFrl]{Marksman} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}, @UUID[Compendium.wfrp4e-core.items.Item.GwjvDLZz3PvK6xgs]{Prejudice (Bretonnians)}</p></li><li><p><strong>Sartosa: </strong>@UUID[Compendium.wfrp4e-core.items.Item.r180vP86SlwyJc8W]{Criminal}, one roll on the Random Talents table</p></li><li><p><strong>Nomad: </strong>@UUID[Compendium.wfrp4e-core.items.Item.spdiWsONKTzkLbg3]{Stone Soup}, one roll on the Random Talents table</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleAraby01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382505,
+        "modifiedTime": 1787665382505,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleAraby01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleAraby01"
+    },
+    {
+      "name": "Bretonnia",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>3. Bretonnia</h2><blockquote><p>The Kingdom of Bretonnia, also known as the Land of Chivalry, is a highly martial feudal kingdom that lies between the lands of the Grey Mountains and the Great Ocean. Bretonnia is second only in size to that of the Empire, both their chief rival and closest ally, having a culture and society that revolves around the ideals of nobility, social birthright, and the upholding of a strictly enforced code of chivalry.</p><p>Ruled by a Royarch,the nation of Bretonnia has been known throughout the kingdoms of man for having the greatest Knights in the entire Old World, even surpassing that of the Knightly orders of the Empire. A proud and honourable kingdom, the armies of Bretonnia are comprised mostly of knights and noblemen, who ride into battle with lance, horse, and sword, seeking glory and rooting out injustice wherever they go. The Knights of Bretonnia are trained to fight from childhood, and even the lowliest knights errant are considered superior to ordinary warriors. Their skills are further enhanced through constant training, battles and tournaments. It is not only Bretonnia's knights who are famed, however, for the kingdom also boasts the finest human sailors in the World. With their great sails billowing in the wind, Bretonnia's mighty fleets are a majestic sight on the high seas. Due to this regime, the combined military might of Bretonnia has surpassed that of even the greatest armies in history.</p><p>Bretonnia is widely considered to be the fairest and most beautiful land in all the Old World. It is a green land of fertile farms, rolling hills, starkly beautiful mountains, and airy forests. Bretonnian chefs are famous for their culinary skills, and the wine produced in the vineyards of the country is renowned throughout the world. It is seen as a land of honour and virtue, where noble knights keep the domain safe as peasants till the fields, where chivalrous heroes slay monsters and rescue fair damsels. This is the image Bretonnians want to project, and it is not entirely false. <strong> - Warhammer Wiki</strong></p></blockquote><h3>Peasantry</h3><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn]{Animal Care}, @UUID[Compendium.wfrp4e-core.items.Item.4IGdIhnwTaZijzg7]{Charm Animal}, @UUID[Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe]{Cool}, @UUID[Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J]{Endurance}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf]{Haggle}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Dukedom)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Agriculture)}, @UUID[Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6]{Melee (Basic)}, @UUID[Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C]{Ranged (Bow)}, @UUID[Compendium.wfrp4e-core.items.Item.oSbEE6eXH1S3LfUU]{Ride (Horse)}, @UUID[Compendium.wfrp4e-core.items.Item.wKwel9MG7NIG3i3w]{Trade (Farmer)}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.7bZjB82f6LSkeczP]{Nimble Fingered} <em>or</em>  @UUID[Compendium.wfrp4e-core.items.Item.RmY0CUjiFYZ3GEKY]{Very Resilient}, @UUID[Compendium.wfrp4e-core.items.Item.spdiWsONKTzkLbg3]{Stone Soup}, @UUID[Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv]{Strong Back}, <strong>Dukedom Trait (Any)</strong></p><h3>Nobility</h3><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.4IGdIhnwTaZijzg7]{Charm Animal}, @UUID[Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq]{Charm}, @UUID[Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe]{Cool}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf]{Haggle}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Any)}, @UUID[Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H]{Leadership}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Dukedom)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Politics)}, @UUID[Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6]{Melee (Basic)} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U]{Melee (Two-Handed)}, @UUID[Compendium.wfrp4e-core.items.Item.9xR9uO8FIvi4YsJp]{Pray}, @UUID[Compendium.wfrp4e-core.items.Item.oSbEE6eXH1S3LfUU]{Ride (Horse)}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.1IVGksL10N7GVrw3]{Noble Blood}, @UUID[Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf]{Read/Write}, @UUID[Compendium.wfrp4e-core.items.Item.LPgjE0cexTVOBVCY]{Suave} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}, <strong>Dukedom Trait (Any)</strong></p><h3>Dukedom Traits</h3><ul><li><p><strong>L'Anguille: </strong>@UUID[Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG]{Dealmaker} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.L74MT9BDwE4CfutY]{Old Salt}, @Table[talents]</p></li><li><p><strong>Aquitaine:</strong> @UUID[Compendium.wfrp4e-core.items.Item.JLzJws09GMw9GWBV]{Coolheaded}, one roll on the Random Talents table</p></li><li><p><strong>Artois: </strong>@UUID[Compendium.wfrp4e-core.items.Item.E98mVLZgE8bX5vQW]{Hatred (Beastmen)}, @UUID[Compendium.wfrp4e-core.items.Item.RmY0CUjiFYZ3GEKY]{Very Resilient} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.Zf0vk2rjllpDh0Ua]{Very Strong}</p></li><li><p><strong>Bastonne: </strong>@UUID[Compendium.wfrp4e-core.items.Item.IogM5gnsoOX63w7j]{Stout-hearted}, one roll on the Random Talents table</p></li><li><p><strong>Bordeleaux: </strong>@UUID[Compendium.wfrp4e-core.items.Item.hTgrGkWnmIR4xhVe]{Carouser} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.Ij9N3G8jzxb4lrwy]{Sea Legs}, One @Table[talents]</p></li><li><p><strong>Brionne: </strong>@UUID[Compendium.wfrp4e-core.items.Item.2eq8Ejotk54AZYwX]{Artistic} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.pQjZdMJDDaz0DpAD]{Perfect Pitch}, one roll on the Random Talents table</p></li><li><p><strong>Carcassonne: </strong>@UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}, One @Table[talents]</p></li><li><p><strong>Couronne: </strong>@UUID[Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z]{Craftsman (Farrier)} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.FjTnaxixsu1ShNNr]{Trick Riding}, One @Table[talents]</p></li><li><p><strong>Gisoreux: </strong>@UUID[Compendium.wfrp4e-core.items.Item.jQmIu8P85tF0njmD]{Seasoned Traveller} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.1dUizIgLBgn4jICC]{Strider (Mountains)}, one roll on the Random Talents table</p></li><li><p><strong>Lyonesse: </strong>@UUID[Compendium.wfrp4e-core.items.Item.LzgxyMknSHjSkkeQ]{Cat-tongued} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.b4x1qEWcevX7xK58]{Schemer}, One @Table[talents]</p></li><li><p><strong>Montfort: </strong>@UUID[Compendium.wfrp4e-core.items.Item.zImcTgEl2XNnbu5W]{Hardy}, one roll on the Random Talents table</p></li><li><p><strong>Mousillon: </strong>@UUID[Compendium.wfrp4e-core.items.Item.Ywo6fZNPC4zbHHSQ]{Strong-minded}, One @Table[talents]</p></li><li><p><strong>Parravon: </strong>@UUID[Compendium.wfrp4e-core.items.Item.9fq6p9Q6H02LjaSi]{Animal Affinity} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.mNoCuaVbFBflfO6X]{Sixth Sense}, One @Table[talents]</p></li><li><p><strong>Quenelles: </strong>@UUID[Compendium.wfrp4e-core.items.Item.E98mVLZgE8bX5vQW]{Hatred (Greenskins)}, one roll on the Random Talents table</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleBreton1",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382505,
+        "modifiedTime": 1787665382505,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleBreton1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleBreton1"
+    },
+    {
+      "name": "Cathay",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>4. Cathay</h2><blockquote><p>Past the Worlds Edge Mountains and across the Great Skull Lands, on the other side of the Mountains of Mourn and the vast steppes, begin the uncharted lands. Only a single path travels to the east, known as the Silk Road. It runs through the untamed steppes until its destination, the fabled kingdom of Cathay. The lure of the Silk Road is great to the merchant houses of Tilea and the Burgomeisters of the Empire, as well as the traders of Araby. But the road is far from safe: roving bandits, steppe nomads, and the vast Hobgoblin hordes of Hobgobla-Khan who rule the steppes are an ever-present threat, and one that cannot be taken too lightly. Only one caravan out of ten makes the trip safely.</p><p>The travellers that return from Cathay tell tales of great golden pagodas and the inexhaustible armies of the eastern despots. They bring exotic spices and finest silks, gleaming gold, luxurious porcelain vases and all manner of strange and wonderful items from the Kingdom of the Dragon, glimpses of the mysterious glory of the distant and rich orient.</p><p>They also bring tales of jade cities and high temples where mystics probe the movements of the heavenly bodies and the positions of the stars, of the scholars who inscribe every word ever uttered by their divine Emperor. Many strange creatures are said to live in the land of Cathay, from serpentine dragons to gigantic living stone dogs which guard the temples of the multitudinous gods of Cathay.</p><p>Records of travellers tell of the thousand, thousand footsoldiers of the Emperor, the mystic brotherhoods of monks who can kill you with a touch of their hand, and the strange monkey warriors living high in the Mountains of Heaven.</p><p>Most of these tales are highly fanciful, but certainly the Empire of the Celestial Dragon must be a wondrous and rich place, but until the trade routes to the east are safe it will remain a realm of legend. <strong>- Warhammer Wiki</strong></p></blockquote><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.fdq3RFSOKl5b3WzW]{Art ( Any)}, @UUID[Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq]{Charm}, @UUID[Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd]{Climb}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf]{Haggle}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (indan)}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Nipponese)}, @UUID[Compendium.wfrp4e-core.items.Item.X16IoUlKcVLI4MRw]{Language (Wastelander)}, @UUID[Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H]{Leadership}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Province)}, @UUID[Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6]{Melee (Basic)}, @UUID[Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C]{Ranged (Bow)}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.JLzJws09GMw9GWBV]{Coolheaded} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.QsrXxGZiHjth7RMg]{Savvy}, @UUID[Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf]{Read/Write} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.726gbrANZt8OqXr5]{Linguistics}, <strong>Provincial Trait (Any)</strong></p><h3>Provincial Traits</h3><ul><li><p><strong>Weijin: </strong>Three @Table[talents]</p></li><li><p><strong>Nan-Gau: </strong>@UUID[Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z]{Craftsman (Engineering)} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}, Two @Table[talents]</p></li><li><p><strong>Fu-Chow: </strong>@UUID[Compendium.wfrp4e-core.items.Item.1kgHcImgfyKI1IYp]{Fisherman}, @UUID[Compendium.wfrp4e-core.items.Item.Ij9N3G8jzxb4lrwy]{Sea Legs}, One @Table[talents]</p></li><li><p><strong>Shang-Yang: </strong>@UUID[Compendium.wfrp4e-core.items.Item.LPgjE0cexTVOBVCY]{Suave}, Two @Table[talents]</p></li><li><p><strong>Xianbei: </strong>@UUID[Compendium.wfrp4e-core.items.Item.E98mVLZgE8bX5vQW]{Hatred (Skavens)}, @UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}, one roll on the Random Talents table</p></li><li><p><strong>Yuanjin: </strong>@UUID[Compendium.wfrp4e-core.items.Item.JLzJws09GMw9GWBV]{Coolheaded}, Two @Table[talents]</p></li><li><p><strong>Han Kuo: </strong>@UUID[Compendium.wfrp4e-core.items.Item.RmY0CUjiFYZ3GEKY]{Very Resilient} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.Zf0vk2rjllpDh0Ua]{Very Strong}, Two @Table[talents]</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleCathay1",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382505,
+        "modifiedTime": 1787665382505,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleCathay1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleCathay1"
+    },
+    {
+      "name": "Estalia",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>5. Estalia</h2><blockquote><p>The Estalian Kingdoms lie in the south of the Old World, a warmer and drier area than the north. The threat of Chaos seems very remote here, far away from the incursions and beyond the immediate threat of Chaos Bands. Unlike Bretonnia and the Empire, which are unified nations under a single ruler, the Estalian Kingdoms are many and of various sizes.</p><p>The kingdoms of the Irrana Mountains are home to fierce, tough hill-fighters, while those along the south coast are prosperous trading nations whose ships ply the Southern Sea to Araby. The largest cities and towns war upon each other, as well as against the Arabyans to the south, the Bretonnians to the north and the Tileans to the east.</p><p>Today, the two most powerful kingdoms are the city-states of  Bilbali and Magritta. Both are strong because of trade and access to the sea, a fact that causes much jealousy amongst the poor kingdoms of the Irrana Mountains. <strong>- Warhammer Wiki</strong></p></blockquote><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV]{Athletics}, @UUID[Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT]{Bribery}, @UUID[Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq]{Charm}, @UUID[Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e]{Consume Alcohol}, @UUID[Compendium.wfrp4e-core.items.Item.qBm2fu3oMhxsDBNQ]{Entertain (Storytelling)}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.5EvSIh1khpt77uM7]{Language (Bretonnian)}, @UUID[Compendium.wfrp4e-core.items.Item.12e3H6NX4JH0bwI3]{Language (Tilean)}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Arabyan)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Region)}, @UUID[Compendium.wfrp4e-core.items.Item.HO8vIjGTHjmenIaV]{Perform (Jota)}, @UUID[Compendium.wfrp4e-core.items.Item.rvd0S8Z0v2m0MHmD]{Sleight of Hand}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.AcnFuDKRemLI9ey7]{Nose for Trouble}, @UUID[Compendium.wfrp4e-core.items.Item.QsrXxGZiHjth7RMg]{Savvy} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.LPgjE0cexTVOBVCY]{Suave}, <strong>Region Trait (Any)</strong></p><h3>Region Traits</h3><ul><li><p><strong>Aradón: </strong>@UUID[Compendium.wfrp4e-core.items.Item.JLzJws09GMw9GWBV]{Coolheaded}, Two @Table[talents]</p></li><li><p><strong>Catilinia: </strong>@UUID[Compendium.wfrp4e-core.items.Item.LzgxyMknSHjSkkeQ]{Cat-tongued}, Two @Table[talents]</p></li><li><p><strong>Vanlen: </strong>@UUID[Compendium.wfrp4e-core.items.Item.8lSoPDGrmeTIaapm]{Gregarious}, Two @Table[talents]</p></li><li><p><strong>Navarr: </strong>@UUID[Compendium.wfrp4e-core.items.Item.LU6Ycl5z4kp1Wr04]{Mimic}, Two<strong> </strong>@Table[talents]</p></li><li><p><strong>Castill: </strong>@UUID[Compendium.wfrp4e-core.items.Item.IogM5gnsoOX63w7j]{Stout-hearted}, Two @Table[talents]</p></li><li><p><strong>Laon: </strong>@UUID[Compendium.wfrp4e-core.items.Item.zImcTgEl2XNnbu5W]{Hardy}, Two @Table[talents]</p></li><li><p><strong>Gaellica: </strong>@UUID[Compendium.wfrp4e-core.items.Item.fEFAMNqh8nJIfBkM]{Field Dressing}, Two @Table[talents]</p></li><li><p><strong>Vasconia: </strong>@UUID[Compendium.wfrp4e-core.items.Item.BbStIySkF1hDM2zq]{Lightning Reflexes}, @UUID[Compendium.wfrp4e-core.items.Item.0hn6UaKq8CoZP2zD]{Menacing}, one roll on the Random Talents table</p></li><li><p><strong>Andal: </strong>@UUID[Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z]{Craftsman (Trade)}, @UUID[Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf]{Read/Write}, one roll on the Random Talents table</p></li><li><p><strong>Murc: </strong>@UUID[Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp]{Beneath Notice}, Two @Table[talents]</p></li><li><p><strong>Portul: </strong>@UUID[Compendium.wfrp4e-core.items.Item.oQzTJEXUx28sCiH3]{Sharp}, @UUID[Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf]{Read/Write}, One @Table[talents]</p></li><li><p><strong>Sartosa: </strong>@UUID[Compendium.wfrp4e-core.items.Item.r180vP86SlwyJc8W]{Criminal}, Two @Table[talents]</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleEstali1",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382505,
+        "modifiedTime": 1787665382505,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleEstali1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleEstali1"
+    },
+    {
+      "name": "Ind",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>6. Ind</h2><blockquote><p>The closest of the three human-populated lands of the east is Ind. Exotic spices, jade and other treasures lure the adventurous to this sweltering realm, although few return. Some fall prey to bestial creatures on the route to Ind, others are captured and sacrificed by bloodthirsty cults. However, travellers that do return report that the rulers of Ind are wealthy and generous, living in opulent palaces surrounded by slaves and servants, and are great patrons of the arts and Ind's many golden temples.</p><p>A deeply spiritual land, its people may seem strangely content to outsiders, but it is just their odd way of dealing with the horrors of life and should not distract the traveller from the perils of this place. A favoured destination for spice merchants from all across the world, who eagerly travel there to buy rare and valued herbs, it can be difficult to understand the customs of the locals. In fact, doing something as simple as crossing a bridge the wrong way, or eating meat can stir up the ire of the locals in some places, bringing down swift retribution upon the confused traveller. The gods of Ind are also a puzzling lot, and travellers are advised to smile politely and nod, as a local offers up prayers to his mouse or weevil deity, all the while content in the knowledge that Sigmar could crush them had he half a mind.</p><p>Many are the tales of wonder told by spice merchants returned from the lands to the east of the Old World, but few such yarns can be as bizarre as the accounts of the creatures said to reside in the verdant rainforests of central Ind. The lands of Ind are rich and fertile, and ruled by aristocratic overlords from their gorgeous palaces. Yet the people are poor and superstitious, and revere a staggering array of gods and spirits, leaving offerings and saying prayers to them ceaselessly as they go about their day. <strong>- Warhammer Wiki</strong></p></blockquote><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn]{Animal Care}, @UUID[Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq]{Charm}, @UUID[Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe]{Cool}, @UUID[Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J]{Endurance}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf]{Haggle}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Arabyan)}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Cathayan)}, @UUID[Compendium.wfrp4e-core.items.Item.X16IoUlKcVLI4MRw]{Language (Wastelander)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Kingdom)}, @UUID[Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6]{Melee (Basic)}, @UUID[Compendium.wfrp4e-core.items.Item.NSnpJQiky8JcMnme]{Ranged (Throwing)}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.BbStIySkF1hDM2zq]{Lightning Reflexes} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.LPgjE0cexTVOBVCY]{Suave}, @UUID[Compendium.wfrp4e-core.items.Item.u0CFf3xwiyidD9T5]{Luck}, @UUID[Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv]{Resistance (Heat)} <em>or</em> one roll on the Random Talents table, <strong>Kingdom Trait (Any)</strong></p><h3>Kingdom Traits</h3><ul><li><p><strong>Kingdom of Bhalluka: </strong>@UUID[Compendium.wfrp4e-core.items.Item.E98mVLZgE8bX5vQW]{Hatred (Daemons)}, one roll on the Random Talents table</p></li><li><p><strong>Kingdom of Gandharva: </strong>@UUID[Compendium.wfrp4e-core.items.Item.wNvPXAhlKABl6hpk]{Pure Soul}, @Table[talents]</p></li><li><p><strong>Kingdom of Singha: </strong>@UUID[Compendium.wfrp4e-core.items.Item.9CAkY3SQjQxRTlNJ]{Roughrider} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.jQmIu8P85tF0njmD]{Seasoned Traveller}, One @Table[talents]</p></li><li><p><strong>Kingdom of Lakshana: </strong>@UUID[Compendium.wfrp4e-core.items.Item.2eq8Ejotk54AZYwX]{Artistic} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.7bZjB82f6LSkeczP]{Nimble Fingered}, One @Table[talents]</p></li><li><p><strong>Kingdom of Panchala: </strong>Two @Table[talents]</p></li><li><p><strong>Kingdom of Kosala: </strong>@UUID[Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG]{Dealmaker}, One @Table[talents]</p></li><li><p><strong>Kingdom of Kurya: </strong>@UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}, One @Table[talents]</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleInd0001",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382505,
+        "modifiedTime": 1787665382505,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleInd0001",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleInd0001"
+    },
+    {
+      "name": "Kislev",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>7. Kislev</h2><blockquote><p>The Kingdom of Kislev is the most northerly Human civilisation within the Old World, a powerful and war-driven nation that is known far and wide for having some of the greatest horsemen to ever roam the plains of the southern realms. From the Worlds Edge Mountains to the East and the Sea of Claws in the West, Kislev stands at the very frontiers of Human civilisation, a land covered in wide-open steppes and thundering icy rivers, where lonely villages stand isolated in the empty wilderness, while mighty cities rise from the landscape like great islands of stone. The climate is harsh and unforgiving, and only the strongest, most determined people can survive here.</p><p>The inhabitants of Kislev are these very same people, a race of wolf-tough and self-reliant warriors, valiant and determined in the defense of their homeland against the hated marauders of the uppermost North.Ruled by a mighty Tzar, Kislev is a nation born from the saddle, their peoples ancestry being traced to the mighty horse-warriors of the Eastern Steppes many millennia ago.</p><p>Since the founding of this mighty kingdom, Kislev has been, since its very creation, under siege by the murderous Hordes of Chaos Undivided, a kingdom that sits forever at the brink of total annihilation. Countless generations of Kislevites have fought, bled, and died in the snowy tundra of those harsh northern lands, and it is thanks to these brave Kislevite warriors that the Kingdoms of Men have managed to flourish in the south, huddled together in their warm and safe homes, whilst the Sons of Kislev fight till they draw their last dying breath.</p><p>Kislev is a country forged from various warring invaders who finally settled alongside each other. The bulk of the nation’s population is mostly made up of two tribal people, the Ungols of the north and the Gospodars of the south, while the remaining population consist of the Norse, and the last remnants of the Ropsmenn people. Tribes such as the Dolgan have migrated from the Eastern Steppes and made their new homes in Kislev’s northern borders, while many of the people that inhabits the south display many traits of the Empire, as it is common for people in this region to interact and mingle the bloodlines. <strong>- Warhammer Wiki</strong></p></blockquote><h3>Gospodar</h3><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn]{Animal Care}, @UUID[Compendium.wfrp4e-core.items.Item.4IGdIhnwTaZijzg7]{Charm Animal}, @UUID[Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe]{Cool}, @UUID[Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39]{Evaluate}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf]{Haggle}, @UUID[Compendium.wfrp4e-core.items.Item.fPVnjkCnm5nKdKBh]{Language (Norse)} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.X16IoUlKcVLI4MRw]{Language (Wastelander)}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Ungol)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Kislev)}, @UUID[Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6]{Melee (Basic)}, @UUID[Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C]{Ranged (Bow)}, @UUID[Compendium.wfrp4e-core.items.Item.oSbEE6eXH1S3LfUU]{Ride (Horse)}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv]{Resistance (Cold)}, @UUID[Compendium.wfrp4e-core.items.Item.LPgjE0cexTVOBVCY]{Suave} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.QsrXxGZiHjth7RMg]{Savvy}, @UUID[Compendium.wfrp4e-core.items.Item.Zf0vk2rjllpDh0Ua]{Very Strong} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}, <strong>Provincial Trait (Any)</strong></p><h3>Ungol</h3><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn]{Animal Care}, @UUID[Compendium.wfrp4e-core.items.Item.4IGdIhnwTaZijzg7]{Charm Animal}, @UUID[Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe]{Cool}, @UUID[Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9]{Drive}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu]{Intimidate}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Gospodarinyi)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Kislev)}, @UUID[Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6]{Melee (Basic)}, @UUID[Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh]{Outdoor Survival}, @UUID[Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C]{Ranged (Bow)}, @UUID[Compendium.wfrp4e-core.items.Item.oSbEE6eXH1S3LfUU]{Ride (Horse)}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.zImcTgEl2XNnbu5W]{Hardy} <em>or </em>one roll on the Random Talents table, @UUID[Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv]{Resistance (Cold)}, @UUID[Compendium.wfrp4e-core.items.Item.5lcttqGToT54WFrl]{Marksman} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.RmY0CUjiFYZ3GEKY]{Very Resilient}, <strong>Provincial Trait (Any)</strong></p><h3>Provincial Traits</h3><ul><li><p><strong>Northern Kislev: </strong>@UUID[Compendium.wfrp4e-core.items.Item.x0WMGwuQzReXcQrs]{Night Vision}, One @Table[talents]</p></li><li><p><strong>Eastern Kislev (Praag): </strong>@UUID[Compendium.wfrp4e-core.items.Item.Ywo6fZNPC4zbHHSQ]{Strong-minded}, One @Table[talents]</p></li><li><p><strong>Western Kislev (Erengrad): </strong>@UUID[Compendium.wfrp4e-core.items.Item.L74MT9BDwE4CfutY]{Old Salt} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.Ij9N3G8jzxb4lrwy]{Sea Legs}, one roll on the Random Talents table</p></li><li><p><strong>Southern Kislev (City of Kislev): </strong>Two @Table[talents]</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleKislev1",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382505,
+        "modifiedTime": 1787665382505,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleKislev1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleKislev1"
+    },
+    {
+      "name": "Nippon",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>8. Nippon</h2><blockquote><p>The inscrutable Eastern empire known as Nippon is ruled by a reclusive semi-divine Emperor, also known as the Divine Sun, but real power lies in the hands of the many feudal warlords or 'Samurai', knights resplendent in brightly coloured armour made of lacquered wood that enforce a complex and rigid class system. These warrior nobles govern large domains and command retinues with which they frequently indulge in private wars among themselves. Nippon is an island realm and a notable sea power and it sometimes happens that a Samurai war fleet is dispersed by a typhoon, scattering the ships far and wide. Should an isolated war junk fetch up on a foreign shore the Samurai commander will gather his men and march straight for the nearest representative of authority to offer his service in return for food and shelter. Sometimes Samurai Lords deliberately embark their followers into war junks and set sail towards the rising sun in search of adventure, especially if the other feudal clans back home in Nippon are cramping his style.</p><p>The Samurai classes dominate Nipponese society. Their land is so vast and so often inhospitable, the Samurai so strong and the Emperor so weak, that central control has all but disappeared. Society is normally run by the Samurai, who exchange their protection for control over the towns and cities, along with taxes and the right to levy militias. As the Samurai have grown in strength, so has each settlement's need for the Samurai. The Samurai's training, devotion and continual practice have turned them into awesome fighters.</p><p>Nippon abounds with diverse orders of monks, either martial or clerical. The Orders select their members at a very early age and the chosen ones devote their entire lives to philosophy, theology and the martial arts. A lifetime of gruelling study hones their bodies and minds to a very fine edge.</p><p>Nipponese are said to be intensely distrustful of outsiders -- they only permit foreigners to travel in their lands rarely, and so little else is known about Nippon, though doubtless if the rest of the world is anything to go by, it will be populated by its own unique and deadly monsters and perils. <strong>- Warhammer Wiki</strong></p></blockquote><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq]{Charm}, @UUID[Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe]{Cool}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf]{Haggle}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Cathayan)}, @UUID[Compendium.wfrp4e-core.items.Item.X16IoUlKcVLI4MRw]{Language (Wastelander)}, @UUID[Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H]{Leadership}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Nippon)}, @UUID[Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6]{Melee (Basic)}, @UUID[Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C]{Ranged (Bow)}, @UUID[Compendium.wfrp4e-core.items.Item.n8IfmLt4kzMhIKIv]{Sail (Junk or Atakebune)}, @UUID[Compendium.wfrp4e-core.items.Item.hodHqFNKAmu40ajh]{Swim}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.mNoCuaVbFBflfO6X]{Sixth Sense}, @UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.oQzTJEXUx28sCiH3]{Sharp}, <strong>Clan Trait (Any)</strong></p><h3>Clan Traits</h3><ul><li><p><strong>Northern Clans: </strong>@UUID[Compendium.wfrp4e-core.items.Item.LPgjE0cexTVOBVCY]{Suave}, Two @Table[talents]</p></li><li><p><strong>Eastern Clans: </strong>@UUID[Compendium.wfrp4e-core.items.Item.BbStIySkF1hDM2zq]{Lightning Reflexes}, Two @Table[talents]</p></li><li><p><strong>Western Clans: </strong>@UUID[Compendium.wfrp4e-core.items.Item.QsrXxGZiHjth7RMg]{Savvy}, Two @Table[talents]</p></li><li><p><strong>Southern Clans: </strong>@UUID[Compendium.wfrp4e-core.items.Item.RmY0CUjiFYZ3GEKY]{Very Resilient}, Two @Table[talents]</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleNippon1",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382505,
+        "modifiedTime": 1787665382505,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleNippon1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleNippon1"
+    },
+    {
+      "name": "Norsca",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>9. Norsca</h2><blockquote><p>Norsca is a peninsula located in the far north of the Old World, lying on the doorstep of the Chaos Wastes itself. It is bordered to the south by the frigid waters of the Sea of Claws, to the north by the Kraken Sea and the Realm of Chaos, and to the east by the roving Kurgan tribes of the Steppes.</p><p>Norsca is inhabited by a race of savage and ferocious Men known variously as<strong> </strong>Norscans, Norsemen or the Norse. Fur-clad warriors and berserkers of hairy brawn, these wrathful barbarians sail the seas in fearsome longships and unleash their devastating fury upon the south. </p><p>he brutality of Norse raids has been felt as far abroad as the Witch King's baleful domain of Naggaroth, as well as the mysterious realm of mighty Cathay, for the men of Norsca are reckoned to be perhaps the most adept sailors and navigators in all the world; unequaled by any in their courage and reckless thirst for conquest.  </p><p>Despite their proximity to the Chaos Wastes, not all Norscans are worhippers of Chaos. The most southern tribes especially, like the Skaelings and the Bjornlings, shun mutations and are wary of the malignant corruptive influence of the Hound, the Serpent, the Crow and the Eagle.</p></blockquote><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV]{Athletics}, @UUID[Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd]{Climb}, @UUID[Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e]{Consume Alcohol}, @UUID[Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe]{Cool}, @UUID[Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J]{Endurance}, @UUID[Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu]{Intimidate}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Norsca)}, @UUID[Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6]{Melee (Basic)} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U]{Melee (Two-Handed)}, @UUID[Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh]{Outdoor Survival}, @UUID[Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB]{Perception}, @UUID[Compendium.wfrp4e-core.items.Item.n8IfmLt4kzMhIKIv]{Sail (Longship)}, @UUID[Compendium.wfrp4e-core.items.Item.hodHqFNKAmu40ajh]{Swim}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.x0WMGwuQzReXcQrs]{Night Vision}, @UUID[Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv]{Resistance (Cold)}, @UUID[Compendium.wfrp4e-core.items.Item.Zf0vk2rjllpDh0Ua]{Very Strong} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}, <strong>Tribe Trait (Any) </strong><em>or </em>Two @Table[talents]</p><h3>Tribe Traits</h3><ul><li><p><strong>Aeslings Tribe: </strong>@UUID[Compendium.wfrp4e-core.items.Item.0hn6UaKq8CoZP2zD]{Menacing}, @UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}</p></li><li><p><strong>Baersonlings Tribe: </strong>@UUID[Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA]{Sturdy}, @UUID[Compendium.wfrp4e-core.items.Item.RmY0CUjiFYZ3GEKY]{Very Resilient}</p></li><li><p><strong>Bjornlings Tribe: </strong>@UUID[Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv]{Strong Back}, @UUID[Compendium.wfrp4e-core.items.Item.Zf0vk2rjllpDh0Ua]{Very Strong}</p></li><li><p><strong>Graelings Tribe: </strong>@UUID[Compendium.wfrp4e-core.items.Item.SgjJMBgc85aswvhm]{Relentless}, @UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}</p></li><li><p><strong>Sarls Tribe: </strong>@UUID[Compendium.wfrp4e-core.items.Item.BbStIySkF1hDM2zq]{Lightning Reflexes}, @UUID[Compendium.wfrp4e-core.items.Item.1dUizIgLBgn4jICC]{Strider (Snow)}</p></li><li><p><strong>Skaelings Tribe: </strong>@UUID[Compendium.wfrp4e-core.items.Item.oQzTJEXUx28sCiH3]{Sharp}, @UUID[Compendium.wfrp4e-core.items.Item.mNoCuaVbFBflfO6X]{Sixth Sense}</p></li><li><p><strong>Skeggi Tribe: </strong>@UUID[Compendium.wfrp4e-core.items.Item.JLzJws09GMw9GWBV]{Coolheaded}, @UUID[Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv]{Resistance (Disease)}</p></li><li><p><strong>Vargs Tribe: </strong>@UUID[Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8]{Resolute}, @UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleNorsca1",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382505,
+        "modifiedTime": 1787665382505,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleNorsca1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleNorsca1"
+    },
+    {
+      "name": "Southlands",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>10. Southlands</h2><blockquote><p>The Southlands is a large, tropical continent located far to the south of the Old World, beyond the mysterious realm of Araby and the Land of the Dead. Its northern land mass is a barren wasteland of deserts, studded with dusty and deserted tomb-cities, while further south, it is a land of unspoiled jungle and swamp, isolated from the realms of Man, Elf and Dwarf for uncounted centuries.</p><p>Many brave or foolish explorers and treasure hunters — though the two are often indistinguishable — have attempted to penetrate the thick jungles that make up the majority of the southern region of this land, but almost all have never been seen or heard of again. Legends tell that the Southlands was once joined to the continent of Lustria, and this is borne out by the many identical species of flora and fauna indigenous to both. <strong>- Warhammer Wiki</strong></p></blockquote><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn]{Animal Care}, @UUID[Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV]{Athletics}, @UUID[Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd]{Climb}, @UUID[Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe]{Cool}, @UUID[Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J]{Endurance}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Arabyan)} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Cathayan)}, @UUID[Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV]{Melee (Polearm)}, @UUID[Compendium.wfrp4e-core.items.Item.zZUX7wO4rOo8k9F0]{Navigation}, @UUID[Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh]{Outdoor Survival}, @UUID[Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB]{Perception}, @UUID[Compendium.wfrp4e-core.items.Item.NSnpJQiky8JcMnme]{Ranged (Throwing)}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.BbStIySkF1hDM2zq]{Lightning Reflexes} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.AwUUEwwf2Vt4ksCN]{Sprinter}, @UUID[Compendium.wfrp4e-core.items.Item.CV9btQn09S9Fn8Jk]{Strong Legs} <em>or </em>one roll on the Random Talents table, <strong>Tribe trait (Any)</strong></p><h3>Tribe Traits</h3><ul><li><p><strong>Northern Southlands Tribes: </strong>@UUID[Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP]{Etiquette (Lizardmen)} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.LPgjE0cexTVOBVCY]{Suave}, Two @Table[talents]</p></li><li><p><strong>Eastern Southlands Tribes: </strong>@UUID[Compendium.wfrp4e-core.items.Item.IFKWu98qmWpaSfUi]{Ambidextrous} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born}, Two @Table[talents]</p></li><li><p><strong>Western Southlands Tribes: </strong>@UUID[Compendium.wfrp4e-core.items.Item.jrFIFLhyOYwcyMUl]{Flee!} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.E98mVLZgE8bX5vQW]{Hatred (Undead)}, Two @Table[talents]</p></li><li><p><strong>Southern Southlands Tribes: </strong>Three @Table[talents]</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleSouth01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382506,
+        "modifiedTime": 1787665382506,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleSouth01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleSouth01"
+    },
+    {
+      "name": "Strigany",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>11. Strigany</h2><blockquote><p>The human empire of Strigos worshipped Vampires as Gods, but their Undead deities couldn’t save them from the might of butchering Greenskins. When the few escapees staggered north into the Old World, the stricken people met a wall of hatred from the other human tribes, but they had nowhere else to turn.</p><p>They wander there still, now calling themselves the Strigany, and are hated no less, even though the centuries have erased the memories of their blood-soaked empire from the minds of their countrymen. Mirroring the rootless land caravans of their people, the Strigany meander up and down the River Reik in small boat communities, moving from one persecution to the next. Their dreary, poorly maintained vessels are often moored far from civilisation, where they prey on the superstitions of passing riverfolk by selling charms and wards for whatever coin they can.</p><p>he people of Strigos were scattered to the winds when their lands were destroyed and have since taken up a nomadic life. They roam the Empire in caravan trains or river barges, making money where they can and stealing when they can't. Their history under the Vampires ensures they maintain their travelling lifestyle, marking them not just as thieves and cutthroats but also necromancers and servants of darkness. In truth, most of them are simple woodsmen, entertainers, or vagabonds, but a few do know something of witchcraft, a little of fortune telling, and a large amount of Vampire lore.</p><p>These mystics were taught the true and complete history of their people, and they carry the secret knowledge from those ancient days, as well as the promise of their Strigos lords to one day return and lead them back to glory. <strong>- Warhammer Wiki</strong></p></blockquote><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn]{Animal Care}, @UUID[Compendium.wfrp4e-core.items.Item.4IGdIhnwTaZijzg7]{Charm Animal}, @UUID[Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq]{Charm}, @UUID[Compendium.wfrp4e-core.items.Item.UFunAopCNaD8Zdc7]{Entertain (Singing)} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.qBm2fu3oMhxsDBNQ]{Entertain (Storytelling)}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf]{Haggle}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Any)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Local)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Spirits)}, @UUID[Compendium.wfrp4e-core.items.Item.HO8vIjGTHjmenIaV]{Perform (Any)}, @UUID[Compendium.wfrp4e-core.items.Item.bBLK2hznjPlby6Jb]{Play (Any)}, @UUID[Compendium.wfrp4e-core.items.Item.oSbEE6eXH1S3LfUU]{Ride (Horse)}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.9fq6p9Q6H02LjaSi]{Animal Affinity} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.pQjZdMJDDaz0DpAD]{Perfect Pitch}, @UUID[Compendium.wfrp4e-core.items.Item.jQmIu8P85tF0njmD]{Seasoned Traveller}, @UUID[Compendium.wfrp4e-core.items.Item.oQzTJEXUx28sCiH3]{Sharp} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.LPgjE0cexTVOBVCY]{Suave}, Two @Table[talents]</p>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleStriga1",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382506,
+        "modifiedTime": 1787665382506,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleStriga1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleStriga1"
+    },
+    {
+      "name": "Tilea",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>12. Tilea</h2><blockquote><p>Tilea is a large fertile peninsula located within the southernmost border of the Old World, along the tranquil coast of the warm and bountiful Tilean Sea. The wealthy city-states that dot Tilea's landscape embrace the ideals of trade, exploration, progression and civil war with almost equal passion. Tilea is a land of great wealth and advancement, a land known far and wide for being the cradle from which the ideals of democracy, civil liberty and justice was birthed, founded, and established. It is only from here that the first true Republics were formed by the nation's people, such as the Republic of Remas, while others are ruled by a powerful caste of wealthy merchants, known collectively as the Merchant Princes.</p><p>Yet for all its wealth and advancement, Tilea is, like much of the Old World, a fractious, war-torn region, where the fertile countryside becomes the battleground from which legions of mercenaries clash in titanic struggles that serve no purpose other than to advance the petty and greedy ambition of the rich and the few. As such, it should be no surprise that the greatest concentration of these gold-hungry cutthroats can be found in the lands of Tilea. Perhaps it is fitting that these mercenaries are known collectively as the Dogs of War. <strong>- Warhammer Wiki</strong></p></blockquote><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.fdq3RFSOKl5b3WzW]{Art ( Any)}, @UUID[Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT]{Bribery}, @UUID[Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq]{Charm}, @UUID[Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e]{Consume Alcohol}, @UUID[Compendium.wfrp4e-core.items.Item.qBm2fu3oMhxsDBNQ]{Entertain (Storytelling)}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.Emd8lVdIpaXTxLwL]{Language (Estalian)}, @UUID[Compendium.wfrp4e-core.items.Item.5EvSIh1khpt77uM7]{Language (Bretonnian)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Politics)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (City State)}, @UUID[Compendium.wfrp4e-core.items.Item.n8IfmLt4kzMhIKIv]{Sail (Caravel or Carrack or Galley or Galleass)}, @UUID[Compendium.wfrp4e-core.items.Item.rvd0S8Z0v2m0MHmD]{Sleight of Hand}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.8lSoPDGrmeTIaapm]{Gregarious} <em>or </em>One @Table[talents], @UUID[Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf]{Read/Write} <em>Or </em>one roll on the Random Talents table, @UUID[Compendium.wfrp4e-core.items.Item.oQzTJEXUx28sCiH3]{Sharp} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.LPgjE0cexTVOBVCY]{Suave}, <strong>City State Trait (Any)</strong></p><h3>City States Traits</h3><ul><li><p><strong>Remas: </strong>@UUID[Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP]{Etiquette (Merchants)}, one roll on the Random Talents table</p></li><li><p><strong>Luccini: </strong>@UUID[Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP]{Etiquette (Mymidians)}, one roll on the Random Talents table</p></li><li><p><strong>Trantio: </strong>@UUID[Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP]{Etiquette (Artists)}, one roll on the Random Talents table</p></li><li><p><strong>Pavona: </strong>@UUID[Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP]{Etiquette (Carpenters)}, one roll on the Random Talents table</p></li><li><p><strong>Verezzo: </strong>@UUID[Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP]{Etiquette (Politicians)}, one roll on the Random Talents table</p></li><li><p><strong>Sartosa: </strong>@UUID[Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP]{Etiquette (Pirates)}, one roll on the Random Talents table</p></li><li><p><strong>Miragliano: </strong>@UUID[Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP]{Etiquette (Rat Catchers)}, one roll on the Random Talents table</p></li><li><p><strong>Tobaro: </strong>@UUID[Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP]{Etiquette (Miners)}, one roll on the Random Talents table</p></li><li><p><strong>New World Colonies: </strong>@UUID[Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP]{Etiquette (Adventurers)}, one roll on the Random Talents table</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleTilea01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382506,
+        "modifiedTime": 1787665382506,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleTilea01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleTilea01"
+    },
+    {
+      "name": "Westerland (Wasteland)",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>13. Westerland (Wasteland)</h2><blockquote><p>The Wasteland is a coastal area around the mouth of the River Reik which contains the prosperous city of Marienburg. The Wasteland used to be the Empire province of Westerland that was conquered in 501 IC by Emperor Sigismund II, until it seceded during the reign of Emperor Dieter IV in 2429 IC through a hefty bribe. </p><p>Marienburg is considered to be the largest trading hub in the Old World and is the greatest of its ports, far more wondrous than even the city-states of Tilea. Straddling the mouth of the River Reik as it drains the mainland into the Sea of Claws, nearly all maritime trade that concerns Bretonnia and the Empire happens here. It is a place of great wealth and great opportunity. It is a place despised by the Empire, despite its reliance on the fabulous port city’s good fortunes.</p><p>Marienburg is vast; a bright spot in an otherwise forlorn and wretched landscape. The people of the city are descended by the tribe of the Jutones, who drove the Endals and the Fimir off their lands and made the marshes their new found home. In fact, the people of Westerland are of Endal stock while the city itself is purely Jutones in origin. The city itself rises from the foetid swamp that typifies the Wasteland, that gloomy march between the impenetrable Drakwald Forest and the immense Pale Sisters. With the regular rains, sucking mires, and the strange breed of peasants that make their living trawling the dark waters of the countryside, reaching the grand city can sometimes be a feat in and of itself. A visitor to Marienburg can quickly be overwhelmed by the sheer size of this metropolis, with its innumerable islands, canals, and labyrinthine streets. So large is the city that many of its denizens rarely venture beyond their own districts, and can only speculate about what happens on the other side of the city.</p><p>Anyone wishing to get anywhere in the city must cough up a few coins to pay for passage on one of the canals. Certainly, one could get where they want to go on foot, but the streets are so narrow, so twisting, it’s easy to get lost, swallowed whole by a city that always hungers for fresh meat. Thus the canals are the main thoroughfares and the murky waters, glistening with the oily sheen of filth, are filled with skiffs, rowboats, sailing ships, and even galleons come to pass through the city and venture onwards to Altdorf or even as far as Nuln. <strong>-Warhammer Wiki</strong></p></blockquote><p><strong>Skills:</strong> @UUID[Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT]{Bribery}, @UUID[Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq]{Charm}, @UUID[Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe]{Cool}, @UUID[Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39]{Evaluate}, @UUID[Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2]{Gossip}, @UUID[Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf]{Haggle}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Arabyan)} <em>or</em> @UUID[Compendium.wfrp4e-core.items.Item.5EvSIh1khpt77uM7]{Language (Bretonnian)}, @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Cathayan)} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Nipponese)}, @UUID[Compendium.wfrp4e-core.items.Item.Emd8lVdIpaXTxLwL]{Language (Estalian)} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.12e3H6NX4JH0bwI3]{Language (Tilean)}, @UUID[Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh]{Lore (Westerland)}, @UUID[Compendium.wfrp4e-core.items.Item.n8IfmLt4kzMhIKIv]{Sail (Cog or Caravel or Carrack or Frigate or Barge)}, @UUID[Compendium.wfrp4e-core.items.Item.wKwel9MG7NIG3i3w]{Trade (Any)}</p><p><strong>Talents:</strong> @UUID[Compendium.wfrp4e-core.items.Item.34EBUkHQkrqF1sq7]{Briber} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG]{Dealmaker}, @UUID[Compendium.wfrp4e-core.items.Item.QsrXxGZiHjth7RMg]{Savvy} <em>or </em>@UUID[Compendium.wfrp4e-core.items.Item.LPgjE0cexTVOBVCY]{Suave}, Three @Table[talents]</p>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mPeoples000001.JournalEntryPage.n0mPeopleWastel1",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382506,
+        "modifiedTime": 1787665382506,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mPeopleWastel1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mPeoples000001.n0mPeopleWastel1"
+    }
+  ],
+  "categories": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1787665382506,
+    "modifiedTime": 1787665382506,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!journal!n0mPeoples000001"
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "n0mMedalSlvWolf",
+  "name": "Silver Wolf",
+  "type": "trapping",
+  "img": "systems/wfrp4e/icons/blank.png",
+  "effects": [],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {},
+    "wfrp4e-nom": {
+      "honorKind": "imperialMedal"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Awarded For:</strong> Slaying a powerful and dangerous Beastman, Greenskin or Mutant champion such as a Beastlord, Chaos Cult Leader, or Greenskin Warboss in melee combat.</p><p><strong>Description:</strong> A silver medallion carved in the shape of a wolf’s head with its features etched in.</p><p><strong>Bonuses:</strong> The medal wearer’s melee attacks against Beastmen, Greenskins and Mutants, gain the Damaging Weapon Quality. Any warhammers or axes (the signature weapons of Ulric) you wield gain +1 Damage with this medal equipped. If you do not have either the @UUID[Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh]{Warrior Born} or @UUID[Compendium.wfrp4e-core.items.Item.RmY0CUjiFYZ3GEKY]{Very Resilient} Talent already, one may be added to the Talent list of any career you are in.</p><p><em>Automation (Wave 3):</em> Until automated, the GM applies the bonuses above manually when the medal is worn (Imperial Honors) or when the honor applies (Kill Counts).</p><h3>Medal Notes</h3>\n<p>Talents granted by medals apply only to the <strong>original recipient</strong>. Non-talent bonuses require the medal to be <strong>worn</strong> by the earner. Non-earners do not gain these benefits — the GM enforces recipient rules (no automatic earner lock). Medals can be identified with Easy (+40) Lore (Empire / Heraldry / History). Fake medals: Evaluate + Numismatics (GM difficulty).</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 0,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "exotic"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "clothingAccessories"
+    },
+    "worn": true,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "qualities": {
+      "label": "Qualities",
+      "value": []
+    },
+    "flaws": {
+      "label": "Flaws",
+      "value": []
+    }
+  },
+  "sort": 0,
+  "_key": "!items!n0mMedalSlvWolf"
+}

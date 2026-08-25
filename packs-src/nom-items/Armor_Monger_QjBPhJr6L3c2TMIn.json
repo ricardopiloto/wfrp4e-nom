@@ -1,0 +1,60 @@
+{
+  "_id": "QjBPhJr6L3c2TMIn",
+  "name": "Armor-Monger",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/armor-monger.webp",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623968132,
+    "modifiedTime": 1787624098731,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You are a skilled armorer, constantly tinkering and improving your armor, or keeping it in pristine shape by repairing the slightest damage it sustains. You even learned to enhance the protection afforded by your armor and how to use it optimally. Increase the Armor Points of any armor you wear by 1 on all locations it would normally cover, so long as you spend at least an hour each day to clean and repair it or make minor modifications. This bonus applies only to armor when worn by you, cannot be used for Critical Deflection<em> (WHFRP 4E Core Book, page 299)</em> and does not count towards the armor&rsquo;s durability. If your armor&rsquo;s durability is reduced to 0 and made useless, the AP bonus no longer applies until it is repaired.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "dex"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": "Trade Tests for crafting and repairing armor"
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 200000,
+  "_key": "!items!QjBPhJr6L3c2TMIn"
+}

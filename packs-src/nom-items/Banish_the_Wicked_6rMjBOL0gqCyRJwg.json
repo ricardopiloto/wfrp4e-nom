@@ -25,7 +25,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>You chant a prayer to Shaivi and strike your foe with your palm punishing them for their wicked deeds with the energy of the Deva of Destruction itself. You deal 1d10+SL Damage ignoring Toughness Bonus and Armor Points. If the target has the @Compendium[wfrp4e-core.items.xsGbDFqK2qh7lsIj]{Corruption} Trait, it takes an additional 1d10 Damage per the strength of the Corruption.</p>"
+      "value": "<p>You chant a prayer to Shaivi and strike your foe with your palm punishing them for their wicked deeds with the energy of the Deva of Destruction itself. You deal 1d10+SL Damage ignoring Toughness Bonus and Armor Points. If the target has the @UUID[Compendium.wfrp4e-core.items.Item.xsGbDFqK2qh7lsIj]{Corruption} Trait, it takes an additional 1d10 Damage per the strength of the Corruption.</p>"
     },
     "gmdescription": {
       "type": "String",

@@ -1,0 +1,64 @@
+{
+  "_id": "n0mKcKiller00001",
+  "name": "Killer",
+  "type": "talent",
+  "img": "systems/wfrp4e/icons/blank.png",
+  "effects": [],
+  "folder": "DsekJv5UvKUKIUpc",
+  "flags": {
+    "wfrp4e-nom": {
+      "honorKind": "killCount",
+      "killCountEnemy": "",
+      "killCountRank": "killer"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Kill Count Rank:</strong> Killer</p><p><strong>Enemy Type:</strong> Free text. Set <code>flags.wfrp4e-nom.killCountEnemy</code> and/or rename this talent to <em>Killer (Enemy)</em> when awarding. Suggested examples: Beastmen, Orcs, Undead, Outlaws, Skaven, Chaos. Foe-specific bonuses do not apply while Enemy Type is blank.</p><p><strong>Progression:</strong> For a single Enemy Type only the <strong>highest</strong> rank remains active (Reaper &gt; Killer &gt; Hunter). When awarding a higher rank, remove or supersede the lower rank for that enemy.</p><p><strong>Requirements:</strong> The warrior has been an implacable foe of this enemy. Award this honor for successfully completing two or more adventures against a given adversary. Optionally, the GM can award the character this honor for 100 or more confirmed kills of a given enemy by the warrior.</p><p><strong>Bonuses:</strong> You have experienced first-hand the behaviors and tactics of your foe and can now begin to predict their behaviors and exploit their idiosyncrasies. You gain a <strong>+10 to any Intelligence Tests</strong> having to do with the chosen enemy, including and especially Lore Tests. Additionally, you are extremely adept at combating your specific enemy and gain a bonus of +1 SL on all combat Tests against the specified threat.</p><p><em>Automation (Wave 2):</em> Until automated, the GM applies the bonuses above manually when the medal is worn (Imperial Honors) or when the honor applies (Kill Counts).</p><h3>Medal Notes (Kill Counts)</h3><p>Kill Counts are informal honors (no physical medal required). Recipient rules for talents still apply; the GM enforces awards and superseding ranks.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": "Kill Count (Killer) — set Enemy Type when awarded"
+    }
+  },
+  "sort": 0,
+  "_key": "!items!n0mKcKiller00001"
+}

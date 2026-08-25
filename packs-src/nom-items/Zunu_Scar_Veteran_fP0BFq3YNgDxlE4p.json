@@ -1,0 +1,115 @@
+{
+  "_id": "fP0BFq3YNgDxlE4p",
+  "name": "Zunu Scar-Veteran",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-03.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787670119947,
+    "modifiedTime": 1787670119947,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.4weUTWdDxDo6VyNb]{Zunu}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Zunu"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warrior"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Charm Animal",
+      "Dodge",
+      "Endurance",
+      "Intimidate",
+      "Melee (Polearm)",
+      "Navigation",
+      "Outdoor Survival",
+      "Perform (Tribal Dance)",
+      "Athletics",
+      "Climb",
+      "Cool",
+      "Lore (Southlands)",
+      "Melee (Basic or Two-handed)",
+      "Ranged (Sling or Throwing)",
+      "Language (Saurian)",
+      "Lore (Lizardmen)",
+      "Perception",
+      "Stealth (Rural)"
+    ],
+    "talents": [
+      "Relentless",
+      "Rover",
+      "Stout-hearted",
+      "Warpaint"
+    ],
+    "trappings": [
+      "Obsinite Weapon",
+      "Lizardmen Headdress and Trinkets"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 0,
+  "_key": "!items!fP0BFq3YNgDxlE4p"
+}

@@ -1,0 +1,60 @@
+{
+  "_id": "xDEf1fhzhs4tyBGI",
+  "name": "Crazed Cook",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/crazed-cook.webp",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623975061,
+    "modifiedTime": 1787624125854,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Once per game session, you may make a <strong>Challenging (+0)@UUID[Compendium.wfrp4e-core.items.Item.epSHxgJWtT1S0yMY]{Trade (Cook)} Test</strong>. This Action requires at least several minutes. At the GM&rsquo;s discretion, you might gain a bonus to this Test for acquiring certain ingredients to truly enhance your meal. If you succeed, you and your allies gain a <strong>+10 bonus to Willpower Tests</strong> to resist the effects of @UUID[Compendium.wfrp4e-core.items.Item.Ib2YQYChktDFN93y]{Fear}, @UUID[Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu]{Intimidate} and @UUID[Compendium.wfrp4e-core.items.Item.meMkLEwdJIDLxM0B]{Terror} for SL hours or until the end of the session. If the cooking Test succeeds by 6 SL or more, the first time each ally uses a Fortune Point before the end of the effect, that character rolls 1d10. On a result of 6+, that character still gains the benefit of using the Fortune Point, but the Fortune Point does not count as having been expended.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "dex"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": "Trade (Cook)"
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 500000,
+  "_key": "!items!xDEf1fhzhs4tyBGI"
+}

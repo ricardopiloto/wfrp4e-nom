@@ -42,18 +42,18 @@
     "compendiumSource": "Compendium.wfrp4e-bretonnia.bretonnia-items.Item.Wl9Sucivn7QZGzQv",
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.3.2",
     "createdTime": 1765314948785,
-    "modifiedTime": 1766509328023,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787623977976,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "_id": "Wl9Sucivn7QZGzQv",
   "ownership": {
     "default": 0,
     "bwuOpMGVHBESXkjP": 3
   },
-  "sort": 2000000,
+  "sort": 7300000,
   "_key": "!items!Wl9Sucivn7QZGzQv"
 }

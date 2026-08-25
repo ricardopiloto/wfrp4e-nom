@@ -124,8 +124,8 @@
     "systemId": "wfrp4e",
     "systemVersion": "9.3.2",
     "createdTime": 1766509329801,
-    "modifiedTime": 1766509329801,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787623977971,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "ownership": {
     "default": 0,
@@ -136,7 +136,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>In your hands, all lances count as magic weapons and deal +2 additional Damage while mounted and Charging. They also lose the Improvised Weapon effect if used on a round you haven&rsquo;t Charged, while mounted. If you wield a lance that is already magical, its Damage is increased by +1.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @Compendium[wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @Compendium[wfrp4e-core.items.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
+      "value": "<p>In your hands, all lances count as magic weapons and deal +2 additional Damage while mounted and Charging. They also lose the Improvised Weapon effect if used on a round you haven&rsquo;t Charged, while mounted. If you wield a lance that is already magical, its Damage is increased by +1.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @UUID[Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @UUID[Compendium.wfrp4e-core.items.Item.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -166,6 +166,6 @@
     }
   },
   "folder": "DsekJv5UvKUKIUpc",
-  "sort": 0,
+  "sort": 1600000,
   "_key": "!items!BqJ6Fmc9oRn85k9d"
 }

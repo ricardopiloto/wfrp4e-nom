@@ -1,0 +1,103 @@
+{
+  "_id": "aDfZBs6onvwEhNLa",
+  "name": "Pellets (12)",
+  "type": "ammunition",
+  "img": "modules/wfrp4e-core/icons/equipment/ammunition/lead-bullet.png",
+  "effects": [],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1787669600883,
+    "modifiedTime": 1787669600883,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 12
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 0,
+      "ss": 1,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": ""
+    },
+    "ammunitionType": {
+      "type": "String",
+      "label": "Ammunition Type",
+      "value": "BPandEng"
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": ""
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": ""
+    },
+    "qualities": {
+      "type": "String",
+      "label": "Qualities",
+      "value": [
+        {
+          "name": "impale",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "type": "String",
+      "label": "Flaws",
+      "value": []
+    },
+    "special": {
+      "type": "String",
+      "label": "Special",
+      "value": ""
+    }
+  },
+  "sort": 9200000,
+  "_key": "!items!aDfZBs6onvwEhNLa"
+}

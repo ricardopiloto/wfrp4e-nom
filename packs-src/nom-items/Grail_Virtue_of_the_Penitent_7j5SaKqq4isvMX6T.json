@@ -36,7 +36,7 @@
         "modifiedTime": null
       },
       "name": "Grail Virtue",
-      "img": "modules/nations-of-mankind-wfrp4e/icons/talents/grailknight-virtue.webp",
+      "img": "modules/wfrp4e-nom/icons/talents/grailknight-virtue.webp",
       "type": "base",
       "system": {
         "transferData": {
@@ -121,8 +121,8 @@
     "systemId": "wfrp4e",
     "systemVersion": "9.3.2",
     "createdTime": 1766509330412,
-    "modifiedTime": 1766509330412,
-    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+    "modifiedTime": 1787623977971,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te"
   },
   "ownership": {
     "default": 0,
@@ -133,7 +133,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>All Critical Wound effects have their conditions reduced by -1. Example: gaining 2 @Condition[Bleeding] and 1 @Condition[Blinded] from Struck Forehead now only grants 1 Bleeding. This does not apply to Critical Wound Tests that cause Conditions. Also, you may reverse the dice of a Critical Hit made against you if it lowers the result on the Critical Wound Table. This effect does not stack with the -10 to a Critical Hit result provided by Virtue of Penitent and must be decided between the two.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @Compendium[wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @Compendium[wfrp4e-core.items.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
+      "value": "<p>All Critical Wound effects have their conditions reduced by -1. Example: gaining 2 @Condition[Bleeding] and 1 @Condition[Blinded] from Struck Forehead now only grants 1 Bleeding. This does not apply to Critical Wound Tests that cause Conditions. Also, you may reverse the dice of a Critical Hit made against you if it lowers the result on the Critical Wound Table. This effect does not stack with the -10 to a Critical Hit result provided by Virtue of Penitent and must be decided between the two.</p>\n<p><strong>Grail Virtue :</strong> You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @UUID[Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @UUID[Compendium.wfrp4e-core.items.Item.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p>"
     },
     "gmdescription": {
       "type": "String",
@@ -163,6 +163,6 @@
     }
   },
   "folder": "DsekJv5UvKUKIUpc",
-  "sort": 0,
+  "sort": 1300000,
   "_key": "!items!7j5SaKqq4isvMX6T"
 }

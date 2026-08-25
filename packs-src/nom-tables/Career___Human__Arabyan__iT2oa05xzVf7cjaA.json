@@ -24,7 +24,7 @@
       },
       "name": "Apothecary",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.86gkaanqt19xYCRa]{Apothecary}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.86gkaanqt19xYCRa]{Apothecary}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.ku321p25dyd3m8jz"
     },
@@ -49,7 +49,7 @@
       },
       "name": "Engineer",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.hVKMI3xwuUpO3P6c]{Engineer}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.hVKMI3xwuUpO3P6c]{Engineer}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.dc935w6a0ojng0ga"
     },
@@ -74,7 +74,7 @@
       },
       "name": "Lawyer",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.uIKbkjQpNUCGIQRv]{Lawyer}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.uIKbkjQpNUCGIQRv]{Lawyer}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.kywl479u4lwyp37w"
     },
@@ -99,7 +99,7 @@
       },
       "name": "Physician",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.Mn7w0SSGfN7cu7gQ]{Physician}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.Mn7w0SSGfN7cu7gQ]{Physician}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.omloc1660hf791x2"
     },
@@ -124,7 +124,7 @@
       },
       "name": "Priest",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.h1l9jvaIxsb92wtM]{Priest}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.h1l9jvaIxsb92wtM]{Priest}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.527iotd5vbjoux98"
     },
@@ -149,7 +149,7 @@
       },
       "name": "Scholar",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.CmiCNv8YlslFqRqy]{Scholar}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.CmiCNv8YlslFqRqy]{Scholar}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.qtjqyyjv1uf7214q"
     },
@@ -174,7 +174,7 @@
       },
       "name": "Wizard",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.PKm1L6yjZ4PH0JJG]{Wizard}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.PKm1L6yjZ4PH0JJG]{Wizard}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.wkeu14yedbgj8d9q"
     },
@@ -199,7 +199,7 @@
       },
       "name": "Agitator",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.X6OBFMR8ywipAPOo]{Agitator}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.X6OBFMR8ywipAPOo]{Agitator}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.3yts2bwcjvrxz7jv"
     },
@@ -224,7 +224,7 @@
       },
       "name": "Artisan",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.GWrZq3xoRSsDnQe0]{Artisan}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.GWrZq3xoRSsDnQe0]{Artisan}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.jmuvba5f0lf5y9l9"
     },
@@ -249,7 +249,7 @@
       },
       "name": "Beggar",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.1l2m7D1LHIz2q9qv]{Beggar}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.1l2m7D1LHIz2q9qv]{Beggar}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.ucshgfeetto0fr4m"
     },
@@ -274,7 +274,7 @@
       },
       "name": "Investigator",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.zLWmjUbUdAOfiV3F]{Investigator}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.zLWmjUbUdAOfiV3F]{Investigator}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.706a6tr0itaro2dy"
     },
@@ -299,7 +299,7 @@
       },
       "name": "Merchant",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.h7GdfctKdjWL0Ejp]{Merchant}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.h7GdfctKdjWL0Ejp]{Merchant}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.37semoo350fu3ngt"
     },
@@ -324,7 +324,7 @@
       },
       "name": "Rat Catcher",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.mKvUxzJyQmhgjDE0]{Rat Catcher}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.mKvUxzJyQmhgjDE0]{Rat Catcher}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.dyfmy82793ujmvpi"
     },
@@ -349,7 +349,7 @@
       },
       "name": "Townsman",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.XHYgf5oEwIeCEVNM]{Townsman}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.XHYgf5oEwIeCEVNM]{Townsman}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.piwwh426n4i9v5gf"
     },
@@ -374,7 +374,7 @@
       },
       "name": "Watchman",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.N02cjJdNWPdc4PUS]{Watchman}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.N02cjJdNWPdc4PUS]{Watchman}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.7skcnwmi8kbredbc"
     },
@@ -399,7 +399,7 @@
       },
       "name": "Advisor",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.pwth0cd20Vdp0B9G]{Advisor}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.pwth0cd20Vdp0B9G]{Advisor}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.t1ht9xc1y2f8rrs7"
     },
@@ -424,7 +424,7 @@
       },
       "name": "Artist",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.u9sso2ox8BNznmy4]{Artist}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.u9sso2ox8BNznmy4]{Artist}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.vyoiljj04rdeh1dr"
     },
@@ -449,7 +449,7 @@
       },
       "name": "Envoy",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.0t9wtjQIoOofh8nO]{Envoy}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.0t9wtjQIoOofh8nO]{Envoy}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.ltasbh59x9lq2a25"
     },
@@ -474,7 +474,7 @@
       },
       "name": "Noble",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.t41abSTLeMAdLiWS]{Noble}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.t41abSTLeMAdLiWS]{Noble}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.9xuk5n3gvnt0t1u9"
     },
@@ -499,7 +499,7 @@
       },
       "name": "Servant",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.iYnopOFkz5L6hljq]{Servant}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.iYnopOFkz5L6hljq]{Servant}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.zjk4imv6ztdqw85c"
     },
@@ -524,7 +524,7 @@
       },
       "name": "Spy",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ssJHG82vEHHRoAUF]{Spy}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ssJHG82vEHHRoAUF]{Spy}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.qe9jmfzudlq2b6wj"
     },
@@ -549,7 +549,7 @@
       },
       "name": "Warden",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.wbqpqbFoSnvoZ53j]{Warden}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.wbqpqbFoSnvoZ53j]{Warden}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.s3o1xrutfhni0pqf"
     },
@@ -574,7 +574,7 @@
       },
       "name": "Bailiff",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.UhdhIWaofKgwFKEr]{Bailiff}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.UhdhIWaofKgwFKEr]{Bailiff}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.58vgk52ph4y53bfn"
     },
@@ -599,7 +599,7 @@
       },
       "name": "Herbalist",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.fTqkgehpmxk7kVT6]{Herbalist}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.fTqkgehpmxk7kVT6]{Herbalist}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.yucdpaxasqksnvzq"
     },
@@ -624,7 +624,7 @@
       },
       "name": "Hunter",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.T6c9MttfG0Fj4nDm]{Hunter}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.T6c9MttfG0Fj4nDm]{Hunter}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.kec0zl53jfk32zt9"
     },
@@ -649,7 +649,7 @@
       },
       "name": "Miner",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.Nu2diwbUfo786wYt]{Miner}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.Nu2diwbUfo786wYt]{Miner}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.cxlmyfpkpftxp8vr"
     },
@@ -674,7 +674,7 @@
       },
       "name": "Mystic",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.CzebTXk5dirMAZ6p]{Mystic}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.CzebTXk5dirMAZ6p]{Mystic}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.gfz2gevbmjs7gj01"
     },
@@ -699,7 +699,7 @@
       },
       "name": "Scout",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.HSoeyY2cbQAndBFk]{Scout}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.HSoeyY2cbQAndBFk]{Scout}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.ktlshijh7m8uoouu"
     },
@@ -724,7 +724,7 @@
       },
       "name": "Villager",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.EYkvtokq0FXlFaPa]{Villager}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.EYkvtokq0FXlFaPa]{Villager}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.sddqosozmorkl5v1"
     },
@@ -749,7 +749,7 @@
       },
       "name": "Bounty Hunter",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.orZTfdJCm6OnUktl]{Bounty Hunter}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.orZTfdJCm6OnUktl]{Bounty Hunter}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.8hxhtqk0ekne9ccw"
     },
@@ -774,7 +774,7 @@
       },
       "name": "Coachman",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.tvJAKXB7R0EOr4oE]{Coachman}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.tvJAKXB7R0EOr4oE]{Coachman}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.acfpew36p8jgkhvl"
     },
@@ -799,7 +799,7 @@
       },
       "name": "Entertainer",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.5nIDu8oyFVShLqne]{Entertainer}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.5nIDu8oyFVShLqne]{Entertainer}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.va6qr8om5kk6lc7t"
     },
@@ -824,7 +824,7 @@
       },
       "name": "Messenger",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.9XoJinyH6CsOcJ1h]{Messenger}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.9XoJinyH6CsOcJ1h]{Messenger}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.4jxtzyd07tkjtgg6"
     },
@@ -849,7 +849,7 @@
       },
       "name": "Pedlar",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.FdlybSv02jjXG1qW]{Pedlar}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.FdlybSv02jjXG1qW]{Pedlar}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.hmsw9txhri8kbh3h"
     },
@@ -874,7 +874,7 @@
       },
       "name": "Boatman",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.Rk1V9EvtZ0p5Qhwr]{Boatman}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.Rk1V9EvtZ0p5Qhwr]{Boatman}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.kd2zv7hj81xu55s5"
     },
@@ -899,7 +899,7 @@
       },
       "name": "Huffer",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.TkF2ld3b72RlH2AR]{Huffer}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.TkF2ld3b72RlH2AR]{Huffer}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.dx9yj6ncadlnesw8"
     },
@@ -924,7 +924,7 @@
       },
       "name": "Riverwoman",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.c8JYF7Lvaaezt9RS]{Riverwoman}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.c8JYF7Lvaaezt9RS]{Riverwoman}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.c9e4j4v2aghrg4ek"
     },
@@ -947,9 +947,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Seaman",
+      "name": "Witch Doktor",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.XyM54Ue5w1WuCaBD]{Seaman}",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.3J99R0ck8SQPWGtd]{Witch Doktor}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.m59bph0laqw8wyae"
     },
@@ -974,7 +974,7 @@
       },
       "name": "Smuggler",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.FqhOxcvai4ROvhXB]{Smuggler}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.FqhOxcvai4ROvhXB]{Smuggler}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.s42mq4m3nzof2rzn"
     },
@@ -999,7 +999,7 @@
       },
       "name": "Stevedore",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.KslqDlYmY4trmf6S]{Stevedore}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.KslqDlYmY4trmf6S]{Stevedore}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.tc1wk58wjy4h7t6m"
     },
@@ -1024,7 +1024,7 @@
       },
       "name": "Wrecker",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.37EZqecGmYFb0fdW]{Wrecker}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.37EZqecGmYFb0fdW]{Wrecker}",
       "weight": 1,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.pbunrxismob9gf36"
     },
@@ -1047,7 +1047,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.WmXiUhsOHIJia8OM]{Bawd}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.WmXiUhsOHIJia8OM]{Bawd}",
       "name": "Bawd",
       "weight": 1,
       "documentUuid": null,
@@ -1072,7 +1072,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.Eg5D2UI3U4SAHnuU]{Charlatan}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.Eg5D2UI3U4SAHnuU]{Charlatan}",
       "name": "Charlatan",
       "weight": 1,
       "documentUuid": null,
@@ -1097,7 +1097,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.VzMDRJtha7epNzuX]{Fence}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.VzMDRJtha7epNzuX]{Fence}",
       "name": "Fence",
       "weight": 1,
       "documentUuid": null,
@@ -1122,7 +1122,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.bDoNOzzUiMdKqpps]{Grave Robber}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.bDoNOzzUiMdKqpps]{Grave Robber}",
       "name": "Grave Robber",
       "weight": 1,
       "documentUuid": null,
@@ -1147,7 +1147,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.SrqxyWytyki4WYgC]{Outlaw}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.SrqxyWytyki4WYgC]{Outlaw}",
       "name": "Outlaw",
       "weight": 1,
       "documentUuid": null,
@@ -1172,7 +1172,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.Z5QPZbUR3h422ozo]{Racketeer}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.Z5QPZbUR3h422ozo]{Racketeer}",
       "name": "Racketeer",
       "weight": 1,
       "documentUuid": null,
@@ -1197,7 +1197,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.mBtIPoWNpXwAS5Yl]{Thief}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.mBtIPoWNpXwAS5Yl]{Thief}",
       "name": "Thief",
       "weight": 1,
       "documentUuid": null,
@@ -1222,7 +1222,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.7lNzR0hDPl98NrcX]{Witch}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.7lNzR0hDPl98NrcX]{Witch}",
       "name": "Witch",
       "weight": 1,
       "documentUuid": null,
@@ -1247,8 +1247,8 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.ArFOfnzJkToXBJBF]{Cavalryman}",
-      "name": "Cavalryman",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.4weUTWdDxDo6VyNb]{Zunu}",
+      "name": "Zunu",
       "weight": 1,
       "documentUuid": null,
       "_key": "!tables.results!iT2oa05xzVf7cjaA.8ajuepbyd99guwcd"
@@ -1272,7 +1272,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.HndWncfaHb0nzNUq]{Guard}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.HndWncfaHb0nzNUq]{Guard}",
       "name": "Guard",
       "weight": 1,
       "documentUuid": null,
@@ -1297,7 +1297,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.EELJsJuoDVxiRu9e]{Pit Fighter}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.EELJsJuoDVxiRu9e]{Pit Fighter}",
       "name": "Pit Fighter",
       "weight": 1,
       "documentUuid": null,
@@ -1322,7 +1322,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.cXOl6phkTrPcUmwC]{Protagonist}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.cXOl6phkTrPcUmwC]{Protagonist}",
       "name": "Protagonist",
       "weight": 1,
       "documentUuid": null,
@@ -1347,7 +1347,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.1OTZ386bMWJ6wfzX]{Soldier}",
+      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.1OTZ386bMWJ6wfzX]{Soldier}",
       "name": "Soldier",
       "weight": 1,
       "documentUuid": null,
@@ -1647,7 +1647,7 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "description": "Sartosan Pirate",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.npvYP5UEt2lEHUW0]{Sartosan Pirate}",
       "name": "Sartosan Pirate",
       "weight": 1,
       "documentUuid": null,

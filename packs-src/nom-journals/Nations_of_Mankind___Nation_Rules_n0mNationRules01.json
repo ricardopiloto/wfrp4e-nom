@@ -1,0 +1,337 @@
+{
+  "folder": "CtX3SGpKsZVd1aGx",
+  "name": "Nations of Mankind - Nation Rules",
+  "_id": "n0mNationRules01",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Norsca",
+      "type": "text",
+      "_id": "rKOIOO0r2idyiwp8",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>@UUID[Compendium.wfrp4e-nom.nom-items.Item.x0cvEaZXrIEF4QIH]{Mark of the Gods}</h2><p><strong>Max:</strong> 4</p><p>Norscans worship many gods, but the dominant powers lay in the hands of Chaos. Anyone who picks this talent pays 100 XP with an additional XP cost of 100 per Talent advance: 100 XP → 200 XP → 300 XP → 400 XP. You may only purchase this Talent once per career level, with a maximum of four. Those who purchase this Talent may select one chosen god from the list below; moreover, they cannot retract or remove this Talent once it is taken, and the god selected cannot be changed.</p><p>Once purchased, the player must roll 1d10+2 Corruption points minus their Willpower Bonus with a minimum of 1 point. This increases by +1 each subsequent Talent advancement—1d10+2, 1d10+3, 1d10+4, 1d10+5. If a physical mutation manifests, the GM rolls based off the selected god on the Physical and Mental Mutation tables found in the Enemy in Shadows Companion (Physical pg. 68-72, Mental pg. 74-76).</p><blockquote><p><em><strong>Note:</strong> For players or GM’s who don’t want a campaign involving Norsca players turning to chaos or causing complications for the group, we have added the option to instead pick the @UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.5leTOZ6Wj35bS1IV]{Slayer} talent instead of the Mark of the Gods. Mark of the Gods is intended for use by the Norscan player after having given full discretion to the GM and the other players that it could cause problems for a non-Chaos focused party or campaign.</em></p></blockquote><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.mSkBGQxhFCmndGnd]{The Crow (Nurgle)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.C3mk8eA3DvU4J9pe]{The Eagle (Tzeentch)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.HvNOr2nX9WMbUj4T]{The Hound (Khorne)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.tpMi1iaY6D19D9CP]{The Serpent (Slaanesh)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.hhhooRobCctrDSGS]{The Eight-Pointed Star (Undivided)}</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mNationRules01.JournalEntryPage.rKOIOO0r2idyiwp8",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1766506683473,
+        "modifiedTime": 1777853643407,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!journal.pages!n0mNationRules01.rKOIOO0r2idyiwp8"
+    },
+    {
+      "name": "Bretonnia",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Divine Lore</h2><p>The Lady of the Lake is the divine patroness of Bretonnia, the Goddess of Chivalry, Honor, and Sacred Duty. She is worshipped almost exclusively by the noble classes of Bretonnia, particularly the knightly orders, who dedicate their lives to her ideals of purity, courage, and unwavering faith. To the common folk, she is a distant but benevolent presence, a mystical guardian of the realm whose will is carried out through her chosen champions.</p><p>Her blessings are bestowed not through grand temples, but through sacred visions, hidden shrines, and the still waters of enchanted lakes. It is said that those deemed worthy may behold her form reflected in the water, where she offers guidance, prophecy, or even the sacred Grail itself. Offerings to the Lady often include polished arms, tokens of devotion, and acts of selfless valor rather than material wealth.</p><p>The knights of Bretonnia believe that true honor is found in service to the Lady, and that through hardship, sacrifice, and righteous deeds, they may earn her favor. Those who undertake the Grail Quest abandon worldly comforts to prove their worth, wandering the land in search of her divine blessing. It is said that those who drink from the Grail are forever changed—imbued with supernatural strength, purity of spirit, and an unbreakable connection to the Lady herself.</p><p data-is-last-node data-is-only-node>Her presence is often felt in moments of quiet before battle, in the shimmer of sunlight upon water, or in the sudden courage that fills a knight’s heart when all hope seems lost. To her followers, she is not merely a goddess, but the living embodiment of Bretonnia’s soul—demanding, mysterious, and eternally watchful.</p><h3>Blessings</h3><ul><li><p>@UUID[Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP]{Battle}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.Cg2Q3TV66cpmheHS]{Courage}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.iIfYOlNrLb0uiV8c]{Fortune}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.KSDrXcieyRc37YI7]{Might}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.K5DE9cceinUTIrem]{Protection}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.2WN0muIB2BFd4kBO]{Righteousness}</p></li></ul><h3><strong>@UUID[Compendium.wfrp4e-nom.nom-items.Item.R1bjiaD6x04qk1hN]{Knightly Virtue}</strong></h3><p><strong>Max:</strong> 4</p><p>You may select one virtue for 100 XP with an additional cost of 100 XP per additional Virtue. This virtue cannot be retracted or upgraded, and you may purchase one additional virtue per career Advancement. Once you select a Virtue you are beholden to the Bretonnian Code of Chivalry and must abide by its Seven Commandments and Rules of Honor, or suffer Sin Points.</p><h3>Seven Commandments</h3><ul><li>To serve the Lady of the Lake.</li><li>To defend the domains entrusted to them.</li><li>To protect the weak and fight for the right.</li><li>Always to fight the enemies of virtue and order.</li><li>Never to give up the fight until the foe be defeated.</li><li>Never to break faith with a friend or ally.</li><li>Always to display honor and courtesy.</li></ul><h3>Rules of Honor</h3><ul><li>A knight may only fight hand-to-hand, with sword or lance; they may not use a missile weapon.</li><li>A knight shall always accept a challenge towards personal combat.</li><li>A knight shall not draw sword against their fellow Bretonnian knights, except in trial by combat or within a tournament.</li><li>A knight shall not allow themselves to be captured alive.</li><li>A knight shall not flee from the enemy, nor retreat without proper tactical cause.</li></ul><h3>Knightly Virtues</h3><ul><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.pKgI2uTTl4O6DNJl]{Virtue of Audacity}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.gO7A0gg0G44v9Wxq]{Virtue of Confidence}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.8WLyg7rdSmH57z8g]{Virtue of Discipline}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.cPoXU9tEnZWyPtUN]{Virtue of Duty}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.hZ71LTvga0ZbaQ79]{Virtue of Empathy}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.XEdyqmUpZ0oxTz0L]{Virtue of Heroism}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.SkvqofLt7rJBDDTM]{Virtue of Ideal}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Wl9Sucivn7QZGzQv]{Virtue of Impetuous Knight}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.beqFPNHqhjxqWBmb]{Virtue of Knight Temper}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.EpsTJArJIz3oYmaL]{Virtue of Noble Disdain}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.AxmTQ2D80vDINzlB]{Virtue of Purity}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.6tXEhwZFWSNgmCCQ]{Virtue of Stoicism}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.EzwgOPpGiIrdNGci]{Virtue of the Joust}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.uvdNXHU2fJAxkxzM]{Virtue of the Penitent}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.k3H9GpfaIxdyZt4m]{Virtue of the Quest}</li></ul><h2>Becoming a Questing Knight</h2><p><strong>@UUID[Compendium.wfrp4e-nom.nom-items.Item.k3H9GpfaIxdyZt4m]{Virtue of the Quest}: </strong>This Talent has several effects, but they only apply whilst the character is in the career of the @UUID[Compendium.wfrp4e-nom.nom-items.Item.iqt7bcAHjShM6wBW]{Questing Knight}. If they complete the career and move on or abandon it to take up a different basic career, the effects of the Talent lapse. If the character completes the career and becomes a @UUID[Compendium.wfrp4e-nom.nom-items.Item.aX2vRtZ6HYVvVecT]{Grail Knight}, the Talent is lost altogether. If they simply abandoned the Quest, they retain the Talent receiving endless visions, and if the knight re-enters the @UUID[Compendium.wfrp4e-nom.nom-items.Item.iqt7bcAHjShM6wBW]{Questing Knight} career its effects apply once more.</p><h2>Becoming a Grail Knight</h2><p><strong>The Grail Quest:</strong> The @UUID[Compendium.wfrp4e-nom.nom-items.Item.iqt7bcAHjShM6wBW]{Questing Knight} quest is a defining feature of the how the character plays each session, both mechanically and during roleplaying. It must provide a sufficient challenge in order for the knight to logically complete the @UUID[Compendium.wfrp4e-nom.nom-items.Item.iqt7bcAHjShM6wBW]{Questing Knight} career and to enter the @UUID[Compendium.wfrp4e-nom.nom-items.Item.aX2vRtZ6HYVvVecT]{Grail Knight} career, and the adventures included should have more significance than the defeat of random fringe bands of bandits, greenskins or a monster. Once the character has reached the point of advancement from @UUID[Compendium.wfrp4e-nom.nom-items.Item.iqt7bcAHjShM6wBW]{Questing Knight} to @UUID[Compendium.wfrp4e-nom.nom-items.Item.aX2vRtZ6HYVvVecT]{Grail Knight}, they should be put under one last significant task by The Lady, usually consisting of 3-5 or more sessions of story content leading to their final encounter with The Green Knight.</p><p><strong>Significance : </strong>There are many different types of significance which suit different styles of play. In one example, the @UUID[Compendium.wfrp4e-nom.nom-items.Item.iqt7bcAHjShM6wBW]{Questing Knight} could unearth and defeat a significant threat to the land of Bretonnia be it internal or outside its borders:</p><p><strong>For example: </strong>This might be a secretive underground Chaos or Necromancy cult hiding in a major city or large town, an Orc warlord ravaging the local populace--possibly the beginning of an Orc WAAAGH!!!, a Bestigor gathering a war herd, or even a Norscan raiding party being led by a potential Chosen of the Chaos Gods unleashing carnage in their names.</p><p>Another method could have the events of the quest force the Questing Knight to face their weaknesses or past mistakes. Thus, a knight who failed to defend a village against an Orc attack might find themselves placed to defend a different village from a horde of Beastmen. On the other hand, a knight with a tendency to lose their temper might find themselves forced to calmly negotiate peace between two nobles or warring factions who hate each other and have nothing but contempt for the Questing Knight and their companions.</p><p>Whilst other player characters may be involved, they are essentially following the knight on their quest. If the Questing Knight is uncovering a major threat to the land, then it’s the sort of thing adventurers do anyway. If they’re facing their own flaws, the other characters may feel a bit left out, so considering bridging the knight’s personal journey with one or more of their companions. Perhaps the knight failed to protect one of them in a past encounter causing them to lose an eye or an arm, or gain a Corruption Point? The best thing to do here is talk to the players and see what they would be happiest doing.</p><h2>The Green Knight</h2><p>The final part of the quest, the confrontation with the Green Knight, is for the @UUID[Compendium.wfrp4e-nom.nom-items.Item.iqt7bcAHjShM6wBW]{Questing Knight} alone. The combat with the Green Knight could be a purely symbolic gesture if the @UUID[Compendium.wfrp4e-nom.nom-items.Item.iqt7bcAHjShM6wBW]{Questing Knight} has saved Bretonnia from a major threat, or it could be a test of whether or not the knight has the skill to back up their acts of chivalry. At this point it is up to the GM how to proceed. The Green Knight is one of, if not the most skilled duelist in Warhammer Fantasy, besting innumerable foes and being virtually immortal; however, his stats don’t need to reflect this fact. The Green Knight is a test, just like any of the tests sent by The Lady to her loyal knights during the rest of their Quest. It is recommended, if you stat the Green Knight, that he acts as a counter to the knight PC, with his Characteristics, Trappings and Talents being nearly identical. Once the duel is finished (preferably in victory) the final step with the Grail Knight is all that remains.</p><h2>The Lady of the Lake</h2><p>The meeting with the Lady is a dramatic event. Lights shine from the lake that you meet her by. The Lady, dazzlingly beautiful, walks across water and through the mists holding the Grail for the knight to drink, and as the character drinks from the Grail they see the whole world in a new divine way. The @UUID[Compendium.wfrp4e-nom.nom-items.Item.iqt7bcAHjShM6wBW]{Questing Knight} hears the stories of the encounters between the greatest of Bretonnia’s heroes, including the Grail Companions, and the Green Knight and the Lady. Their encounters include elements from the stories made from the experiences of the @UUID[Compendium.wfrp4e-nom.nom-items.Item.iqt7bcAHjShM6wBW]{Questing Knight} and the party they accompany, making it clear that the knight’s journey and friendship is just as much a part of the same tradition since Bretonnia’s unification. After this ceremony is concluded, the PC may select a Grail Virtue, assuming they have purchased at least one Knightly Virtue.</p><h3>Grail Virtues</h3><p>You may select one Grail Virtue after advancing to @UUID[Compendium.wfrp4e-nom.nom-items.Item.aX2vRtZ6HYVvVecT]{Grail Knight}. This virtue cannot be retracted or upgraded and requires you’ve acquired the Knightly Virtue of the same name: You cannot acquire the Grail Virtue of Audacity for instance without first acquiring the Knightly Virtue of Audacity. You gain a permanent +5 bonus to your Strength and Toughness Characteristics this does not count towards your Advances; moreover, you gain the @UUID[Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR]{Regenerate} Trait and the @UUID[Compendium.wfrp4e-core.items.Item.3wCtgMDNnu8MFmyk]{Immunity (Corruption, Disease, Fatigue, Poison)} Trait.</p><ul><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.xTmXkYnDt76NB49D]{Grail Virtue of Audacity}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.brXOeqIBAoxQyXBF]{Grail Virtue of Confidence}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.TanGz1CH6Ub2mWyB]{Grail Virtue of Discipline}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.1uZTdPW6lk2pzWLa]{Grail Virtue of Duty}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.nPnQjIR87psLH7Rw]{Grail Virtue of Empathy}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.E600zEb7jFqzQjC4]{Grail Virtue of Heroism}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.kAlDxoURoY1EnQTo]{Grail Virtue of Knightly Temper}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.LBCZ5g5IJiPorGb9]{Grail Virtue of Noble Disdain}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.CM9Iy8UlvV8e9vfN]{Grail Virtue of Purity}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.JEEeQ8DF9gyRISM4]{Grail Virtue of Stoicism}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.sSQqfayNttWiw4lF]{Grail Virtue of the Ideal (Strength)} <em>or </em>@UUID[Compendium.wfrp4e-nom.nom-items.Item.1OQAmuGFmGKifiOt]{Grail Virtue of the Ideal (Toughness)}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.zaKBWFzWCXDVk9Co]{Grail Virtue of the Impetuous Knight}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.BqJ6Fmc9oRn85k9d]{Grail Virtue of the Joust}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.7j5SaKqq4isvMX6T]{Grail Virtue of the Penitent}</li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mNationRules01.JournalEntryPage.uPiUhkZe4LmAlgCQ",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1766508316145,
+        "modifiedTime": 1777040106289,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "uPiUhkZe4LmAlgCQ",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mNationRules01.uPiUhkZe4LmAlgCQ"
+    },
+    {
+      "name": "Kislev",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Divine and arcane traditions for Kislev live in <strong>Lores &amp; Faith</strong>:</p><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.ODC1TQBu6uDkDzfx]{Lore of Ice}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.dKjEXJmbWXqthxah]{Divine Lore of Kislev}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mNationRules01.JournalEntryPage.n0mRulesKislev01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787665382507,
+        "modifiedTime": 1787665382507,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mRulesKislev01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mNationRules01.n0mRulesKislev01"
+    },
+    {
+      "sort": 300000,
+      "name": "Araby",
+      "type": "text",
+      "_id": "zqj7P9CbOhzI5NcU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>The Great Prophet</h2><h3>Blessings</h3><p>Symbol grants one Blessing of the Great Prophet for an entire day for either yourself or a party member after a successful Pray Test but may only be used once per week. On a failed Pray Test, you must wait an entire day to attempt again.</p><ul><li><p>@UUID[Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP]{Blessing of Battle}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.Cg2Q3TV66cpmheHS]{Blessing of Courage}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.maUl7MoLvuvTOhM0]{Blessing of Grace}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.K5DE9cceinUTIrem]{Blessing of Protection}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.GvaOlWY8iD5CO1WB]{Blessing of Tenacity}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.FRkIz2sR7ZC92W2G]{Blessing of Wisdom}</p></li></ul><h2>Arcane &amp; Divine Lores</h2><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.nJVysCnXzMXGBSMY]{Lore of the Desert}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.xgZQzPeNH0DUUjxP]{Divine Lore of Araby}</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mNationRules01.JournalEntryPage.zqj7P9CbOhzI5NcU",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1767187857154,
+        "modifiedTime": 1787659824137,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te"
+      },
+      "_key": "!journal.pages!n0mNationRules01.zqj7P9CbOhzI5NcU"
+    },
+    {
+      "sort": 400000,
+      "name": "Cathay",
+      "type": "text",
+      "_id": "2INRp30FGOJtKuwP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Celestial Dragon Monk</h2><h3>@UUID[Compendium.wfrp4e-nom.nom-items.Item.twKu5gIjgWNWuvCs]{Martial Artist}</h3><p><strong>Max:</strong> 4</p><p>After many harsh years of training, you are ready to place yourself on one of the 8 paths towards becoming a master martial artist.</p><p>Your Unarmed attacks no longer have the Undamaging Weapon Flaw; moreover, your Unarmed attacks have Average Reach and deal +2 additional Damage, changing the damage dealt to SB+2.</p><p>Your Damage increases by an additional +1 per advance for this Talent, up to a maximum of SB+5. You may also roll a Challenging (+0) Opposed Melee (Brawling)/Ranged (Bow/Throwing/Sling) Test against arrows or thrown weapons being used against you.</p><p>Choose one of the 8 paths listed, but only one. Anyone who picks this talent pays 100 XP with an additional XP cost of 100 per Talent advance: -100 XP → 200 XP → 300 XP → 400 XP.</p><p>You may only purchase this Talent once per career level, with a maximum of four. You cannot change your Path or select an additional Path. All Talents provided by the Path chosen cannot be upgraded and must be learned outside the monk’s career to be advanced.</p><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.N9y23cqeuirhu5YM]{Path of Death}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.dql2RslE4Glm8h3a]{Path of Iron}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.iaZTg6tYOaGrL0fq]{Path of Life}</p></li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.VCY4ysasUYuJinO4]{Path of Light}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ZdSBUYYlFEzhnMOC]{Path of Shadows}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.EeKBlvZU1SmjNgca]{Path of the Beast}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.wt8SWpgYXwvHKSoz]{Path of the Flame}</li><li>@UUID[Compendium.wfrp4e-nom.nom-items.Item.cjCh7XvUMJfhtawf]{Path of the Heavens}</li></ul><h3>Trappings</h3><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.PQDxXhPeCdKGm5GB]{Tiger Claws}</p><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.EAJx2RxV7kqfzPFL]{Cathayan Longsword}</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mNationRules01.JournalEntryPage.2INRp30FGOJtKuwP",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776997284919,
+        "modifiedTime": 1777036774786,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!journal.pages!n0mNationRules01.2INRp30FGOJtKuwP"
+    },
+    {
+      "sort": 500000,
+      "name": "Nippon",
+      "type": "text",
+      "_id": "aK6SmTu9lh8yiwGD",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Divine Lore</h2><p>See @UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.dB4zBvYtxgGDJSdz]{Divine Lore of Nippon}.</p><h2>Talents &amp; Trappings</h2><h3>@UUID[Compendium.wfrp4e-nom.nom-items.Item.rmOS0x4WTrOhxRd6]{Kenjutsu}</h3><p><strong>Max:</strong> 4</p><p>An entire martial art was created to learn how to appropriately use the samurai sword dubbed Kenjutsu. The importance of studying Kenjutsu is crucial for samurai, as their proficiency in the ways of the sword is a life or death situation. Those who don’t understand the intricacies of each weapon are considered uncultivated.</p><p>Think of how useless a Handgunner would be if he didn’t know how to fire their gun in a war zone. The art of sword combat, as with all martial arts, has both a physical and spiritual level. Each samurai clan is unique in its swordsmanship, with different schools dedicated to different methods and styles of fighting.</p><p>Samurais born into these clans spend most of their lives slaving away at mastering these techniques, or “Ways”, with those surviving long enough becoming terrifying sword masters capable of slaying dozens of enemies each battle.</p><p>Choose one of the Ways listed, but only one. Anyone who picks this talent pays 100 XP with an additional XP cost of 100 per Talent advance: -100 XP → 200 XP → 300 XP → 400 XP. You may only purchase this Talent once per career level, with a maximum of four.</p><p>You cannot change your Way or select an additional Way. All Talents provided by the Way chosen cannot be upgraded and must be learned outside the Samurai’s career to be advanced.</p><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.7vRjdVOXjse52YbZ]{Way of the Tortoise}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.sqtkO0fWPuP2dQn5]{Way of the Crane}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.VC4SwLf1mq5Dg3EB]{Way of the Dragon}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.D1MW8KpP3zcg36MZ]{Way of the Tiger}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.dAxhv54GXT4kUrnk]{Way of the Naga}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.DARklfXDJWx46go0]{Way of the Snake}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Tv7WLW1znnlM4w4H]{Way of the Stag}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.u6chrY9UMYCw1UIy]{Way of the Nio}</p></li></ul><h3>Talents</h3><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.gO9QSxBmZkpLNNcv]{Lightning Strike}</p><h3>Trappings</h3><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.6QeLEiZkyFfi2Dmx]{Katana}</p><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.MMkWjYgaBW6ellMJ]{Nagamaki}</p><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.fOt55RxJ0Yax7r3b]{Naginata}</p><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.CkaCLYd1svpuafoB]{No-Dachi}</p><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Hj6GP9yLcWJhc0ze]{Torinoko Grenade}</p><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.kfUeGWHZvd6V7W4p]{Vimto Arm Covers}</p><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.HA92mjrd9OzvGFhc]{Vimto Body Cover}</p><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.bnEvgloTZ3TYMEFc]{Vimto Leg Covers}</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mNationRules01.JournalEntryPage.aK6SmTu9lh8yiwGD",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1776997594612,
+        "modifiedTime": 1777779417506,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!journal.pages!n0mNationRules01.aK6SmTu9lh8yiwGD"
+    },
+    {
+      "sort": 600000,
+      "name": "Ind",
+      "type": "text",
+      "_id": "Y74STIVD6RcPsiDG",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Faith and miracles of Ind are documented in @UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.ZItscG16nzetI35V]{Divine Lore of Ind}.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mNationRules01.JournalEntryPage.Y74STIVD6RcPsiDG",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1777036895018,
+        "modifiedTime": 1787659910294,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te"
+      },
+      "_key": "!journal.pages!n0mNationRules01.Y74STIVD6RcPsiDG"
+    },
+    {
+      "sort": 700000,
+      "name": "Estalia",
+      "type": "text",
+      "_id": "m1gCxRc4zsbGYvpC",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Fools and Scoundrels (Psychology):</strong> The reconquering efforts in Estalia were marked by the combined efforts of humanity to fend off the Caliph’s host, with Estalia’s populace grateful to their neighbors for their help… save for one. The Tilean Dogs of War pilfered and ravaged the countryside in such a way that the two nations are forever distrustful of the other, plunging knives and insults alike to further cement that hatred. As such, Estalian Almogavars come predisposed with the Prejudice (Tileans) Psychology, with Tileans holding the Estalians in the same light. If falsely recognized as Tilean, an Estalian individual must take this as the gravest of insults.</p><p><strong>Loose Confederations:</strong> While not unified in belonging like the Imperials or Bretonnians, Estalian geography and history has molded the many tribes of old into a congealed mash of cultures and traditions borne from the necessities of war. Despite being part of separate powers vying for control, several regions form the following confederations:</p><p><strong>Inner Sea Coalition (Aradón, Catilinia and Vanlen):</strong> Based on the Eastern Regions, these peoples are often well connected with Brettonian and Tilean merchants and find themselves better communicated as a result. It is also implied that the original Almogavars came from their shepherd population. Each Almogavar leaving their ancestral home goes with a necklace holding Myrmidia’s Sweat, so that it may protect them in their travels. (Myrmidian Necklace) </p><p><strong>High Castles Confederation (Castill, Laon, Gaellica):</strong> At the forefront of the reconquering effort, these kingdoms hold honor and knighthood at greater esteem than the rest, trying to imitate the Brettonian model with lackluster results. Almogavar’s from this area leave their homes taking the family buckler, passed down from father to youth in wars to come. (Myrmidian Shield)</p><p><strong>The Lost Tribes (Vasconia and Navarr):</strong> These peoples existed even before Sigmar unified the Empire and have persisted in their ways through bloodshed and peril. They hold their land with unbridled ferocity and the rest of Estalia knows of their hardened nature. The Almogavars leave these enclosed societies wearing the helmets of those unfortunate raiders who thought a good idea to trespass their mountains. (Raider Open Helm)</p><p><strong>The Southern Regions (Andal, Murc and Portul):</strong> The most recently conquered peoples, they combine the knowledge of Araby and entrepreneur spirit of the first colonizers from the kingdoms up North, creating as a result some of the greatest academies and places of learning in the Peninsula and, through that, some of the greatest minds. Almogavars hailing from these areas appear to the rest of their kin as bachelors, holding with them a Map for the region they’re located in and one of the many copies of the Bellona Myrmidia. (Quality Map and Myrmidian Scripture)</p><h2>Talents &amp; Trappings</h2><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.x86bmWlmDehyNPk5]{¡¡Despierta, Fierro!!}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.CIxoYOrNnwHyR1kg]{Call to Myrmidia}</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "bwuOpMGVHBESXkjP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mNationRules01.JournalEntryPage.m1gCxRc4zsbGYvpC",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.5.4",
+        "createdTime": 1777779358264,
+        "modifiedTime": 1777779477268,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_key": "!journal.pages!n0mNationRules01.m1gCxRc4zsbGYvpC"
+    }
+  ],
+  "categories": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1787665382507,
+    "modifiedTime": 1787665382507,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!journal!n0mNationRules01"
+}

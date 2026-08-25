@@ -1,0 +1,196 @@
+{
+  "_id": "n0mMedalPureSoul",
+  "name": "Pure Soul Medal",
+  "type": "trapping",
+  "img": "systems/wfrp4e/icons/blank.png",
+  "effects": [
+    {
+      "_id": "8c0755be068c1f0e",
+      "name": "Pure Soul Medal",
+      "img": "systems/wfrp4e/icons/blank.png",
+      "type": "base",
+      "disabled": false,
+      "transfer": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "manualEffectKeys": false
+        }
+      },
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": true,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Pure Soul Medal",
+            "trigger": "dialog",
+            "script": "try {\n  if (args.type == \"skill\" && args.item?.name?.includes(\"Pray\"))\n    args.prefillModifiers.modifier += 10;\n} catch (e) { console.warn(\"Pure Soul Medal effect\", e); }",
+            "options": {
+              "activateScript": "return true",
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        },
+        "changes": []
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!n0mMedalPureSoul.8c0755be068c1f0e"
+    }
+  ],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {},
+    "wfrp4e-nom": {
+      "honorKind": "imperialMedal"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Awarded For:</strong> An act of extreme piety, one that proves unmistakably you are a fervent and loyal follower of your deity in the eyes your god and their servants. Recovering long lost religious artifacts, successfully launching a crusade against enemies of a given deity or going on a years-long spiritual journey across the Old World, aiding as many temples as possible enough for word to reach the Arch Lectures of the various faiths.</p><p><strong>Description:</strong> A gold medallion, inlaid with iron and the image of a hammer etched in, with a silver skull in the hammer’s head.</p><p><strong>Bonuses:</strong> +10 to @UUID[Compendium.wfrp4e-core.items.Item.9xR9uO8FIvi4YsJp]{Pray} Tests and the @UUID[Compendium.wfrp4e-core.items.Item.wNvPXAhlKABl6hpk]{Pure Soul} Talent is added to the Talent list of any career you are in.</p><h3>Medal Notes</h3>\n<p>Talents granted by medals apply only to the <strong>original recipient</strong>. Non-talent bonuses require the medal to be <strong>worn</strong> by the earner. Non-earners do not gain these benefits — the GM enforces recipient rules (no automatic earner lock). Medals can be identified with Easy (+40) Lore (Empire / Heraldry / History). Fake medals: Evaluate + Numismatics (GM difficulty).</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 0,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "exotic"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "clothingAccessories"
+    },
+    "worn": true,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "qualities": {
+      "label": "Qualities",
+      "value": []
+    },
+    "flaws": {
+      "label": "Flaws",
+      "value": []
+    }
+  },
+  "sort": 0,
+  "_key": "!items!n0mMedalPureSoul"
+}

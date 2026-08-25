@@ -1,0 +1,121 @@
+{
+  "_id": "ZyHxHl1mJm0cHR65",
+  "name": "Pirate Captain",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/advisor-04.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787669997431,
+    "modifiedTime": 1787669997431,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "XFum9iWwbM87WzWu": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.npvYP5UEt2lEHUW0]{Sartosan Pirate}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Sartosan Pirate"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Riverfolk"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": true,
+      "dex": true,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Consume Alcohol",
+      "Gamble",
+      "Gossip",
+      "Intimidate",
+      "Melee (Brawling)",
+      "Row",
+      "Sail",
+      "Swim",
+      "Endurance",
+      "Entertain (Singing)",
+      "Melee (Basic)",
+      "Pick Lock",
+      "Play (Accordion or Harmonica)",
+      "Ranged (Blackpowder)",
+      "Leadership",
+      "Lore (Sartosa)",
+      "Melee (Fencing)",
+      "Trade (Carpenter)",
+      "Haggle",
+      "Navigation"
+    ],
+    "talents": [
+      "Frightening",
+      "Iron Will",
+      "Luck",
+      "Wealthy"
+    ],
+    "trappings": [
+      "First Mate",
+      "Fleet of Pirate Ships",
+      "Jewelry (Worth 500GC)",
+      "Pirate Lair",
+      "Pirate Flagship",
+      "Plundered Loot (10d100 GC)"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 0,
+  "_key": "!items!ZyHxHl1mJm0cHR65"
+}

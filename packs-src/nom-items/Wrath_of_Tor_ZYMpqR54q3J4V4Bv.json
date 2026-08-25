@@ -25,7 +25,7 @@
     "description": {
       "type": "String",
       "label": "Description",
-      "value": "<p>When using an axe, energy crackles over the weapon, imbuing it with the favor of Tor. The weapon adds +Fellowship Bonus Damage, counts as magical and gains Lightning damage: Any Wounds caused ignore armor and the target must roll a <strong>Challenging (+0) Endurance</strong> test or gain a @Condition[Stunned] Condition. In addition, your prayers change the quality of the air, fooling sensitive animals into believing a storm is coming. Creatures with the @Compendium[wfrp4e-core.items.IPKRMGry6WotuS1G]{Skittish} Trait flee from you.</p>"
+      "value": "<p>When using an axe, energy crackles over the weapon, imbuing it with the favor of Tor. The weapon adds +Fellowship Bonus Damage, counts as magical and gains Lightning damage: Any Wounds caused ignore armor and the target must roll a <strong>Challenging (+0) Endurance</strong> test or gain a @Condition[Stunned] Condition. In addition, your prayers change the quality of the air, fooling sensitive animals into believing a storm is coming. Creatures with the @UUID[Compendium.wfrp4e-core.items.Item.IPKRMGry6WotuS1G]{Skittish} Trait flee from you.</p>"
     },
     "gmdescription": {
       "type": "String",

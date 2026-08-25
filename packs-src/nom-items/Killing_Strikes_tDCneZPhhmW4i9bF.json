@@ -1,0 +1,60 @@
+{
+  "_id": "tDCneZPhhmW4i9bF",
+  "name": "Killing Strikes",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/killing-strikes.webp",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623979653,
+    "modifiedTime": 1787624168213,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>With expert precision, you can land blows which defy your opponent&rsquo;s ability to counter, chewing through their defenses as surely as an Ogre chews through troll meat. At the start of an encounter, you may spend one Fortune Point to choose to make all your melee attacks for that Round count as having the <em>Fast </em>Quality. This effect lasts for a number of Rounds equal to your level of Killing Strike, though they apply to all of your attacks (i.e. such as extra attacks gained with Talents such as @UUID[Compendium.wfrp4e-core.items.Item.URwIDtInCsxOoGqM]{Dual Wielder}, @UUID[Compendium.wfrp4e-core.items.Item.hXcfygzujgyMN1uI]{Frenzy} or @UUID[Compendium.wfrp4e-core.items.Item.BlHVzfs0Ow6IYEDw]{Furious Assault}).</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "ws"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 0,
+  "_key": "!items!tDCneZPhhmW4i9bF"
+}

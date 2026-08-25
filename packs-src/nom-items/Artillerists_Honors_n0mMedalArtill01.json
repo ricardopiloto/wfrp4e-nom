@@ -1,0 +1,196 @@
+{
+  "_id": "n0mMedalArtill01",
+  "name": "Artillerist's Honors",
+  "type": "trapping",
+  "img": "systems/wfrp4e/icons/blank.png",
+  "effects": [
+    {
+      "_id": "6583f5b769985229",
+      "name": "Artillerist's Honors",
+      "img": "systems/wfrp4e/icons/blank.png",
+      "type": "base",
+      "disabled": false,
+      "transfer": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "manualEffectKeys": false
+        }
+      },
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": true,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Artillerist's Honors",
+            "trigger": "dialog",
+            "script": "try {\n  if (args.type != \"skill\") return;\n  const n = args.item?.name || \"\";\n  if (n.includes(\"Lore\") && /Armoury|Armory|Construction|Engineering|Explosives/i.test(n))\n    args.prefillModifiers.modifier += 10;\n  if (/Ranged\\s*\\(\\s*Engineering\\s*\\)/i.test(n) || n.includes(\"Ranged (Engineering)\"))\n    args.prefillModifiers.modifier += 10;\n} catch (e) { console.warn(\"Artillerist's Honors effect\", e); }",
+            "options": {
+              "activateScript": "return true",
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        },
+        "changes": []
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!n0mMedalArtill01.6583f5b769985229"
+    }
+  ],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {},
+    "wfrp4e-nom": {
+      "honorKind": "imperialMedal"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Awarded For:</strong> 200 Confirmed kills using siege weapons and the destruction of a Chaos Dwarf, Ogre or Skaven engine of war.</p><p><strong>Description:</strong> A gold medallion with the image of a cannon etched on top.</p><p><strong>Bonuses:</strong> +10 to Lore Tests related to Armory, Construction, Engineering and Explosives, and the wearer gains a bonus of +10 to @UUID[Compendium.wfrp4e-core.items.Item.2Y91ebFapH6zRfHk]{Ranged (Engineering)} Tests when using siege equipment.</p><h3>Medal Notes</h3>\n<p>Talents granted by medals apply only to the <strong>original recipient</strong>. Non-talent bonuses require the medal to be <strong>worn</strong> by the earner. Non-earners do not gain these benefits — the GM enforces recipient rules (no automatic earner lock). Medals can be identified with Easy (+40) Lore (Empire / Heraldry / History). Fake medals: Evaluate + Numismatics (GM difficulty).</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 0,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "exotic"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "clothingAccessories"
+    },
+    "worn": true,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "qualities": {
+      "label": "Qualities",
+      "value": []
+    },
+    "flaws": {
+      "label": "Flaws",
+      "value": []
+    }
+  },
+  "sort": 0,
+  "_key": "!items!n0mMedalArtill01"
+}

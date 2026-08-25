@@ -1,0 +1,330 @@
+{
+  "folder": "CtX3SGpKsZVd1aGx",
+  "name": "Nations of Mankind - Armory",
+  "_id": "n0mArmory0000001",
+  "pages": [
+    {
+      "name": "Armory",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Armory</h1><p>Weapons, armour, engineering attachments, new Qualities, siege engines, and mounts from <em>Nations of Mankind</em> (PDF pages 78–85). Tables link to <code>nom-items</code> / <code>nom-bestiary</code> where those documents exist.</p><h2>Contents</h2><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryEmpire1]{Armory of the Empire}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryQuali01]{New Qualities}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryMelee01]{Melee Weapons}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryRange01]{Ranged Weapons}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryArmor01]{Armour}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmorySiege01]{Siege Weapons}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryMount01]{Mounts}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryIndex01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787669642591,
+        "modifiedTime": 1787669642591,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mArmoryIndex01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mArmory0000001.n0mArmoryIndex01"
+    },
+    {
+      "name": "Armory of the Empire",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Armory of the Empire</h1><p>Gunpowder and engineering attachments, munitions, and modifications used across the Empire (Nations of Mankind PDF, pages 78–80). Pair these with Core blackpowder rules and the NoM weapon lists.</p><h3>Bandolier</h3><p>A bandolier is a shoulder-belt with loops or pockets for storing ammo. Bandoliers are more often used by gunners as their convenience allows them to more quickly and easily reload readily prepared ammo.</p><p><strong>Applies to:</strong> Blackpowder Weapons and Crossbows</p><p><strong>Availability:</strong> Common</p><p><strong>Cost:</strong> 9 Silver Shillings</p><p><strong>Effect:</strong> Adds 3 Encumbrance for storing ammunition and gives +1 SL to any Extended Test to reload a ranged weapon.</p><h3>Breech-Loader</h3><p>Thanks to recent advances in firearms within the Human Engineering Guilds and less conservative Dwarf Engineers, breech-loading for firearms has entered into the market as a new and expensive way of combating reload times.</p><p><strong>Applies to:</strong> Blackpowder Weapons</p><p><strong>Availability:</strong> Exotic</p><p><strong>Cost:</strong> 10 GC</p><p><strong>Effect:</strong> A ranged weapon with a breech-loader may perform an Extended Test to reload as a Free Action. However, if you do this, you may not attempt another reload this Turn.</p><h3>Bayonet</h3><p>A bayonet is a knife, sword, or spike-shaped weapon designed to fit on the end of the muzzle of a rifle, musket or similar firearm, allowing it to be used as a spear.</p><p><strong>Applies to:</strong> Pistols and 2-Handed Crossbows and Blackpowder Weapons</p><p><strong>Availability:</strong> Common</p><p><strong>Cost:</strong> Varies</p><p><strong>Effect:</strong> A bayonet removes the Undamaging Flaw for any ranged weapon that is being used as an Improvised Weapon during melee combat with the weapon’s Damage equal to SB + Damage depending on the weapon selected. Its Reach varies depending on the length of the weapon equipped. If the GM wishes, the Melee (Polearm) or Melee (Two-handed) Skill may be required to effectively use a 2-Handed ranged weapon with a bayonet.</p><h3>Dragon’s Breathe Shot</h3><p>Experimentation between the Engineering Guilds and the Alchemists of the Gold Order have created a devastating concoction for firearms.</p><p><strong>Applies to:</strong> Blackpowder Weapons</p><p><strong>Availability:</strong> Exotic</p><p><strong>Cost:</strong> 1 GC per small shot and powder</p><p><strong>Effect:</strong> Adds the Incendiary effect to the standard Small Shot and Powder (WFRP Core Rulebook).</p><h3>Dwarfen Gunpowder</h3><p>Dwarfen gunpowder is the best quality one can find within the Empire and is said to be the key secret behind the Dwarf’s higher reliability with Blackpowder weaponry.</p><p><strong>Applies to:</strong> Blackpowder Weapons</p><p><strong>Availability:</strong> Rare</p><p><strong>Cost:</strong> 1 GC and 10 Silver Shillings for 12 Shots Worth or 6 GC for one Bomb</p><p><strong>Effect:</strong> Weapons using Dwarfen gunpowder ignore the Dangerous Flaw, if they have it, and increase their Damage by +1.</p><h3>Extended Barrel</h3><p>Longer and larger gun barrels further extend the range of firearms across the Empire, at the cost of material and weight.</p><p><strong>Applies to:</strong> Blackpowder Weapons</p><p><strong>Availability:</strong> Rare</p><p><strong>Cost:</strong> 8 GC</p><p><strong>Effect:</strong> Increases Range by 50% and Encumbrance by 1.</p><h3>Grenade Launcher Modification</h3><p>A permanent modification for the common blunderbuss allowing it to fire explosives from a safe but effective distance.</p><p><strong>Applies to:</strong> Blunderbusses</p><p><strong>Availability:</strong> Exotic</p><p><strong>Cost:</strong> 20 GC</p><p><strong>Effect:</strong> May shoot Bombs as ammunition instead of listed blackpowder/engineering ammunition. Damage and Weapon Qualities are replaced with the Bomb’s; Encumbrance increased by 2.</p><h3>Gromril Coated Bullets</h3><p>Coating common bullets with carefully applied liquid Gromril creates exceptionally deadly munitions.</p><p><strong>Applies to:</strong> Blackpowder Weapons</p><p><strong>Availability:</strong> Exotic</p><p><strong>Cost:</strong> 2 GC per bullet</p><p><strong>Effect:</strong> Adds the Impact Weapon Quality and +3 Damage to the standard Bullet and Powder. Gromril bullets may be recollected for future use.</p><h3>Laurelorn Maple Wood Frame</h3><p>Higher quality materials for lighter and more durable ranged weaponry, hard to obtain under Wood Elf logging regulations.</p><p><strong>Applies to:</strong> Ranged Weapons</p><p><strong>Availability:</strong> Exotic</p><p><strong>Cost:</strong> 10 GC</p><p><strong>Effect:</strong> Gains the Durable and Lightweight Qualities.</p><h3>Musket Rest</h3><p>Portable forked poles that support the barrel of a blackpowder longarm.</p><p><strong>Applies to:</strong> 2-Handed Blackpowder Weapons</p><p><strong>Availability:</strong> Scarce</p><p><strong>Cost:</strong> 1 GC</p><p><strong>Effect:</strong> Makes the weapon easier to aim (+10 to hit) but requires an Action to place the weapon in the rest after reloading. Weighs 1 Encumbrance if carried.</p><h3>Octagon Multi-Barrel</h3><p>A cumbersome but effective overhaul for Repeater Rifle and Pistol that doubles maximum firepower and adds a volley mode.</p><p><strong>Applies to:</strong> Repeater Rifle and Pistol</p><p><strong>Availability:</strong> Exotic</p><p><strong>Cost:</strong> 10 GC</p><p><strong>Effect:</strong> Gains Repeater 8 and Reload 10 Flaw; Encumbrance +1. As an Action, fire all available shots at once on a single target, adding Blast equal to every 2 bullets shot (max Blast 4). Each such shot requires an Average (+20) Endurance Test (1 Wound per Failure level; Astounding Failure = Critical Hit to the shoulder).</p><h3>Powder Horn</h3><p>A long curved container that keeps black powder dry; common among hunters and soldiers.</p><p><strong>Applies to:</strong> Blackpowder Weapons</p><p><strong>Availability:</strong> Common</p><p><strong>Cost:</strong> 4 Silver Shillings and 6 Brass Pennies</p><p><strong>Effect:</strong> +1 SL to any Extended Test to reload a blackpowder ranged weapon. Also protects gunpowder from rain or snow.</p><h3>Pistol Grip</h3><p>Repurposed grips attached underbarrel to increase stability and aiming speed.</p><p><strong>Applies to:</strong> 2-Handed Crossbows and Blackpowder Weapons</p><p><strong>Availability:</strong> Rare</p><p><strong>Cost:</strong> 4 GC</p><p><strong>Effect:</strong> Does not inflict the penalty for shooting after moving. You can take the Aim Action as a Free Action, but must still wait until next round before applying the +20 Difficulty Modifier.</p><h3>Pistol Sword</h3><p>A sword with a pistol or repeater attached alongside the blade; both functions usable without switching hands.</p><p><strong>Applies to:</strong> Swords and rapiers</p><p><strong>Availability:</strong> Exotic</p><p><strong>Cost:</strong> 20 GC</p><p><strong>Effect:</strong> Functions as both a melee weapon and a ranged weapon (pistol or repeater pistol sidearm). Either function may be used as if in the same hand; no Free Action required to switch.</p><h3>Rifling</h3><p>Helical grooving machined into a barrel’s bore to spin the projectile and improve accuracy.</p><p><strong>Applies to:</strong> Blackpowder Weapons</p><p><strong>Availability:</strong> Rare</p><p><strong>Cost:</strong> 4 GC per barrel</p><p><strong>Effect:</strong> Gains the Precise Quality and increases the weapon’s Range by 20%.</p><h3>Reinforced Rifle Frame</h3><p>Heavier metallic components crafted by master gunsmiths for tougher frames.</p><p><strong>Applies to:</strong> Blackpowder Weapons</p><p><strong>Availability:</strong> Rare</p><p><strong>Cost:</strong> 4 GC</p><p><strong>Effect:</strong> Gains the Durable Quality, and has the Undamaging Flaw removed if used as an improvised weapon. If the weapon has a Bayonet, Damage +1.</p><h3>Rune Tipped Bolts</h3><p>Dwarfen crossbow bolts forged under a Runesmith’s hand, etched with powerful runes along their tips.</p><p><strong>Applies to:</strong> Crossbows</p><p><strong>Availability:</strong> Exotic</p><p><strong>Cost:</strong> 1 GC per bolt</p><p><strong>Effect:</strong> Adds Accurate and Penetrating Qualities, +50 Range and +2 Damage to the standard Crossbow Bolt. Attacks count as Magical.</p><h3>Short-Barrel</h3><p>A shortened barrel trade-off used for close-range skirmishing.</p><p><strong>Applies to:</strong> 2-Handed Blackpowder Weapons</p><p><strong>Availability:</strong> Common</p><p><strong>Cost:</strong> 2 GC</p><p><strong>Effect:</strong> Decreases Range by 50% and Encumbrance by 1, but you can use this weapon to attack in Close Combat similar to the Pistol Quality.</p><h3>Silvered Weapons &amp; Ammo</h3><p>Silvered arms prized by Witch Hunters and Vampire Hunters since the Vampire Wars.</p><p><strong>Applies to:</strong> Melee Weapons and Ranged Weapon Ammo</p><p><strong>Availability:</strong> Rare</p><p><strong>Cost:</strong> 3× the value of the weapon or ammo in silver, plus labour as determined by the GM</p><p><strong>Effect:</strong> Allows attacks to strike targets with the Ethereal Trait and deals an additional +1 Damage to targets with the Undead Trait.</p><h3>Steam-Powered Gun Crank</h3><p>A crank attachment that rapidly increases the fire rate of repeater weapons.</p><p><strong>Applies to:</strong> Repeater Rifle and Pistol</p><p><strong>Availability:</strong> Exotic</p><p><strong>Cost:</strong> 20 GC</p><p><strong>Effect:</strong> May shoot twice on a single Action once activated. Every round as a Free Action, you must rotate the crank to activate the effect.</p><h3>Telescopic Sight</h3><p>Repurposed telescopes adapted for firearms and crossbows, adding increased accuracy to every shot.</p><p><strong>Applies to:</strong> 2-Handed Crossbows and Blackpowder Weapons</p><p><strong>Availability:</strong> Rare</p><p><strong>Cost:</strong> 5 GC</p><p><strong>Effect:</strong> Gains the Accurate Weapon Quality.</p><h3>Volley Shot Modification</h3><p>A Dwarf-engineered crossbow attachment capable of firing multiple bolts in quick succession or in a single volley.</p><p><strong>Applies to:</strong> 2-Handed Crossbows</p><p><strong>Availability:</strong> Exotic</p><p><strong>Cost:</strong> 4 GC</p><p><strong>Effect:</strong> Gains Repeater 3 and Reload 4 Flaw; Encumbrance +1. As an Action, fire all available bolts at once on a single target: on Success, each bolt is a separate hit (TB and armour apply per bolt); roll hit location per bolt.</p>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryEmpire1",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787669642592,
+        "modifiedTime": 1787669642592,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mArmoryEmpire1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mArmory0000001.n0mArmoryEmpire1"
+    },
+    {
+      "name": "New Qualities",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>New Qualities</h1><p>Weapon and armour Qualities introduced in Nations of Mankind (PDF pages 82–83).</p><h2>Concealed</h2><p>Concealed weapons are designed not to be seen, often strapped around various areas of the wielder’s body under their clothing to avoid detection. If you are wielding such a weapon, no one can easily detect it on your person with their passive perception and would have to conduct a thorough investigation in order to discover it. If used on a surprised target, the weapon temporarily gains the Damaging and Impact Qualities.</p><h2>Crushing</h2><p>Crushing weapons are designed with spikes or patterns to smash up, crush and tear into the armour of the wielder’s enemies. If you successfully attack and deal a Critical Hit on an opponent, you Damage a struck piece of armour or shield by 2 points as well as wounding the target. Furthermore, you ignore the Impenetrable Armour Quality for all Critical Hits.</p><h2>Hooked</h2><p>Hooked weapons are strategically designed with small hooks on their ends to pull down infantry or rip cavalry off their mounts. After a successful Melee Attack, instead of dealing Damage, you may attempt to pull down your enemy with an Opposed Strength Test. If you succeed, you force the opponent to go prone. If the opponent is mounted, they are forced off their mount and take falling damage.</p><h2>Multi-shot</h2><p>This weapon is designed to fire multiple missiles at once in a single action, assuming the weapon is fully loaded and capable of holding more than one missile at a time based on the Repeater Quality’s value. On a Success, the Damage is counted as a separate hit by each missile, with Toughness Bonus and armour deducting the Damage of each shot as normal. Roll a d100 for each separate hit location. If you Fumble, you must roll for two results on the Fumble Table and pick the higher result.</p><h2>Ninjutsu</h2><p>This bomb is a product created from years of martial arts mastery and experimentation. A bomb with this Quality may have one of the effects selected below. Whichever effect is selected replaces the Ninjutsu Quality for the number of bombs crafted or purchased and cannot be replaced:</p><ul><li><p><strong>Distraction:</strong> Any targets within 50 yards of this bomb are immediately alerted to its presence.</p></li><li><p><strong>Smoke:</strong> Anyone caught in the radius is Surprised and gains 1+SL Blinded Conditions.</p></li><li><p><strong>Stun:</strong> Anyone caught in the radius must pass a Hard (−20) Endurance Test or gain 1+SL Stunned Conditions.</p></li><li><p><strong>Poison:</strong> Anyone caught in the radius must pass a Hard (−20) Endurance Test or gain 1+SL Poisoned Conditions.</p></li></ul><p></p></p><h2>Suppressed</h2><p>This weapon is designed to drastically reduce the noise made from firing it. This weapon can be fired without immediately alerting enemies; however, it loses the Blackpowder and Damaging Qualities.</p><h2>Missile Resistant</h2><p>This armour is designed to protect the wearer from ranged attacks. While wearing a piece of armour with this quality, missile attacks have their Damage reduced by 2. Furthermore, the Damaging Quality of all ranged weapons is ignored when striking this armour with missile attacks, with the exception of ranged weapons with the Blackpowder Quality.</p>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryQuali01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787669642592,
+        "modifiedTime": 1787669642592,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mArmoryQuali01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mArmory0000001.n0mArmoryQuali01"
+    },
+    {
+      "name": "Melee Weapons",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Melee Weapons</h1><p>NoM melee weapons from the compendium (linked). Stats reflect <code>nom-items</code>.</p><h2>Basic</h2><table border=\"1\"><thead><tr><th>Weapon</th><th>Price</th><th>Enc</th><th>Availability</th><th>Reach</th><th>Damage</th><th>Qualities &amp; Flaws</th></tr></thead><tbody><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.szuDnnB31GgAJVQr]{Baton}</td><td>4/-</td><td>1</td><td>Common</td><td>Short</td><td>SB+2</td><td>Pummel, Undamaging</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.MZ964LGcUFzOL5NZ]{Battle Axe}</td><td>2 GC</td><td>2</td><td>Common</td><td>Average</td><td>SB+4</td><td>Hack</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ynIDYBBfzBauRjVu]{Dao}</td><td>2 GC</td><td>1</td><td>Exotic</td><td>Average</td><td>SB+4</td><td>Precise</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.JeBPtMTj14Advmsb]{Flanged Mace}</td><td>2 GC</td><td>1</td><td>Scarce</td><td>Average</td><td>SB+4</td><td>Impact, Tiring</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Ufoa782PchIPFcT6]{Hand Spear}</td><td>10/-</td><td>0</td><td>Common</td><td>Long</td><td>SB+4</td><td>Impale</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.6QeLEiZkyFfi2Dmx]{Katana}</td><td>3 GC</td><td>1</td><td>Exotic</td><td>Average</td><td>SB+4</td><td>Fast</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.OIGHAksXxTWdGhge]{Morningstar}</td><td>1 GC</td><td>1</td><td>Scarce</td><td>Average</td><td>SB+4</td><td>Crushing</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Kn482AfWBo5Zh2bJ]{Scimitar}</td><td>2 GC</td><td>1</td><td>Exotic</td><td>Average</td><td>SB+4</td><td>Defensive</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.GPbLIBrNfLpXCnZf]{Sigmarite Hammer}</td><td>2 GC</td><td>2</td><td>Common</td><td>Average</td><td>SB+4</td><td>Pummel</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.aCyDvbZwh1MiuZSQ]{Tonfa}</td><td>4 GC</td><td>0</td><td>Exotic</td><td>VShort</td><td>SB+3</td><td>Defensive, Pummel</td></tr></tbody></table><h2>Brawling</h2><table border=\"1\"><thead><tr><th>Weapon</th><th>Price</th><th>Enc</th><th>Availability</th><th>Reach</th><th>Damage</th><th>Qualities &amp; Flaws</th></tr></thead><tbody><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.CyT2P7PiJH5WjJPg]{Cestus}</td><td>8/- 10 d</td><td>0</td><td>Common</td><td>Personal</td><td>SB+2</td><td>Pummel</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.5Dba4Wlxb8L8N6z9]{Gauntlets}</td><td>4 GC</td><td>1</td><td>Rare</td><td>Personal</td><td>SB+2</td><td>Defensive, Pummel</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.wpVsDFMzHjZneLo5]{Hidden Wrist Blade}</td><td>10 GC</td><td>0</td><td>Exotic</td><td>Personal</td><td>SB+1</td><td>Impale, Concealed</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.4wowAAUf0j4G5eRk]{Katar}</td><td>2 GC</td><td>1</td><td>Exotic</td><td>Short</td><td>SB+2</td><td>Impale</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.SLPEwSgD5ArBUSoU]{Pata}</td><td>4 GC</td><td>1</td><td>Exotic</td><td>Average</td><td>SB+4</td><td>Defensive</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.HfswuFyzmi4XXT7S]{Push Dagger}</td><td>12/-</td><td>0</td><td>Common</td><td>Personal</td><td>SB+1</td><td>Concealed</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.PQDxXhPeCdKGm5GB]{Tiger Claws}</td><td>3 GC 8/-</td><td>0</td><td>Exotic</td><td>VShort</td><td>SB+3</td><td>Distract</td></tr></tbody></table><h2>Cavalry</h2><table border=\"1\"><thead><tr><th>Weapon</th><th>Price</th><th>Enc</th><th>Availability</th><th>Reach</th><th>Damage</th><th>Qualities &amp; Flaws</th></tr></thead><tbody><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.KLwZVikxYXrScyWg]{Cavalry Sabre}</td><td>2 GC</td><td>2</td><td>Scarce</td><td>Average</td><td>SB+5</td><td>Defensive</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.0xU0qJ0qQDFq3jc8]{Horseman's Pick}</td><td>3 GC</td><td>3</td><td>Rare</td><td>Long</td><td>SB+5</td><td>Impale</td></tr></tbody></table><h2>Fencing</h2><table border=\"1\"><thead><tr><th>Weapon</th><th>Price</th><th>Enc</th><th>Availability</th><th>Reach</th><th>Damage</th><th>Qualities &amp; Flaws</th></tr></thead><tbody><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.hXPUky8aQFUdRsOb]{Epee}</td><td>5 GC</td><td>0</td><td>Scarce</td><td>Long</td><td>SB+3</td><td>Defensive, Fast, Impale, Undamaging</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ZYF49PK04gkYFqDr]{Saber}</td><td>5 GC</td><td>1</td><td>Scarce</td><td>Long</td><td>SB+4</td><td>Defensive, Fast</td></tr></tbody></table><h2>Flail</h2><table border=\"1\"><thead><tr><th>Weapon</th><th>Price</th><th>Enc</th><th>Availability</th><th>Reach</th><th>Damage</th><th>Qualities &amp; Flaws</th></tr></thead><tbody><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.eV3cnUsxXWwXU71a]{Chaind and Sickle}</td><td>2 GC 10/-</td><td>1</td><td>Exotic</td><td>VLong</td><td>SB+4</td><td>Distract, Entangle, Wrap</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.NA9nNQxYfR1l3BBn]{Hydra Flail}</td><td>4 GC</td><td>3</td><td>Rare</td><td>Long</td><td>SB+6</td><td>Damaging, Distract, Wrap, Imprecise</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.AFEID8pGgVvTQCaC]{Morningstar Flail}</td><td>3 GC</td><td>2</td><td>Rare</td><td>Average</td><td>SB+5</td><td>Distract, Wrap, Crushing</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.OO8ErAxeC5xbPNAt]{Nunchuks}</td><td>12/-</td><td>0</td><td>Exotic</td><td>Short</td><td>SB+3</td><td>Distract, Pummel</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.jOyq9If4MQD1A6MW]{Urumi Sword Whip}</td><td>3 GC</td><td>1</td><td>Exotic</td><td>Long</td><td>SB+5</td><td>Distract, Entangle, Wrap</td></tr></tbody></table><h2>Parry</h2><table border=\"1\"><thead><tr><th>Weapon</th><th>Price</th><th>Enc</th><th>Availability</th><th>Reach</th><th>Damage</th><th>Qualities &amp; Flaws</th></tr></thead><tbody><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.mpqE0jhIAHKM6pm7]{Sai}</td><td>2 GC 5/-</td><td>0</td><td>Exotic</td><td>Long</td><td>SB+5</td><td>Defensive, Fast, Precise</td></tr></tbody></table><h2>Polearm</h2><table border=\"1\"><thead><tr><th>Weapon</th><th>Price</th><th>Enc</th><th>Availability</th><th>Reach</th><th>Damage</th><th>Qualities &amp; Flaws</th></tr></thead><tbody><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.lNcK3134U085O8K7]{Bec de Corbin}</td><td>6 GC</td><td>3</td><td>Rare</td><td>VLong</td><td>SB+4</td><td>Impact, Penetrating</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.HSerSDWpVzpXD654]{Bill}</td><td>1 GC 8/-</td><td>3</td><td>Common</td><td>VLong</td><td>SB+4</td><td>Hooked</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.rojiN5XkkyhWhmw4]{Corseque}</td><td>3 GC</td><td>2</td><td>Rare</td><td>VLong</td><td>SB+4</td><td>Defensive, Impale, Trapblade</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.dowm6TP5k3z3Ik6k]{Glaive}</td><td>4 GC</td><td>3</td><td>Scarce</td><td>VLong</td><td>SB+5</td><td>Hack, Hooked</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.xCa4C6VF3CPIbmgT]{Jade Dragon Staff}</td><td>300 GC</td><td>2</td><td>Exotic</td><td>Long</td><td>SB+4</td><td>Defensive, Impact, Pummel, Unbreakable, Fine</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.73RCC9LNZwZLqF8Y]{Lucerne}</td><td>6 GC</td><td>3</td><td>Rare</td><td>VLong</td><td>SB+4</td><td>Impale, Pummel, Crushing</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.SmqhbbhyrhGbQyK5]{Maul}</td><td>12/-</td><td>2</td><td>Common</td><td>Long</td><td>SB+4</td><td>Pummel</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.fOt55RxJ0Yax7r3b]{Naginata}</td><td>4 GC</td><td>3</td><td>Exotic</td><td>Long</td><td>SB+4</td><td>Damaging, Defensive</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.9bdF80FcX8cFcJvN]{Poleaxe}</td><td>4 GC</td><td>3</td><td>Scarce</td><td>Long</td><td>SB+5</td><td>Defensive, Hack, Impact, Tiring</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.yP5LFNBOTtqyxU6r]{War Scythe}</td><td>2 GC</td><td>2</td><td>Rare</td><td>VLong</td><td>SB+5</td><td>Damaging</td></tr></tbody></table><h2>Twohanded</h2><table border=\"1\"><thead><tr><th>Weapon</th><th>Price</th><th>Enc</th><th>Availability</th><th>Reach</th><th>Damage</th><th>Qualities &amp; Flaws</th></tr></thead><tbody><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.UWEVUXHqdZfz5Pr6]{Boarding Axe}</td><td>2 GC</td><td>2</td><td>Common</td><td>Long</td><td>SB+5</td><td>Hack</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ae7uaAk6iwvMl5Z6]{Carroburg Greatsword}</td><td>15 GC</td><td>3</td><td>Exotic</td><td>Long</td><td>SB+6</td><td>Damaging, Defensive, Hack</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.EAJx2RxV7kqfzPFL]{Cathayan Longsword}</td><td>100 GC</td><td>3</td><td>Exotic</td><td>Long</td><td>SB+6</td><td>Damaging, Fast, Penetrating, Fine 3</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.qbDDlWIJ8zCZqBcE]{Estoc}</td><td>8 GC</td><td>3</td><td>Scarce</td><td>Long</td><td>SB+5</td><td>Damaging, Impale</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.aKpRTg3LkKPm3G8u]{Executioner Sword}</td><td>8 GC</td><td>2</td><td>Scarce</td><td>Average</td><td>SB+5</td><td>Damaging, Precise</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.CTn9hTtqHyuiWUOJ]{Flanged Mace (2H)}</td><td>7 GC</td><td>3</td><td>Scarce</td><td>Average</td><td>SB+6</td><td>Impact, Pummel, Tiring</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.jiTYfZgMQP97drIG]{Jade Longsword}</td><td>300 GC</td><td>2</td><td>Exotic</td><td>Long</td><td>SB+6</td><td>Damaging, Defensive, Fast, Penetrating, Unbreakable, Fine</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.7XsDHNMBTXzwAd02]{Morningstar (2H)}</td><td>4 GC</td><td>3</td><td>Scarce</td><td>Average</td><td>SB+6</td><td>Pummel, Crushing, Slow</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.MMkWjYgaBW6ellMJ]{Nagamaki}</td><td>15 GC</td><td>3</td><td>Exotic</td><td>Long</td><td>SB+5</td><td>Damaging, Hack, Precise</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.CkaCLYd1svpuafoB]{No-Dachi}</td><td>100 GC</td><td>3</td><td>Exotic</td><td>Long</td><td>SB+6</td><td>Damaging, Fast, Hack</td></tr></tbody></table>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryMelee01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787669642592,
+        "modifiedTime": 1787669642592,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mArmoryMelee01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mArmory0000001.n0mArmoryMelee01"
+    },
+    {
+      "name": "Ranged Weapons",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Ranged Weapons</h1><p>NoM ranged weapons from the compendium (linked).</p><table border=\"1\"><thead><tr><th>Weapon</th><th>Price</th><th>Enc</th><th>Availability</th><th>Range</th><th>Damage</th><th>Qualities &amp; Flaws</th></tr></thead><tbody><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Sjhyj6N7FEcP1v5b]{Air Rifle}</td><td>100 GC</td><td>3</td><td>Exotic</td><td>50</td><td>+9</td><td>Accurate, Damaging, Suppressed, Reload 3</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ld58Nf5hauJjvZM8]{Chakram}</td><td>2 GC</td><td>1</td><td>Exotic</td><td>SBx3</td><td>SB+3</td><td>—</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.IHLVjHOXTeN95JrF]{Death Jack's Bow}</td><td>15 GC</td><td>2</td><td>Exotic</td><td>100</td><td>SB+4</td><td>Accurate, Damaging, Precise</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.MltDJ7TLhD6H1oG2]{Double-Barrel Pistol}</td><td>12 GC</td><td>0</td><td>Rare</td><td>20</td><td>+8</td><td>Blackpowder, Damaging, Pistol, Repeater 2, Multi Shot, Dangerous</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.kQgNmW1URmX6cdit]{Duck Foot Pistol}</td><td>14 GC</td><td>0</td><td>Rare</td><td>10</td><td>+8</td><td>Blackpowder, Blast 3, Damaging, Pistol, Dangerous, Reload 3</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.mjHsQ490zsH1ikLO]{Dueling Pistol}</td><td>20 GC</td><td>0</td><td>Rare</td><td>20</td><td>+8</td><td>Accurate, Blackpowder, Damaging, Pistol, Precise, Reload 1</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.SgdWtJHjkZbwFnFI]{Hand Cannon}</td><td>20 GC</td><td>1</td><td>Rare</td><td>20</td><td>+8</td><td>Blackpowder, Blast 2, Damaging, Pistol, Dangerous, Reload 2</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.bWg2ffFFgFiBBL9X]{Jezail}</td><td>50 GC</td><td>3</td><td>Exotic</td><td>150</td><td>+9</td><td>Blackpowder, Damaging, Precise, Dangerous, Reload 4</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.wVInyn5CB3kGGrtj]{Kunai}</td><td>1 GC</td><td>0</td><td>Exotic</td><td>SBx3</td><td>SB+2</td><td>Impale</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.HJJMLk2vKX6vHuxw]{Recurve Bow}</td><td>4 GC</td><td>2</td><td>Scarce</td><td>40</td><td>SB+3</td><td>Precise</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.2DKQKQVfQXBcKl3B]{Revolver}</td><td>20 GC</td><td>1</td><td>Exotic</td><td>—</td><td>+8</td><td>Blackpowder, Damaging, Precise, Repeater 6, Dangerous, Reload 6</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Xl7KGqNzmZqbRKUK]{Shuriken}</td><td>5/-</td><td>0</td><td>Exotic</td><td>SBx4</td><td>SB+1</td><td>Undamaging</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Rdqi7fBp8CqVaLI5]{Throwing Hammer}</td><td>1 GC</td><td>1</td><td>Common</td><td>SBx2</td><td>SB+3</td><td>Pummel</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Hj6GP9yLcWJhc0ze]{Torinoko Grenade}</td><td>4 GC</td><td>0</td><td>Exotic</td><td>SB</td><td>—</td><td>Blast 5</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.zmFef6d88OU7JP4E]{Triple-Barrel Repeater Pistol}</td><td>20 GC</td><td>1</td><td>Exotic</td><td>10</td><td>+7</td><td>Blackpowder, Damaging, Pistol, Multi Shot, Repeater 3, Dangerous, Reload 3</td></tr></tbody></table><h2>Ammunition</h2><table border=\"1\"><thead><tr><th>Ammunition</th><th>Price</th><th>Enc</th><th>Availability</th><th>Type</th><th>Qualities &amp; Flaws</th></tr></thead><tbody><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.yNoYLzjh91V7vPbo]{Arrow (Armor Piercing)}</td><td>2/-</td><td>0</td><td>Scarce</td><td>Bow</td><td>Impale, Penetrating</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.s1uhM8kAMGt9qkNm]{Arrow (Incendiary)}</td><td>2/-</td><td>0</td><td>Scarce</td><td>Bow</td><td>—</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.IZ6qkLPbG8yqST7Y]{Arrow (Screamer)}</td><td>2/-</td><td>0</td><td>Scarce</td><td>Bow</td><td>Undamaging</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.aDfZBs6onvwEhNLa]{Pellets (12)}</td><td>1/-</td><td>0</td><td>Common</td><td>BPandEng</td><td>Impale</td></tr></tbody></table>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryRange01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787669642593,
+        "modifiedTime": 1787669642593,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mArmoryRange01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mArmory0000001.n0mArmoryRange01"
+    },
+    {
+      "name": "Armour",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Armour</h1><p>NoM armour pieces from the compendium (linked), including Stechzeug, Norse plate, Reiksplate, samurai, lamellar, and auxiliaries.</p><table border=\"1\"><thead><tr><th>Armour</th><th>Price</th><th>Enc</th><th>Availability</th><th>Locations / Type</th><th>AP</th><th>Qualities &amp; Flaws</th></tr></thead><tbody><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.o3Rsxlk7Ja0RKa96]{Dou}</td><td>10 GC</td><td>3</td><td>Exotic</td><td>plate</td><td>head:0, body:2, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Durable, Practical, Weakpoints</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.mxGUgnap58SORrqK]{Gambeson}</td><td>1 GC</td><td>1</td><td>Common</td><td>softLeather</td><td>head:0, body:1, lArm:1, rArm:1, lLeg:0, rLeg:0</td><td>Flexible</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.2Hnj5ECTGoCJhVnh]{Haidate}</td><td>10 GC</td><td>3</td><td>Exotic</td><td>plate</td><td>head:0, body:0, lArm:0, rArm:0, lLeg:2, rLeg:2</td><td>Durable, Practical, Weakpoints</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.IWTtWKGoKef3PjE9]{Horned Great Helm}</td><td>2 GC</td><td>2</td><td>Exotic</td><td>plate</td><td>head:3, body:0, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Impenetrable, Weakpoints, Ugly</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.lJGRGOmkfLv7BppM]{Horned Helm}</td><td>1 GC</td><td>2</td><td>Exotic</td><td>plate</td><td>head:2, body:0, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Partial, Ugly</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.gTyaKN52UCLjw9Ne]{Horo Cloak}</td><td>15 GC</td><td>0</td><td>Exotic</td><td>other</td><td>head:0, body:0, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Missile Resistant</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Ay8wSEoTb1fdAV1T]{Jack of Plate}</td><td>8 GC</td><td>3</td><td>Rare</td><td>plate</td><td>head:0, body:2, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Flexible, Impenetrable</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.AmKPsKMtwvGObEOd]{Kabuto}</td><td>2 GC</td><td>1</td><td>Exotic</td><td>plate</td><td>head:2, body:0, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Partial</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.lVYtEJFZUOLQPiIY]{Kabuto with Mengu}</td><td>3 GC</td><td>2</td><td>Exotic</td><td>plate</td><td>head:2, body:0, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Durable, Practical, Weakpoints</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.xKjYTliJTEDVVNzH]{Kote}</td><td>8 GC</td><td>3</td><td>Exotic</td><td>plate</td><td>head:0, body:0, lArm:2, rArm:2, lLeg:0, rLeg:0</td><td>Durable, Practical, Weakpoints</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.B9Mk76rF7Hc9e72n]{Lamellar Chausses}</td><td>8 GC</td><td>3</td><td>Exotic</td><td>plate</td><td>head:0, body:0, lArm:0, rArm:0, lLeg:2, rLeg:2</td><td>Missile Resistant, Durable</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.xNhFTMdthqsBNwtn]{Lamellar Coat}</td><td>10 GC</td><td>3</td><td>Exotic</td><td>plate</td><td>head:0, body:2, lArm:2, rArm:2, lLeg:0, rLeg:0</td><td>Missile Resistant, Durable</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.b4C0MPAXYejQdfX5]{Lamellar Helm}</td><td>3 GC</td><td>2</td><td>Exotic</td><td>plate</td><td>head:2, body:0, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Missile Resistant, Durable</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.qxBdaLbevT6t1i3b]{Mirror Armor}</td><td>10 GC</td><td>3</td><td>Exotic</td><td>plate</td><td>head:0, body:3, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Durable, Fine</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.5MQD22wDQNVLGMma]{Norse Bracers}</td><td>4 GC</td><td>3</td><td>Exotic</td><td>plate</td><td>head:0, body:0, lArm:3, rArm:3, lLeg:0, rLeg:0</td><td>Impenetrable, Weakpoints, Ugly</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.fRqYyun1pRcH6Csh]{Norse Breastplate}</td><td>5 GC</td><td>3</td><td>Exotic</td><td>plate</td><td>head:0, body:3, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Impenetrable, Weakpoints, Ugly</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.si1HkQ4kh2gnRiM4]{Norse Leggings}</td><td>5 GC</td><td>3</td><td>Exotic</td><td>plate</td><td>head:0, body:0, lArm:0, rArm:0, lLeg:3, rLeg:3</td><td>Impenetrable, Weakpoints, Ugly</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.tj6t923qagqUalAc]{Reiksplate Armet}</td><td>10 GC</td><td>1</td><td>Exotic</td><td>plate</td><td>head:2, body:0, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Impenetrable, Durable, Fine, Lightweight, Practical, Weakpoints</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Mg8shSyJwu72rwLU]{Reiksplate Bracers}</td><td>60 GC</td><td>2</td><td>Exotic</td><td>plate</td><td>head:0, body:0, lArm:2, rArm:2, lLeg:0, rLeg:0</td><td>Durable, Fine, Impenetrable, Lightweight, Practical, Weakpoints</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Aqw91nN1qHgj5wTX]{Reiksplate Cuirass}</td><td>80 GC</td><td>2</td><td>Exotic</td><td>plate</td><td>head:0, body:2, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Impenetrable, Durable, Fine, Lightweight, Practical, Weakpoints</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.r2ID8gG1TUytI7GV]{Reiksplate Leggings}</td><td>80 GC</td><td>2</td><td>Exotic</td><td>plate</td><td>head:0, body:0, lArm:0, rArm:0, lLeg:2, rLeg:2</td><td>Impenetrable, Durable, Fine, Lightweight, Practical, Weakpoints</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.UIO4VS1txJLI4TAz]{Skull Trophies}</td><td>—</td><td>0</td><td>—</td><td>other</td><td>head:0, body:0, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Ugly</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.OyABdnRG67jFdTcl]{Stechzeug Bracers}</td><td>16 GC</td><td>3</td><td>Rare</td><td>plate</td><td>head:0, body:0, lArm:3, rArm:3, lLeg:0, rLeg:0</td><td>Impenetrable, Durable, Bulky</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.AAiRjcq7uiY12p3w]{Stechzeug Breastplate}</td><td>20 GC</td><td>3</td><td>Rare</td><td>plate</td><td>head:0, body:3, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Impenetrable, Durable, Bulky</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.0RHcYaMG8rJzL7Sj]{Stechzeug Helm}</td><td>4 GC</td><td>2</td><td>Rare</td><td>plate</td><td>head:3, body:0, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Impenetrable, Durable, Bulky</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.kfUeGWHZvd6V7W4p]{Vimto Arm Covers}</td><td>5 GC</td><td>1</td><td>Exotic</td><td>mail</td><td>head:0, body:0, lArm:2, rArm:2, lLeg:0, rLeg:0</td><td>Flexible, Durable</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.HA92mjrd9OzvGFhc]{Vimto Body Cover}</td><td>5 GC</td><td>1</td><td>Exotic</td><td>mail</td><td>head:0, body:2, lArm:0, rArm:0, lLeg:0, rLeg:0</td><td>Flexible, Durable</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.bnEvgloTZ3TYMEFc]{Vimto Leg Covers}</td><td>5 GC</td><td>1</td><td>Exotic</td><td>mail</td><td>head:0, body:0, lArm:0, rArm:0, lLeg:2, rLeg:2</td><td>Flexible, Durable</td></tr></tbody></table><p><em>See also</em> @UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryQuali01]{Missile Resistant} under New Qualities.</p>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryArmor01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787669642593,
+        "modifiedTime": 1787669642593,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mArmoryArmor01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mArmory0000001.n0mArmoryArmor01"
+    },
+    {
+      "name": "Siege Weapons",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Siege Weapons</h1><p>All siege weapons except the Trebuchet typically have the Blackpowder Quality. Using them effectively requires Ranged (Engineer), or Ranged (Blackpowder) if the weapon has the Blackpowder Quality.</p><table border=\"1\"><thead><tr><th>Weapon</th><th>Price</th><th>Enc</th><th>Availability</th><th>Range</th><th>Damage</th><th>Qualities &amp; Flaws</th></tr></thead><tbody><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.hQthG9ZM1R2hYrlN]{Dwarven Ballista}</td><td>200 GC</td><td>25</td><td>Exotic</td><td>125</td><td>+18</td><td>Accurate, Impale, Penetrating, Precise, Reload 3</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.VHrvPKlXxzQfX8je]{Dwarven Cannon}</td><td>200 GC</td><td>50</td><td>Exotic</td><td>150</td><td>+25</td><td>Blackpowder, Blast 4, Damaging, Impact, Precise, Reload 6</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.45g5khTZQG3VU9ev]{Empire Grand Cannon}</td><td>200 GC</td><td>65</td><td>Exotic</td><td>200</td><td>+25</td><td>Blackpowder, Blast 6, Damaging, Impact, Dangerous, Reload 8</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.1UE8PMrPt53jgHwn]{Empire Mortar}</td><td>100 GC</td><td>65</td><td>Exotic</td><td>120</td><td>+30</td><td>Blackpowder, Blast 6, Damaging, Impact, Dangerous, Reload 4</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.OvIzRpVOtFds2owZ]{Grudge Thrower}</td><td>100 GC</td><td>40</td><td>Exotic</td><td>75</td><td>+20</td><td>Damaging, Impact, Precise, Reload 3</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.pipAtN6UXPFxqDG8]{Hellblaster Volley Gun}</td><td>125 GC</td><td>40</td><td>Exotic</td><td>50</td><td>+13</td><td>Blackpowder, Blast 4, Damaging, Repeater 3, Dangerous, Reload 7</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Nss3nkAYfvdzjsak]{Helstorm Rocket Battery}</td><td>175 GC</td><td>60</td><td>Exotic</td><td>100</td><td>+12</td><td>Blackpowder, Blast 12, Damaging, Impact, Dangerous, Imprecise, Reload 10</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.mmXZFpDS1jDnWMWx]{Organ Gun}</td><td>300 GC</td><td>40</td><td>Exotic</td><td>75</td><td>+20</td><td>Blackpowder, Blast 8, Damaging, Reload 7</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.YqWMsNKr4oKCiozR]{Steam-powered Repeater}</td><td>175 GC</td><td>35</td><td>Exotic</td><td>50</td><td>+10</td><td>Accurate, Blackpowder, Damaging, Repeater 40, Dangerous, Reload 50</td></tr><tr><td>@UUID[Compendium.wfrp4e-nom.nom-items.Item.dymEuIAGNRXwWZ8Y]{Trebuchet}</td><td>60 GC</td><td>55</td><td>Rare</td><td>100</td><td>+23</td><td>Damaging, Impact, Practical, Reload 3</td></tr></tbody></table>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmorySiege01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787669642593,
+        "modifiedTime": 1787669642593,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mArmorySiege01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mArmory0000001.n0mArmorySiege01"
+    },
+    {
+      "name": "Mounts",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Mounts</h1><p>Mounts and war mounts from the Nations of Mankind bestiary (PDF page 84+). Open the Actor for Traits, movement, and trappings.</p><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.Ws11CG2ZaQgjtXL5]{Bretonnian Destrier}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.O7WMkJcCYM0CaTcI]{Demigryph War Mount}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.fELjTU1CJxVFFikT]{Hippogryph Mount}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.RN35DlsFXk8laiij]{Imperial Griffon Mount}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.y2nTZSqIiXJlwrWS]{Kislev Light Warhorse}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.kp3yCVC6OHNYQsHh]{Kislev Warbear}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.x5sOHB1mjEM8NJzq]{Light War Pegasus}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.NeM2E7D9SWFYtKkH]{Norscan Mammoth}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.8BL5lyYy9fSx5iBn]{Riding Camel}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.WAJ4ZNjzGoTXUYpl]{Royal Pegasus}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.9xKqNGmuZyVRSzj9]{War Camel}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-bestiary.Actor.xTWZzYECL0TaBN1o]{War Elephant}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mArmory0000001.JournalEntryPage.n0mArmoryMount01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1787669642593,
+        "modifiedTime": 1787669642593,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mArmoryMount01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!n0mArmory0000001.n0mArmoryMount01"
+    }
+  ],
+  "categories": [],
+  "sort": 850000,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1787669642594,
+    "modifiedTime": 1787669642594,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!journal!n0mArmory0000001"
+}

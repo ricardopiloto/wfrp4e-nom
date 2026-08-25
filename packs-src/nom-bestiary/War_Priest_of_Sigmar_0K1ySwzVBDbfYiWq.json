@@ -1,0 +1,5170 @@
+{
+  "_id": "0K1ySwzVBDbfYiWq",
+  "name": "War Priest of Sigmar",
+  "type": "creature",
+  "img": "systems/wfrp4e/tokens/unknown.png",
+  "items": [
+    {
+      "_id": "0CwV96kTDRF0jUhk",
+      "name": "Entertain",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Allows you to delight crowds with the spoken word, perhaps by singing, acting, or attempting a few jokes. A successful use of the Entertain Skill means you have entertained patrons near enough to hear you; the SL indicates how well you have done.</p>\n<p>In combat, it is unlikely that Entertain will be of much use, although you may come up with an interesting way to use Entertain (Acting) to confuse or mislead your opponents.</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Specialisations: </span>Acting, Comedy, Singing, Storytelling&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.0CwV96kTDRF0jUhk"
+    },
+    {
+      "_id": "1jCxbFAUuFuAPLJl",
+      "name": "Dodge",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Dodge is your ability to avoid things, through ducking, diving, and moving quickly, and is used extensively to sidestep falling rocks, incoming weapons, unexpected traps, and the like.</p>\n<p>In combat, Dodge is generally used to resist attacks or avoid damage. Refer to Rolling to Hit.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ag"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.1jCxbFAUuFuAPLJl"
+    },
+    {
+      "_id": "4IGdIhnwTaZijzg7",
+      "name": "Charm Animal",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-wp.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your aptitude for be friending, quickly calming, or subjugating animals.</p>\n<p>&nbsp;</p>\n<p>Passing a Charm Animal Test allows you to inﬂuence the behavior of one or more animals, to a maximum of Willpower Bonus + SL. If the target animals are naturally docile, this Test may be uncontested, but it will generally be Opposed by the target’s Willpower.</p>\n<p>&nbsp;</p>\n<p>In combat, you may use Charm Animal when facing animals. If you succeed, any affected targets will not attack you this Round and you gain +1 Advantage. You may do this in successive rounds until you choose to stop or fail a Charm Test, after which the creature’s instincts take over and you have no further inﬂuence.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "wp"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.4IGdIhnwTaZijzg7"
+    },
+    {
+      "_id": "4mJoPBw4drm1kv2D",
+      "name": "Melee",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ws.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The Melee Skill represents specific training with a single type of close combat weaponry. Each Melee Specialization indicates training in using a specific class of weapon. If you don’t have the correct Specialization for a weapon you wish to use, refer to <span style=\"font-weight: bold;\">@JournalEntry[The Consumers' Guide] </span>for the correct weapon entry, and what penalties you will suffer. See <span style=\"font-weight: bold;\">Chapter 5: Rules </span>for more detail about combat and using the Melee Skill.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ws"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.4mJoPBw4drm1kv2D"
+    },
+    {
+      "_id": "7pQo66cESWttzIlb",
+      "name": "Gamble",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-int.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Allows you to measure the likelihood that a bet will pay off, as well as successfully engage in various games of chance.</p>\n<p>To represent a gambling match, all players make a Gamble Test — applying any appropriate modifiers for familiarity with the game — and the player with the highest SL wins. On a tie, any lower scoring players drop out, and those remaining enact another Gamble Test, repeating this process until you have a winner.</p>\n<p>If you wish to inﬂuence the game through less honest mechanics, see Sleight of Hand.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.7pQo66cESWttzIlb"
+    },
+    {
+      "_id": "AaXk4bfDRTPeeYjn",
+      "name": "Art",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-dex.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Create works of art in tattoos. Not having access to appropriate Trade Tools will incur a penalty to your Test. The SL achieved determines the quality of the final piece. For complicated or large works of art, an Extended Test may be required. The Art Skill has little use in combat, but marble busts make marvelous improvised weapons.</p>\n<p>&nbsp;</p>\n<p><strong>Example</strong>:<em> Irina has been commissioned to paint a portrait of a local noble, whose favor her party is currying. Her GM determines this requires a total of 10 SL in an Extended Art Test, with each Test representing a week’s work.&nbsp;</em></p>\n<p>&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "dex"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.AaXk4bfDRTPeeYjn"
+    },
+    {
+      "_id": "CcNJsS4jSwB6Ug1J",
+      "name": "Endurance",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-t.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The Endurance Skill is called upon when you must endure hardship, withstand deprivation, sit without moving for long periods of time, or survive harsh environments. In particular, Endurance is Tested to resist or recover from various Conditions and helps you recover lost Wounds.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "t"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.CcNJsS4jSwB6Ug1J"
+    },
+    {
+      "_id": "Fs06sr7y9JKpVQmB",
+      "name": "Perception",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to notice things with your senses — sight, smell, hearing, touch, and taste, and any other senses you may possess, such as magical or non-Human senses. Your GM may ask for a Perception Test to detect something, like movement behind the treeline, the presence of a trap, or someone following you, modified by how easy it is to notice. Perception is also used to resist attempts to hide things through Skills such as Sleight of Hand or Stealth. Perception has multiple uses in combat, most commonly to notice important details beyond the immediately obvious about the surrounding environment and your opponents, as determined by the GM.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "i"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.Fs06sr7y9JKpVQmB"
+    },
+    {
+      "_id": "I0yPc4PH5erWJLmu",
+      "name": "Intimidate",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Allows you to coerce or frighten sentient creatures. The precise manner of initiating an Intimidate Test depends on context: while it is generally accompanied by an overt threat, sometimes a subtle implication or even a look is enough. Intimidate is almost always Opposed by your target’s Cool Skill; if successful, you can intimidate a number of targets up to your Strength Bonus + SL. Each will react to Intimidate based on their individual personalities and how successful you were in menacing them, but in all cases, they will back down or move out of the way and will not speak out against you, or they will alternatively accept combat is the only way forward and prepare their weapons.</p>\n<p>&nbsp;</p>\n<p>In combat, you cause @UUID[Compendium.wfrp4e-core.items.Item.Ib2YQYChktDFN93y]{Fear} in all Intimidated targets. You may also use your Intimidate Skill instead of Melee when defending against those afraid of you, causing the Intimidated parties to back away from the fight with your will and posture alone. Further, with your GM’s approval, you may use Intimidate to ‘attack’ such targets, issuing specific commands, such as ‘drop your weapons’ or ‘get out of here!’. However, if you fail any of these subsequent Intimidate Tests, you no longer Intimidate (or cause Fear) in affected opponents. With your GM’s permission you may try to Intimidate them again in a later Round, but this will incur a negative modifier, as they are less likely to fear you having seen through your bravado once already.</p>\n<p>&nbsp;</p>\n<h3>Alternative Characteristics For Intimidate</h3>\n<p>While strength is the default stat for Intimidate tests, the GM may decree certain situations may allow you to use a different characteristic: a steely witch hunter may use Willpower to stare down an inquisitive bystander, or an academic may use Intelligence to cow a lowly student with his intimidating knowledge, for instance.&nbsp;</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Example: </span><span style=\"font-style: italic;\">Facing a group of footpads, Svetlana the Strong rolls 4 SL on her Intimidate Test. Combined with her SB of 5, this means she can affect up to 9 targets, more than enough to impact all three footpads who now Fear Svetlana. As she has won by 3 SL, she gains +1 Advantage point until the end of her next turn. In the next round, she ‘attacks’ the footpads using her Intimidate, intending to scare them into leaving her be. However, she fails the Test, and the footpads realize they outnumber her, and are armed…&nbsp;</span></p>\n<p>&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "s"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.I0yPc4PH5erWJLmu"
+    },
+    {
+      "_id": "KL4pCOqma5E7fLG4",
+      "name": "Row",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your prowess at pulling an oar and moving a boat through the water. The Row Skill is typically only used when racing, navigating rapids, desperately avoiding Bog Octopuses, or similar unusual or dangerous feats. Anyone with the Skill is automatically presumed to be able to scull about a pond, or over a gentle river, without a Test. Those without the skill may have to make a Test for anything but the most basic maneuvers.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "s"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.KL4pCOqma5E7fLG4"
+    },
+    {
+      "_id": "LGHozP5gmQ8cuDQV",
+      "name": "Athletics",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to run, jump and move with speed or grace, and to perform any general physical activity. Refer to Moving for details on using Athletics in combat movement.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ag"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.LGHozP5gmQ8cuDQV"
+    },
+    {
+      "_id": "McTtmZu3Ac8Lh48W",
+      "name": "Stealth",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Allows you to creep quietly and conceal yourself in shadows more readily than most. Stealth is generally Opposed by an opponent’s Perception Skill, and Tests will be modifed by how dark or well concealed your route is, as well as how circumspectly you are dressed. An Impressive or Astounding Failure on a Stealth Test will likely draw the immediate attention of the enemies you were trying to avoid in the first place.</p>\n<p>&nbsp;</p>\n<p>Stealth has many potential applications in combat, most usefully to hide oneself in preparation for an Ambush, or to creep around an opponent in order to attack from behind. Of course, you can also use the Skill to escape a conﬂict unseen…</p>\n<h3>&nbsp;</h3>\n<p><span style=\"font-weight: bold;\">Specializations: </span>Rural, Underground, Urban&nbsp;</p>\n<p>&nbsp;</p>\n<h3>Options: Shadowing</h3>\n<p>Shadowing is following someone secretly. To do this requires a Combined Perception and Stealth Test. If the target is actively trying to lose a tail, it is Opposed with the target’s Stealth Skill.</p>\n<p>&nbsp;</p>\n<p>If you pass the Perception Test, and fail the Stealth Test you follow your target, but are spotted. If you fail the perception Test, yet pass the Stealth Test, you lose your target, but go unnoticed</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ag"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.McTtmZu3Ac8Lh48W"
+    },
+    {
+      "_id": "MeXCAQ3wqJzX07X7",
+      "name": "Ride",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>How proficient you are at riding a particular group of animals; Ride (Horse), for example, will let you ride Horses, Mules, Donkeys, and similar. You’ll only need to make a Test when doing something out of the ordinary, such as racing, dressage, traversing dangerous terrain, or charging into combat. Otherwise, if you have at least one Advance in the Skill, you are presumed to be able to ride around without need of a Test.</p>\n<p>&nbsp;</p>\n<p>If mounted on a steed, you move using the steed’s Movement statistic; if you wish to run, jump, or leap, you use your Ride Skill, not Athletics. An extended Ride Test may be needed if you are racing somewhere, the target SL depending on the length of the journey, the number of Tests indicating how long you take to arrive. A Ride Test may be modified by environmental conditions, and the temperament of your mount. For more information on mounts, see Chapter 12: Bestiary. The Ride skill can be used extensively in combat. See Chapter 5: Rules, for more on mounted combat.</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Specializations: </span>Demigryph, Great Wolf, Griffon, Horse, Pegasus&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ag"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.MeXCAQ3wqJzX07X7"
+    },
+    {
+      "_id": "R2ytluHiEFF2KQ5e",
+      "name": "Consume Alcohol",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-t.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>&nbsp;</p>\n<p>Your ability to handle alcohol without letting it cloud your judgment or render you senseless.</p>\n<p>After each alcoholic drink make a Consume Alcohol Test, modified by the strength of the drink. For each Test you fail, you suffer a –10 penalty to WS, BS, Ag, Dex, and Int, to a maximum of –30 per Characteristic. After you fail a number of Tests equal to your Toughness Bonus, you are Stinking Drunk. Roll on the following table to see what happens:</p>\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">&nbsp;</p>\n<div style=\"direction: ltr;\">\n<table style=\"direction: ltr; border-collapse: collapse; height: 256px; border: 1pt solid #a3a3a3;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr style=\"height: 30px;\">\n<td style=\"vertical-align: top; width: 63px; padding: 4pt; height: 30px; border: 1pt solid #a3a3a3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">1d10 </span></p>\n</td>\n<td style=\"vertical-align: top; width: 521px; padding: 4pt; height: 30px; border: 1pt solid #a3a3a3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">Stinking Drunk</span></p>\n</td>\n</tr>\n<tr style=\"height: 30px;\">\n<td style=\"vertical-align: top; width: 63px; padding: 4pt; height: 30px; border: 1pt solid #a3a3a3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">1-2</p>\n</td>\n<td style=\"vertical-align: top; width: 521px; padding: 4pt; height: 30px; border: 1pt solid #a3a3a3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span>‘<span style=\"font-weight: bold;\">Marienburgher’s Courage!’: </span>Gain a bonus of +20 to your Cool Skill.</p>\n</td>\n</tr>\n<tr style=\"height: 30px;\">\n<td style=\"vertical-align: top; width: 63px; padding: 4pt; height: 30px; border: 1pt solid #a3a3a3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">3-4</p>\n</td>\n<td style=\"vertical-align: top; width: 521px; padding: 4pt; height: 30px; border: 1pt solid #a3a3a3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">‘<span style=\"font-weight: bold;\">You’re My Besht Mate!’: </span>Ignore all your existing Prejudices and Animosities.</p>\n</td>\n</tr>\n<tr style=\"height: 49px;\">\n<td style=\"vertical-align: top; width: 63px; padding: 4pt; height: 49px; border: 1pt solid #a3a3a3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">5-6</p>\n</td>\n<td style=\"vertical-align: top; width: 521px; padding: 4pt; height: 49px; border: 1pt solid #a3a3a3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span><span style=\"font-weight: bold;\">‘Why’s Everything Wobbling!’: </span>On your Turn, you can either Move or take an Action, but not both.</p>\n</td>\n</tr>\n<tr style=\"height: 30px;\">\n<td style=\"vertical-align: top; width: 63px; padding: 4pt; height: 30px; border: 1pt solid #a3a3a3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">7-8</p>\n</td>\n<td style=\"vertical-align: top; width: 521px; padding: 4pt; height: 30px; border: 1pt solid #a3a3a3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">‘I’ll Take Yer All On!’: </span>Gain Animosity (Everybody)!</p>\n</td>\n</tr>\n<tr style=\"height: 87px;\">\n<td style=\"vertical-align: top; width: 63px; padding: 4pt; height: 87px; border: 1pt solid #a3a3a3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">9-10</p>\n</td>\n<td style=\"vertical-align: top; width: 521px; padding: 4pt; height: 87px; border: 1pt solid #a3a3a3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\"><span style=\"color: #231f20;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span></span><span style=\"font-weight: bold; color: #231f20;\">‘How Did I Get here?’: </span><span style=\"color: #231f20;\">You wake up the next day, massively hungover, with little memory of what transpired. The GM and other players with you will fill in the embarrassing gaps if you investigate. Pass a Consume Alcohol Test or also gain a Poisoned </span><span style=\"color: #231f20;\">Condition.</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">&nbsp;</p>\n<p>After not drinking for an hour, enact a Challenging (+0) Consume Alcohol Test. The effects of being drunk will wear</p>\n<p>off after 10–SL hours, with any Characteristic modifiers for being drunk lost over that time. After all effects wear off, enact another Challenging (+0) Consume Alcohol Test. You now gain a hangover, which is an Fatigued Condition that cannot be removed for 5–SL hours.</p>\n<p>You may expend 1 Resolve point to ignore the negative modifiers of being drunk until the end of the next round.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "t"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.R2ytluHiEFF2KQ5e"
+    },
+    {
+      "_id": "RLQHm1s4IuY9RSr2",
+      "name": "Gossip",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>You can quickly ferret out interesting and useful news, and spread rumors of your own. A successful Gossip Test means you have found out one useful piece of information, which your GM can impart to you, about the local area. Each SL either offers you an additional piece of information, or the chance to spread a rumor to a number of individuals equal to your Fellowship Bonus. The time required for a Gossip Test depends on how circumspect the players are being, and how busy the area is, as determined by the GM.</p>\n<p>It is unlikely that Gossip will be much use in combat, but if your attacker happens to be local, and you happen to know something really juicy…</p>\n<p>&nbsp;</p>\n<h3>Half-Heard Whispers</h3>\n<p>While it may be expedient for GMs to quickly share information gleaned from Gossip tests to all players at once, it is often more fun to share the information only with individual players (either through a note, or through brieﬂy taking them aside). This means the players must relate this information to one another in-character — aiding the immersive roleplaying experience — which allows for mistakes and misunderstandings, sometimes leading to hilarious, or horrific, results.&nbsp;</p>\n<p>&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.RLQHm1s4IuY9RSr2"
+    },
+    {
+      "_id": "cYtU0ORRFCOpQLWz",
+      "name": "Intuition",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The Intuition Skill allows you to get a feel for your surroundings, leading you to notice when something is wrong, and gives you a sense of when people may be hiding something from you. A successful use of the Intuition Skill gives you subtle or implicit intelligence relating to your environment, determined by your GM. This may be information such as whether someone believes what they are saying, what the general attitude is towards the local noble, or if the helpful local’s motives are as pure as they seem. If someone is actively trying to hide their intent, they may resist your Intuition with Cool or Entertain (Acting).</p>\n                        <p>&nbsp;</p>\n                        <p>In combat, a successful Intuition Test may be used to give you +1 Advantage as you weigh the environment and your opponents. You may continue building Advantage in subsequent turns providing you are able to observe your targets and are not interrupted (such as being attacked); you may gain a maximum Advantage equal to your Intelligence Bonus in this manner.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "i"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.cYtU0ORRFCOpQLWz"
+    },
+    {
+      "_id": "d3VZwO4Y5JH5DXdT",
+      "name": "Bribery",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to judge how likely a person is to accept a bribe, and how best to offer the bribe so they will accept it. A successful Bribery Test tells you if a target may be bribed. If so, your GM will secretly determine the price of their cooperation using the target’s Earnings, increasing the amount according to their usual honesty and the risk involved in taking the bribe. You then guess that target amount and the GM will tell you if the price is higher, lower, or equal. Each SL from your initial Bribery Test gives you another guess. At the end of this process, you determine how much money to offer, based on what you have gleaned.</p>\n<p>&nbsp;</p>\n<p>In combat, you may use Bribery as above to try to stop the fight, but treat the Test as Hard (–20) owing to the stress of the situation. If your target is not susceptible, you cannot afford the fee, or your foes do not speak your tongue, your pathetic attempts to buy them off will be doomed to fail. Of course, if they have the advantage of numbers, what’s to prevent them from taking all of your money?</p>\n<p>&nbsp;</p>\n<p><strong>Example</strong>: <em>Snorri is trying to bribe his way past a city watchman; a character of the Brass Tier 2, meaning they roll 4d10 Brass for Income. The GM decides the guard can be bribed and secretly rolls 21 on the 4d10, meaning the price for bribing the guard is 21 Brass. Letting Snorri through isn’t too risky for the watchman, and he does it often, so the GM doesn’t increase the bribe required. Snorri rolls 1 SL on his Bribery Test; so, he knows the watchman is open to a bribe, and has 2 guesses as to his price. Snorri’s first guess is 15 Brass, to which his GM replies ‘higher’. His second guess is 40, to which his GM replies ‘lower’. Snorri now knows he must bribe the watchman between 15 and 40 Brass, so decides to aim high, and offers 30. Smiling, the watchman waves Snorri through.</em></p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.d3VZwO4Y5JH5DXdT"
+    },
+    {
+      "_id": "exLrBrn2mjb6x2Cq",
+      "name": "Charm",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Charm makes people think favorably of you, your opinions, and proposed actions. Passing an Opposed Charm/Cool Test allows you to inﬂuence the behavior of one or more targets, up to a maximum number equal to your Fellowship Bonus + SL, affecting those with the lowest Willpower first. If a target is amenable to your Charm, the Test will be uncontested.</p>\n<p>Your GM may permit you to use Charm in Combat if they think your foes might be susceptible to you pleading for your life or making persuasive arguments to stop the violence (although good luck charming a Goblin)!</p>\n<p>If you use Charm as your Action, calculate the number of targets affected as normal. If you use it to defend, you only affect your attacker. If you succeed, any affected targets will not attack you this round and you gain +1 Advantage as normal. You may do this in successive rounds until you choose to stop or fail a Charm Test, after which your words carry no more weight.</p>\n<p>Your GM may permit you to use Charm in Combat if they think your foes might be susceptible to you pleading for your life or making persuasive arguments to stop the violence (although good luck charming a Goblin)!</p>\n<p>If you use Charm as your Action, calculate the number of targets affected as normal. If you use it to defend, you only affect your attacker. If you succeed, any affected targets will not attack you this round and you gain +1 Advantage as normal. You may do this in successive rounds until you choose to stop or fail a Charm Test, after which your words carry no more weight.</p>\n<p>&nbsp;</p>\n<h3>Public Speaking</h3>\n<p>The charm skill can be used to make impressive speeches to sway multiple targets to your way of thinking. assuming they can hear you and are inclined to listen, you can inﬂuence up to your Fellowship Bonus + SL targets with a single charm Test, inﬂuencing targets with the lowest Willpower first. If the crowd is unruly, or not receptive to your words, the test is opposed by the crowd’s average Willpower (typically 35). A failure shows the crowd is unconvinced. the public speaking and master orator talents can significantly increase the number of people you affect with public speaking. an astounding Failure (-6) in a charm test means your crowd quickly becomes an angry mob, with you as the target of their ire…&nbsp;</p>\n<p>&nbsp;</p>\n<h3>Begging</h3>\n<p>The Charm skill can be used to beg on the streets. A successful test will scrounge Fellowship Bonus × SL brass pennies per hour from passers-by, with the Difficulty modified by the pitch chosen for begging, and how much sympathy your appearance can elicit. If you score no SL, but still pass the skill test, you only manage to scrounge a single pfennig. an astounding Failure (-6) means you may have attracted problems from the local Watchmen, found some trouble with&nbsp; other, local beggars, or suffer some other significant set-back.</p>\n<p><strong>Note</strong>: Characters who are caught begging by their peers or associates will likely lose status unless they are already in the Beggar, or in some other destitute, career.&nbsp;</p>\n<p>&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.exLrBrn2mjb6x2Cq"
+    },
+    {
+      "_id": "iYan4z52v7HYM9u9",
+      "name": "Drive",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>&nbsp;</p>\n<p>Drive lets you guide vehicles — most commonly simple carts and lumbering coaches, not to mention the more ‘experimental’ creations of the Imperial Engineers — along the roads of the Empire with as little incident as possible.</p>\n<p>&nbsp;</p>\n<p>Under normal circumstances, if you possess the Drive Skill, there is no need to Test. If conditions are less than ideal — perhaps the road is in poor condition, or the weather is terrible — a Drive Test will be required. If you do not possess the Drive Skill, you may be required to make a Test to carry out even basic maneuver. An Astounding Failure (-6) on a Drive Test means something bad has happened. Roll on the following table:</p>\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">&nbsp;</p>\n<div style=\"direction: ltr;\">\n<table style=\"direction: ltr; border-collapse: collapse; border: 1pt solid #A3A3A3;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; width: .6673in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">1d10</span></p>\n</td>\n<td style=\"vertical-align: top; width: 6.9111in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span>Result</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .6673in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">1-2</p>\n</td>\n<td style=\"vertical-align: top; width: 6.9111in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">Snapped Harness: </span>One horse (or equivalent) breaks free; reduce speed accordingly.</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .6673in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">3-5</p>\n</td>\n<td style=\"vertical-align: top; width: 6.9111in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span><span style=\"font-weight: bold;\">Jolted Carriage: </span>Passengers suffer 1 Wound and fragile cargos might be damaged.</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .6673in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">6-8</p>\n</td>\n<td style=\"vertical-align: top; width: 6.9111in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">Broken Wheel: </span>Pass a Drive Test every round to avoid Crashing. Two-wheeled vehicles with a Broken Wheel Crash automatically.</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .6673in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">9-10</p>\n</td>\n<td style=\"vertical-align: top; width: 6.9111in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span><span style=\"font-weight: bold;\">Broken Axle: </span>The vehicle goes out of control and Crashes.</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">&nbsp;</p>\n<p><strong>Crashing</strong>: Occupants of Crashing vehicles usually suffer 2d10 Wounds modified by Toughness Bonus and Armor Points</p>\n<p>unless the vehicle was moving slowly (as determined by the GM). Crashed vehicles must be repaired by someone with an appropriate Trade Skill, such as Trade (Carpenter) or Trade (Cartwright). Spare wheels can be installed by anyone with a Drive Test or with an appropriate Trade Test. In combat, Drive may be used if circumstances allow — for instance, if the party is in a coach being raided by outlaws, and you wish to ram an enemy, or outrun them.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ag"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.iYan4z52v7HYM9u9"
+    },
+    {
+      "_id": "oMaJZ5cvCJeOUq9H",
+      "name": "Leadership",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>A measure of your ability to lead others and command their respect. While most often associated with martial situations, a resolute leader can quickly direct a fast response to a fire or other such calamity, and nobles use the Skill frequently to command their lessers.</p>\n<p>&nbsp;</p>\n<p>A successful Leadership Test allows you to issue orders to a number of targets equal to your Fellowship Bonus + SL. If the targets are your natural subordinates — a noble commanding serfs, or a sergeant commanding his troops — commands are usually unopposed. If there is no natural hierarchy in place, or the order is particularly challenging — such as ordering your soldiers to charge a Hydra head on — the Test is Opposed by your targets’ Cool.</p>\n<p>&nbsp;</p>\n<p>In combat, you may use Leadership to encourage your subordinates. A successful Leadership Test confers a bonus of +10 to all Psychology Tests until the end of the next round (see @JournalEntry[Psychology]).</p>\n<p>&nbsp;</p>\n<p>Further, Leadership can be used to transfer Advantage to allies able to hear you; following a successful Leadership Test, you may transfer an Advantage to one ally of your choice, plus a further +1 Advantage per SL scored, which can again go to any allies of your choice within earshot.</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Example: </span><span style=\"font-style: italic;\">Lord Ludwig von Schemp has been watching his two bodyguards discourse with some ruffians for three Rounds, using his Intuition Skill to build up 3 Advantage. Feeling it is going nowhere, he issues a peremptory order to attack the ringleader; passing his Leadership Test with 5 SL, he gives one bodyguard 2 of his Advantage, and the remaining bodyguard 1 Advantage, hoping this will bring a swift end to proceedings.&nbsp;</span></p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.oMaJZ5cvCJeOUq9H"
+    },
+    {
+      "_id": "os4NKy5Oy6sRt1eh",
+      "name": "Outdoor Survival",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-int.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The Outdoor Survival Skill is used to survive in the wild, including the ability to fish, hunt, forage, and build fires and shelters. Experienced travelers are skilled at reading the signs of incoming inclement weather and finding the spoor of various dangerous beasts.</p>\n<p>&nbsp;</p>\n<p>When camping, make an Outdoor Survival Test, modified by the harshness of conditions — for instance, a Test is Challenging (+0) if it is raining, Hard (–20) in a storm. A successful Test indicates you can provide yourself sustenance and shelter for the night. Each SL allows you to provide for one more character. If the Test is failed, you must make a Challenging (+0) Endurance Test or receive the Fatigued Condition. If you suffer an Astounding Failure, something untoward has happened, as determined by the GM; perhaps your camp is attacked in the night?</p>\n<p>&nbsp;</p>\n<p>When fighting in the wilderness, you may make an Outdoor Survival Test to receive +1 Advantage, in the same way as Intuition, to a maximum number of Advantage equal to your Intelligence Bonus, as you spy out treacherous and advantageous terrain that you can best use to your advantage.</p>\n<p>&nbsp;</p>\n<h3>Gathering Food and Herbs</h3>\n<p>Gathering food or herbs normally takes around 2 hours. Hunting and foraging parties make one assisted Outdoor Survival Test for the group, with the Difficulty determined by the circumstances.</p>\n<ul type=\"disc\">\n<li>Foraging: A success grants enough food for one character. Every SL yields sufficient extra food for one more person.&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<ul type=\"disc\">\n<li>Hunting and Fishing: if you have appropriate bows, spears, fishing rods, or nets, a successful Test feeds two people, and an extra two people per SL.</li>\n</ul>\n<p>&nbsp;</p>\n<ul type=\"disc\">\n<li>Trapping: Use the Set Trap Skill to place A@UUID[Compendium.wfrp4e-core.items.Item.k0KeWhPgFGUcOgs0]{Animal traps}. Feeds the same number of people as hunting and Fishing.</li>\n</ul>\n<p>&nbsp;</p>\n<ul type=\"disc\">\n<li>Lore (Herbs):&nbsp;if you are instead gathering herbs using Lore (Herbs), a success gathers enough for a dose of the sought herb , with each SL adding an extra dose. Gathering tests are modified by herb Availability: Common (0), Scarce (–10), Rare (–20), or Exotic (–30)&nbsp;</li>\n</ul>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.os4NKy5Oy6sRt1eh"
+    },
+    {
+      "_id": "pKLMbmG3Ivt6mzMf",
+      "name": "Haggle",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Haggle allows you to secure better deals when negotiating with others. In general, Haggle is used to see whether you do, or do not, make a good deal, most commonly with an <span style=\"font-weight: bold;\">Opposed Haggle </span>Test. Specifically, it can be used when shopping to secure better prices. For information on this, refer to <span style=\"font-weight: bold;\">@JournalEntry[The Consumers' Guide].</span></p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.pKLMbmG3Ivt6mzMf"
+    },
+    {
+      "_id": "pxNjTxsp1Kp0SmQe",
+      "name": "Cool",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-wp.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Cool allows you to remain calm under stress, resist fear when faced with horror, and stick to your convictions.</p>\n<p>&nbsp;</p>\n<p>Cool is generally used to resist other Skills — Charm, Intimidate, and similar — but you may also be required to make a Cool Test when faced with anything forcing you to do something you would rather not. Cool is also the primary Skill used to limit Psychology</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "wp"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.pxNjTxsp1Kp0SmQe"
+    },
+    {
+      "_id": "sRuMlaPU5xdIrwhd",
+      "name": "Climb",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The ability to ascend steep or vertical surfaces.</p>\n        <p>If time isn’t an issue, and a climb is relatively easy, anyone with Climb Skill is automatically assumed to be able to climb any reasonably small height.</p>\n        <p>For any other climbing, Climbing during combat. You may even find yourself climbing large opponents, though whether that is prudent is debatable.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "s"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.sRuMlaPU5xdIrwhd"
+    },
+    {
+      "_id": "zZUX7wO4rOo8k9F0",
+      "name": "Navigation",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Navigation allows you to find your way in the wilderness using landmarks, stellar bodies or maps. Possessing the Navigation Skill means you know roughly where you are, and can find your way between well-known landmarks without a Test. A Test is only required if you are disoriented or travelling far from the beaten path, with success showing you the correct direction, or allowing you to avoid mishap.</p>\n<p>&nbsp;</p>\n<p>If you are navigating a long journey, your GM may ask for an extended Navigation Test, modified by conditions, visible landmarks, and access to reliable geographical information. The SL required to succeed depends on how far the destination is, with each Test representing between an hour and a day’s travel, depending on the nature of the journey</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "i"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.zZUX7wO4rOo8k9F0"
+    },
+    {
+      "_id": "Ggx0bRaCuq8MbF0g",
+      "name": "Gold Crown",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/goldcrown.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "quantity": {
+          "type": "Number",
+          "label": "Quantity",
+          "value": 0
+        },
+        "encumbrance": {
+          "type": "Number",
+          "label": "Encumbrance",
+          "value": 0.005
+        },
+        "location": {
+          "type": "Number",
+          "label": "Location",
+          "value": ""
+        },
+        "coinValue": {
+          "label": "Value (in d)",
+          "type": "Number",
+          "value": 240
+        },
+        "price": {},
+        "availability": {},
+        "damageToItem": {}
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.Ggx0bRaCuq8MbF0g"
+    },
+    {
+      "_id": "KB8HgDz56dh2w7w1",
+      "name": "Silver Shilling",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/silvershilling.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "quantity": {
+          "type": "Number",
+          "label": "Quantity",
+          "value": 0
+        },
+        "encumbrance": {
+          "type": "Number",
+          "label": "Encumbrance",
+          "value": 0.005
+        },
+        "location": {
+          "type": "Number",
+          "label": "Location",
+          "value": ""
+        },
+        "coinValue": {
+          "label": "Value (in d)",
+          "type": "Number",
+          "value": 12
+        },
+        "price": {},
+        "availability": {},
+        "damageToItem": {}
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.KB8HgDz56dh2w7w1"
+    },
+    {
+      "_id": "0MYOJFx3vkYA95B4",
+      "name": "Brass Penny",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/brasspenny.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "quantity": {
+          "type": "Number",
+          "label": "Quantity",
+          "value": 0
+        },
+        "encumbrance": {
+          "type": "Number",
+          "label": "Encumbrance",
+          "value": 0.005
+        },
+        "location": {
+          "type": "Number",
+          "label": "Location",
+          "value": ""
+        },
+        "coinValue": {
+          "label": "Value (in d)",
+          "type": "Number",
+          "value": 1
+        },
+        "price": {},
+        "availability": {},
+        "damageToItem": {}
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.0MYOJFx3vkYA95B4"
+    },
+    {
+      "_id": "gSyYT2QY8UUr2cbr",
+      "name": "Bless (Sigmar)",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/bless.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You are watched over by one of the Gods and can empower simple prayers. You can now deploy the Blessings of your deity as listed in Chapter 7: Religion and Belief. Under normal circumstances, you may only ever know one Divine Lore for the Bless Talent."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "1"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": ""
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.gSyYT2QY8UUr2cbr"
+    },
+    {
+      "_id": "H4Qyl83HqjjRANvD",
+      "name": "Etiquette (Cultists)",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/etiquette.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>You can blend in socially with the chosen group so long as you are dressed and acting appropriately. Example social groups for this Talent are: Criminals, Cultists, Guilders, Nobles, Scholars, Servants, and Soldiers. If you do not have the Talent, those with it will note your discomfort in the unfamiliar environment. This is primarily a matter for roleplaying, but may confer a bonus to Fellowship Tests at the GM’s discretion.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": "Charm and Gossip (Social Group)"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.H4Qyl83HqjjRANvD"
+    },
+    {
+      "_id": "TbNY5zk1HP6K0d6a",
+      "name": "Inspiring",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/inspiring.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your rousing words and pleas can turn the tide of a battle. Refer to the following table to see how many people you can now inﬂuence with your Leadership Skill when at war.</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Talent Taken</p>\n</td>\n<td>\n<p>Number of soldiers inﬂuenced</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>As normal × 5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>As normal × 10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>&nbsp;As normal × 20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>&nbsp;As normal × 50</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>&nbsp;As normal × 100</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>&nbsp;As normal × 200</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>&nbsp;As normal × 500</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>&nbsp;As normal × 1000</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>&nbsp;All who can hear your inspiring voice</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": "Leadership during war"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.TbNY5zk1HP6K0d6a"
+    },
+    {
+      "_id": "G0SVKRjoKKcfyXMT",
+      "name": "Invoke (Sigmar)",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/invoke.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>You are blessed by one of the Gods and can empower one of your Cult’s Miracles. Further, you may purchase extra miracles for 100 XP per miracle you currently know. So, if you already know 3 miracles, your next miracle costs 300 XP to purchase. Full rules for learning new miracles are provided in <strong>Chapter 7: Religion and Belief</strong>. Under normal circumstances, you may not learn more than one <em>Invoke (Divine Lore)</em> Talent. Further, you may not learn the <em>Petty Magic</em> or <em>Arcane Magic</em> Talents when you have the Invoke Talent. You can unlearn this Talent for 100 XP, but will lose all of your miracles if you do so, and will also garner the extreme disfavor of your God, with effects determined by your GM</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "1"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": ""
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.G0SVKRjoKKcfyXMT"
+    },
+    {
+      "_id": "6onCXsUpTN7rBW8U",
+      "name": "Read/Write",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/readwrite.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You are one of the rare literate individuals in the Old World. You are assumed to be able to read and write (if appropriate) all of the Languages you can speak."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "1"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": ""
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.6onCXsUpTN7rBW8U"
+    },
+    {
+      "_id": "iYKmQgBrieKvs0sF",
+      "name": "Seasoned Traveller",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/seasoned-traveller.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>You are an inquisitive soul who has travelled far and wide, learning all manner of local information. Add Lore (Local) to any Career you enter; if it is already in Career, you may purchase the Skill, both times — a different Specialty each time, such as Altdorf, Vorbergland, or Ubersreik — for 5 XP fewer per Advance.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": "Any Lore Test concerning local detail"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.iYKmQgBrieKvs0sF"
+    },
+    {
+      "_id": "7plM3piCRA5ktciH",
+      "name": "Strong-minded",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/strong-minded.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You are the epitome of determination and resolve. Add your level in Strong Minded to your maximum Resolve pool."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "wp"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": ""
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.7plM3piCRA5ktciH"
+    },
+    {
+      "_id": "eigPjEnxWVPvUWXc",
+      "name": "Strong-minded",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/strong-minded.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You are the epitome of determination and resolve. Add your level in Strong Minded to your maximum Resolve pool."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "wp"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": ""
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.eigPjEnxWVPvUWXc"
+    },
+    {
+      "_id": "zuVmeODTTaXXmaxe",
+      "name": "Suave",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/suave.png",
+      "effects": [
+        {
+          "_id": "KtcX1mblPyZZwVBC",
+          "flags": {
+            "wfrp4e": {
+              "_legacyData": {
+                "effectApplication": "actor",
+                "preventDuplicateEffects": true
+              }
+            }
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.6.4",
+            "createdTime": 1787663546391,
+            "modifiedTime": 1787663546391,
+            "lastModifiedBy": "7SjvqIrukDv4W6Te",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Suave",
+          "img": "modules/wfrp4e-core/icons/talents/suave.png",
+          "system": {
+            "changes": [
+              {
+                "key": "system.characteristics.fel.initial",
+                "value": 5,
+                "type": "add",
+                "phase": "initial"
+              }
+            ],
+            "transferData": {
+              "type": "document",
+              "originalType": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "shape": {
+                  "color": null,
+                  "type": "circle",
+                  "angle": 60,
+                  "curvature": "round",
+                  "base": {
+                    "width": 1,
+                    "height": 1,
+                    "hole": false,
+                    "shape": 4,
+                    "type": "token"
+                  }
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false,
+                  "visibility": 0
+                },
+                "duration": "sustained"
+              },
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "start": null,
+          "type": "base",
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!0K1ySwzVBDbfYiWq.zuVmeODTTaXXmaxe.KtcX1mblPyZZwVBC"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You gain a permanent +5 bonus to your starting Fellowship Characteristic (this does not count towards your Advances)."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "1"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": ""
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.zuVmeODTTaXXmaxe"
+    },
+    {
+      "_id": "1gNZwkdAyS1zCL23",
+      "name": "Armour (Half-plate)",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "_id": "CAcGBn8sq62mVUxJ",
+          "flags": {
+            "wfrp4e": {
+              "_legacyData": {
+                "effectApplication": "actor",
+                "effectTrigger": "prepareData",
+                "preventDuplicateEffects": false,
+                "script": "let AP = args.actor.status.armour\nlet APdamage = this.item.getFlag('wfrp4e', 'APdamage') || {}\n\nlet value = parseInt(this.item.specification.value)\n\nif (Number.isNumeric(value))\n{\nAP[\"head\"].value += (value - (APdamage.head || 0))\nAP[\"rArm\"].value += (value - (APdamage.rArm|| 0))\nAP[\"lArm\"].value += (value - (APdamage.lArm || 0))\nAP[\"body\"].value += (value - (APdamage.body || 0))\nAP[\"lLeg\"].value += (value - (APdamage.lLeg || 0))\nAP[\"rLeg\"].value += (value - (APdamage.rLeg || 0))\n}"
+              }
+            }
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.6.4",
+            "createdTime": 1787663546391,
+            "modifiedTime": 1787663546391,
+            "lastModifiedBy": "7SjvqIrukDv4W6Te",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Armour",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "system": {
+            "changes": [],
+            "transferData": {
+              "type": "document",
+              "originalType": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "shape": {
+                  "color": null,
+                  "type": "circle",
+                  "angle": 60,
+                  "curvature": "round",
+                  "base": {
+                    "width": 1,
+                    "height": 1,
+                    "hole": false,
+                    "shape": 4,
+                    "type": "token"
+                  }
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false,
+                  "visibility": 0
+                },
+                "duration": "sustained"
+              },
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [
+              {
+                "label": "Armour",
+                "trigger": "prepareData",
+                "script": "let AP = args.actor.status.armour\nlet APdamage = this.item.getFlag('wfrp4e', 'APdamage') || {}\n\nlet value = parseInt(this.item.specification.value)\n\nif (Number.isNumeric(value))\n{\nAP[\"head\"].value += (value - (APdamage.head || 0))\nAP[\"rArm\"].value += (value - (APdamage.rArm|| 0))\nAP[\"lArm\"].value += (value - (APdamage.lArm || 0))\nAP[\"body\"].value += (value - (APdamage.body || 0))\nAP[\"lLeg\"].value += (value - (APdamage.lLeg || 0))\nAP[\"rLeg\"].value += (value - (APdamage.rLeg || 0))\n}",
+                "options": {
+                  "targeter": false,
+                  "defending": false,
+                  "runIfDisabled": false,
+                  "deleteEffect": false,
+                  "showDuplicates": false
+                },
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "start": null,
+          "type": "base",
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!0K1ySwzVBDbfYiWq.1gNZwkdAyS1zCL23.CAcGBn8sq62mVUxJ"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature is protected by armor or thick hide. It has Rating Armor Points on all Hit Locations"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "3",
+          "type": "String",
+          "label": "Specification"
+        },
+        "qualities": {
+          "label": "Qualities",
+          "value": []
+        },
+        "flaws": {
+          "label": "Flaws",
+          "value": []
+        },
+        "category": "standard",
+        "disabled": false
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.1gNZwkdAyS1zCL23"
+    },
+    {
+      "_id": "o4X4RjNjQPA6Mw9w",
+      "name": "Hatred",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>You are consumed with Hatred for the Target, which is normally a group of people or creatures, such as ‘Hochlanders’, ‘Bog Octopuses’, or ‘Slavers’. You will never socially interact with someone or something you hate in this manner. On encountering the object of your Hatred, you must attempt a Psychology Test. If failed, you are subject to Hatred. At the end of every subsequent Round, you may attempt another Psychology Test to bring the Hatred to an end. If you do or not, the effects of Hatred naturally come to an end when all members of the specified group in your line of sight are dead or gone, or you gain the Unconscious condition. While subject to Hatred, you must immediately attempt to destroy the hated group by the fastest and most deadly means possible. You gain a bonus of +1 SL on all combat Tests against the specified group, and are immune to Fear and Intimidate (but not Terror) caused by your hated foe.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": true,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "wp",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "Greenskins",
+          "type": "String",
+          "label": "Specification"
+        },
+        "qualities": {
+          "label": "Qualities",
+          "value": []
+        },
+        "flaws": {
+          "label": "Flaws",
+          "value": []
+        },
+        "category": "standard",
+        "disabled": false
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.o4X4RjNjQPA6Mw9w"
+    },
+    {
+      "_id": "sqmqc96qXbphj7wr",
+      "name": "Weapon (Warhammer)",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature carries a melee weapon, or uses teeth, claws, or similar in combat.\n                \n                The weapon causes Damage equal to its Rating which already includes the creature’s Strength Bonus. Typically it will be 4 + its Strength Bonus (representing a Hand Weapon)"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": true,
+          "damage": true,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "ws",
+          "bonusCharacteristic": "s",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "6",
+          "type": "String",
+          "label": "Specification"
+        },
+        "qualities": {
+          "label": "Qualities",
+          "value": []
+        },
+        "flaws": {
+          "label": "Flaws",
+          "value": []
+        },
+        "category": "standard",
+        "disabled": false
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.sqmqc96qXbphj7wr"
+    },
+    {
+      "_id": "V3UU9rvAkXs3Wxqy",
+      "name": "Entertain (Speeches)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Allows you to delight crowds with the spoken word, perhaps by singing, acting, or attempting a few jokes. A successful use of the Entertain Skill means you have entertained patrons near enough to hear you; the SL indicates how well you have done.</p>\n<p>In combat, it is unlikely that Entertain will be of much use, although you may come up with an interesting way to use Entertain (Acting) to confuse or mislead your opponents.</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Specialisations: </span>Acting, Comedy, Singing, Storytelling&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.V3UU9rvAkXs3Wxqy"
+    },
+    {
+      "_id": "IP4hFGW8wrhS2v9l",
+      "name": "Heal",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>You’ve been trained to deal with injuries and diseases. A successful Heal Test allows you to do one of the following:</p>\n<ul>\n<li>Diagnose an illness, infection, or disease.</li>\n<li>Treat a disease.</li>\n<li>Heal wounds equal to your Intelligence Bonus + SL (Note: a patient can only benefit from one Heal roll after each encounter). If sterile liquids or appropriate poultices and dressings are used, no Infection will develop from the injury.</li>\n<li>Staunch a Bleeding&nbsp;Condition, with each SL removing an extra Bleeding Condition.</li>\n</ul>\n<p>A Failed Heal Test can potentially cause Wounds if your Intelligence Bonus + SL totals less than 0. On an Astounding Failure, your patient will also contract a Minor Infection.</p>\n<p>&nbsp;</p>\n<p>If administering to someone who has a disease, a successful Heal Test ensures that you do not contract the disease for that day. Each SL also prevents one other character encountering the patient that day from catching the disease. For each full day the patient spends resting under your care, the duration of the disease is reduced by one, to a minimum of one. See Disease and Infection.</p>\n<p>&nbsp;</p>\n<p>Certain injuries require Surgery; see the Surgery Talent for details. For more information on healing wounds, refer to @JournalEntry[Injury].</p>\n<p>&nbsp;</p>\n<p>Your GM may apply modifiers to Heal Tests to reﬂect the virulence of the disease, the suitability of conditions and materials, or the stress of your circumstances. If healing&nbsp; during combat, Tests will likely be Challenging (+0) at the very least.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.IP4hFGW8wrhS2v9l"
+    },
+    {
+      "_id": "3MAWBmY4GJF6g3tX",
+      "name": "Lore (Empire)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Having a Lore Skill means you’ve been formally taught, or have somehow otherwise learned, a branch of specialist knowledge. Possessing a Lore Skill means you are broadly knowledgeable in the specialization and don’t need to make a Test in order for the GM to supply you with relevant facts. If you are seeking specific, less well-known information, you will be required to make a Lore Test, modified by how obscure the information is, with the SL indicating how much detail you recall.</p>\n<p>&nbsp;</p>\n<p>In combat, successful Lore Tests may afford you +1 Advantage if appropriate (with your GM’s approval). For instance, Lore (Geology) may give you an edge if fighting in a rocky cavern, or Lore (Engineering) may help you if fighting a foe armed with a complex mechanical device. You may continue building Advantage in subsequent turns providing the circumstances are correct (as determined by the GM) and you are not interrupted; you may gain a maximum Advantage equal to your Intelligence Bonus in this manner.</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Specializations: </span>Engineering, Geology, Heraldry, History, Law, Magick, Metallurgy, Science, Theology&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.3MAWBmY4GJF6g3tX"
+    },
+    {
+      "_id": "CXwYQDkXA6J5X996",
+      "name": "Lore (Local)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Having a Lore Skill means you’ve been formally taught, or have somehow otherwise learned, a branch of specialist knowledge. Possessing a Lore Skill means you are broadly knowledgeable in the specialization and don’t need to make a Test in order for the GM to supply you with relevant facts. If you are seeking specific, less well-known information, you will be required to make a Lore Test, modified by how obscure the information is, with the SL indicating how much detail you recall.</p>\n<p>&nbsp;</p>\n<p>In combat, successful Lore Tests may afford you +1 Advantage if appropriate (with your GM’s approval). For instance, Lore (Geology) may give you an edge if fighting in a rocky cavern, or Lore (Engineering) may help you if fighting a foe armed with a complex mechanical device. You may continue building Advantage in subsequent turns providing the circumstances are correct (as determined by the GM) and you are not interrupted; you may gain a maximum Advantage equal to your Intelligence Bonus in this manner.</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Specializations: </span>Engineering, Geology, Heraldry, History, Law, Magick, Metallurgy, Science, Theology&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.CXwYQDkXA6J5X996"
+    },
+    {
+      "_id": "MksLn8Ds54y2d1qN",
+      "name": "Lore (Theology)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Having a Lore Skill means you’ve been formally taught, or have somehow otherwise learned, a branch of specialist knowledge. Possessing a Lore Skill means you are broadly knowledgeable in the specialization and don’t need to make a Test in order for the GM to supply you with relevant facts. If you are seeking specific, less well-known information, you will be required to make a Lore Test, modified by how obscure the information is, with the SL indicating how much detail you recall.</p>\n                                                                        <p>&nbsp;</p>\n                                                                        <p>In combat, successful Lore Tests may afford you +1 Advantage if appropriate (with your GM’s approval). For instance, Lore (Geology) may give you an edge if fighting in a rocky cavern, or Lore (Engineering) may help you if fighting a foe armed with a complex mechanical device. You may continue building Advantage in subsequent turns providing the circumstances are correct (as determined by the GM) and you are not interrupted; you may gain a maximum Advantage equal to your Intelligence Bonus in this manner.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 20,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.MksLn8Ds54y2d1qN"
+    },
+    {
+      "_id": "iVxhGpkOwvi6N2Z8",
+      "name": "Melee (Basic)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ws.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The Melee Skill represents specific training with a single type of close combat weaponry. Each Melee Specialization indicates training in using a specific class of weapon. If you don’t have the correct Specialization for a weapon you wish to use, refer to <span style=\"font-weight: bold;\">@JournalEntry[The Consumers' Guide] </span>for the correct weapon entry, and what penalties you will suffer. See <span style=\"font-weight: bold;\">Chapter 5: Rules </span>for more detail about combat and using the Melee Skill.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ws"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.iVxhGpkOwvi6N2Z8"
+    },
+    {
+      "_id": "wG7iY1g9SzVPOSOp",
+      "name": "Melee (Two-Handed)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ws.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The Melee Skill represents specific training with a single type of close combat weaponry. Each Melee Specialization indicates training in using a specific class of weapon. If you don’t have the correct Specialization for a weapon you wish to use, refer to <span style=\"font-weight: bold;\">@JournalEntry[The Consumers' Guide] </span>for the correct weapon entry, and what penalties you will suffer. See <span style=\"font-weight: bold;\">Chapter 5: Rules </span>for more detail about combat and using the Melee Skill.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ws"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.wG7iY1g9SzVPOSOp"
+    },
+    {
+      "_id": "m6kEAQ1ydinXzqVs",
+      "name": "Pray",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-fel.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>&nbsp;</p>\n<p>Your ability to invoke, or otherwise commune with, a deity. For more information on using the Pray Skill to seek divine intervention, see <strong>Chapter 7: Religion &amp; Belief</strong>.</p>\n<p>&nbsp;</p>\n<p>In combat, if your GM deems it appropriate considering your circumstances and faith, you may use Pray to meditate and focus your mind. Each round you spend praying in combat — and making a successful Pray Test — gives you +1 Advantage. You can gain additional Advantage this way, up to a maximum of your Fellowship Bonus.</p>\n<p>&nbsp;</p>\n<p>Further, if your enemies understand your language and recognize (and fear) your deity, the GM may allow you to use Pray in lieu of the Intimidate Skill.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 20,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.m6kEAQ1ydinXzqVs"
+    },
+    {
+      "_id": "HHO11fILL2rZO7O0",
+      "name": "Brute",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "_id": "zMFAc8IX3JMZH9iL",
+          "flags": {
+            "wfrp4e": {
+              "_legacyData": {
+                "effectApplication": "actor",
+                "preventDuplicateEffects": false
+              }
+            }
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.6.4",
+            "createdTime": 1787663546391,
+            "modifiedTime": 1787663546391,
+            "lastModifiedBy": "7SjvqIrukDv4W6Te",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Brute",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "system": {
+            "changes": [
+              {
+                "key": "system.details.move.value",
+                "value": -1,
+                "type": "add",
+                "phase": "initial"
+              },
+              {
+                "key": "system.characteristics.ag.initial",
+                "value": -10,
+                "type": "add",
+                "phase": "initial"
+              },
+              {
+                "key": "system.characteristics.s.initial",
+                "value": 10,
+                "type": "add",
+                "phase": "initial"
+              },
+              {
+                "key": "system.characteristics.t.initial",
+                "value": 10,
+                "type": "add",
+                "phase": "initial"
+              }
+            ],
+            "transferData": {
+              "type": "document",
+              "originalType": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "shape": {
+                  "color": null,
+                  "type": "circle",
+                  "angle": 60,
+                  "curvature": "round",
+                  "base": {
+                    "width": 1,
+                    "height": 1,
+                    "hole": false,
+                    "shape": 4,
+                    "type": "token"
+                  }
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false,
+                  "visibility": 0
+                },
+                "duration": "sustained"
+              },
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "start": null,
+          "type": "base",
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!0K1ySwzVBDbfYiWq.HHO11fILL2rZO7O0.zMFAc8IX3JMZH9iL"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature is heavy and brutish. It receives –1 Movement, –10 Agility, and +10 Strength and Toughness."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "qualities": {
+          "label": "Qualities",
+          "value": []
+        },
+        "flaws": {
+          "label": "Flaws",
+          "value": []
+        },
+        "category": "standard",
+        "disabled": true
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.HHO11fILL2rZO7O0"
+    },
+    {
+      "_id": "wth42so8tUv7fZgs",
+      "name": "Champion",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature is an extraordinarily skilled warrior. If it wins an Opposed Test when defending in melee combat, it can cause Damage just as if it was the attacker."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "1d10",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "qualities": {
+          "label": "Qualities",
+          "value": []
+        },
+        "flaws": {
+          "label": "Flaws",
+          "value": []
+        },
+        "category": "standard",
+        "disabled": true
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.wth42so8tUv7fZgs"
+    },
+    {
+      "_id": "j10Pv5AuuoonnnnA",
+      "name": "Cunning",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "_id": "psBMxER5fywmsI6p",
+          "flags": {
+            "wfrp4e": {
+              "_legacyData": {
+                "effectApplication": "actor",
+                "preventDuplicateEffects": false
+              }
+            }
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.6.4",
+            "createdTime": 1787663546391,
+            "modifiedTime": 1787663546391,
+            "lastModifiedBy": "7SjvqIrukDv4W6Te",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Cunning",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "system": {
+            "changes": [
+              {
+                "key": "system.characteristics.fel.initial",
+                "value": 10,
+                "type": "add",
+                "phase": "initial"
+              },
+              {
+                "key": "system.characteristics.int.initial",
+                "value": 10,
+                "type": "add",
+                "phase": "initial"
+              },
+              {
+                "key": "system.characteristics.i.initial",
+                "value": 10,
+                "type": "add",
+                "phase": "initial"
+              }
+            ],
+            "transferData": {
+              "type": "document",
+              "originalType": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "shape": {
+                  "color": null,
+                  "type": "circle",
+                  "angle": 60,
+                  "curvature": "round",
+                  "base": {
+                    "width": 1,
+                    "height": 1,
+                    "hole": false,
+                    "shape": 4,
+                    "type": "token"
+                  }
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false,
+                  "visibility": 0
+                },
+                "duration": "sustained"
+              },
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "start": null,
+          "type": "base",
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!0K1ySwzVBDbfYiWq.j10Pv5AuuoonnnnA.psBMxER5fywmsI6p"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature is exceptionally cunning. It receives +10 Fellowship, Intelligence, and Initiative."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "qualities": {
+          "label": "Qualities",
+          "value": []
+        },
+        "flaws": {
+          "label": "Flaws",
+          "value": []
+        },
+        "category": "standard",
+        "disabled": true
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.j10Pv5AuuoonnnnA"
+    },
+    {
+      "_id": "BFolYOeyI5a4SJT6",
+      "name": "Tough",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "_id": "X8KrugiMugs70khd",
+          "flags": {
+            "wfrp4e": {
+              "_legacyData": {
+                "effectApplication": "actor",
+                "preventDuplicateEffects": false
+              }
+            }
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.6.4",
+            "createdTime": 1787663546391,
+            "modifiedTime": 1787663546391,
+            "lastModifiedBy": "7SjvqIrukDv4W6Te",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Tough",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "system": {
+            "changes": [
+              {
+                "key": "system.characteristics.t.initial",
+                "value": 10,
+                "type": "add",
+                "phase": "initial"
+              },
+              {
+                "key": "system.characteristics.wp.initial",
+                "value": 10,
+                "type": "add",
+                "phase": "initial"
+              }
+            ],
+            "transferData": {
+              "type": "document",
+              "originalType": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "shape": {
+                  "color": null,
+                  "type": "circle",
+                  "angle": 60,
+                  "curvature": "round",
+                  "base": {
+                    "width": 1,
+                    "height": 1,
+                    "hole": false,
+                    "shape": 4,
+                    "type": "token"
+                  }
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false,
+                  "visibility": 0
+                },
+                "duration": "sustained"
+              },
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "start": null,
+          "type": "base",
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!0K1ySwzVBDbfYiWq.BFolYOeyI5a4SJT6.X8KrugiMugs70khd"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature is more resistant to damage than normal, and unlikely to back down. It receives +10 Toughness and Willpower."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "qualities": {
+          "label": "Qualities",
+          "value": []
+        },
+        "flaws": {
+          "label": "Flaws",
+          "value": []
+        },
+        "category": "standard",
+        "disabled": true
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.BFolYOeyI5a4SJT6"
+    },
+    {
+      "_id": "oHcmhwrpRq6l0hvF",
+      "name": "Weapon (Hammer & Shield)",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature carries a melee weapon, or uses teeth, claws, or similar in combat.\n                \n                The weapon causes Damage equal to its Rating which already includes the creature’s Strength Bonus. Typically it will be 4 + its Strength Bonus (representing a Hand Weapon)"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": true,
+          "damage": true,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "ws",
+          "bonusCharacteristic": "s",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "4",
+          "type": "String",
+          "label": "Specification"
+        },
+        "qualities": {
+          "label": "Qualities",
+          "value": []
+        },
+        "flaws": {
+          "label": "Flaws",
+          "value": []
+        },
+        "category": "standard",
+        "disabled": true
+      },
+      "_key": "!actors.items!0K1ySwzVBDbfYiWq.oHcmhwrpRq6l0hvF"
+    }
+  ],
+  "effects": [
+    {
+      "_id": "BUbjnwfq4DjiFXmc",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": "Actor.0K1ySwzVBDbfYiWq.Item.zuVmeODTTaXXmaxe",
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {
+        "wfrp4e": {
+          "_legacyData": {
+            "effectApplication": "actor",
+            "preventDuplicateEffects": true
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Suave",
+      "img": "modules/wfrp4e-core/icons/talents/suave.png",
+      "system": {
+        "changes": [
+          {
+            "key": "system.characteristics.fel.initial",
+            "value": 5,
+            "type": "add",
+            "phase": "initial"
+          }
+        ],
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "shape": {
+              "color": null,
+              "type": "circle",
+              "angle": 60,
+              "curvature": "round",
+              "base": {
+                "width": 1,
+                "height": 1,
+                "hole": false,
+                "shape": 4,
+                "type": "token"
+              }
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false,
+              "visibility": 0
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "type": "base",
+      "description": "",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.effects!0K1ySwzVBDbfYiWq.BUbjnwfq4DjiFXmc"
+    },
+    {
+      "_id": "gcj9yAfWG5dpVoU8",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": "Actor.0K1ySwzVBDbfYiWq.Item.1gNZwkdAyS1zCL23",
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {
+        "wfrp4e": {
+          "_legacyData": {
+            "effectApplication": "actor",
+            "effectTrigger": "prepareData",
+            "preventDuplicateEffects": false,
+            "script": "let AP = args.actor.status.armour\nlet APdamage = this.item.getFlag('wfrp4e', 'APdamage') || {}\n\nlet value = parseInt(this.item.specification.value)\n\nif (Number.isNumeric(value))\n{\nAP[\"head\"].value += (value - (APdamage.head || 0))\nAP[\"rArm\"].value += (value - (APdamage.rArm|| 0))\nAP[\"lArm\"].value += (value - (APdamage.lArm || 0))\nAP[\"body\"].value += (value - (APdamage.body || 0))\nAP[\"lLeg\"].value += (value - (APdamage.lLeg || 0))\nAP[\"rLeg\"].value += (value - (APdamage.rLeg || 0))\n}"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Armour",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "changes": [],
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "shape": {
+              "color": null,
+              "type": "circle",
+              "angle": 60,
+              "curvature": "round",
+              "base": {
+                "width": 1,
+                "height": 1,
+                "hole": false,
+                "shape": 4,
+                "type": "token"
+              }
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false,
+              "visibility": 0
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Armour",
+            "trigger": "prepareData",
+            "script": "let AP = args.actor.status.armour\nlet APdamage = this.item.getFlag('wfrp4e', 'APdamage') || {}\n\nlet value = parseInt(this.item.specification.value)\n\nif (Number.isNumeric(value))\n{\nAP[\"head\"].value += (value - (APdamage.head || 0))\nAP[\"rArm\"].value += (value - (APdamage.rArm|| 0))\nAP[\"lArm\"].value += (value - (APdamage.lArm || 0))\nAP[\"body\"].value += (value - (APdamage.body || 0))\nAP[\"lLeg\"].value += (value - (APdamage.lLeg || 0))\nAP[\"rLeg\"].value += (value - (APdamage.rLeg || 0))\n}",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "type": "base",
+      "description": "",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.effects!0K1ySwzVBDbfYiWq.gcj9yAfWG5dpVoU8"
+    },
+    {
+      "_id": "ews9HTUuhJKwxi3J",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": "Actor.0K1ySwzVBDbfYiWq.Item.HHO11fILL2rZO7O0",
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {
+        "wfrp4e": {
+          "_legacyData": {
+            "effectApplication": "actor",
+            "preventDuplicateEffects": false
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Brute",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "changes": [
+          {
+            "key": "system.details.move.value",
+            "value": -1,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "key": "system.characteristics.ag.initial",
+            "value": -10,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "key": "system.characteristics.s.initial",
+            "value": 10,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "key": "system.characteristics.t.initial",
+            "value": 10,
+            "type": "add",
+            "phase": "initial"
+          }
+        ],
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "shape": {
+              "color": null,
+              "type": "circle",
+              "angle": 60,
+              "curvature": "round",
+              "base": {
+                "width": 1,
+                "height": 1,
+                "hole": false,
+                "shape": 4,
+                "type": "token"
+              }
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false,
+              "visibility": 0
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "type": "base",
+      "description": "",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.effects!0K1ySwzVBDbfYiWq.ews9HTUuhJKwxi3J"
+    },
+    {
+      "_id": "8IHxppTYcnh2E5wC",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": "Actor.0K1ySwzVBDbfYiWq.Item.j10Pv5AuuoonnnnA",
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {
+        "wfrp4e": {
+          "_legacyData": {
+            "effectApplication": "actor",
+            "preventDuplicateEffects": false
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Cunning",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "changes": [
+          {
+            "key": "system.characteristics.fel.initial",
+            "value": 10,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "key": "system.characteristics.int.initial",
+            "value": 10,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "key": "system.characteristics.i.initial",
+            "value": 10,
+            "type": "add",
+            "phase": "initial"
+          }
+        ],
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "shape": {
+              "color": null,
+              "type": "circle",
+              "angle": 60,
+              "curvature": "round",
+              "base": {
+                "width": 1,
+                "height": 1,
+                "hole": false,
+                "shape": 4,
+                "type": "token"
+              }
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false,
+              "visibility": 0
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "type": "base",
+      "description": "",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.effects!0K1ySwzVBDbfYiWq.8IHxppTYcnh2E5wC"
+    },
+    {
+      "_id": "1GDXWW8tlZbgwgod",
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "origin": "Actor.0K1ySwzVBDbfYiWq.Item.BFolYOeyI5a4SJT6",
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {
+        "wfrp4e": {
+          "_legacyData": {
+            "effectApplication": "actor",
+            "preventDuplicateEffects": false
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663546391,
+        "modifiedTime": 1787663546391,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Tough",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "changes": [
+          {
+            "key": "system.characteristics.t.initial",
+            "value": 10,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "key": "system.characteristics.wp.initial",
+            "value": 10,
+            "type": "add",
+            "phase": "initial"
+          }
+        ],
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "shape": {
+              "color": null,
+              "type": "circle",
+              "angle": 60,
+              "curvature": "round",
+              "base": {
+                "width": 1,
+                "height": 1,
+                "hole": false,
+                "shape": 4,
+                "type": "token"
+              }
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false,
+              "visibility": 0
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        }
+      },
+      "start": {
+        "time": 0,
+        "combat": null,
+        "combatant": null,
+        "initiative": null,
+        "round": null,
+        "turn": null
+      },
+      "type": "base",
+      "description": "",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.effects!0K1ySwzVBDbfYiWq.1GDXWW8tlZbgwgod"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "autoCalcRun": {},
+    "autoCalcWalk": {},
+    "autoCalcWounds": {},
+    "autoCalcCritW": {},
+    "autoCalcCorruption": {},
+    "autoCalcEnc": {},
+    "autoCalcSize": {},
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787663546391,
+    "modifiedTime": 1787663546396,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "HbC5TWvEu9iEIzyL": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "characteristics": {
+      "ws": {
+        "type": "number",
+        "label": "CHAR.WS",
+        "abrev": "CHARAbbrev.WS",
+        "initial": 40,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "bs": {
+        "type": "Number",
+        "label": "CHAR.BS",
+        "abrev": "CHARAbbrev.BS",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "s": {
+        "type": "Number",
+        "label": "CHAR.S",
+        "abrev": "CHARAbbrev.S",
+        "initial": 40,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "t": {
+        "type": "Number",
+        "label": "CHAR.T",
+        "abrev": "CHARAbbrev.T",
+        "initial": 40,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "i": {
+        "type": "Number",
+        "label": "CHAR.I",
+        "abrev": "CHARAbbrev.I",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "ag": {
+        "type": "Number",
+        "label": "CHAR.Ag",
+        "abrev": "CHARAbbrev.Ag",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "dex": {
+        "type": "Number",
+        "label": "CHAR.Dex",
+        "abrev": "CHARAbbrev.Dex",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "int": {
+        "type": "Number",
+        "label": "CHAR.Int",
+        "abrev": "CHARAbbrev.Int",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "wp": {
+        "type": "Number",
+        "label": "CHAR.WP",
+        "abrev": "CHARAbbrev.WP",
+        "initial": 40,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "fel": {
+        "type": "Number",
+        "label": "CHAR.Fel",
+        "abrev": "CHARAbbrev.Fel",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      }
+    },
+    "status": {
+      "wounds": {
+        "type": "Number",
+        "label": "Wounds",
+        "abrev": "W",
+        "value": 16,
+        "max": 16
+      },
+      "advantage": {
+        "type": "Number",
+        "label": "Advantage",
+        "value": 0,
+        "max": 10
+      },
+      "criticalWounds": {
+        "type": "Number",
+        "label": "Critical Wounds",
+        "value": 0,
+        "max": 2
+      },
+      "sin": {
+        "type": "Number",
+        "label": "Sin",
+        "value": 0
+      },
+      "penalties": {
+        "type": "String",
+        "label": "Penalties",
+        "value": ""
+      },
+      "corruption": {
+        "type": "Number",
+        "label": "Corruption",
+        "value": 0,
+        "max": 0
+      },
+      "encumbrance": {
+        "type": "Number",
+        "label": "Encumbrance",
+        "max": 0,
+        "current": 0
+      },
+      "mount": {
+        "id": "",
+        "mounted": false,
+        "isToken": false,
+        "tokenData": {
+          "scene": "",
+          "token": ""
+        }
+      },
+      "ward": {
+        "value": 0
+      }
+    },
+    "details": {
+      "species": {
+        "type": "String",
+        "label": "Species",
+        "value": "human",
+        "subspecies": ""
+      },
+      "gender": {
+        "type": "String",
+        "label": "Gender",
+        "value": ""
+      },
+      "biography": {
+        "type": "String",
+        "label": "Biography",
+        "value": "<p>Silver 2</p>"
+      },
+      "gmnotes": {
+        "type": "String",
+        "label": "GM Notes",
+        "value": ""
+      },
+      "size": {
+        "type": "String",
+        "label": "Size",
+        "value": "avg"
+      },
+      "move": {
+        "type": "Number",
+        "label": "Movement",
+        "value": 4,
+        "walk": "0",
+        "run": "0"
+      },
+      "god": {
+        "type": "String",
+        "label": "God",
+        "value": ""
+      },
+      "status": {
+        "type": "String",
+        "value": "",
+        "standing": "",
+        "tier": 0,
+        "modifier": 0
+      },
+      "hitLocationTable": {
+        "value": "hitloc",
+        "type": "String",
+        "label": "Hit Location Table"
+      },
+      "age": {},
+      "height": {},
+      "weight": {},
+      "haircolour": {},
+      "eyecolour": {},
+      "distinguishingmark": {},
+      "mainHand": "r"
+    },
+    "excludedTraits": [
+      "HHO11fILL2rZO7O0",
+      "wth42so8tUv7fZgs",
+      "j10Pv5AuuoonnnnA",
+      "BFolYOeyI5a4SJT6",
+      "oHcmhwrpRq6l0hvF"
+    ],
+    "settings": {
+      "equipPoints": 2,
+      "autoCalc": {
+        "run": true,
+        "walk": true,
+        "wounds": true,
+        "criticals": true,
+        "corruption": true,
+        "encumbrance": true,
+        "size": true
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "War Priest of Sigmar",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "status.wounds"
+    },
+    "bar2": {
+      "attribute": "status.advantage"
+    },
+    "flags": {},
+    "randomImg": false,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0,
+      "color": null
+    },
+    "texture": {
+      "src": "systems/wfrp4e/tokens/unknown.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "sort": 0,
+  "_key": "!actors!0K1ySwzVBDbfYiWq"
+}

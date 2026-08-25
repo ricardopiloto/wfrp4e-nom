@@ -1,0 +1,64 @@
+{
+  "folder": "CtX3SGpKsZVd1aGx",
+  "name": "Nations of Mankind - Talents",
+  "_id": "n0mTalents000001",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Talents",
+      "type": "text",
+      "_id": "a6GQRJftkHnSkhsj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h3>Master list of new talents</h3><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.VANOdNWFo3P9gzxg]{Ambusher}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.QjBPhJr6L3c2TMIn]{Armor-Monger}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ClCysnqhJTh8FE8Q]{Blind Fighter}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.YsiPBxZ3kD9rviNA]{Bombardier}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.CIxoYOrNnwHyR1kg]{Call to Myrmidia}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.AeiPIsFbYMHgAKXm]{Combat Might}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.xDEf1fhzhs4tyBGI]{Crazed Cook}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.RQ8KI3q2n61ZssBJ]{Creative Fighter}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.2jGP3xJgARI3AEbI]{Crippling Blow}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.1Y6Fu7uAsItBBYsl]{Dog of War}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.cBgTKMqBQxXuVRWb]{Grail Virtue}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.xTmXkYnDt76NB49D]{Grail Virtue of Audacity}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.brXOeqIBAoxQyXBF]{Grail Virtue of Confidence}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.TanGz1CH6Ub2mWyB]{Grail Virtue of Discipline}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.1uZTdPW6lk2pzWLa]{Grail Virtue of Duty}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.nPnQjIR87psLH7Rw]{Grail Virtue of Empathy}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.E600zEb7jFqzQjC4]{Grail Virtue of Heroism}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.kAlDxoURoY1EnQTo]{Grail Virtue of Knightly Temper}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.LBCZ5g5IJiPorGb9]{Grail Virtue of Noble Disdain}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.CM9Iy8UlvV8e9vfN]{Grail Virtue of Purity}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.JEEeQ8DF9gyRISM4]{Grail Virtue of Stoicism}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.sSQqfayNttWiw4lF]{Grail Virtue of the Ideal (Strength)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.1OQAmuGFmGKifiOt]{Grail Virtue of the Ideal (Toughness)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.zaKBWFzWCXDVk9Co]{Grail Virtue of the Impetuous Knight}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.BqJ6Fmc9oRn85k9d]{Grail Virtue of the Joust}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.7j5SaKqq4isvMX6T]{Grail Virtue of the Penitent}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.lheO9kUQD7NKjOj2]{Guardian}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.aJA3QqdN2xXQFaV1]{Hammer Swing}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.rsMjQAqTAAk5NaOC]{Iron Skin}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.rmOS0x4WTrOhxRd6]{Kenjutsu (Style)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.tDCneZPhhmW4i9bF]{Killing Strikes}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.gO9QSxBmZkpLNNcv]{Lightning Strike}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.x0cvEaZXrIEF4QIH]{Mark of the Gods}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.twKu5gIjgWNWuvCs]{Martial Artist (Path)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.2cTuA3kJ7jsYKK6q]{Multiple Arms}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.L460iAOGHp1Y9xai]{Multiple Legs}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ijvxbPdaMBblJ3b2]{Overkill}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.N9y23cqeuirhu5YM]{Path of Death}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.dql2RslE4Glm8h3a]{Path of Iron}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.iaZTg6tYOaGrL0fq]{Path of Life}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.VCY4ysasUYuJinO4]{Path of Light}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.ZdSBUYYlFEzhnMOC]{Path of Shadows}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.EeKBlvZU1SmjNgca]{Path of the Beast}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.wt8SWpgYXwvHKSoz]{Path of the Flame}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.cjCh7XvUMJfhtawf]{Path of the Heavens}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.sHk3OncCfHj6hU4L]{Quick Draw}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.YjZeInlOCdLAmBGr]{Skull Face}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.PGS6Skpdn5qD2CAg]{Spiked Skin/Armor}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.bgJAtvDV67bnUe6G]{Surgical Precision}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.mSkBGQxhFCmndGnd]{The Crow (Nurgle)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.C3mk8eA3DvU4J9pe]{The Eagle (Tzeentch)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.hhhooRobCctrDSGS]{The Eight-Pointed Star (Undivided)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.HvNOr2nX9WMbUj4T]{The Hound (Khorne)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.tpMi1iaY6D19D9CP]{The Serpent (Slaanesh)}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n9CoRCUdXJlJBiQM]{Thorny Scales}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.RTHF9kPdreSLFxzl]{Three Eyes}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.v2x3DYSwdj2sK9Bf]{Thunderous Charge}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.cB6CCW3aU02tH2MW]{Tireless}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.mfHMAuRWzOubJrfQ]{Transparent Skin}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.o7uGMfttFKzu6AyW]{True Grit}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.0Hpp7fZ0i0Ko8kz4]{Uneven Horns}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.pKgI2uTTl4O6DNJl]{Virtue of Audacity}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.gO7A0gg0G44v9Wxq]{Virtue of Confidence}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.8WLyg7rdSmH57z8g]{Virtue of Discipline}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.cPoXU9tEnZWyPtUN]{Virtue of Duty}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.hZ71LTvga0ZbaQ79]{Virtue of Empathy}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.XEdyqmUpZ0oxTz0L]{Virtue of Heroism}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.SkvqofLt7rJBDDTM]{Virtue of Ideal}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Wl9Sucivn7QZGzQv]{Virtue of Impetuous Knight}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.beqFPNHqhjxqWBmb]{Virtue of Knight Temper}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.R1bjiaD6x04qk1hN]{Virtue of Knighthood}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.EpsTJArJIz3oYmaL]{Virtue of Noble Disdain}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.AxmTQ2D80vDINzlB]{Virtue of Purity}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.6tXEhwZFWSNgmCCQ]{Virtue of Stoicism}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.EzwgOPpGiIrdNGci]{Virtue of the Joust}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.uvdNXHU2fJAxkxzM]{Virtue of the Penitent}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.k3H9GpfaIxdyZt4m]{Virtue of the Quest}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.dzuzDXPEgZs5w1El]{Volley Shot}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.XmkWJkWWRjl7scqp]{Warpaint}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.sqtkO0fWPuP2dQn5]{Way of the Crane}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.VC4SwLf1mq5Dg3EB]{Way of the Dragon}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.dAxhv54GXT4kUrnk]{Way of the Naga}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.u6chrY9UMYCw1UIy]{Way of the Nio}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.DARklfXDJWx46go0]{Way of the Snake}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.Tv7WLW1znnlM4w4H]{Way of the Stag}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.D1MW8KpP3zcg36MZ]{Way of the Tiger}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.7vRjdVOXjse52YbZ]{Way of the Tortoise}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.r85SmkQbhdIWLugs]{Wings}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.x86bmWlmDehyNPk5]{¡¡Despierta, Fierro!!}</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.n0mTalents000001.JournalEntryPage.a6GQRJftkHnSkhsj",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "lastModifiedBy": "bwuOpMGVHBESXkjP",
+        "modifiedTime": 1777779554917,
+        "createdTime": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!n0mTalents000001.a6GQRJftkHnSkhsj"
+    }
+  ],
+  "categories": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1787665382507,
+    "modifiedTime": 1787665382507,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "_key": "!journal!n0mTalents000001"
+}

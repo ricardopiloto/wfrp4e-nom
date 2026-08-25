@@ -1,0 +1,173 @@
+{
+  "_id": "n0mKcHunter00001",
+  "name": "Hunter",
+  "type": "talent",
+  "img": "systems/wfrp4e/icons/blank.png",
+  "effects": [
+    {
+      "_id": "f778fe955e9ac760",
+      "name": "Hunter (Kill Count)",
+      "img": "systems/wfrp4e/icons/blank.png",
+      "type": "base",
+      "disabled": false,
+      "transfer": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "manualEffectKeys": false
+        }
+      },
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Hunter (Kill Count)",
+            "trigger": "dialog",
+            "script": "try {\n  const enemy = (this.item?.flags?.[\"wfrp4e-nom\"]?.killCountEnemy\n    || (this.item?.name?.match(/\\(([^)]+)\\)/)?.[1]) || \"\").trim();\n  if (!enemy) return;\n  if (args.type != \"skill\") return;\n  const n = args.item?.name || \"\";\n  if (!/Perception|Cool|Psychology|Stealth|Track/i.test(n) && !n.includes(\"Perception\") && !n.includes(\"Cool\"))\n    return;\n  // Prefer applying when the dialog/context mentions the enemy; otherwise allow GM to use activate\n  args.prefillModifiers.modifier += 10;\n} catch (e) { console.warn(\"Hunter Kill Count effect\", e); }",
+            "options": {
+              "activateScript": "return true",
+              "targeter": false,
+              "defending": false,
+              "runIfDisabled": false,
+              "deleteEffect": false,
+              "showDuplicates": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "numbered": false
+        },
+        "changes": []
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!n0mKcHunter00001.f778fe955e9ac760"
+    }
+  ],
+  "folder": "DsekJv5UvKUKIUpc",
+  "flags": {
+    "wfrp4e-nom": {
+      "honorKind": "killCount",
+      "killCountEnemy": "",
+      "killCountRank": "hunter"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><strong>Kill Count Rank:</strong> Hunter</p><p><strong>Enemy Type:</strong> Free text. Set <code>flags.wfrp4e-nom.killCountEnemy</code> and/or rename this talent to <em>Hunter (Enemy)</em> when awarding. Suggested examples: Beastmen, Orcs, Undead, Outlaws, Skaven, Chaos. Foe-specific bonuses do not apply while Enemy Type is blank.</p><p><strong>Progression:</strong> For a single Enemy Type only the <strong>highest</strong> rank remains active (Reaper &gt; Killer &gt; Hunter). When awarding a higher rank, remove or supersede the lower rank for that enemy.</p><p><strong>Requirements:</strong> The warrior has been blooded against a particular enemy of the Empire, with a few successful encounters against that adversary under their belt. Optionally, the GM might wish to keep a full tally of the enemies they have killed. If this is the case, this Kill Count is awarded for 50 or more confirmed kills of a given enemy of the Empire by the character.</p><p><strong>Bonuses:</strong> You are well versed in discerning the movements, trails and patterns for the given enemy. You gain a <strong>+10 bonus to Perception and Psychology Tests</strong> related to the specific enemy on your travels (such as Tests to track them and Tests to avoid Surprise or Fear in combat).</p><h3>Medal Notes (Kill Counts)</h3><p>Kill Counts are informal honors (no physical medal required). Recipient rules for talents still apply; the GM enforces awards and superseding ranks.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "1"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": "Kill Count (Hunter) — set Enemy Type when awarded"
+    }
+  },
+  "sort": 0,
+  "_key": "!items!n0mKcHunter00001"
+}

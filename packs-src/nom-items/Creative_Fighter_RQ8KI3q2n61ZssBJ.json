@@ -1,0 +1,60 @@
+{
+  "_id": "RQ8KI3q2n61ZssBJ",
+  "name": "Creative Fighter",
+  "type": "talent",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/talents/creative-fighter.webp",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787623976090,
+    "modifiedTime": 1787624134066,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "lNumE4kwYfzQkIkY": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You see everything as a potential weapon and can easily kill wielding anything you can get your hands on. From chairs, to candelabrums and makeshift tools, you&rsquo;re as deadly without a sword as you would be with one. Improvised weapons gain +1 Damage for every level of Creative Fighter. If you have this Talent thrice, you count all improvised weapons as having the <em>Undamaging </em>Flaw removed.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "none"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1,
+      "force": false
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    }
+  },
+  "folder": "DsekJv5UvKUKIUpc",
+  "sort": 700000,
+  "_key": "!items!RQ8KI3q2n61ZssBJ"
+}

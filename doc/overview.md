@@ -32,7 +32,8 @@ wfrp4e-nom/
 ├── packs-src/                         # Fonte dos compêndios (JSON, versionado em Git)
 │   ├── nom-items/ …                   # Um ficheiro .json por documento Foundry
 │   ├── nom-journals/ …
-│   └── nom-tables/ …
+│   ├── nom-tables/ …
+│   └── nom-bestiary/ …                # Atores do bestiário (JSON)
 ├── packs/                             # Compêndios LevelDB (gerados localmente ou na CI; ver .gitignore)
 ├── icons/                             # Assets (ícones de carreiras, talentos, magias, etc.)
 ├── doc/                               # Documentação técnica
@@ -51,6 +52,7 @@ wfrp4e-nom/
 | `nom-items`     | Item         | Talentos, armas, armaduras, equipamentos e habilidades      |
 | `nom-journals`  | JournalEntry | Materiais de referência e descrições de regras              |
 | `nom-tables`    | RollTable    | Tabelas de rolagem para geração de conteúdo                 |
+| `nom-bestiary`  | Actor        | Criaturas e NPCs do bestiário (Nations of Mankind)          |
 
 ---
 

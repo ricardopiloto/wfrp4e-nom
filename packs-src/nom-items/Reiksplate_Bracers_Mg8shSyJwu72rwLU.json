@@ -1,0 +1,147 @@
+{
+  "_id": "Mg8shSyJwu72rwLU",
+  "name": "Reiksplate Bracers",
+  "type": "armour",
+  "img": "modules/wfrp4e-core/icons/equipment/armour/plate-bracers.png",
+  "effects": [],
+  "folder": "xUrVvvwtRnbLeVuH",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1787669600883,
+    "modifiedTime": 1787669600883,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "bwuOpMGVHBESXkjP": 3
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 2
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": 60,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "exotic"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": ""
+    },
+    "damageToItem": {
+      "type": "Number",
+      "value": 0,
+      "shield": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "armorType": {
+      "type": "String",
+      "label": "Armour Type",
+      "value": "plate"
+    },
+    "penalty": {
+      "type": "String",
+      "label": "Penalty",
+      "value": ""
+    },
+    "qualities": {
+      "type": "String",
+      "label": "Qualities",
+      "value": [
+        {
+          "name": "durable",
+          "value": null
+        },
+        {
+          "name": "fine",
+          "value": null
+        },
+        {
+          "name": "impenetrable",
+          "value": null
+        },
+        {
+          "name": "lightweight",
+          "value": null
+        },
+        {
+          "name": "practical",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "type": "String",
+      "label": "Flaws",
+      "value": [
+        {
+          "name": "weakpoints",
+          "value": null
+        }
+      ]
+    },
+    "special": {
+      "type": "String",
+      "label": "Special",
+      "value": ""
+    },
+    "AP": {
+      "head": 0,
+      "lArm": 2,
+      "rArm": 2,
+      "lLeg": 0,
+      "rLeg": 0,
+      "body": 0
+    },
+    "APdamage": {
+      "head": 0,
+      "lArm": 2,
+      "rArm": 2,
+      "lLeg": 0,
+      "rLeg": 0,
+      "body": 0
+    },
+    "equipped": {
+      "value": false
+    }
+  },
+  "sort": 9100000,
+  "_key": "!items!Mg8shSyJwu72rwLU"
+}
