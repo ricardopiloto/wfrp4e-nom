@@ -6,6 +6,19 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Unreleased
 
+## [Version 1.5.0](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.5.0) (2026-08-30)
+
+### Compendiums
+
+- *Added* Bretonnian career **Grail Damsel** (Maiden / Damsel / Prophetess / Enchantress, Academic) in `nom-items` with Careers journal page **Bretonnian Grail Damsel**. Bretonnian Noble roll **03** is now **Grail Damsel** (replaces Core **Wizard** on that table only). Bestiary creature **Grail Damsel** is unchanged.
+- *Changed* **Bretonnian Grail Damsel** Careers page: career portrait, Core **Attractive** link, published flavour (keep Lore of the Grail / Troth paragraph). Rank items use Core **Wizard** icons (01–04). Bretonnian Lowborn roll **85** is now **Grail Damsel** (replaces Core **Witch** on that table only).
+- *Fixed* Grail Damsel career ranks now use unique Foundry 16-character item ids (journal `@UUID`s no longer resolved as `null`).
+- *Added* **Lore of the Grail** (ten CN spells and three Troth talents: Wisdom / Virtue / Protection) and **Divine Lore of Bretonnia** (Lady blessings and strictures) in Lores & Faith. Grail Damsel career text and Nation Rules Bretonnia point at those pages. Extra lore after Grail mastery is Beasts, Heavens, or Life only.
+- *Added* Two-handed weapons **Maximilian**, **Norseman’s Axe**, and **White Wolf Hammer** (`nom-items`); Armory melee listing rebuilt from catalog.
+- *Added* Bestiary creatures **Empire Pistolier**, **Empire Outrider**, **Battle Pilgrim** (distinct from **Grail Pilgrim**), **Birdmen of Catrazza**, and **Bronzino’s Galloper Guns** (typical fighters; unit hire in biography). Bestiary Index and Dogs of War Rules now `@UUID`-link those names.
+- *Added* Human chargen nationalities **Southlander** and **Strigany** (`scripts/nom-subspecies-registry.js`) with full 1–100 career tables. **Witch Doktor** and **Zunu** remain on the **Arabyan** table as well as Southlander.
+- *Changed* Catalog names **Chain and Sickle** and **Marksmen of Miragliano** (stable document ids).
+
 ## [Version 1.4.0](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.4.0) (2026-08-25)
 
 ### Compendiums

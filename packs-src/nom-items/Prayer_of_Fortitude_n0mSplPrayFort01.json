@@ -1,0 +1,118 @@
+{
+  "_id": "n0mSplPrayFort01",
+  "name": "Prayer of Fortitude",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/spells/ice-magic.webp",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1788105460056,
+    "modifiedTime": 1788105460056,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Illuminated by the holy light of the Lady, you empower everyone around you with the will to ride forth in the name of quest and glory. Gain +Fellowship Bonus Armour Points on all locations, and +1 War Leader Talent while the spell is active. For every +2 SL, you may increase your Armour Points by +1, or take the War Leader Talent again.</p><p><strong>Lore:</strong> Grail magics use the lore effects and ingredients of your Troth Wind (Azyr, Ghur, or Ghyran). See @UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.n0mJrnlLoreGrail]{Lore of the Grail}.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "lore": {
+      "type": "String",
+      "label": "Lore",
+      "value": "Grail",
+      "effectString": "Troth Wind lore effects (Azyr, Ghur, or Ghyran)."
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "You",
+      "vortex": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "You",
+      "aoe": false
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Willpower Bonus Rounds",
+      "extendable": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": ""
+    },
+    "cn": {
+      "type": "Number",
+      "label": "Casting Number",
+      "value": 8,
+      "SL": 0
+    },
+    "magicMissile": {
+      "type": "Boolean",
+      "label": "Magic Missile",
+      "value": false
+    },
+    "ritual": {
+      "value": false,
+      "type": "",
+      "xp": 0
+    },
+    "memorized": {
+      "type": "Boolean",
+      "label": "Memorized",
+      "value": false
+    },
+    "skill": {
+      "value": ""
+    },
+    "ingredients": [],
+    "currentIng": {
+      "type": "Number",
+      "label": "Ingredient",
+      "value": "0"
+    },
+    "wind": {
+      "value": ""
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "RR24Ugol9Crv6Bk7",
+  "sort": 0,
+  "_key": "!items!n0mSplPrayFort01"
+}

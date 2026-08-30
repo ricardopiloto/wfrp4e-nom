@@ -1,0 +1,102 @@
+{
+  "_id": "brifTgspyEwO03Q4",
+  "name": "Grail Maiden",
+  "type": "career",
+  "flags": {},
+  "img": "modules/wfrp4e-core/icons/careers/wizard-01.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.n0mJrnlGrlDams01]{Bretonnian Grail Damsel}</p><p><strong>Species:</strong> Human, Wood Elf. <strong>Restriction:</strong> exclusively female. Males taken by the Fay Enchantress are never seen again. Grail Magic sits between Divine and Arcane (Beasts, Grail, Heavens, or Life). See @UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.n0mJrnlLoreGrail]{Lore of the Grail}; take one Troth talent.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Grail Damsel"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Academic"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Animal Care",
+      "Channelling (Beasts, Grail, Heavens or Life)",
+      "Cool",
+      "Gossip",
+      "Heal",
+      "Language (Magick)",
+      "Lore (Theology)",
+      "Melee (Basic)"
+    ],
+    "talents": [
+      "Attractive",
+      "Petty Magic",
+      "Second Sight",
+      "Sixth Sense"
+    ],
+    "trappings": [
+      "Robes",
+      "Holy Symbol of the Lady of the Lake",
+      "Quarterstaff",
+      "Writing Kit"
+    ],
+    "incomeSkill": [
+      1
+    ],
+    "addedSkills": [],
+    "requiredTrappings": [],
+    "trappingsOwned": [],
+    "previousCareer": {}
+  },
+  "folder": "Ok1t4rLc68778H3u",
+  "sort": 11800000,
+  "_key": "!items!brifTgspyEwO03Q4"
+}

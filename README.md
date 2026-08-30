@@ -82,7 +82,7 @@ Requires **ImageMagick 7** (`magick` on `PATH`). After conversion, run **`npm ru
 
 Use a throwaway world or player test: enable **WFRP4e** + **`wfrp4e-core`** + **`wfrp4e-nom`** only (no **`wfrp4e-more-subspecies`** required).
 
-1. Start **Character Creation** as **Human** and pick each NoM subspecies in turn (examples: **Tilean**, **Arabyan**, **Bretonnian Lowborn**, **Bretonnian Noble**, **Wastelander / Marienburger**, **Norscan**, …).
+1. Start **Character Creation** as **Human** and pick each NoM subspecies in turn (examples: **Tilean**, **Arabyan**, **Southlander**, **Strigany**, **Bretonnian Lowborn**, **Bretonnian Noble**, **Wastelander / Marienburger**, **Norscan**, …).
 2. On the **career** roll step, confirm randomisation uses the **`nom-tables`** document whose title matches **`Career - Human (...)`** for that nationality (**`flags.wfrp4e.column`** is **`human-<…>-nom`**; see **`scripts/nom-subspecies-registry.js`** + table JSON).
 3. If a rolled label errors or never links to the Core **Class and Careers** journal (`wfrp4e-core.journals`), see **`reports/career-rolltable-unmatched.txt`**, run **`npm run career-tables:remap-core-names`** then **`career-tables:migrate:write`** again; maintainer map is archived under **`openspec/changes/archive/2026-05-09-remap-nom-career-rows-core-catalog/`**.
 
@@ -121,6 +121,7 @@ Module source of truth: Careers journal `Nations_of_Mankind___Careers` + matchin
 - [x] Executioner
 - [x] Free Company Militia → Free Company Militiaman
 - [x] Freeholder → Norscan Freeholder
+- [x] Grail Damsel → Bretonnian Grail Damsel (Noble **03** and Lowborn **85**; Grail Magic catalog in Lores & Faith: Lore of the Grail + Divine Lore of Bretonnia)
 - [x] Grail Pilgrim → Bretonnian Grail Pilgrim
 - [x] Highlander → Albionese Highlander
 - [x] Highwayman

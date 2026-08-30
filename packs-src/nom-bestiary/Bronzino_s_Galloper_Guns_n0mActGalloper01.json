@@ -1,0 +1,3270 @@
+{
+  "_id": "n0mActGalloper01",
+  "name": "Bronzino's Galloper Guns",
+  "type": "creature",
+  "img": "systems/wfrp4e/tokens/unknown.png",
+  "items": [
+    {
+      "_id": "n0mActGa00000001",
+      "name": "Gold Crown",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/goldcrown.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "quantity": {
+          "type": "Number",
+          "label": "Quantity",
+          "value": 0
+        },
+        "encumbrance": {
+          "type": "Number",
+          "label": "Encumbrance",
+          "value": 0.005
+        },
+        "location": {
+          "type": "Number",
+          "label": "Location",
+          "value": ""
+        },
+        "coinValue": {
+          "label": "Value (in d)",
+          "type": "Number",
+          "value": 240
+        },
+        "price": {},
+        "availability": {},
+        "damageToItem": {}
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000001"
+    },
+    {
+      "_id": "n0mActGa00000002",
+      "name": "Consume Alcohol",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-t.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>&nbsp;</p>\n<p>Your ability to handle alcohol without letting it cloud your judgment or render you senseless.</p>\n<p>After each alcoholic drink make a Consume Alcohol Test, modified by the strength of the drink. For each Test you fail, you suffer a &ndash;10 penalty to WS, BS, Ag, Dex, and Int, to a maximum of &ndash;30 per Characteristic. After you fail a number of Tests equal to your Toughness Bonus, you are Stinking Drunk. Roll on the the @Table[stinking-drunk]{Stinking Drunk} Table</p>\n<p>After not drinking for an hour, enact a Challenging (+0) Consume Alcohol Test. The effects of being drunk will wear</p>\n<p>off after 10&ndash;SL hours, with any Characteristic modifiers for being drunk lost over that time. After all effects wear off, enact another Challenging (+0) Consume Alcohol Test. You now gain a hangover, which is an Fatigued Condition that cannot be removed for 5&ndash;SL hours.</p>\n<p>You may expend 1 Resolve point to ignore the negative modifiers of being drunk until the end of the next round.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "t"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000002"
+    },
+    {
+      "_id": "n0mActGa00000003",
+      "name": "Cool",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-wp.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Cool allows you to remain calm under stress, resist fear when faced with horror, and stick to your convictions.</p>\n<p>&nbsp;</p>\n<p>Cool is generally used to resist other Skills — Charm, Intimidate, and similar — but you may also be required to make a Cool Test when faced with anything forcing you to do something you would rather not. Cool is also the primary Skill used to limit Psychology</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "wp"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000003"
+    },
+    {
+      "_id": "n0mActGa00000004",
+      "name": "Drive",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>&nbsp;</p>\n<p>Drive lets you guide vehicles — most commonly simple carts and lumbering coaches, not to mention the more ‘experimental’ creations of the Imperial Engineers — along the roads of the Empire with as little incident as possible.</p>\n<p>&nbsp;</p>\n<p>Under normal circumstances, if you possess the Drive Skill, there is no need to Test. If conditions are less than ideal — perhaps the road is in poor condition, or the weather is terrible — a Drive Test will be required. If you do not possess the Drive Skill, you may be required to make a Test to carry out even basic maneuver. An Astounding Failure (-6) on a Drive Test means something bad has happened. Roll on the following table:</p>\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">&nbsp;</p>\n<div style=\"direction: ltr;\">\n<table style=\"direction: ltr; border-collapse: collapse; border: 1pt solid #A3A3A3;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td style=\"vertical-align: top; width: .6673in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">1d10</span></p>\n</td>\n<td style=\"vertical-align: top; width: 6.9111in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span>Result</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .6673in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">1-2</p>\n</td>\n<td style=\"vertical-align: top; width: 6.9111in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">Snapped Harness: </span>One horse (or equivalent) breaks free; reduce speed accordingly.</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .6673in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">3-5</p>\n</td>\n<td style=\"vertical-align: top; width: 6.9111in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span><span style=\"font-weight: bold;\">Jolted Carriage: </span>Passengers suffer 1 Wound and fragile cargos might be damaged.</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .6673in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">6-8</p>\n</td>\n<td style=\"vertical-align: top; width: 6.9111in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"font-weight: bold;\">Broken Wheel: </span>Pass a Drive Test every round to avoid Crashing. Two-wheeled vehicles with a Broken Wheel Crash automatically.</p>\n</td>\n</tr>\n<tr>\n<td style=\"vertical-align: top; width: .6673in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">9-10</p>\n</td>\n<td style=\"vertical-align: top; width: 6.9111in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span><span style=\"font-weight: bold;\">Broken Axle: </span>The vehicle goes out of control and Crashes.</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt; color: #231f20;\">&nbsp;</p>\n<p><strong>Crashing</strong>: Occupants of Crashing vehicles usually suffer 2d10 Wounds modified by Toughness Bonus and Armor Points</p>\n<p>unless the vehicle was moving slowly (as determined by the GM). Crashed vehicles must be repaired by someone with an appropriate Trade Skill, such as Trade (Carpenter) or Trade (Cartwright). Spare wheels can be installed by anyone with a Drive Test or with an appropriate Trade Test. In combat, Drive may be used if circumstances allow — for instance, if the party is in a coach being raided by outlaws, and you wish to ram an enemy, or outrun them.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ag"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000004"
+    },
+    {
+      "_id": "n0mActGa00000005",
+      "name": "Dodge",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Dodge is your ability to avoid things, through ducking, diving, and moving quickly, and is used extensively to sidestep falling rocks, incoming weapons, unexpected traps, and the like.</p>\n<p>In combat, Dodge is generally used to resist attacks or avoid damage. Refer to Rolling to Hit.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ag"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000005"
+    },
+    {
+      "_id": "n0mActGa00000006",
+      "name": "Endurance",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-t.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The Endurance Skill is called upon when you must endure hardship, withstand deprivation, sit without moving for long periods of time, or survive harsh environments. In particular, Endurance is Tested to resist or recover from various Conditions and helps you recover lost Wounds.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "t"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000006"
+    },
+    {
+      "_id": "n0mActGa00000007",
+      "name": "Language (Battle)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to run, jump and move with speed or grace, and to perform any general physical activity. Refer to Moving for details on using Athletics in combat movement.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000007"
+    },
+    {
+      "_id": "n0mActGa00000008",
+      "name": "Language (Khazalid)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663444790,
+        "modifiedTime": 1787663444790,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The Language Skill grants you access to extra languages beyond your native tongue. All characters are automatically assumed to be able to speak ‘Reikspiel’ — the language of the Empire — and their native language (if your character has one different to Reikspiel), without ever having to Test. If your game is not set in the Empire, replace Reikspiel with the local language.</p>\n<p>&nbsp;</p>\n<p>If you possess a Language Skill, you are generally able to make yourself understood in that language, or to understand simple concepts. You will be asked to Test your Language Skill when a particularly difficult concept must be conveyed, or an obscure dialect or vocabulary is employed.</p>\n<p>&nbsp;</p>\n<p><strong>Note</strong>: Language (Magick) is used to cast spells and may occasionally be Tested, with… unpleasant consequences if failed. See Casting and Channelling</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Specialisations: </span>Battle Tongue, Bretonnian, Classical, Guilder, Khazalid, Magick, Thief, Tilean&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000008"
+    },
+    {
+      "_id": "n0mActGa00000009",
+      "name": "Leadership",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>A measure of your ability to lead others and command their respect. While most often associated with martial situations, a resolute leader can quickly direct a fast response to a fire or other such calamity, and nobles use the Skill frequently to command their lessers.</p>\n<p>&nbsp;</p>\n<p>A successful Leadership Test allows you to issue orders to a number of targets equal to your Fellowship Bonus + SL. If the targets are your natural subordinates — a noble commanding serfs, or a sergeant commanding his troops — commands are usually unopposed. If there is no natural hierarchy in place, or the order is particularly challenging — such as ordering your soldiers to charge a Hydra head on — the Test is Opposed by your targets’ Cool.</p>\n<p>&nbsp;</p>\n<p>In combat, you may use Leadership to encourage your subordinates. A successful Leadership Test confers a bonus of +10 to all Psychology Tests until the end of the next round (see @JournalEntry[Psychology]).</p>\n<p>&nbsp;</p>\n<p>Further, Leadership can be used to transfer Advantage to allies able to hear you; following a successful Leadership Test, you may transfer an Advantage to one ally of your choice, plus a further +1 Advantage per SL scored, which can again go to any allies of your choice within earshot.</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Example: </span><span style=\"font-style: italic;\">Lord Ludwig von Schemp has been watching his two bodyguards discourse with some ruffians for three Rounds, using his Intuition Skill to build up 3 Advantage. Feeling it is going nowhere, he issues a peremptory order to attack the ringleader; passing his Leadership Test with 5 SL, he gives one bodyguard 2 of his Advantage, and the remaining bodyguard 1 Advantage, hoping this will bring a swift end to proceedings.&nbsp;</span></p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000009"
+    },
+    {
+      "_id": "n0mActGa00000010",
+      "name": "Lore (Armory)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663444790,
+        "modifiedTime": 1787663444790,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Having a Lore Skill means you’ve been formally taught, or have somehow otherwise learned, a branch of specialist knowledge. Possessing a Lore Skill means you are broadly knowledgeable in the specialization and don’t need to make a Test in order for the GM to supply you with relevant facts. If you are seeking specific, less well-known information, you will be required to make a Lore Test, modified by how obscure the information is, with the SL indicating how much detail you recall.</p>\n<p>&nbsp;</p>\n<p>In combat, successful Lore Tests may afford you +1 Advantage if appropriate (with your GM’s approval). For instance, Lore (Geology) may give you an edge if fighting in a rocky cavern, or Lore (Engineering) may help you if fighting a foe armed with a complex mechanical device. You may continue building Advantage in subsequent turns providing the circumstances are correct (as determined by the GM) and you are not interrupted; you may gain a maximum Advantage equal to your Intelligence Bonus in this manner.</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Specializations: </span>Engineering, Geology, Heraldry, History, Law, Magick, Metallurgy, Science, Theology&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000010"
+    },
+    {
+      "_id": "n0mActGa00000011",
+      "name": "Lore (Engineer)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to run, jump and move with speed or grace, and to perform any general physical activity. Refer to Moving for details on using Athletics in combat movement.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000011"
+    },
+    {
+      "_id": "n0mActGa00000012",
+      "name": "Navigation",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Navigation allows you to find your way in the wilderness using landmarks, stellar bodies or maps. Possessing the Navigation Skill means you know roughly where you are, and can find your way between well-known landmarks without a Test. A Test is only required if you are disoriented or travelling far from the beaten path, with success showing you the correct direction, or allowing you to avoid mishap.</p>\n<p>&nbsp;</p>\n<p>If you are navigating a long journey, your GM may ask for an extended Navigation Test, modified by conditions, visible landmarks, and access to reliable geographical information. The SL required to succeed depends on how far the destination is, with each Test representing between an hour and a day’s travel, depending on the nature of the journey</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "i"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000012"
+    },
+    {
+      "_id": "n0mActGa00000013",
+      "name": "Perception",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to notice things with your senses — sight, smell, hearing, touch, and taste, and any other senses you may possess, such as magical or non-Human senses. Your GM may ask for a Perception Test to detect something, like movement behind the treeline, the presence of a trap, or someone following you, modified by how easy it is to notice. Perception is also used to resist attempts to hide things through Skills such as Sleight of Hand or Stealth. Perception has multiple uses in combat, most commonly to notice important details beyond the immediately obvious about the surrounding environment and your opponents, as determined by the GM.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "i"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000013"
+    },
+    {
+      "_id": "n0mActGa00000014",
+      "name": "Ranged (Blackpowder)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-bs.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663444790,
+        "modifiedTime": 1787663444790,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Whilst anyone can throw a rock simply using their Ballistic Skill, it takes training and practice to use weapons like bows and pistols. Each Ranged Specialization is specific to a group of ranged weapons. If you don’t have the Ranged Specialization for a weapon you wish to use, refer to <span style=\"font-weight: bold;\">@JournalEntry[The Consumers' Guide] </span>to see what penalties you will suffer when using the weapon. See <span style=\"font-weight: bold;\">Chapter 5: Rules </span>for full detail about ranged combat.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "bs"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000014"
+    },
+    {
+      "_id": "n0mActGa00000015",
+      "name": "Ranged (Engineering)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-bs.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663445749,
+        "modifiedTime": 1787663445749,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Whilst anyone can throw a rock simply using their Ballistic Skill, it takes training and practice to use weapons like bows and pistols. Each Ranged Specialization is specific to a group of ranged weapons. If you don’t have the Ranged Specialization for a weapon you wish to use, refer to <span style=\"font-weight: bold;\">@JournalEntry[The Consumers' Guide] </span>to see what penalties you will suffer when using the weapon. See <span style=\"font-weight: bold;\">Chapter 5: Rules </span>for full detail about ranged combat.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "bs"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000015"
+    },
+    {
+      "_id": "n0mActGa00000016",
+      "name": "Ranged (Explosives)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to run, jump and move with speed or grace, and to perform any general physical activity. Refer to Moving for details on using Athletics in combat movement.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "bs"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000016"
+    },
+    {
+      "_id": "n0mActGa00000017",
+      "name": "Research",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663444790,
+        "modifiedTime": 1787663444790,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>How adept you are at pulling useful and frequently obscure knowledge from libraries and other such storehouses of information. Research requires you have @UUID[Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf]{Read/Write}.</p>\n                        <p>&nbsp;</p>\n                        <p>Simply possessing the Research Skill indicates you can find straightforward information from a clearly indexed library without a Test given enough time. If you are seeking specific, less well-known information, or you are in a rush, you will be required to make an Extended Research Test, with the Difficulty modified by the library size, and the target SL depending upon the obscurity of the topic. Research has no use in combat beyond perhaps finding you a useful manual on sword-fighting techniques.</p>\n                        <p>&nbsp;</p>\n                        <h3>Research and Libraries</h3>\n                        <p>Libraries of the old World vary from small personal libraries of a few dozen books to vast archives found in the universities and temples of the towns and cities. Using a Research Test in a small library, perhaps to find a specific book, only takes about 5 minutes. By comparison, research tests in large libraries can easily takes an hour or more per Test, but are far more likely to find esoteric lore.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000017"
+    },
+    {
+      "_id": "n0mActGa00000018",
+      "name": "Trade (Gunsmith)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to run, jump and move with speed or grace, and to perform any general physical activity. Refer to Moving for details on using Athletics in combat movement.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "dex"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 15,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000018"
+    },
+    {
+      "_id": "n0mActGa00000019",
+      "name": "Craftsman (Gunsmith)",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/drilled.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663539955,
+        "modifiedTime": 1787663539955,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>You have been trained to fight shoulder-to-shoulder with other soldiers. If an enemy causes you to lose Advantage when standing beside an active ally with the Drilled Talent, you may keep 1 lost Advantage for each time you’ve taken the Drilled Talent.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "ws"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 3,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": "Melee Tests when beside an ally with Drilled"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000019"
+    },
+    {
+      "_id": "n0mActGa00000020",
+      "name": "Etiquette (Mercenaries)",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/etiquette.png",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663539955,
+        "modifiedTime": 1787663539955,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>You can blend in socially with the chosen group so long as you are dressed and acting appropriately. Example social groups for this Talent are: Criminals, Cultists, Guilders, Nobles, Scholars, Servants, and Soldiers. If you do not have the Talent, those with it will note your discomfort in the unfamiliar environment. This is primarily a matter for roleplaying, but may confer a bonus to Fellowship Tests at the GM’s discretion.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 3,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": "Charm and Gossip (Social Group)"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000020"
+    },
+    {
+      "_id": "n0mActGa00000021",
+      "name": "Gunner",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/gunner.png",
+      "effects": [
+        {
+          "_id": "eff08057730xxxxx",
+          "flags": {
+            "wfrp4e": {
+              "_legacyData": {
+                "effectApplication": "actor",
+                "effectTrigger": "prefillDialog",
+                "preventDuplicateEffects": false,
+                "script": "if (args.options.reload && args.options.weapon && args.options.weapon.weaponGroup.value == \"blackpowder\")\n   args.prefillModifiers.slBonus += 1"
+              }
+            }
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.6.4",
+            "createdTime": 1787663444790,
+            "modifiedTime": 1787663444790,
+            "lastModifiedBy": "7SjvqIrukDv4W6Te",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Gunner",
+          "img": "modules/wfrp4e-core/icons/talents/gunner.png",
+          "system": {
+            "changes": [],
+            "transferData": {
+              "type": "document",
+              "originalType": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "shape": {
+                  "color": null,
+                  "type": "circle",
+                  "angle": 60,
+                  "curvature": "round",
+                  "base": {
+                    "width": 1,
+                    "height": 1,
+                    "hole": false,
+                    "shape": 4,
+                    "type": "token"
+                  }
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false,
+                  "visibility": 0
+                },
+                "duration": "sustained"
+              },
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [
+              {
+                "label": "Gunner",
+                "trigger": "dialog",
+                "script": "if (args.options.reload && args.options.weapon && args.options.weapon.weaponGroup.value == \"blackpowder\")\n   args.prefillModifiers.slBonus += 1",
+                "options": {
+                  "activateScript": "return true",
+                  "targeter": false,
+                  "defending": false,
+                  "runIfDisabled": false,
+                  "deleteEffect": false,
+                  "showDuplicates": false
+                },
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "start": null,
+          "type": "base",
+          "description": "",
+          "origin": "Actor.n0mActGalloper01.Item.n0mActGa00000021",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!n0mActGalloper01.n0mActGa00000021.eff08057730xxxxx"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663444790,
+        "modifiedTime": 1787663444790,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You can reload blackpowder weapons with practiced ease. Add SL equal to your level in Gunner to any Extended Test to reload a Blackpowder weapon."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "dex"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 2,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": ""
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000021"
+    },
+    {
+      "_id": "n0mActGa00000022",
+      "name": "Marksman",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/marksman.png",
+      "effects": [
+        {
+          "_id": "eff07207142xxxxx",
+          "flags": {
+            "wfrp4e": {
+              "_legacyData": {
+                "effectApplication": "actor",
+                "preventDuplicateEffects": true
+              }
+            }
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.6.4",
+            "createdTime": 1787663548540,
+            "modifiedTime": 1787663548540,
+            "lastModifiedBy": "7SjvqIrukDv4W6Te",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Marksman",
+          "img": "modules/wfrp4e-core/icons/talents/marksman.png",
+          "system": {
+            "changes": [
+              {
+                "key": "system.characteristics.bs.initial",
+                "value": 5,
+                "type": "add",
+                "phase": "initial"
+              }
+            ],
+            "transferData": {
+              "type": "document",
+              "originalType": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "shape": {
+                  "color": null,
+                  "type": "circle",
+                  "angle": 60,
+                  "curvature": "round",
+                  "base": {
+                    "width": 1,
+                    "height": 1,
+                    "hole": false,
+                    "shape": 4,
+                    "type": "token"
+                  }
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false,
+                  "visibility": 0
+                },
+                "duration": "sustained"
+              },
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "start": null,
+          "type": "base",
+          "description": "",
+          "origin": "Actor.n0mActGalloper01.Item.n0mActGa00000022",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!n0mActGalloper01.n0mActGa00000022.eff07207142xxxxx"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663548540,
+        "modifiedTime": 1787663548540,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You gain a permanent +5 bonus to your starting Ballistic Skill (this does not count towards your Advances)."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "1"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": ""
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000022"
+    },
+    {
+      "_id": "n0mActGa00000023",
+      "name": "Rapid Reload",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/rapid-reload.png",
+      "effects": [
+        {
+          "_id": "eff00182811xxxxx",
+          "flags": {
+            "wfrp4e": {
+              "_legacyData": {
+                "effectApplication": "actor",
+                "effectTrigger": "prefillDialog",
+                "preventDuplicateEffects": false,
+                "script": "if (args.options.reload && args.options.weapon)\n   args.prefillModifiers.slBonus += 1"
+              }
+            }
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.6.4",
+            "createdTime": 1787663445749,
+            "modifiedTime": 1787663445749,
+            "lastModifiedBy": "7SjvqIrukDv4W6Te",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Rapid Reload",
+          "img": "modules/wfrp4e-core/icons/talents/rapid-reload.png",
+          "system": {
+            "changes": [],
+            "transferData": {
+              "type": "document",
+              "originalType": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "shape": {
+                  "color": null,
+                  "type": "circle",
+                  "angle": 60,
+                  "curvature": "round",
+                  "base": {
+                    "width": 1,
+                    "height": 1,
+                    "hole": false,
+                    "shape": 4,
+                    "type": "token"
+                  }
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false,
+                  "visibility": 0
+                },
+                "duration": "sustained"
+              },
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [
+              {
+                "label": "Rapid Reload",
+                "trigger": "dialog",
+                "script": "if (args.options.reload && args.options.weapon)\n   args.prefillModifiers.slBonus += 1",
+                "options": {
+                  "activateScript": "return true",
+                  "targeter": false,
+                  "defending": false,
+                  "runIfDisabled": false,
+                  "deleteEffect": false,
+                  "showDuplicates": false
+                },
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "start": null,
+          "type": "base",
+          "description": "",
+          "origin": "Actor.n0mActGalloper01.Item.n0mActGa00000023",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!n0mActGalloper01.n0mActGa00000023.eff00182811xxxxx"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663445749,
+        "modifiedTime": 1787663445749,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You can reload ranged weapons with practiced ease. You add SL equal to your level in Rapid Reload to any Test to reload a ranged weapon."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "dex"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 2,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": ""
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000023"
+    },
+    {
+      "_id": "n0mActGa00000024",
+      "name": "Read/Write",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/readwrite.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You are one of the rare literate individuals in the Old World. You are assumed to be able to read and write (if appropriate) all of the Languages you can speak."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "1"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": ""
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000024"
+    },
+    {
+      "_id": "n0mActGa00000025",
+      "name": "Sharp",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/drilled.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663539955,
+        "modifiedTime": 1787663539955,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>You have been trained to fight shoulder-to-shoulder with other soldiers. If an enemy causes you to lose Advantage when standing beside an active ally with the Drilled Talent, you may keep 1 lost Advantage for each time you’ve taken the Drilled Talent.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "ws"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": "Melee Tests when beside an ally with Drilled"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000025"
+    },
+    {
+      "_id": "n0mActGa00000026",
+      "name": "Sharpshooter",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/sharpshooter.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663474930,
+        "modifiedTime": 1787663474930,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You can make aimed shots of exceptional accuracy. You ignore any negative Difficulty modifier to Ranged Tests due to the size of your target."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "1"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": ""
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000026"
+    },
+    {
+      "_id": "n0mActGa00000027",
+      "name": "Sniper",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/sniper.png",
+      "effects": [
+        {
+          "_id": "eff07996899xxxxx",
+          "flags": {
+            "wfrp4e": {
+              "hide": false,
+              "_legacyData": {
+                "effectApplication": "actor",
+                "effectTrigger": "prepareItem",
+                "preventDuplicateEffects": false,
+                "script": "if (args.item.range && args.item.range.bands)\n{\nargs.item.range.bands[game.i18n.localize(\"Long Range\")].modifier = 0\nargs.item.range.bands[game.i18n.localize(\"Extreme\")].modifier /= 2\n}"
+              }
+            }
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.6.4",
+            "createdTime": 1787663474930,
+            "modifiedTime": 1787663474930,
+            "lastModifiedBy": "7SjvqIrukDv4W6Te",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Sniper",
+          "img": "modules/wfrp4e-core/icons/talents/sniper.png",
+          "system": {
+            "changes": [],
+            "transferData": {
+              "type": "document",
+              "originalType": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "shape": {
+                  "color": null,
+                  "type": "circle",
+                  "angle": 60,
+                  "curvature": "round",
+                  "base": {
+                    "width": 1,
+                    "height": 1,
+                    "hole": false,
+                    "shape": 4,
+                    "type": "token"
+                  }
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false,
+                  "visibility": 0
+                },
+                "duration": "sustained"
+              },
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [
+              {
+                "label": "Sniper",
+                "trigger": "prepareItem",
+                "script": "if (args.item.range && args.item.range.bands)\n{\nargs.item.range.bands[game.i18n.localize(\"Long Range\")].modifier = 0\nargs.item.range.bands[game.i18n.localize(\"Extreme\")].modifier /= 2\n}",
+                "options": {
+                  "targeter": false,
+                  "defending": false,
+                  "runIfDisabled": false,
+                  "deleteEffect": false,
+                  "showDuplicates": false
+                },
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "start": null,
+          "type": "base",
+          "description": "",
+          "origin": "Actor.n0mActGalloper01.Item.n0mActGa00000027",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!n0mActGalloper01.n0mActGa00000027.eff07996899xxxxx"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663474930,
+        "modifiedTime": 1787663474930,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Distance is of no import to your shooting skills, and you are just as adept at picking off far-away targets as those nearby. You suffer no penalties for shooting at Long range, and half the penalties for Extreme range.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "4"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 3,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": "Ranged (Long-Extreme Range)"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000027"
+    },
+    {
+      "_id": "n0mActGa00000028",
+      "name": "Sturdy",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/sturdy.png",
+      "effects": [
+        {
+          "_id": "eff02182042xxxxx",
+          "flags": {
+            "wfrp4e": {
+              "_legacyData": {
+                "effectApplication": "actor",
+                "effectTrigger": "prePrepareItems",
+                "preventDuplicateEffects": false,
+                "script": "args.actor.status.encumbrance.max += 2"
+              }
+            }
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.6.4",
+            "createdTime": 1787663467040,
+            "modifiedTime": 1787663467040,
+            "lastModifiedBy": "7SjvqIrukDv4W6Te",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Sturdy",
+          "img": "modules/wfrp4e-core/icons/talents/sturdy.png",
+          "system": {
+            "changes": [],
+            "transferData": {
+              "type": "document",
+              "originalType": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "shape": {
+                  "color": null,
+                  "type": "circle",
+                  "angle": 60,
+                  "curvature": "round",
+                  "base": {
+                    "width": 1,
+                    "height": 1,
+                    "hole": false,
+                    "shape": 4,
+                    "type": "token"
+                  }
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false,
+                  "visibility": 0
+                },
+                "duration": "sustained"
+              },
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [
+              {
+                "label": "Sturdy",
+                "trigger": "prePrepareItems",
+                "script": "args.actor.status.encumbrance.max += 2",
+                "options": {
+                  "targeter": false,
+                  "defending": false,
+                  "runIfDisabled": false,
+                  "deleteEffect": false,
+                  "showDuplicates": false
+                },
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "start": null,
+          "type": "base",
+          "description": "",
+          "origin": "Actor.n0mActGalloper01.Item.n0mActGa00000028",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!n0mActGalloper01.n0mActGa00000028.eff02182042xxxxx"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663467040,
+        "modifiedTime": 1787663467040,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You have a brawny physique, or are very used to carrying things. Increase the number of Encumbrance Points you can carry by your Sturdy level x 2"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "s"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 3,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": "Strength Tests when lifting"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000028"
+    },
+    {
+      "_id": "n0mActGa00000029",
+      "name": "Tinker",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/tinker.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663444790,
+        "modifiedTime": 1787663444790,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You are somewhat of a Johann-of-all-trades, able to repair almost anything. You count all non-magical Trade Skills as Basic when repairing broken items."
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "dex"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 3,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": "Trade Tests to repair broken items"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000029"
+    },
+    {
+      "_id": "n0mActGa00000030",
+      "name": "War Leader",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/war-leader.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663486248,
+        "modifiedTime": 1787663486248,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your stern gaze and inspiring words motivate your soldiers to fight on to the end. All subordinates able to see you may add your level in War Leader to their SL in one Willpower Test per Round. This bonus does not stack.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "fel"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": "Leadership Tests during War"
+        }
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000030"
+    },
+    {
+      "_id": "n0mActGa00000031",
+      "name": "Armour (Leathers)",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [
+        {
+          "_id": "eff01329645xxxxx",
+          "flags": {
+            "wfrp4e": {
+              "_legacyData": {
+                "effectApplication": "actor",
+                "effectTrigger": "prepareData",
+                "preventDuplicateEffects": false,
+                "script": "let AP = args.actor.status.armour\nlet APdamage = this.item.getFlag('wfrp4e', 'APdamage') || {}\n\nlet value = parseInt(this.item.specification.value)\n\nif (Number.isNumeric(value))\n{\nAP[\"head\"].value += (value - (APdamage.head || 0))\nAP[\"rArm\"].value += (value - (APdamage.rArm|| 0))\nAP[\"lArm\"].value += (value - (APdamage.lArm || 0))\nAP[\"body\"].value += (value - (APdamage.body || 0))\nAP[\"lLeg\"].value += (value - (APdamage.lLeg || 0))\nAP[\"rLeg\"].value += (value - (APdamage.rLeg || 0))\n}"
+              }
+            }
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "14.364",
+            "systemId": "wfrp4e",
+            "systemVersion": "9.6.4",
+            "createdTime": 1787663539955,
+            "modifiedTime": 1787663539955,
+            "lastModifiedBy": "7SjvqIrukDv4W6Te",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "name": "Armour",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "system": {
+            "changes": [],
+            "transferData": {
+              "type": "document",
+              "originalType": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "selfOnly": false,
+              "prompt": false,
+              "area": {
+                "shape": {
+                  "color": null,
+                  "type": "circle",
+                  "angle": 60,
+                  "curvature": "round",
+                  "base": {
+                    "width": 1,
+                    "height": 1,
+                    "hole": false,
+                    "shape": 4,
+                    "type": "token"
+                  }
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false,
+                  "visibility": 0
+                },
+                "duration": "sustained"
+              },
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {},
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              }
+            },
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "scriptData": [
+              {
+                "label": "Armour",
+                "trigger": "prepareData",
+                "script": "let AP = args.actor.status.armour\nlet APdamage = this.item.getFlag('wfrp4e', 'APdamage') || {}\n\nlet value = parseInt(this.item.specification.value)\n\nif (Number.isNumeric(value))\n{\nAP[\"head\"].value += (value - (APdamage.head || 0))\nAP[\"rArm\"].value += (value - (APdamage.rArm|| 0))\nAP[\"lArm\"].value += (value - (APdamage.lArm || 0))\nAP[\"body\"].value += (value - (APdamage.body || 0))\nAP[\"lLeg\"].value += (value - (APdamage.lLeg || 0))\nAP[\"rLeg\"].value += (value - (APdamage.rLeg || 0))\n}",
+                "options": {
+                  "targeter": false,
+                  "defending": false,
+                  "runIfDisabled": false,
+                  "deleteEffect": false,
+                  "showDuplicates": false
+                },
+                "async": false
+              }
+            ],
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "condition": {
+              "numbered": false
+            }
+          },
+          "start": null,
+          "type": "base",
+          "description": "",
+          "origin": "Actor.n0mActGalloper01.Item.n0mActGa00000031",
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "_key": "!actors.items.effects!n0mActGalloper01.n0mActGa00000031.eff01329645xxxxx"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663539955,
+        "modifiedTime": 1787663539955,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature is protected by armor or thick hide. It has Rating Armor Points on all Hit Locations"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "1",
+          "type": "String",
+          "label": "Specification"
+        },
+        "qualities": {
+          "label": "Qualities",
+          "value": []
+        },
+        "flaws": {
+          "label": "Flaws",
+          "value": []
+        },
+        "category": "standard",
+        "disabled": false
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000031"
+    },
+    {
+      "_id": "n0mActGa00000032",
+      "name": "Ranged (Handgun, 50)",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663440958,
+        "modifiedTime": 1787663440958,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature has a ranged weapon. The weapon does Damage equal to the Rating and the range in yards is marked in brackets"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": true,
+          "damage": true,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "bs",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "ranged"
+        },
+        "specification": {
+          "value": "10",
+          "type": "String",
+          "label": "Specification"
+        },
+        "qualities": {
+          "label": "Qualities",
+          "value": []
+        },
+        "flaws": {
+          "label": "Flaws",
+          "value": []
+        },
+        "category": "standard",
+        "disabled": false
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000032"
+    },
+    {
+      "_id": "n0mActGa00000033",
+      "name": "Ranged (Pistol, 20)",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "_sheetTab": {},
+        "core": {}
+      },
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.6.4",
+        "createdTime": 1787663548540,
+        "modifiedTime": 1787663548540,
+        "lastModifiedBy": "7SjvqIrukDv4W6Te",
+        "exportSource": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0,
+        "HbC5TWvEu9iEIzyL": 3
+      },
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature has a ranged weapon. The weapon does Damage equal to the Rating and the range in yards is marked in brackets"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": true,
+          "damage": true,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "bs",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "ranged"
+        },
+        "specification": {
+          "value": "9",
+          "type": "String",
+          "label": "Specification"
+        },
+        "qualities": {
+          "label": "Qualities",
+          "value": []
+        },
+        "flaws": {
+          "label": "Flaws",
+          "value": []
+        },
+        "category": "standard",
+        "disabled": false
+      },
+      "_key": "!actors.items!n0mActGalloper01.n0mActGa00000033"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "autoCalcRun": {},
+    "autoCalcWalk": {},
+    "autoCalcWounds": {},
+    "autoCalcCritW": {},
+    "autoCalcCorruption": {},
+    "autoCalcEnc": {},
+    "autoCalcSize": {},
+    "wfrp4e": {
+      "showExtendedTests": false
+    },
+    "core": {}
+  },
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.6.4",
+    "createdTime": 1787663440958,
+    "modifiedTime": 1787663538610,
+    "lastModifiedBy": "7SjvqIrukDv4W6Te",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "HbC5TWvEu9iEIzyL": 3,
+    "7SjvqIrukDv4W6Te": 3
+  },
+  "system": {
+    "characteristics": {
+      "ws": {
+        "type": "number",
+        "label": "CHAR.WS",
+        "abrev": "CHARAbbrev.WS",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "bs": {
+        "type": "Number",
+        "label": "CHAR.BS",
+        "abrev": "CHARAbbrev.BS",
+        "initial": 50,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "s": {
+        "type": "Number",
+        "label": "CHAR.S",
+        "abrev": "CHARAbbrev.S",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "t": {
+        "type": "Number",
+        "label": "CHAR.T",
+        "abrev": "CHARAbbrev.T",
+        "initial": 45,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "i": {
+        "type": "Number",
+        "label": "CHAR.I",
+        "abrev": "CHARAbbrev.I",
+        "initial": 50,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "ag": {
+        "type": "Number",
+        "label": "CHAR.Ag",
+        "abrev": "CHARAbbrev.Ag",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "dex": {
+        "type": "Number",
+        "label": "CHAR.Dex",
+        "abrev": "CHARAbbrev.Dex",
+        "initial": 45,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "int": {
+        "type": "Number",
+        "label": "CHAR.Int",
+        "abrev": "CHARAbbrev.Int",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "wp": {
+        "type": "Number",
+        "label": "CHAR.WP",
+        "abrev": "CHARAbbrev.WP",
+        "initial": 45,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      },
+      "fel": {
+        "type": "Number",
+        "label": "CHAR.Fel",
+        "abrev": "CHARAbbrev.Fel",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0,
+        "costModifier": 0
+      }
+    },
+    "status": {
+      "wounds": {
+        "type": "Number",
+        "label": "Wounds",
+        "abrev": "W",
+        "value": 15,
+        "max": 15
+      },
+      "advantage": {
+        "type": "Number",
+        "label": "Advantage",
+        "value": 0,
+        "max": 10
+      },
+      "criticalWounds": {
+        "type": "Number",
+        "label": "Critical Wounds",
+        "value": 0,
+        "max": 2
+      },
+      "sin": {
+        "type": "Number",
+        "label": "Sin",
+        "value": 0
+      },
+      "penalties": {
+        "type": "String",
+        "label": "Penalties",
+        "value": ""
+      },
+      "corruption": {
+        "type": "Number",
+        "label": "Corruption",
+        "value": 0,
+        "max": 0
+      },
+      "encumbrance": {
+        "type": "Number",
+        "label": "Encumbrance",
+        "max": 0,
+        "current": 0
+      },
+      "mount": {
+        "id": "",
+        "mounted": false,
+        "isToken": false,
+        "tokenData": {
+          "scene": "",
+          "token": ""
+        }
+      },
+      "ward": {
+        "value": 0
+      }
+    },
+    "details": {
+      "species": {
+        "type": "String",
+        "label": "Species",
+        "value": "human",
+        "subspecies": ""
+      },
+      "gender": {
+        "type": "String",
+        "label": "Gender",
+        "value": ""
+      },
+      "biography": {
+        "type": "String",
+        "label": "Biography",
+        "value": "<p>Silver 3</p><p><strong>Cost:</strong> 5 GC + 5d10 Silver Shillings, Gun Parts, 15% Portion of Loot</p><p><strong>Availability:</strong> 5% Chance</p><p><strong>Nation of Origin:</strong> Remas, Tilean City-State</p><p><strong>Motto:</strong> <em>“The biggest bang for your bucks!”</em></p><p><strong>Unit hire:</strong> Contracting the full regiment costs 10× this typical fighter and may be represented as Swarm (or multiple copies of this fighter) per the Nations of Mankind Dogs of War rules. This catalog entry is one typical fighter, not a unit token.</p>"
+      },
+      "gmnotes": {
+        "type": "String",
+        "label": "GM Notes",
+        "value": ""
+      },
+      "size": {
+        "type": "String",
+        "label": "Size",
+        "value": "avg"
+      },
+      "move": {
+        "type": "Number",
+        "label": "Movement",
+        "value": 4,
+        "walk": "0",
+        "run": "0"
+      },
+      "god": {
+        "type": "String",
+        "label": "God",
+        "value": ""
+      },
+      "status": {
+        "type": "String",
+        "value": "",
+        "standing": "",
+        "tier": 0,
+        "modifier": 0
+      },
+      "hitLocationTable": {
+        "value": "hitloc",
+        "type": "String",
+        "label": "Hit Location Table"
+      },
+      "age": {},
+      "height": {},
+      "weight": {},
+      "haircolour": {},
+      "eyecolour": {},
+      "distinguishingmark": {},
+      "mainHand": "r"
+    },
+    "excludedTraits": [],
+    "settings": {
+      "equipPoints": 2,
+      "autoCalc": {
+        "run": true,
+        "walk": true,
+        "wounds": true,
+        "criticals": true,
+        "corruption": true,
+        "encumbrance": true,
+        "size": true
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Bronzino's Galloper Guns",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "status.wounds"
+    },
+    "bar2": {
+      "attribute": "status.advantage"
+    },
+    "flags": {},
+    "randomImg": false,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0,
+      "color": null
+    },
+    "texture": {
+      "src": "systems/wfrp4e/tokens/unknown.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "sort": 1500000,
+  "_key": "!actors!n0mActGalloper01"
+}

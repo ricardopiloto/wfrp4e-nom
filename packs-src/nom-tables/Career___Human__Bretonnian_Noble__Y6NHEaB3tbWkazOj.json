@@ -37,7 +37,7 @@
       ],
       "drawn": false,
       "flags": {},
-      "img": "modules/wfrp4e-core/art/careers/wizard.webp",
+      "img": "modules/wfrp4e-nom/icons/careers/grail-damsel.webp",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
@@ -47,9 +47,9 @@
         "systemVersion": "9.5.4",
         "lastModifiedBy": null
       },
-      "name": "Wizard",
+      "name": "Grail Damsel",
       "documentUuid": null,
-      "description": "@UUID[Compendium.wfrp4e-core.journals.JournalEntry.wczCPcuHT4VQDLpL.JournalEntryPage.PKm1L6yjZ4PH0JJG]{Wizard}",
+      "description": "@UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.trUWzGkEqCbeCzvo.JournalEntryPage.n0mJrnlGrlDams01]{Grail Damsel}",
       "weight": 1,
       "_key": "!tables.results!Y6NHEaB3tbWkazOj.6kdep9k58bqrg95d"
     },

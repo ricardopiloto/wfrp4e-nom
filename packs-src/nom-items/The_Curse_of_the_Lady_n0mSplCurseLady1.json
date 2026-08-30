@@ -1,0 +1,118 @@
+{
+  "_id": "n0mSplCurseLady1",
+  "name": "The Curse of the Lady",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/spells/ice-magic.webp",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1788105460056,
+    "modifiedTime": 1788105460056,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Casting aside spoiled tokens of virtue and nobility, the Damsel calls down the Lady’s greatest punishment on all those champions who would oppose noble Bretonnia. Should the Curse of the Lady be successfully cast, the caster must then make an <strong>Opposed Willpower Test</strong> against the target. Servants of Chaos suffer a −20 Penalty for the Opposed Test. If the caster wins, the target can no longer use Talents, and doesn’t add Skill Advances when making Skill Tests, meaning the target only Tests against unmodified Characteristics. The effects of the spell last for one day for every level of success scored by the caster during the opposed test.</p><p><strong>Lore:</strong> Grail magics use the lore effects and ingredients of your Troth Wind (Azyr, Ghur, or Ghyran). See @UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.n0mJrnlLoreGrail]{Lore of the Grail}.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "lore": {
+      "type": "String",
+      "label": "Lore",
+      "value": "Grail",
+      "effectString": "Troth Wind lore effects (Azyr, Ghur, or Ghyran)."
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Intelligence Yards",
+      "vortex": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "1",
+      "aoe": false
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Varies",
+      "extendable": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": ""
+    },
+    "cn": {
+      "type": "Number",
+      "label": "Casting Number",
+      "value": 11,
+      "SL": 0
+    },
+    "magicMissile": {
+      "type": "Boolean",
+      "label": "Magic Missile",
+      "value": false
+    },
+    "ritual": {
+      "value": false,
+      "type": "",
+      "xp": 0
+    },
+    "memorized": {
+      "type": "Boolean",
+      "label": "Memorized",
+      "value": false
+    },
+    "skill": {
+      "value": ""
+    },
+    "ingredients": [],
+    "currentIng": {
+      "type": "Number",
+      "label": "Ingredient",
+      "value": "0"
+    },
+    "wind": {
+      "value": ""
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "RR24Ugol9Crv6Bk7",
+  "sort": 0,
+  "_key": "!items!n0mSplCurseLady1"
+}

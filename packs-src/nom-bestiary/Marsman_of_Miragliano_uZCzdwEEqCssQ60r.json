@@ -1,6 +1,6 @@
 {
   "_id": "uZCzdwEEqCssQ60r",
-  "name": "Marsman of Miragliano",
+  "name": "Marksmen of Miragliano",
   "type": "creature",
   "img": "systems/wfrp4e/tokens/unknown.png",
   "items": [
@@ -7903,7 +7903,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Marsman of Miragliano",
+    "name": "Marksmen of Miragliano",
     "displayName": 20,
     "actorLink": false,
     "width": 1,

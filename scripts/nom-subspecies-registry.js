@@ -234,6 +234,45 @@
       ],
       talents: ["Big", "Hardy", "Night Vision", "Resistance (Cold)", "Very Resilient, Very Strong"]
     },
+    "southlander-nom": {
+      name: "Southlander",
+      skills: [
+        "Animal Care",
+        "Athletics",
+        "Climb",
+        "Cool",
+        "Endurance",
+        "Gossip",
+        "Language (Arabyc)",
+        "Language (Cathayan)",
+        "Melee (Polearm)",
+        "Navigation",
+        "Outdoor Survival",
+        "Perception",
+        "Ranged (Thrown)"
+      ],
+      talents: ["Lightning Reflexes, Sprinter", "Strong Legs", "Tribe Trait (Any)"]
+    },
+    "strigany-nom": {
+      name: "Strigany",
+      skills: [
+        "Animal Care",
+        "Charm Animal",
+        "Charm",
+        "Entertain (Singing)",
+        "Entertain (Storytelling)",
+        "Gossip",
+        "Haggle",
+        "Language (Any)",
+        "Lore (Local)",
+        "Lore (Spirits)",
+        "Perform (Any)",
+        "Play (Any)",
+        "Ride (Horse)"
+      ],
+      talents: ["Animal Affinity, Perfect Pitch", "Seasoned Traveller", "Sharp, Suave"],
+      randomTalents: { talents: 2 }
+    },
     "tilean-nom": {
       name: "Tilean",
       skills: [

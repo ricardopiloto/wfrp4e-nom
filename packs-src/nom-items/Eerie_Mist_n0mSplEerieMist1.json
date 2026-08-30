@@ -1,0 +1,118 @@
+{
+  "_id": "n0mSplEerieMist1",
+  "name": "Eerie Mist",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/wfrp4e-nom/icons/spells/ice-magic.webp",
+  "effects": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "wfrp4e",
+    "systemVersion": "9.3.2",
+    "createdTime": 1788105460056,
+    "modifiedTime": 1788105460056,
+    "lastModifiedBy": "bwuOpMGVHBESXkjP"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>An eerie mist rises about the enemy, stifling the sights and sounds of battle. Anyone within the mist who does not possess the Arcane Magic (Grail), Bless (The Lady) or Invoke (The Lady) Talents is affected by it, gaining +1 @Condition[Blinded], @Condition[Deafened], and @Condition[Fatigued] Condition, which remain for the spell’s duration. Anyone affected attempting to move out of the mist are incapable of doing so—trapped within the Area of Effect—requiring the spell to be Dispelled or for the duration to end. Those unaffected by the mist may enter or attack into, or out of, the mist as normal; however, those who do not possess Arcane Magic (Grail), Bless (The Lady) or Invoke (The Lady) cannot enter the mist or attack anyone within it, including with ranged or magical attacks.</p><p><strong>Lore:</strong> Grail magics use the lore effects and ingredients of your Troth Wind (Azyr, Ghur, or Ghyran). See @UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.n0mJrnlLoreGrail]{Lore of the Grail}.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "lore": {
+      "type": "String",
+      "label": "Lore",
+      "value": "Grail",
+      "effectString": "Troth Wind lore effects (Azyr, Ghur, or Ghyran)."
+    },
+    "range": {
+      "type": "String",
+      "label": "Range",
+      "value": "Willpower Yards",
+      "vortex": false
+    },
+    "target": {
+      "type": "String",
+      "label": "Target",
+      "value": "AoE (Willpower Bonus Yards)",
+      "aoe": true
+    },
+    "duration": {
+      "type": "String",
+      "label": "Duration",
+      "value": "Willpower Bonus Rounds",
+      "extendable": false
+    },
+    "damage": {
+      "type": "String",
+      "label": "Damage",
+      "dice": "",
+      "value": ""
+    },
+    "cn": {
+      "type": "Number",
+      "label": "Casting Number",
+      "value": 6,
+      "SL": 0
+    },
+    "magicMissile": {
+      "type": "Boolean",
+      "label": "Magic Missile",
+      "value": false
+    },
+    "ritual": {
+      "value": false,
+      "type": "",
+      "xp": 0
+    },
+    "memorized": {
+      "type": "Boolean",
+      "label": "Memorized",
+      "value": false
+    },
+    "skill": {
+      "value": ""
+    },
+    "ingredients": [],
+    "currentIng": {
+      "type": "Number",
+      "label": "Ingredient",
+      "value": "0"
+    },
+    "wind": {
+      "value": ""
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "folder": "RR24Ugol9Crv6Bk7",
+  "sort": 0,
+  "_key": "!items!n0mSplEerieMist1"
+}

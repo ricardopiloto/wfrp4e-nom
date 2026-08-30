@@ -1,8 +1,8 @@
 {
-  "_id": "eV3cnUsxXWwXU71a",
-  "name": "Chain and Sickle",
+  "_id": "n0mWpnWWHammer01",
+  "name": "White Wolf Hammer",
   "type": "weapon",
-  "img": "modules/wfrp4e-nom/icons/trappings/weapons/chain-and-sickle.webp",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/zweihander.png",
   "effects": [],
   "folder": "xUrVvvwtRnbLeVuH",
   "flags": {
@@ -12,7 +12,7 @@
     "coreVersion": "14.364",
     "systemId": "wfrp4e",
     "systemVersion": "9.6.4",
-    "createdTime": 1787624263785,
+    "createdTime": 1787624261342,
     "modifiedTime": 1787624342204,
     "lastModifiedBy": "7SjvqIrukDv4W6Te",
     "exportSource": null,
@@ -43,13 +43,13 @@
     "encumbrance": {
       "type": "Number",
       "label": "Encumbrance",
-      "value": 1
+      "value": 4
     },
     "price": {
       "type": "String",
       "label": "Price",
-      "gc": 2,
-      "ss": 10,
+      "gc": 20,
+      "ss": 0,
       "bp": 0
     },
     "availability": {
@@ -71,12 +71,12 @@
       "type": "String",
       "label": "Damage",
       "dice": "",
-      "value": "SB+4"
+      "value": "SB+6"
     },
     "reach": {
       "type": "String",
       "label": "Reach",
-      "value": "vLong"
+      "value": "average"
     },
     "range": {
       "type": "String",
@@ -96,7 +96,7 @@
     "twohanded": {
       "type": "Boolean",
       "label": "Two-Handed",
-      "value": false
+      "value": true
     },
     "ammunitionGroup": {
       "type": "String",
@@ -112,21 +112,17 @@
     "weaponGroup": {
       "type": "String",
       "label": "Weapon Group",
-      "value": "flail"
+      "value": "twohanded"
     },
     "qualities": {
       "label": "Qualities",
       "value": [
         {
-          "name": "distract",
+          "name": "impact",
           "value": null
         },
         {
-          "name": "entangle",
-          "value": null
-        },
-        {
-          "name": "wrap",
+          "name": "pummel",
           "value": null
         }
       ]
@@ -152,6 +148,6 @@
       "value": false
     }
   },
-  "sort": 6800000,
-  "_key": "!items!eV3cnUsxXWwXU71a"
+  "sort": 6400000,
+  "_key": "!items!n0mWpnWWHammer01"
 }

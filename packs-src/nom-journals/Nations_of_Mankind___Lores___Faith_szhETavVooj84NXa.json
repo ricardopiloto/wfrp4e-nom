@@ -43,6 +43,44 @@
       "_key": "!journal.pages!szhETavVooj84NXa.xgZQzPeNH0DUUjxP"
     },
     {
+      "name": "Divine Lore of Bretonnia",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>The Lady of the Lake</h2><p>The Lady of the Lake is the divine patroness of Bretonnia, the Goddess of Chivalry, Honor, and Sacred Duty. She is worshipped almost exclusively by the noble classes, particularly the knightly orders. To the common folk she is a distant but benevolent presence whose will is carried out through her chosen champions. Her blessings come through sacred visions, hidden shrines, and the still waters of enchanted lakes.</p><h3>The Lady's Blessings</h3><ul><li><p>@UUID[Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP]{Blessing of Battle}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.Cg2Q3TV66cpmheHS]{Blessing of Courage}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.iIfYOlNrLb0uiV8c]{Blessing of Fortune}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.KSDrXcieyRc37YI7]{Blessing of Might}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.K5DE9cceinUTIrem]{Blessing of Protection}</p></li><li><p>@UUID[Compendium.wfrp4e-core.items.Item.2WN0muIB2BFd4kBO]{Blessing of Righteousness}</p></li></ul><blockquote class=\"sidebar\"><h3 style=\"text-align:center;font-style:normal\"><strong>Strictures</strong></h3><ul><li><p>To serve the Lady of the Lake.</p></li><li><p>To defend the domains entrusted to them.</p></li><li><p>To protect the weak and fight for the right.</p></li><li><p>Always to fight the enemies of virtue and order.</p></li><li><p>Never to give up the fight until the foe be defeated.</p></li><li><p>Never to break faith with a friend or ally.</p></li><li><p>Always to display honor and courtesy.</p></li><li><p>A knight may only fight hand-to-hand, with sword or lance; they may not use a missile weapon.</p></li><li><p>A knight shall always accept a challenge towards personal combat.</p></li><li><p>A knight shall not draw sword against their fellow Bretonnian knights, except in trial by combat or within a tournament.</p></li><li><p>A knight shall not allow themselves to be captured alive.</p></li><li><p>A knight shall not flee from the enemy, nor retreat without proper tactical cause.</p></li></ul></blockquote><h3>Damsel magics</h3><p>Grail Damsels do not use a separate miracle list here. Their catalog is @UUID[Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.n0mJrnlLoreGrail]{Lore of the Grail}.</p>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.n0mJrnlDivBret01",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1788105460058,
+        "modifiedTime": 1788105460058,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mJrnlDivBret01",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 50000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!szhETavVooj84NXa.n0mJrnlDivBret01"
+    },
+    {
       "name": "Divine Lore of Ind",
       "type": "text",
       "title": {
@@ -236,6 +274,44 @@
       },
       "flags": {},
       "_key": "!journal.pages!szhETavVooj84NXa.nJVysCnXzMXGBSMY"
+    },
+    {
+      "name": "Lore of the Grail",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1 style=\"text-align:center\">Lore of the Grail</h1><p>Damsels are perhaps the greatest human spellcasters, capable of mastering two Lores or more at once. Bretonnians consider sorcery a gift from the Lady of the Lake. Grail Damsels call upon her divine power in unique feats of magic they refer to as the Lore of the Grail. The power behind it is a mystery except to the Fay Enchantress; few are foolish enough to ask.</p><p>Unlike other Lores, the Lore of the Grail Channels from one of three Winds according to the Damsel’s Troth: <strong>Azyr (Heavens)</strong>, <strong>Ghur (Beasts)</strong>, or <strong>Ghyran (Life)</strong>. Take <strong>one</strong> Troth talent. Use that Wind for Channelling Advances and that Wind’s lore effects when casting Lore of the Grail magics. Changing Troth is not offered.</p><p><strong>Lore Attribute:</strong> Grail magics use the lore effects of your Troth Wind (Azyr, Ghur, or Ghyran).</p><p><strong>Ingredients:</strong> Use the ingredients of that Wind as listed in the Core Magic chapter (Heavens, Beasts, or Life).</p><h3>Troths</h3><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mTalTrothWis01]{Troth of Wisdom} (Azyr / Heavens)</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mTalTrothVirt1]{Troth of Virtue} (Ghur / Beasts)</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mTalTrothProt1]{Troth of Protection} (Ghyran / Life)</p></li></ul><p>If you are a Grail Damsel in the wizard career with Arcane Magic (Grail), you may learn one additional Arcane Lore after you have at least <strong>20 Advances</strong> in Channelling of Azyr, Ghur, or Ghyran <strong>and</strong> have learned <strong>all</strong> Lore of the Grail magics. That extra lore is <strong>Beasts, Heavens, or Life</strong> only.</p><h3>Spells</h3><ul><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mSplAerialShld]{Aerial Shield}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mSplAuraLady01]{Aura of the Lady}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mSplEerieMist1]{Eerie Mist}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mSplFeyPaths01]{Fey Paths}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mSplLadysFavor]{Lady’s Favor}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mSplLadysSong1]{Lady’s Song}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mSplPrayFort01]{Prayer of Fortitude}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mSplShieldCmb1]{Shield of Combat}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mSplSmiteGrail]{Smite}</p></li><li><p>@UUID[Compendium.wfrp4e-nom.nom-items.Item.n0mSplCurseLady1]{The Curse of the Lady}</p></li></ul>"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wfrp4e-nom.nom-journals.JournalEntry.szhETavVooj84NXa.JournalEntryPage.n0mJrnlLoreGrail",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "wfrp4e",
+        "systemVersion": "9.3.2",
+        "createdTime": 1788105460058,
+        "modifiedTime": 1788105460058,
+        "lastModifiedBy": "bwuOpMGVHBESXkjP"
+      },
+      "_id": "n0mJrnlLoreGrail",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!szhETavVooj84NXa.n0mJrnlLoreGrail"
     }
   ],
   "categories": [],
