@@ -3,6 +3,9 @@
  * Career tables: bundled RollTables use flags.wfrp4e.column "human-<id>-nom";
  * chargen resolves random careers via GameWFRP4e.ChargenCareerChooser.addCareerChoice
  * (species "human", subspecies key "<id>-nom") → rollTable("career", {}, "human-<id>-nom").
+ *
+ * Every key below MUST end with "-nom". That suffix drives the NOM source tag in Character
+ * Creation (styles/nom-chargen-subspecies.css) — new nationalities need no per-entry CSS.
  */
 (() => {
   const NOM_HUMAN_SUBSPECIES = {
@@ -319,6 +322,41 @@
     }
   };
 
+  /**
+   * Legacy nations-of-mankind-wfrp4e overwrites the same *-nom keys on setup with
+   * @Compendium[…journalentries-nom…]{…Trait (Any)} strings that break chargen
+   * findTalent. Strip those to the brace label after all setup hooks finish.
+   */
+  const LEGACY_REGIONAL_TRAIT_LABELS = [
+    "Dukedom Trait (Any)",
+    "City State Trait (Any)",
+    "City-State Trait (Any)",
+    "Provincial Trait (Any)",
+    "Region Trait (Any)",
+    "Kingdom Trait (Any)",
+    "Clan Trait (Any)",
+    "Tribe Trait (Any)"
+  ];
+
+  const LEGACY_TRAIT_COMPENDIUM_RE = new RegExp(
+    String.raw`@Compendium\[nations-of-mankind-wfrp4e\.journalentries-nom\.[^\]]+\]\{(${LEGACY_REGIONAL_TRAIT_LABELS.map(
+      (l) => l.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+    ).join("|")})\}`,
+    "g"
+  );
+
+  function sanitizeLegacyRegionalTraitTalentStrings() {
+    const human = game.wfrp4e?.config?.subspecies?.human;
+    if (!human) return;
+    for (const entry of Object.values(human)) {
+      if (!entry || !Array.isArray(entry.talents)) continue;
+      entry.talents = entry.talents.map((t) => {
+        if (typeof t !== "string") return t;
+        return t.replace(LEGACY_TRAIT_COMPENDIUM_RE, "$1");
+      });
+    }
+  }
+
   Hooks.once("init", () => {
     if (game.system?.id !== "wfrp4e") return;
     try {
@@ -327,6 +365,15 @@
       foundry.utils.mergeObject(game.wfrp4e.config.subspecies.human, NOM_HUMAN_SUBSPECIES);
     } catch (e) {
       console.error("wfrp4e-nom | nom-subspecies-registry failed", e);
+    }
+  });
+
+  Hooks.once("ready", () => {
+    if (game.system?.id !== "wfrp4e") return;
+    try {
+      sanitizeLegacyRegionalTraitTalentStrings();
+    } catch (e) {
+      console.error("wfrp4e-nom | legacy Trait string sanitize failed", e);
     }
   });
 })();

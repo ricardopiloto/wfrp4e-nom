@@ -31,9 +31,13 @@
       "folders": []
     }
   ],
+  "styles": [
+    "styles/nom-chargen-subspecies.css"
+  ],
   "esmodules": [
     "scripts/nom-subspecies-registry.js",
     "scripts/talent-option-picker-app.js",
+    "scripts/dukedom-trait-handler.js",
     "scripts/career-talent-registration.js",
     "scripts/talent-specialization-handler.js",
     "scripts/inquisidor-school-handler.js",

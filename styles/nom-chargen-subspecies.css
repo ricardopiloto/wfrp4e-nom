@@ -1,0 +1,35 @@
+/**
+ * Character Creation source tags for Nations of Mankind human nationalities.
+ * Keys ending in -nom (see scripts/nom-subspecies-registry.js) show NOM, not RAW.
+ */
+
+.app.wfrp4e.chargen .select-subspecies li:has([data-subspecies$="-nom"]) a:after {
+  content: "NOM";
+  position: absolute;
+  color: #fff;
+  opacity: 0;
+  pointer-events: none;
+  text-shadow: none;
+  background: #000000bf;
+  border-radius: 3px;
+  margin-top: -1px;
+  margin-left: 0.5em;
+  padding: 4px 4px 3px;
+  transition: all 0.15s ease-in-out;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+  box-shadow: 0 0 10px #00000080;
+}
+
+.app.wfrp4e.chargen .select-subspecies li:has([data-subspecies$="-nom"]) a:hover:after {
+  opacity: 1;
+}
+
+/* Override wfrp4e-more-subspecies default RAW tag for NoM nationalities */
+body.wfrp4e-more-subspecies-custom-styles .app.wfrp4e.chargen .select-subspecies li:has([data-subspecies$="-nom"]) a:after {
+  content: "NOM";
+}

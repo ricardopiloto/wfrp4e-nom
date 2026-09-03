@@ -82,9 +82,10 @@ Requires **ImageMagick 7** (`magick` on `PATH`). After conversion, run **`npm ru
 
 Use a throwaway world or player test: enable **WFRP4e** + **`wfrp4e-core`** + **`wfrp4e-nom`** only (no **`wfrp4e-more-subspecies`** required).
 
-1. Start **Character Creation** as **Human** and pick each NoM subspecies in turn (examples: **Tilean**, **Arabyan**, **Southlander**, **Strigany**, **Bretonnian Lowborn**, **Bretonnian Noble**, **Wastelander / Marienburger**, **Norscan**, …).
-2. On the **career** roll step, confirm randomisation uses the **`nom-tables`** document whose title matches **`Career - Human (...)`** for that nationality (**`flags.wfrp4e.column`** is **`human-<…>-nom`**; see **`scripts/nom-subspecies-registry.js`** + table JSON).
-3. If a rolled label errors or never links to the Core **Class and Careers** journal (`wfrp4e-core.journals`), see **`reports/career-rolltable-unmatched.txt`**, run **`npm run career-tables:remap-core-names`** then **`career-tables:migrate:write`** again; maintainer map is archived under **`openspec/changes/archive/2026-05-09-remap-nom-career-rows-core-catalog/`**.
+1. Start **Character Creation** as **Human** and pick each NoM subspecies in turn (examples: **Tilean**, **Arabyan**, **Southlander**, **Strigany**, **Bretonnian Lowborn**, **Bretonnian Noble**, **Wastelander / Marienburger**, **Norscan**, …). Hover a nationality link — the source tag should read **NOM** (not **RAW**); see **`styles/nom-chargen-subspecies.css`**.
+2. On Skills & Talents for **Bretonnian Lowborn** / **Noble**, click **Dukedom Trait (Any)** — it must open the `nom-items` catalog talent (not a raw `@Compendium[nations-of-mankind-wfrp4e…]` string). Reload the world after updating this module. If the optional legacy **`nations-of-mankind-wfrp4e`** module is also enabled, this module sanitizes broken regional Trait Compendium links to plain names on `ready` (`scripts/nom-subspecies-registry.js`).
+3. On the **career** roll step, confirm randomisation uses the **`nom-tables`** document whose title matches **`Career - Human (...)`** for that nationality (**`flags.wfrp4e.column`** is **`human-<…>-nom`**; see **`scripts/nom-subspecies-registry.js`** + table JSON).
+4. If a rolled label errors or never links to the Core **Class and Careers** journal (`wfrp4e-core.journals`), see **`reports/career-rolltable-unmatched.txt`**, run **`npm run career-tables:remap-core-names`** then **`career-tables:migrate:write`** again; maintainer map is archived under **`openspec/changes/archive/2026-05-09-remap-nom-career-rows-core-catalog/`**.
 
 ---
 
@@ -164,6 +165,7 @@ These run **only** when the matching item is added to a character (sheet **owner
 | Feature | What happens |
 |--------|----------------|
 | **Knightly Virtue** / **Virtue of Knighthood** (generic) | Picker → replace with one of **14** virtues; extra rules for **Stoicism** / **Penitent** are handled in script. |
+| **Dukedom Trait (Any)** (generic) | Picker → Bretonnian dukedom (14 regions) → optional OR talent → grant Core package (+ Random Talents where listed); sets `flags.wfrp4e-nom.dukedomTraitResolved` (no dukedom name stored). Cancel keeps the generic. A second generic after resolve is deleted with a notice. |
 | **Grail Virtue** (generic) | Picker → replace with one of **14** “Grail Virtue of …” talents. |
 | **Martial Artist** (generic, no path suffix) | Picker → replace with one of **eight** paths. **Path of the Flame** has **no** built-in runtime automation in this module (see below). |
 | **Kenjutsu (Style)** (generic) | Picker → replace with one of **eight** Ways. |
@@ -172,7 +174,7 @@ These run **only** when the matching item is added to a character (sheet **owner
 
 **Replacement pattern (shared):** Cancelling leaves the generic talent. Confirming swaps to the named variant when a matching compendium/world item exists, otherwise renames a copy. **Force Advancement** (`system.advances.force`) is applied where relevant, and **current career** talent lists can be updated to match dragging a talent onto the career sheet.
 
-Implementation is centred on `scripts/talent-specialization-handler.js`, plus `scripts/knightly-virtue.js` (pickers mechanics), `scripts/inquisidor-school-handler.js`, and small shared helpers (`talent-option-picker-app.js`, `career-talent-registration.js`).
+Implementation is centred on `scripts/talent-specialization-handler.js`, plus `scripts/dukedom-trait-handler.js` (Dukedom Trait packages), `scripts/knightly-virtue.js` (virtue mechanics), `scripts/inquisidor-school-handler.js`, and small shared helpers (`talent-option-picker-app.js`, `career-talent-registration.js`).
 
 ---
 

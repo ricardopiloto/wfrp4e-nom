@@ -6,6 +6,17 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Unreleased
 
+## [Version 1.5.1](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.5.1) (2026-09-03)
+
+### Character Creation
+
+- *Fixed* **Dukedom Trait (Any)** chargen link: Bretonnian Skills & Talents use the plain talent name resolving to `nom-items` (`n0mDukedomTrait01`). With legacy **`nations-of-mankind-wfrp4e`** also enabled, regional Trait `@Compendium[…journalentries-nom…]{…}` strings are sanitized to plain labels on `ready`. Peoples Bretonnia peasantry/nobility link the same catalog Item. Reload after update.
+- *Fixed* Human nationalities injected by this module now show **NOM** (not **RAW**) as the Character Creation subspecies source tag on hover (`styles/nom-chargen-subspecies.css`).
+
+### Automation
+
+- *Added* **Dukedom Trait (Any)** selection: when the generic talent is added to an owned sheet, pick a Bretonnian dukedom, resolve optional OR talents, grant the Peoples package (plus Random Talents where required), and set `flags.wfrp4e-nom.dukedomTraitResolved`. Catalog item in `nom-items`; runtime `scripts/dukedom-trait-handler.js`.
+
 ## [Version 1.5.0](https://github.com/ricardopiloto/wfrp4e-nom/releases/tag/v1.5.0) (2026-08-30)
 
 ### Compendiums
